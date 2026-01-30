@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Spicy+Rice&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* // animation */
+.LogoIcon {
+  /* margin-top: 10px; */
+  /* height: 30px;
+  width: 30px; */
+  /* color: blue; */
+  animation: logoBlink 2s infinite ease-in-out;
+}
+@keyframes logoBlink {
+  100% {
+    /* color: red; */
+    opacity: 0;
+  }
+}
+
+/* color */
+.animateText {
+  color: red;
+  animation: animateText 0.7s ease-in-out infinite alternate;
+}
+@keyframes animateText {
+  to {
+    color: rgb(35, 223, 35);
+  }
+}
+
+/* In your CSS file or Tailwind config */
+@layer utilities {
+  @keyframes smooth-ping {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  .animate-smooth-ping {
+    animation: smooth-ping 3s ease-in-out infinite;
+  }
+}
+
+.category:hover {
+  border-color: #000000;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0.5em 0.5em -0.2em #000;
+  transform: translateY(-0.5em);
+}
+
+.heading {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.heading2 {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.bannerBg {
+  background-image: url("/banner.jpeg");
+  object-fit: cover;
+}
+.hscBg {
+  background-image: url("/read2.png");
+  /* background-repeat: no-repeat; */
+  object-fit: cover;
+}
+
+.example {
+  margin-left: 20px;
+  /* color: blue; */
+}
+.menus {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid lightgray;
+  text-align: left;
+  padding: 3px;
+}
+th {
+  background-color: #f2f2f2;
+}
+.note {
+  font-style: italic;
+}
+
+.rule-section {
+  margin-bottom: 20px;
+}
+table {
+  /* width: 100%;       */
+  border-collapse: collapse;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+/* .navs { */
+/* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+/* background-color: transparent; */
+/* height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10101010; */
+/* } */
+.navs.active {
+  /* background: linear-gradient(90deg, rgb(66, 2, 194) 0%, rgb(0, 70, 194) 100%); */
+  /* background-color: #000; */
+  /* background-color: transparent; */
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 1.2rem; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10101010;
+}
+
+/* Needed for animating custom property */
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* .card {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  overflow: hidden;
+  border-radius: 12px;
+} */
+
+.effect {
+  background: conic-gradient(
+    from var(--rotate),
+    transparent 0%,
+    #c3ffe1 15%,
+    transparent 30%
+  );
+  position: absolute;
+  inset: 0;
+  animation: rotate 2s linear infinite;
+}
+
+/* .effect::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background-color: black;
+  border-radius: 10px;
+} */
+
+@keyframes rotate {
+  to {
+    --rotate: 360deg;
+  }
+}
+
+.book-shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* soft shadow around page */
+  /* border-radius: 6px; */
+  /* optional rounded page corners */
+}
+
+.book {
+  background: #fdfcf8; /* light beige background for book feel */
+  /* padding: 10px; */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); /* shadow around whole book */
+}
+/* .container {
+  max-width: 800px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 2px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+} */

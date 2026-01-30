@@ -1,0 +1,1525 @@
+{
+  "synAnt": [
+    {
+      "english": "Important (Adjective)",
+      "bangla": "অত্যাবশ্যক",
+      "synonyms": "Significant, Crucial",
+      "antonyms": "Insignificant, Unimportant"
+    },
+    {
+      "english": "Safe (Adjective)",
+      "bangla": "নিরাপদ",
+      "synonyms": "Secure, Protected",
+      "antonyms": "Unsafe, Risky"
+    },
+    {
+      "english": "Clean (Adjective)",
+      "bangla": "পরিষ্কার",
+      "synonyms": "Pure, Spotless",
+      "antonyms": "Dirty, Unclean"
+    },
+    {
+      "english": "Use (Verb)",
+      "bangla": "ব্যবহার করা",
+      "synonyms": "Utilize, Employ",
+      "antonyms": "Misuse, Waste"
+    },
+    {
+      "english": "Available (Adjective)",
+      "bangla": "উপলব্ধ",
+      "synonyms": "Accessible, Obtainable",
+      "antonyms": "Unavailable, Scarce"
+    },
+    {
+      "english": "While (Conjunction)",
+      "bangla": "যখন",
+      "synonyms": "During, Whilst",
+      "antonyms": "After, Later"
+    },
+    {
+      "english": "Prevent (Verb)",
+      "bangla": "রোধ করা",
+      "synonyms": "Stop, Halt",
+      "antonyms": "Allow, Permit"
+    },
+    {
+      "english": "Spread (Verb)",
+      "bangla": "প্রসারিত করা",
+      "synonyms": "Disseminate, Diffuse",
+      "antonyms": "Contain, Restrain"
+    },
+    {
+      "english": "Strengthen (Verb)",
+      "bangla": "মজবুত করা",
+      "synonyms": "Fortify, Reinforce",
+      "antonyms": "Weaken, Undermine"
+    },
+    {
+      "english": "Infectious (Adjective)",
+      "bangla": "সংক্রামক",
+      "synonyms": "Contagious, Transmittable",
+      "antonyms": "Noninfectious, Harmless"
+    },
+    {
+      "english": "Outer (Adjective)",
+      "bangla": "বাহ্যিক",
+      "synonyms": "External, Exterior",
+      "antonyms": "Inner, Internal"
+    },
+    {
+      "english": "Proletarian (Adjective)",
+      "bangla": "শ্রমিক",
+      "synonyms": "Worker, Laborer",
+      "antonyms": "Bourgeois, Capitalist"
+    },
+    {
+      "english": "Launch (Verb)",
+      "bangla": "শুরু করা",
+      "synonyms": "Start, Initiate",
+      "antonyms": "Halt, Terminate"
+    },
+    {
+      "english": "Prepare (Verb)",
+      "bangla": "প্রস্তুত করা",
+      "synonyms": "Ready, Arrange",
+      "antonyms": "Neglect, Ignore"
+    },
+    {
+      "english": "Begin (Verb)",
+      "bangla": "শুরু করা",
+      "synonyms": "Commence, Start",
+      "antonyms": "End, Conclude"
+    },
+    {
+      "english": "Faultless (Adjective)",
+      "bangla": "অবিচল",
+      "synonyms": "Flawless, Impeccable",
+      "antonyms": "Imperfect, Defective"
+    },
+    {
+      "english": "Nausea (Noun)",
+      "bangla": "বমি",
+      "synonyms": "Sickness, Queasiness",
+      "antonyms": "Appetite, Craving"
+    },
+    {
+      "english": "Discomfort (Noun)",
+      "bangla": "অস্বস্তি",
+      "synonyms": "Unease, Distress",
+      "antonyms": "Comfort, Ease"
+    },
+    {
+      "english": "Maintain (Verb)",
+      "bangla": "রক্ষা করা",
+      "synonyms": "Sustain, Preserve",
+      "antonyms": "Neglect, Abandon"
+    },
+    {
+      "english": "Later (Adverb)",
+      "bangla": "পরে",
+      "synonyms": "Subsequently, Afterward",
+      "antonyms": "Earlier, Before"
+    },
+    {
+      "english": "Different (Adjective)",
+      "bangla": "ভিন্ন",
+      "synonyms": "Diverse, Distinct",
+      "antonyms": "Similar, Alike"
+    },
+    {
+      "english": "Seek (Verb)",
+      "bangla": "অনুসন্ধান করা",
+      "synonyms": "Search, Pursue",
+      "antonyms": "Abandon, Renounce"
+    },
+    {
+      "english": "Eager (Adjective)",
+      "bangla": "উদ্যমী",
+      "synonyms": "Enthusiastic, Zealous",
+      "antonyms": "Indifferent, Apathetic"
+    },
+    {
+      "english": "Observation (Noun)",
+      "bangla": "পর্যবেক্ষণ",
+      "synonyms": "Examination, Monitoring",
+      "antonyms": "Neglect, Oversight"
+    },
+    {
+      "english": "Mere (Adjective)",
+      "bangla": "শুধুমাত্র",
+      "synonyms": "Bare, Simple",
+      "antonyms": "Significant, Substantial"
+    },
+    {
+      "english": "Alert (Adjective/Noun/Verb)",
+      "bangla": "সতর্ক",
+      "synonyms": "Attentive, Watchful",
+      "antonyms": "Unaware, Inattentive"
+    },
+    {
+      "english": "Latent (Adjective)",
+      "bangla": "নিষ্ক্রিয়, গোপন",
+      "synonyms": "Dormant, Hidden",
+      "antonyms": "Evident, Manifest"
+    },
+    {
+      "english": "Instructor (Noun)",
+      "bangla": "শিক্ষক",
+      "synonyms": "Teacher, Educator",
+      "antonyms": "Student, Learner"
+    },
+    {
+      "english": "Guide (Noun/Verb)",
+      "bangla": "মেন্টর",
+      "synonyms": "Mentor, Leader",
+      "antonyms": "Follower, Misleader"
+    },
+    {
+      "english": "Way (Noun)",
+      "bangla": "পথ",
+      "synonyms": "Route, Path",
+      "antonyms": "Obstacle, Hurdle"
+    },
+    {
+      "english": "Dynamic (Adjective/Noun)",
+      "bangla": "গতিশীল",
+      "synonyms": "Energetic, Vigorous",
+      "antonyms": "Static, Inactive"
+    },
+    {
+      "english": "Plan (Noun/Verb)",
+      "bangla": "পরিকল্পনা",
+      "synonyms": "Strategy, Scheme",
+      "antonyms": "Disorganization, Confusion"
+    },
+    {
+      "english": "Aim (Noun/Verb)",
+      "bangla": "লক্ষ্য",
+      "synonyms": "Goal, Objective",
+      "antonyms": "Distraction, Aimlessness"
+    },
+    {
+      "english": "Direction (Noun)",
+      "bangla": "দিশা",
+      "synonyms": "Guidance, Orientation",
+      "antonyms": "Misdirection, Confusion"
+    },
+    {
+      "english": "Profession (Noun)",
+      "bangla": "পেশা",
+      "synonyms": "Occupation, Vocation",
+      "antonyms": "Hobby, Pastime"
+    },
+    {
+      "english": "Suit (Noun/Verb)",
+      "bangla": "মিল",
+      "synonyms": "Match, Fit",
+      "antonyms": "Contradict, Disagree"
+    },
+    {
+      "english": "Aptitude (Noun)",
+      "bangla": "প্রবণতা",
+      "synonyms": "Talent, Skill",
+      "antonyms": "Ineptitude, Incapability"
+    },
+    {
+      "english": "Vary (Verb)",
+      "bangla": "বিভিন্ন",
+      "synonyms": "Differ, Change",
+      "antonyms": "Remain, Stay"
+    },
+    {
+      "english": "Educate (Verb)",
+      "bangla": "শিক্ষা",
+      "synonyms": "Instruct, Teach",
+      "antonyms": "Misinform, Misguide"
+    },
+    {
+      "english": "Citizen (Noun)",
+      "bangla": "নাগরিক",
+      "synonyms": "Resident, Inhabitant",
+      "antonyms": "Alien, Foreigner"
+    },
+    {
+      "english": "Ideal (Adjective/Noun)",
+      "bangla": "আদর্শ",
+      "synonyms": "Perfect, Exemplary",
+      "antonyms": "Imperfect, Flawed"
+    },
+    {
+      "english": "Master (Noun/Verb)",
+      "bangla": "মাস্টার",
+      "synonyms": "Expert, Dominant",
+      "antonyms": "Novice, Beginner"
+    },
+    {
+      "english": "Make (Verb)",
+      "bangla": "তৈরি করা",
+      "synonyms": "Create, Construct",
+      "antonyms": "Destroy, Demolish"
+    },
+    {
+      "english": "Method (Noun)",
+      "bangla": "পদ্ধতি",
+      "synonyms": "Technique, Procedure",
+      "antonyms": "Disorder, Chaos"
+    },
+    {
+      "english": "Convincing (Adjective)",
+      "bangla": "বিশ্বাসযোগ্য",
+      "synonyms": "Persuasive, Compelling",
+      "antonyms": "Unconvincing, Unpersuasive"
+    },
+    {
+      "english": "Praise (Noun/Verb)",
+      "bangla": "প্রশংসা",
+      "synonyms": "Applause, Admiration",
+      "antonyms": "Criticism, Blame"
+    },
+    {
+      "english": "Mistake (Noun/Verb)",
+      "bangla": "ভুল",
+      "synonyms": "Error, Blunder",
+      "antonyms": "Correctness, Accuracy"
+    },
+    {
+      "english": "Angry (Adjective)",
+      "bangla": "রাগ",
+      "synonyms": "Furious, Irritated",
+      "antonyms": "Calm, Content"
+    },
+    {
+      "english": "Simple (Adjective)",
+      "bangla": "সরল",
+      "synonyms": "Basic, Plain",
+      "antonyms": "Complicated, Complex"
+    },
+    {
+      "english": "Moral (Adjective/Noun)",
+      "bangla": "নৈতিক",
+      "synonyms": "Ethical, Virtuous",
+      "antonyms": "Immoral, Unethical"
+    },
+    {
+      "english": "Virtue (Noun)",
+      "bangla": "গুণ",
+      "synonyms": "Goodness, Morality",
+      "antonyms": "Vice, Sin"
+    },
+    {
+      "english": "A Lot (Phrase)",
+      "bangla": "অনেক",
+      "synonyms": "Many, Numerous",
+      "antonyms": "Few, Little"
+    },
+    {
+      "english": "Courteous (Adjective)",
+      "bangla": "ভদ্র",
+      "synonyms": "Polite, Respectful",
+      "antonyms": "Rude, Impolite"
+    },
+    {
+      "english": "Discourtesy (Noun)",
+      "bangla": "অভদ্রতা",
+      "synonyms": "Rudeness, Impoliteness",
+      "antonyms": "Courtesy, Politeness"
+    },
+    {
+      "english": "Win (Verb/Noun)",
+      "bangla": "জয়",
+      "synonyms": "Triumph, Succeed",
+      "antonyms": "Lose, Fail"
+    },
+    {
+      "english": "Enemy (Noun)",
+      "bangla": "শত্রু",
+      "synonyms": "Foe, Adversary",
+      "antonyms": "Friend, Ally"
+    },
+    {
+      "english": "Ensure (Verb)",
+      "bangla": "নিশ্চিত করা",
+      "synonyms": "Guarantee, Secure",
+      "antonyms": "Endanger, Risk"
+    },
+    {
+      "english": "Anger (Noun/Verb)",
+      "bangla": "ক্রোধ",
+      "synonyms": "Wrath, Fury",
+      "antonyms": "Calmness, Patience"
+    },
+    {
+      "english": "Remove (Verb)",
+      "bangla": "অপসারণ করা",
+      "synonyms": "Eliminate, Withdraw",
+      "antonyms": "Add, Insert"
+    },
+    {
+      "english": "Cordiality (Noun)",
+      "bangla": "সৌজন্য",
+      "synonyms": "Warmth, Friendliness",
+      "antonyms": "Hostility, Coldness"
+    },
+    {
+      "english": "Graceful (Adjective)",
+      "bangla": "মাধুর্যপূর্ণ",
+      "synonyms": "Elegant, Charming",
+      "antonyms": "Clumsy, Awkward"
+    },
+    {
+      "english": "Stylishly (Adverb)",
+      "bangla": "ফ্যাশনেবলভাবে",
+      "synonyms": "Fashionably, Trendily",
+      "antonyms": "Unfashionably, Plainly"
+    },
+    {
+      "english": "Appreciate (Verb)",
+      "bangla": "মূল্যায়ন করা",
+      "synonyms": "Value, Admire",
+      "antonyms": "Disregard, Underestimate"
+    },
+    {
+      "english": "Notice (Verb/Noun)",
+      "bangla": "নোটিশ",
+      "synonyms": "Observe, Perceive",
+      "antonyms": "Overlook, Ignore"
+    },
+    {
+      "english": "Ambition (Noun)",
+      "bangla": "মহৎ আকাঙ্ক্ষা",
+      "synonyms": "Aspiration, Goal",
+      "antonyms": "Contentment, Apathy"
+    },
+    {
+      "english": "Require (Verb)",
+      "bangla": "প্রয়োজন",
+      "synonyms": "Need, Demand",
+      "antonyms": "Surplus, Excess"
+    },
+    {
+      "english": "Proficiency (Noun)",
+      "bangla": "দক্ষতা",
+      "synonyms": "Skill, Competence",
+      "antonyms": "Ineptitude, Incompetence"
+    },
+    {
+      "english": "Wonder (Verb/Noun)",
+      "bangla": "আশ্চর্য",
+      "synonyms": "Amazement, Astonishment",
+      "antonyms": "Predictability, Expectation"
+    },
+    {
+      "english": "Tested (Adjective)",
+      "bangla": "পরীক্ষিত",
+      "synonyms": "Verified, Proven",
+      "antonyms": "Untested, Unverified"
+    },
+    {
+      "english": "Equally (Adverb)",
+      "bangla": "সমানভাবে",
+      "synonyms": "Alike, Similarly",
+      "antonyms": "Unequally, Differently"
+    },
+    {
+      "english": "Disappointing (Adjective)",
+      "bangla": "নিরাশাজনক",
+      "synonyms": "Unsatisfactory, Frustrating",
+      "antonyms": "Satisfying, Fulfilling"
+    },
+    {
+      "english": "Presumably (Adverb)",
+      "bangla": "ধারণা করা হয়",
+      "synonyms": "Supposedly, Probably",
+      "antonyms": "Definitely, Certainly"
+    },
+    {
+      "english": "Qualify (Verb)",
+      "bangla": "যোগ্যতা অর্জন করা",
+      "synonyms": "Meet the criteria, Enable",
+      "antonyms": "Disqualify, Invalidate"
+    },
+    {
+      "english": "Obviously (Adverb)",
+      "bangla": "স্পষ্টত",
+      "synonyms": "Clearly, Evidently",
+      "antonyms": "Ambiguously, Obscurely"
+    },
+    {
+      "english": "Wrong (Adj/Adverb)",
+      "bangla": "ভুল",
+      "synonyms": "Incorrect, False",
+      "antonyms": "Correct, Right"
+    },
+    {
+      "english": "Unique (Adjective)",
+      "bangla": "অনন্য",
+      "synonyms": "Distinctive, Singular",
+      "antonyms": "Common, Typical"
+    },
+    {
+      "english": "Mighty (Adjective)",
+      "bangla": "শক্তিশালী",
+      "synonyms": "Powerful, Strong",
+      "antonyms": "Weak, Powerless"
+    },
+    {
+      "english": "Humanity (Noun)",
+      "bangla": "মানবতা",
+      "synonyms": "Mankind, Compassion",
+      "antonyms": "Inhumanity, Cruelty"
+    },
+    {
+      "english": "Reliable (Adjective)",
+      "bangla": "বিশ্বাসযোগ্য",
+      "synonyms": "Dependable, Trustworthy",
+      "antonyms": "Unreliable, Untrustworthy"
+    },
+    {
+      "english": "Valuable (Adjective)",
+      "bangla": "মূল্যবান",
+      "synonyms": "Precious, Priceless",
+      "antonyms": "Worthless, Invaluable"
+    },
+    {
+      "english": "Ritual (Noun/Adjective)",
+      "bangla": "আচার",
+      "synonyms": "Ceremony, Rite",
+      "antonyms": "Informal, Casual"
+    },
+    {
+      "english": "Worthless (Adjective)",
+      "bangla": "অমূল্য",
+      "synonyms": "Valueless, Insignificant",
+      "antonyms": "Valuable, Worthy"
+    },
+    {
+      "english": "Loneliness (Noun)",
+      "bangla": "একাকীত্ব",
+      "synonyms": "Isolation, Solitude",
+      "antonyms": "Companionship, Togetherness"
+    },
+    {
+      "english": "Ailment (Noun)",
+      "bangla": "রোগ",
+      "synonyms": "Illness, Disease",
+      "antonyms": "Health, Well-being"
+    },
+    {
+      "english": "Happiness (Noun)",
+      "bangla": "আনন্দ",
+      "synonyms": "Joy, Contentment",
+      "antonyms": "Sadness, Unhappiness"
+    },
+    {
+      "english": "Friend (Noun)",
+      "bangla": "বন্ধু",
+      "synonyms": "Companion, Pal",
+      "antonyms": "Enemy, Foe"
+    },
+    {
+      "english": "Need (Noun/Verb)",
+      "bangla": "প্রয়োজন",
+      "synonyms": "Requirement, Necessity",
+      "antonyms": "Surplus, Excess"
+    },
+    {
+      "english": "Sympathy (Noun)",
+      "bangla": "সহানুভূতি",
+      "synonyms": "Compassion, Empathy",
+      "antonyms": "Apathy, Indifference"
+    },
+    {
+      "english": "Prove (Verb)",
+      "bangla": "প্রমাণ করা",
+      "synonyms": "Confirm, Verify",
+      "antonyms": "Disprove, Refute"
+    },
+    {
+      "english": "False (Adjective)",
+      "bangla": "মিথ্যা",
+      "synonyms": "Untrue, Incorrect",
+      "antonyms": "True, Accurate"
+    },
+    {
+      "english": "Harm (Noun/Verb)",
+      "bangla": "ক্ষতি",
+      "synonyms": "Injury, Damage",
+      "antonyms": "Benefit, Protection"
+    },
+    {
+      "english": "Laugh (Verb/Noun)",
+      "bangla": "হাসা",
+      "synonyms": "Chuckle, Giggle",
+      "antonyms": "Cry, Sob"
+    },
+    {
+      "english": "Pleasure (Noun/Verb)",
+      "bangla": "আনন্দ",
+      "synonyms": "Enjoyment, Delight",
+      "antonyms": "Displeasure, Discontentment"
+    },
+    {
+      "english": "Bring (Verb)",
+      "bangla": "নিয়ে আসা",
+      "synonyms": "Carry, Fetch",
+      "antonyms": "Take, Remove"
+    },
+    {
+      "english": "Idea (Noun)",
+      "bangla": "ধারণা",
+      "synonyms": "Concept, Notion",
+      "antonyms": "Reality, Fact"
+    },
+    {
+      "english": "Popular (Adjective)",
+      "bangla": "জনপ্রিয়",
+      "synonyms": "Well-liked, Famous",
+      "antonyms": "Unpopular, Unknown"
+    },
+    {
+      "english": "Form (Noun/Verb)",
+      "bangla": "রূপ",
+      "synonyms": "Shape, Structure",
+      "antonyms": "Formless, Shapeless"
+    },
+    {
+      "english": "Entertainment (Noun)",
+      "bangla": "বিনোদন",
+      "synonyms": "Amusement, Recreation",
+      "antonyms": "Boredom, Tedium"
+    },
+    {
+      "english": "Organize (Verb)",
+      "bangla": "আয়োজিত করা",
+      "synonyms": "Arrange, Coordinate",
+      "antonyms": "Disorganize, Scatter"
+    },
+    {
+      "english": "Sponsor (Verb/Noun)",
+      "bangla": "পৃষ্ঠপোষক",
+      "synonyms": "Supporter, Patron",
+      "antonyms": "Opponent, Critic"
+    },
+    {
+      "english": "Multinational (Adjective)",
+      "bangla": "বহুজাতিক",
+      "synonyms": "International, Global",
+      "antonyms": "Local, Domestic"
+    },
+    {
+      "english": "Pay (Verb/Noun)",
+      "bangla": "পেমেন্ট",
+      "synonyms": "Remunerate, Compensate",
+      "antonyms": "Receive, Collect"
+    },
+    {
+      "english": "Watch (Verb/Noun)",
+      "bangla": "দেখা",
+      "synonyms": "Observe, Monitor",
+      "antonyms": "Ignore, Neglect"
+    },
+    {
+      "english": "Maximum (Noun/Adj.)",
+      "bangla": "সর্বাধিক",
+      "synonyms": "Highest, Greatest",
+      "antonyms": "Minimum, Least"
+    },
+    {
+      "english": "Recognition (Noun)",
+      "bangla": "স্বীকৃতি",
+      "synonyms": "Acknowledgment, Notice",
+      "antonyms": "Ignorance, Neglect"
+    },
+    {
+      "english": "People (Noun)",
+      "bangla": "মানুষ",
+      "synonyms": "Humans, Population",
+      "antonyms": "Animals, Non-human"
+    },
+    {
+      "english": "Conservative (Adjective/Noun)",
+      "bangla": "সংحিত",
+      "synonyms": "Traditional, Conventional",
+      "antonyms": "Progressive, Liberal"
+    },
+    {
+      "english": "Early (Adjective/Adverb)",
+      "bangla": "প্রারম্ভিক",
+      "synonyms": "Timely, Premature",
+      "antonyms": "Late, Delayed"
+    },
+    {
+      "english": "Believe (Verb)",
+      "bangla": "বিশ্বাস করা",
+      "synonyms": "Trust, Have faith",
+      "antonyms": "Doubt, Disbelieve"
+    },
+    {
+      "english": "World (Noun)",
+      "bangla": "বিশ্ব",
+      "synonyms": "Globe, Earth",
+      "antonyms": "Local, Limited"
+    },
+    {
+      "english": "All (Adj./Adverb/P/N)",
+      "bangla": "সব",
+      "synonyms": "Every, Everything",
+      "antonyms": "None, Nothing"
+    },
+    {
+      "english": "Poverty (Noun)",
+      "bangla": "দারিদ্র্য",
+      "synonyms": "Destitution, Hardship",
+      "antonyms": "Wealth, Affluence"
+    },
+    {
+      "english": "Sufferings (Noun)",
+      "bangla": "কষ্ট",
+      "synonyms": "Pain, Misery",
+      "antonyms": "Joy, Happiness"
+    },
+    {
+      "english": "Overcome (Verb)",
+      "bangla": "জয় করা",
+      "synonyms": "Conquer, Defeat",
+      "antonyms": "Surrender, Succumb"
+    },
+    {
+      "english": "Same (Adjective)",
+      "bangla": "একই",
+      "synonyms": "Identical, Similar",
+      "antonyms": "Different, Diverse"
+    },
+    {
+      "english": "Perplexing (Adjective)",
+      "bangla": "বিভ্রান্তিকর",
+      "synonyms": "Confusing, Baffling",
+      "antonyms": "Clear, Understandable"
+    },
+    {
+      "english": "Upsetting (Adj.)",
+      "bangla": "মর্মাহত",
+      "synonyms": "Disturbing, Distressing",
+      "antonyms": "Soothing, Comforting"
+    },
+    {
+      "english": "Imperialism (Noun)",
+      "bangla": "সাম্রাজ্যবাদ",
+      "synonyms": "Colonialism, Domination",
+      "antonyms": "Independence, Freedom"
+    },
+    {
+      "english": "Evil (Noun/Adjective)",
+      "bangla": "অশুভ",
+      "synonyms": "Wicked, Malevolent",
+      "antonyms": "Good, Virtuous"
+    },
+    {
+      "english": "Sooner (Adverb)",
+      "bangla": "শীঘ্র",
+      "synonyms": "Early, Before",
+      "antonyms": "Later, After"
+    },
+    {
+      "english": "Chucked (Verb)",
+      "bangla": "ছুঁড়ে ফেলা",
+      "synonyms": "Discarded, Thrown",
+      "antonyms": "Retained, Kept"
+    },
+    {
+      "english": "Better (Adj./Adverb)",
+      "bangla": "ভাল",
+      "synonyms": "Superior, Improved",
+      "antonyms": "Worse, Inferior"
+    },
+    {
+      "english": "Theoretically (Adverb)",
+      "bangla": "তাত্ত্বিকভাবে",
+      "synonyms": "Hypothetically, Speculatively",
+      "antonyms": "Practically, Actually"
+    },
+    {
+      "english": "Secretly (Adverb)",
+      "bangla": "গোপনে",
+      "synonyms": "Confidentially, Stealthily",
+      "antonyms": "Openly, Publicly"
+    },
+    {
+      "english": "Oppressor (Noun)",
+      "bangla": "নিপীড়ক",
+      "synonyms": "Tyrant, Persecutor",
+      "antonyms": "Liberator, Protector"
+    },
+    {
+      "english": "Success (Noun)",
+      "bangla": "সাফল্য",
+      "synonyms": "Achievement, Prosperity",
+      "antonyms": "Failure, Defeat"
+    },
+    {
+      "english": "Job (Noun)",
+      "bangla": "কাজ",
+      "synonyms": "Work, Occupation",
+      "antonyms": "Leisure, Rest"
+    },
+    {
+      "english": "Great (Adjective)",
+      "bangla": "মহান",
+      "synonyms": "Grand, Magnificent",
+      "antonyms": "Small, Insignificant"
+    },
+    {
+      "english": "Because (Conjunction)",
+      "bangla": "কারণ",
+      "synonyms": "Since, Due to",
+      "antonyms": "Regardless, Irrespective"
+    },
+    {
+      "english": "Know (Verb)",
+      "bangla": "জানা",
+      "synonyms": "Understand, Familiarize",
+      "antonyms": "Ignore, Unawareness"
+    },
+    {
+      "english": "Follow (Verb)",
+      "bangla": "অনুসরণ করা",
+      "synonyms": "Obey, Pursue",
+      "antonyms": "Rebel, Disobey"
+    },
+    {
+      "english": "Rule (Noun/Verb)",
+      "bangla": "নিয়ম",
+      "synonyms": "Regulation, Guideline",
+      "antonyms": "Anarchy, Disorder"
+    },
+    {
+      "english": "Never (Adverb)",
+      "bangla": "কখনও নয়",
+      "synonyms": "Not ever, No time",
+      "antonyms": "Always, Continuously"
+    },
+    {
+      "english": "Victory (Noun)",
+      "bangla": "জয়",
+      "synonyms": "Triumph, Conquest",
+      "antonyms": "Defeat, Loss"
+    },
+    {
+      "english": "Desirable (Adjective)",
+      "bangla": "আকর্ষণীয়",
+      "synonyms": "Attractive, Appealing",
+      "antonyms": "Undesirable, Unappealing"
+    },
+    {
+      "english": "Liberation (Noun)",
+      "bangla": "মুক্তি",
+      "synonyms": "Freedom, Release",
+      "antonyms": "Captivity, Confinement"
+    },
+    {
+      "english": "Brutal (Adjective)",
+      "bangla": "নির্মম",
+      "synonyms": "Cruel, Savage",
+      "antonyms": "Gentle, Kind"
+    },
+    {
+      "english": "Massacre (Noun/Verb)",
+      "bangla": "হত্যাকাণ্ড",
+      "synonyms": "Slaughter, Carnage",
+      "antonyms": "Salvation, Rescue"
+    },
+    {
+      "english": "Human (Adjective/Noun)",
+      "bangla": "মানব",
+      "synonyms": "Homo sapiens, Mankind",
+      "antonyms": "Non-human, Animal"
+    },
+    {
+      "english": "Located (Verb)",
+      "bangla": "অবস্থিত",
+      "synonyms": "Situated, Positioned",
+      "antonyms": "Removed, Displaced"
+    },
+    {
+      "english": "Called (Verb)",
+      "bangla": "ডাকা",
+      "synonyms": "Named, Referred",
+      "antonyms": "Unnamed, Anonymous"
+    },
+    {
+      "english": "Surrounded (Verb)",
+      "bangla": "ঘেরাও করা",
+      "synonyms": "Encircled, Encompassed",
+      "antonyms": "Isolated, Alone"
+    },
+    {
+      "english": "Started (Verb)",
+      "bangla": "শুরু করা",
+      "synonyms": "Began, Commenced",
+      "antonyms": "Ended, Finished"
+    },
+    {
+      "english": "Killed (Verb)",
+      "bangla": "হত্যা করা",
+      "synonyms": "Murdered, Slaughtered",
+      "antonyms": "Saved, Preserved"
+    },
+    {
+      "english": "Largest (Adjective)",
+      "bangla": "সর্ববৃহৎ",
+      "synonyms": "Biggest, Greatest",
+      "antonyms": "Smallest, Tiniest"
+    },
+    {
+      "english": "Fertile (Adjective)",
+      "bangla": "উর্বর",
+      "synonyms": "Productive, Rich",
+      "antonyms": "Barren, Infertile"
+    },
+    {
+      "english": "Industrious (Adjective)",
+      "bangla": "পরিশ্রমী",
+      "synonyms": "Hardworking, Diligent",
+      "antonyms": "Lazy, Idle"
+    },
+    {
+      "english": "Ceaselessly (Adverb)",
+      "bangla": "নিরবচ্ছিন্নভাবে",
+      "synonyms": "Continuously, Uninterruptedly",
+      "antonyms": "Sporadically, Intermittently"
+    },
+    {
+      "english": "Lazy (Adjective)",
+      "bangla": "অলস",
+      "synonyms": "Idle, Slothful",
+      "antonyms": "Energetic, Active"
+    },
+    {
+      "english": "Love (Noun/Verb)",
+      "bangla": "ভালবাসা",
+      "synonyms": "Affection, Adoration",
+      "antonyms": "Hate, Detest"
+    },
+    {
+      "english": "Strong (Adjective)",
+      "bangla": "শক্তিশালী",
+      "synonyms": "Powerful, Mighty",
+      "antonyms": "Weak, Feeble"
+    },
+    {
+      "english": "Moving (Adjective/Verb)",
+      "bangla": "গতি",
+      "synonyms": "Moving, Mobile",
+      "antonyms": "Stationary, Still"
+    },
+    {
+      "english": "Respect (Noun/Verb)",
+      "bangla": "সম্মান",
+      "synonyms": "Admiration, Esteem",
+      "antonyms": "Disrespect, Disregard"
+    },
+    {
+      "english": "Devotion (Noun)",
+      "bangla": "নিবেদন",
+      "synonyms": "Dedication, Loyalty",
+      "antonyms": "Indifference, Apathy"
+    },
+    {
+      "english": "Consist (Verb)",
+      "bangla": "গঠিত হওয়া",
+      "synonyms": "Comprise, Compose",
+      "antonyms": "Exclude, Omit"
+    },
+    {
+      "english": "Narrow (Adjective/Verb)",
+      "bangla": "সঙ্কীর্ণ",
+      "synonyms": "Thin, Slim",
+      "antonyms": "Wide, Broad"
+    },
+    {
+      "english": "Include (Verb)",
+      "bangla": "অন্তর্ভুক্ত করা",
+      "synonyms": "Incorporate, Contain",
+      "antonyms": "Exclude, Omit"
+    },
+    {
+      "english": "Aquatic (Adjective)",
+      "bangla": "জলজ",
+      "synonyms": "Water-based, Marine",
+      "antonyms": "Terrestrial, Land-based"
+    },
+    {
+      "english": "Successful (Adjective)",
+      "bangla": "সফল",
+      "synonyms": "Achieving, Prosperous",
+      "antonyms": "Unsuccessful, Failing"
+    },
+    {
+      "english": "Broad (Adjective)",
+      "bangla": "প্রশস্ত",
+      "synonyms": "Wide, Extensive",
+      "antonyms": "Narrow, Limited"
+    },
+    {
+      "english": "Habitat (Noun)",
+      "bangla": "বাসস্থান",
+      "synonyms": "Environment, Dwelling",
+      "antonyms": "Barren, Uninhabited"
+    },
+    {
+      "english": "Inconspicuous (Adjective)",
+      "bangla": "অদৃশ্য",
+      "synonyms": "Unnoticeable, Invisible",
+      "antonyms": "Noticeable, Visible"
+    },
+    {
+      "english": "Certain (Adjective)",
+      "bangla": "নিশ্চিত",
+      "synonyms": "Definite, Assured",
+      "antonyms": "Uncertain, Doubtful"
+    },
+    {
+      "english": "Employed (Adjective)",
+      "bangla": "নিয়োজিত",
+      "synonyms": "Hired, Occupied",
+      "antonyms": "Unemployed, Idle"
+    },
+    {
+      "english": "Attractive (Adjective)",
+      "bangla": "আকর্ষণীয়",
+      "synonyms": "Appealing, Alluring",
+      "antonyms": "Unattractive, Repelling"
+    },
+    {
+      "english": "Dark (Adjective/Noun)",
+      "bangla": "অন্ধকার",
+      "synonyms": "Gloomy, Obscure",
+      "antonyms": "Bright, Light"
+    },
+    {
+      "english": "Shiny (Adjective)",
+      "bangla": "চমকদার",
+      "synonyms": "Gleaming, Polished",
+      "antonyms": "Dull, Matte"
+    },
+    {
+      "english": "Beauty (Noun)",
+      "bangla": "সৌন্দর্য",
+      "synonyms": "Attractiveness, Elegance",
+      "antonyms": "Ugliness, Plainness"
+    },
+    {
+      "english": "Ambition (Noun)",
+      "bangla": "মহৎকামনা",
+      "synonyms": "Aspiration, Goal",
+      "antonyms": "Contentment, Apathy"
+    },
+    {
+      "english": "Popular (Adjective)",
+      "bangla": "জনপ্রিয়",
+      "synonyms": "Well-liked, Famous",
+      "antonyms": "Unpopular, Unknown"
+    },
+    {
+      "english": "Effects (Noun)",
+      "bangla": "প্রভাব",
+      "synonyms": "Impact, Consequence",
+      "antonyms": "Cause, Source"
+    },
+    {
+      "english": "Touch (Verb/Noun)",
+      "bangla": "স্পর্শ",
+      "synonyms": "Contact, Feel",
+      "antonyms": "Distance, Avoidance"
+    },
+    {
+      "english": "Means (Noun)",
+      "bangla": "পদ্ধতি",
+      "synonyms": "Method, Way",
+      "antonyms": "End, Conclusion"
+    },
+    {
+      "english": "Connected (Adjective)",
+      "bangla": "সংযুক্ত",
+      "synonyms": "Linked, Related",
+      "antonyms": "Disconnected, Unrelated"
+    },
+    {
+      "english": "Unknown (Adjective)",
+      "bangla": "অজানা",
+      "synonyms": "Unidentified, Mystery",
+      "antonyms": "Familiar, Recognizable"
+    },
+    {
+      "english": "Easy (Adjective)",
+      "bangla": "সহজ",
+      "synonyms": "Simple, Effortless",
+      "antonyms": "Difficult, Challenging"
+    },
+    {
+      "english": "Harass (Verb)",
+      "bangla": "হেনস্থা করা",
+      "synonyms": "Annoy, Disturb",
+      "antonyms": "Comfort, Soothe"
+    },
+    {
+      "english": "Teenager (Noun)",
+      "bangla": "কিশোর",
+      "synonyms": "Adolescent, Youth",
+      "antonyms": "Adult, Elder"
+    },
+    {
+      "english": "Spend (Verb)",
+      "bangla": "ব্যয় করা",
+      "synonyms": "Consume, Expend",
+      "antonyms": "Save, Conserve"
+    },
+    {
+      "english": "Curse (Noun/Verb)",
+      "bangla": "অভিশাপ",
+      "synonyms": "Hex, Malediction",
+      "antonyms": "Blessing, Benediction"
+    },
+    {
+      "english": "Retards (Verb)",
+      "bangla": "বিরত করা",
+      "synonyms": "Delays, Hinders",
+      "antonyms": "Accelerates, Promotes"
+    },
+    {
+      "english": "Darkness (Noun)",
+      "bangla": "অন্ধকার",
+      "synonyms": "Obscurity, Shadow",
+      "antonyms": "Light, Brightness"
+    },
+    {
+      "english": "Unaware (Adjective)",
+      "bangla": "অজ্ঞ",
+      "synonyms": "Ignorant, Uninformed",
+      "antonyms": "Knowledgeable, Aware"
+    },
+    {
+      "english": "Most (Adjective/Noun)",
+      "bangla": "অধিকাংশ",
+      "synonyms": "Majority, Almost all",
+      "antonyms": "Few, Least"
+    },
+    {
+      "english": "Because (Conjunction)",
+      "bangla": "কারণ",
+      "synonyms": "Since, Due to",
+      "antonyms": "Regardless, Irrespective"
+    },
+    {
+      "english": "Practical (Adjective)",
+      "bangla": "ব্যবহারিক",
+      "synonyms": "Functional, Usable",
+      "antonyms": "Theoretical, Impractical"
+    },
+    {
+      "english": "Measures (Noun)",
+      "bangla": "মাপ",
+      "synonyms": "Steps, Actions",
+      "antonyms": "Neglect, Inaction"
+    },
+    {
+      "english": "Enlightened (Adjective)",
+      "bangla": "জ্ঞানী",
+      "synonyms": "Informed, Knowledgeable",
+      "antonyms": "Uninformed, Ignorant"
+    },
+    {
+      "english": "Honesty (Noun)",
+      "bangla": "সত্যতা",
+      "synonyms": "Integrity, Truthfulness",
+      "antonyms": "Dishonesty, Deceit"
+    },
+    {
+      "english": "Injustice (Noun)",
+      "bangla": "অন্যায়",
+      "synonyms": "Unfairness, Oppression",
+      "antonyms": "Justice, Fairness"
+    },
+    {
+      "english": "Immoral (Adjective)",
+      "bangla": "অনৈতিক",
+      "synonyms": "Unethical, Depraved",
+      "antonyms": "Moral, Virtuous"
+    },
+    {
+      "english": "Uncomfortable (Adjective)",
+      "bangla": "অস্বস্তিকর",
+      "synonyms": "Restless, Anxious",
+      "antonyms": "Comfortable, Relaxed"
+    },
+    {
+      "english": "Responsible (Adjective)",
+      "bangla": "দায়িত্বশীল",
+      "synonyms": "Accountable, Answerable",
+      "antonyms": "Irresponsible, Negligent"
+    },
+    {
+      "english": "Perform (Verb)",
+      "bangla": "সম্পাদন করা",
+      "synonyms": "Execute, Accomplish",
+      "antonyms": "Neglect, Fail"
+    },
+    {
+      "english": "Insincerity (Noun)",
+      "bangla": "অসত্যতা",
+      "synonyms": "Dishonesty, Deception",
+      "antonyms": "Sincerity, Honesty"
+    },
+    {
+      "english": "Better (Adjective/Adverb)",
+      "bangla": "ভালো",
+      "synonyms": "Superior, Improved",
+      "antonyms": "Worse, Inferior"
+    },
+    {
+      "english": "Falsehood (Noun)",
+      "bangla": "মিথ্যা",
+      "synonyms": "Deceit, Untruth",
+      "antonyms": "Truth, Authenticity"
+    },
+    {
+      "english": "Never (Adverb)",
+      "bangla": "কখনোই নয়",
+      "synonyms": "Not ever, No time",
+      "antonyms": "Always, Continuously"
+    },
+    {
+      "english": "Weaker (Adjective)",
+      "bangla": "দুর্বল",
+      "synonyms": "Frailer, Less robust",
+      "antonyms": "Stronger, More potent"
+    },
+    {
+      "english": "Discourage (Verb)",
+      "bangla": "হতাশ করা",
+      "synonyms": "Deter, Dishearten",
+      "antonyms": "Encourage, Motivate"
+    },
+    {
+      "english": "Frustrating (Adjective/Verb)",
+      "bangla": "হতাশাজনক",
+      "synonyms": "Disheartening, Annoying",
+      "antonyms": "Satisfying, Gratifying"
+    },
+    {
+      "english": "Interest (Noun/Verb)",
+      "bangla": "আগ্রহ",
+      "synonyms": "Curiosity, Attraction",
+      "antonyms": "Disinterest, Apathy"
+    },
+    {
+      "english": "Ability (Noun)",
+      "bangla": "ক্ষমতা",
+      "synonyms": "Competence, Skill",
+      "antonyms": "Inability, Incapacity"
+    },
+    {
+      "english": "Dream (Noun/Verb)",
+      "bangla": "স্বপ্ন",
+      "synonyms": "Vision, Fantasy",
+      "antonyms": "Reality, Fact"
+    },
+    {
+      "english": "Best (Adjective/Noun)",
+      "bangla": "সেরা",
+      "synonyms": "Finest, Optimal",
+      "antonyms": "Worst, Inferior"
+    },
+    {
+      "english": "Achieve (Verb)",
+      "bangla": "অর্জন করা",
+      "synonyms": "Accomplish, Attain",
+      "antonyms": "Fail, Miss"
+    },
+    {
+      "english": "Nation (Noun)",
+      "bangla": "জাতি",
+      "synonyms": "Country, People",
+      "antonyms": "Individual, Person"
+    },
+    {
+      "english": "Dependent (Adjective)",
+      "bangla": "নির্ভরশীল",
+      "synonyms": "Reliant, Subordinate",
+      "antonyms": "Independent, Self-reliant"
+    },
+    {
+      "english": "Dominate (Verb)",
+      "bangla": "প্রভুত্ব করা",
+      "synonyms": "Control, Rule",
+      "antonyms": "Submit, Surrender"
+    },
+    {
+      "english": "Importance (Noun)",
+      "bangla": "গুরুত্ব",
+      "synonyms": "Significance, Relevance",
+      "antonyms": "Insignificance, Irrelevance"
+    },
+    {
+      "english": "Mark (Noun/Verb)",
+      "bangla": "চিহ্ন",
+      "synonyms": "Symbol, Sign",
+      "antonyms": "Blur, Obscure"
+    },
+    {
+      "english": "Declare (Verb)",
+      "bangla": "ঘোষণা করা",
+      "synonyms": "Announce, Proclaim",
+      "antonyms": "Conceal, Suppress"
+    },
+    {
+      "english": "Begin (Verb)",
+      "bangla": "শুরু করা",
+      "synonyms": "Commence, Start",
+      "antonyms": "Conclude, End"
+    },
+    {
+      "english": "Battle (Noun/Verb)",
+      "bangla": "যুদ্ধ",
+      "synonyms": "Conflict, Combat",
+      "antonyms": "Peace, Truce"
+    },
+    {
+      "english": "Freedom (Noun)",
+      "bangla": "স্বাধীনতা",
+      "synonyms": "Liberty, Autonomy",
+      "antonyms": "Captivity, Oppression"
+    }
+  ],
+
+  "partsOfSpeech": [
+    {
+      "noun": "ability",
+      "verb": "able",
+      "adjective": "able",
+      "adverb": "ably"
+    },
+    {
+      "noun": "abundance",
+      "verb": "abound",
+      "adjective": "abundant",
+      "adverb": "abundantly"
+    },
+    {
+      "noun": "action, activity",
+      "verb": "act",
+      "adjective": "active",
+      "adverb": "actively"
+    },
+    {
+      "noun": "addition",
+      "verb": "add",
+      "adjective": "additional",
+      "adverb": "additionally"
+    },
+    {
+      "noun": "adjustment",
+      "verb": "adjust",
+      "adjective": "adjustable",
+      "adverb": null
+    },
+    {
+      "noun": "administration, advance",
+      "verb": "administer",
+      "adjective": "administrable",
+      "adverb": "administratively"
+    },
+    {
+      "noun": "advantage",
+      "verb": "advance",
+      "adjective": "advantageous",
+      "adverb": "advantageously"
+    },
+    {
+      "noun": "agreement",
+      "verb": "agree",
+      "adjective": "agreeable",
+      "adverb": "agreeably"
+    },
+    {
+      "noun": "allowance",
+      "verb": "allow",
+      "adjective": "allowable",
+      "adverb": "allowably"
+    },
+    {
+      "noun": "alternative",
+      "verb": "alter",
+      "adjective": "alternative",
+      "adverb": "alternatively"
+    },
+    {
+      "noun": "analysis",
+      "verb": "analyse",
+      "adjective": "analytical",
+      "adverb": "analytically"
+    },
+    {
+      "noun": "anger",
+      "verb": "anger",
+      "adjective": "angry",
+      "adverb": "angrily"
+    },
+    {
+      "noun": "anxiety",
+      "verb": "annoy",
+      "adjective": "anxious",
+      "adverb": "anxiously"
+    },
+    {
+      "noun": "apology",
+      "verb": "apologise",
+      "adjective": "apologetic",
+      "adverb": "apologetically"
+    },
+    {
+      "noun": "application",
+      "verb": "apply",
+      "adjective": "applicable",
+      "adverb": null
+    },
+    {
+      "noun": "appointment",
+      "verb": "appoint",
+      "adjective": "appointed",
+      "adverb": null
+    },
+    {
+      "noun": "argument",
+      "verb": "argue",
+      "adjective": "arguable",
+      "adverb": "arguably"
+    },
+    {
+      "noun": "art",
+      "verb": null,
+      "adjective": "artistic",
+      "adverb": "artistically"
+    },
+    {
+      "noun": "association",
+      "verb": "associate",
+      "adjective": "associated",
+      "adverb": null
+    },
+    {
+      "noun": "attachment",
+      "verb": "attach",
+      "adjective": "attaching",
+      "adverb": "attachingly"
+    },
+    {
+      "noun": "attention",
+      "verb": "attend",
+      "adjective": "attentive",
+      "adverb": "attentively"
+    },
+    {
+      "noun": "attraction",
+      "verb": "attract",
+      "adjective": "attractive",
+      "adverb": "attractively"
+    },
+    {
+      "noun": "authority",
+      "verb": "author",
+      "adjective": "authoritative",
+      "adverb": "authoritatively"
+    },
+    {
+      "noun": "awe",
+      "verb": "awe",
+      "adjective": "awful",
+      "adverb": "awfully"
+    },
+    {
+      "noun": "beauty, beautification",
+      "verb": "beautify",
+      "adjective": "beautiful",
+      "adverb": "beautifully"
+    },
+    {
+      "noun": "belief",
+      "verb": "believe",
+      "adjective": "believable",
+      "adverb": "believably"
+    },
+    {
+      "noun": "benefit",
+      "verb": "benefit",
+      "adjective": "beneficial",
+      "adverb": "beneficially"
+    },
+    {
+      "noun": "biology",
+      "verb": null,
+      "adjective": "biological",
+      "adverb": "biologically"
+    },
+    {
+      "noun": "blame",
+      "verb": "blame",
+      "adjective": "blamable",
+      "adverb": "blamelessly"
+    },
+    {
+      "noun": "blood",
+      "verb": "bleed",
+      "adjective": "bloody",
+      "adverb": "bloodily"
+    },
+    {
+      "noun": "body",
+      "verb": null,
+      "adjective": "bodily",
+      "adverb": null
+    },
+    {
+      "noun": "boost",
+      "verb": "boost",
+      "adjective": "bountiful",
+      "adverb": "bountifully"
+    },
+    {
+      "noun": "break, breakage",
+      "verb": "break",
+      "adjective": "broken",
+      "adverb": null
+    },
+    {
+      "noun": "brightness",
+      "verb": "brighten",
+      "adjective": "bright",
+      "adverb": "brightly"
+    },
+    {
+      "noun": "broadness, breadth",
+      "verb": "broaden",
+      "adjective": "broad",
+      "adverb": "broadly"
+    },
+    {
+      "noun": "burden",
+      "verb": "bury",
+      "adjective": "burdened",
+      "adverb": null
+    },
+    {
+      "noun": "business",
+      "verb": "buy",
+      "adjective": "busy",
+      "adverb": "busily"
+    },
+    {
+      "noun": "calmness",
+      "verb": "calm",
+      "adjective": "calm",
+      "adverb": "calmly"
+    }
+  ]
+}
