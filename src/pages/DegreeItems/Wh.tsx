@@ -91,7 +91,8 @@ function Wh() {
         থাকলে Whose ব্যবহার করে প্রশ্ন করা হয়। <br />
         যেমনঃ <br />
         Q. Rahim’s house is close to mine. <br />
-        ⇒ Whose house is close to mine? 
+        ⇒ Whose house is close to mine? <br />
+        N.B. বাক্যের Subject-কে প্রশ্ন করলে এখানে helping verb নিয়ে ভাবতে হয় না।
         <br /> 
         <br />
         **Rule-8:** <br />
