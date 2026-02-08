@@ -6,7 +6,7 @@ import { PartsOfSpeechAdvanced } from "../../components/PartsOfSpeechAdvanced";
 const PartsOfSpeech = () => {
   const [activeTab, setActiveTab] = useState<
     "beginner" | "ShortTechnique" | "Advanced"
-  >("beginner");
+  >("ShortTechnique");
 
   return (
     <div className="min-h-screen lg:w-10/12 mx-auto">
@@ -14,10 +14,10 @@ const PartsOfSpeech = () => {
         <h1 className="">Parts Of Speech</h1>
       </div>
       {/* Tabs */}
-      <div className="flex justify-center space-x-4 mb-6 border-b border-gray-300">
+      <div className="flex justify-center space-x-4 mb-6 border-b border-gray-300 pb-3">
         <button
           onClick={() => setActiveTab("beginner")}
-          className={`py-2 px-2 font-semibold ${
+          className={` px-1 lg:font-semibold ${
             activeTab === "beginner"
               ? "border-b-2 border-blue-500 text-blue-500"
               : "text-gray-500"
@@ -27,7 +27,7 @@ const PartsOfSpeech = () => {
         </button>
         <button
           onClick={() => setActiveTab("ShortTechnique")}
-          className={`py-2 px-2 font-semibold ${
+          className={` px-1 lg:font-semibold ${
             activeTab === "ShortTechnique"
               ? "border-b-2 border-blue-500 text-blue-500"
               : "text-gray-500"
@@ -37,7 +37,7 @@ const PartsOfSpeech = () => {
         </button>
         <button
           onClick={() => setActiveTab("Advanced")}
-          className={`py-2 px-2 font-semibold ${
+          className={` px-1 lg:font-semibold ${
             activeTab === "Advanced"
               ? "border-b-2 border-blue-500 text-blue-500"
               : "text-gray-500"

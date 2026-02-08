@@ -6,7 +6,7 @@ headers = []
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\projects\\asm\\dist"
+publish = "C:\\Users\\projects\\easyEnglish\\dist"
 publishOrigin = "ui"
 commandOrigin = "ui"
 command = "npm run build"

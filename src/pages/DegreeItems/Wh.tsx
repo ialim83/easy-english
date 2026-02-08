@@ -22,7 +22,7 @@ function Wh() {
         <br />
         যেমনঃ <br />
         (i) Nazrul is the shelly of Bangladesh. <br />
-        ⇒ Who is the Shelley of Bangladesh! <br />
+        ⇒ Who is the Shelley of Bangladesh? <br />
         (ii) The cow gives us milk. <br />
         ⇒ What gives you milk? <br />
         বাক্যের Subject এর স্থলে Who/what/which বসালে বাক্যের অন্য কিছু পরিবর্তন
@@ -30,57 +30,70 @@ function Wh() {
         কিন্তু Subject ছাড়া বাক্যের অন্য অংশ হুবহু থাকবে এবং বাক্যের শেষে Wh
         শব্দ বসার পর বাক্যের সাহায্যকারী Verb টি অবশ্য বসবে। <br />
         যেমনঃ <br /> <br />
+        **N.B:** <br />
+        বাক্যের মধ্যে যদি I, we, me, us, you থাকলে Wh করার সময় এদের স্থলে youবসে
+        এবং my, our এর পরিবর্তে your বসে। <br /> <br />
         **Rule-2:** <br />
         বাক্যের মধ্যে সময় বাচক শব্দ যেমনঃ yesterday, tomorrow থাকলে উক্ত শব্দকে
         উঠিয়ে বাক্যের শুরুতে when ব্যবহার করা হবে এবং when এর পরে বাক্যের মূল
         সাহায্যকারী Verb টি বসবে। <br />
         যেমনঃ <br />
         (i) He will go home tomorrow. <br />
-        ⇒ When will he go home? <br /> <br />
+        ⇒ When will he go home? 
+        <br /> 
+        <br />
         **Rule-3:** <br />
         বাক্যের মধ্যে যদি স্থান বাচক শব্দ (যেমনঃ here, there, Dhaka, Bangladesh)
         থাকে তবে বাক্যের শুরুতে where বসিয়ে প্রশ্ন করা হবে এবং সাহায্যকারী verb
         টি where এর পরে বসবে। <br />
         যেমনঃ <br />
         Q. He is going to China. <br />
-        ⇒ Where is he going? <br /> <br />
+        ⇒ Where is he going? 
+        <br /> 
+        <br />
         **Rule-4:** <br />
         বাক্যের মধ্যে যদি with, by এবং Ly যুক্ত শব্দ থাকে তবে How দ্বারা প্রশ্ন
         করা হয়। <br />
         যেমনঃ <br />
         Q. He did it with great difficulty. <br />
-        ⇒ How did he do it? <br /> <br />
+        ⇒ How did he do it?
+        <br />
+        <br />
+        <br />
         **N.B:** <br />
         বাক্যের মধ্যে যদি সাহায্যকারী verb না থাকে তবে do, does, did বাক্যের
-        সাহায্যকারী verb হিসাবে নিতে হয়। অর্থাৎ বাক্যের মূল verb টি present
-        form এ বসলে সে ক্ষেত্রে does এবং do ব্যবহার করা হবে। আর verb টি যদি past
-        tense যুক্ত থাকে তবে did ব্যবহার করা হয় এবং মূল verb টি যে কোন present
-        করতে হয়, যেমন আমরা উপরে উদাহরণ করেছি। <br /> <br />
+        সাহায্যকারী Verb হিসাবে নিতে হয়। অর্থাৎ বাক্যের মূল Verb টি present
+        form/v1 এ থাকলে does/ do ব্যবহার করা হবে। আর Verb টি যদি past tense থাকে
+        তবে did ব্যবহার করা হয় এবং মূল verb টি present form/V1 করতে হয়, যেমন
+        আমরা উপরে উদাহরণ করেছি।
+        <br />
+        <br />
         **Rule-5:** <br />
-        বাক্যের মধ্যে যদি for অথবা to + V1 থাকে তবে why দ্বারা প্রশ্ন করা হয়।{" "}
+        বাক্যের মধ্যে যদি for অথবা to + V<sub>1</sub> থাকে তবে why দ্বারা প্রশ্ন করা হয়।
         <br />
         যেমনঃ <br />
         Q. I went to market to buy vegetables. <br />
         ⇒ Why did you go to market? <br /> <br />
-        **N.B:** <br />
-        বাক্যের মধ্যে যদি I, we, me, us, you থাকলে Wh করার সময় এদের স্থলে youবসে
-        এবং my, our এর পরিবর্তে your বসে। <br /> <br />
         **Rule-6:** <br />
-        বাক্যের Subject যদি Everyone, Everybody এবং all হয় তবে এগুলোর পরিবর্তনে
-        who does not বসে। বাক্যের মুল verb এর সঙ্গে স থাকলে উঠে যায়। আর বাক্যের
-        subject যদি Nobody, no one, none হয় তবে এদের স্থলে শুধুমাত্র who বসে।{" "}
+        বাক্যের Subject যদি Everyone, Everybody এবং all হয় তবে এগুলোর পরিবর্তে
+        who does not/Who did not বসে। বাক্যের মুল Verb এর সঙ্গে S/es থাকলে উঠে যায়। আর
         <br />
         যেমনঃ <br />
         Q. Everybody wishes to be happy. <br />
-        ⇒ Who does not wish to be happy? <br />
-        Q. Nobody could count my love for you. <br />
+        ⇒ Who does not wish to be happy?
+        <br />
+        <br />
+        ### বাক্যের subject যদি Nobody, no one, none হয় তবে এদের স্থলে
+        শুধুমাত্র who বসে। Q. Nobody could count my love for you. <br />
         ⇒ Who could count my love for you? <br /> <br />
         **Rule-7:** <br />
         বাক্যের মধ্যে Possessive case (যেমনঃ Rahim’s, my, our, their, her, his)
         থাকলে Whose ব্যবহার করে প্রশ্ন করা হয়। <br />
         যেমনঃ <br />
         Q. Rahim’s house is close to mine. <br />
-        ⇒ Whose house is close to mine? <br /> <br />
+        ⇒ Whose house is close to mine? 
+        <br /> 
+        <br />
         **Rule-8:** <br />
         বাক্যের শুরুতে যদি those, that, these, this থাকে তবে এদের পরিবর্তে which
         ব্যবহার করা হয়। <br />
@@ -89,38 +102,52 @@ function Wh() {
         ⇒ Which books are very interesting? <br /> <br />
         **Rule-9:** <br />
         বাক্যের শুরুতে যদি There (introductory ) থাকে তবে এর পরিবর্তে where
-        ব্যবহার হবে এবং বাক্যের শেষে in/ on/ at/ over থেকে শেষ পর্যন্ত উঠে যাবে।{" "}
+        ব্যবহার হবে এবং বাক্যের শেষে in/ on/ at/ over থেকে শেষ পর্যন্ত উঠে যাবে।
         <br />
         যেমনঃ <br />
         Q. There is a pen on the table. <br />
-        ⇒ Where is a pen? <br /> <br />
+        ⇒ Where is a pen?
+        <br />
+        <br />
         **Rule-10:** <br />
         বাক্যের মধ্যে যদি নির্দিস্ট সময় থাকে তবে Wh হয় What is the time?/ what
         time is it? . <br />
         যেমনঃ <br />
         Q. It is 10.30 pm now. <br />
-        ⇒ What time is it now? <br /> <br />
+        ⇒ What time is it now?
+        <br />
+        <br />
         **Rule-11:** <br />
-        বাক্যের মধ্যে যদি am/is/are/was/were এর পরে very অথবা আদ থাকে তবে এদের
-        পরে থেকে শেষ প্ররজন্ত উঠিয়ে বাক্যের শুরুতে How বসে এবং বাক্যের be-verb
-        টি how এর পরে বসাতে হবে। <br /> যেমনঃ <br />
+        বাক্যের মধ্যে যদি am/is/are/was/were এর পরে very অথবা Adjective থাকে তবে
+        এদের পরে থেকে শেষ পর্যন্ত উঠিয়ে বাক্যের শুরুতে How বসে এবং বাক্যের
+        be-verb টি how এর পরে বসাতে হবে। <br />
+        যেমনঃ <br />
         Q. He is a very good natured man. <br />
-        ⇒ How is he? <br /> <br />
+        ⇒ How is he?
+        <br /> 
+        <br />
         **Rule-12:** <br />
+        বাক্যের মধ্যে যদি am/is/are/was/were এর পরে যদি "পেশাগত" শব্দ থাকে তবে
+        এদের পরে থেকে শেষ পর্যন্ত উঠিয়ে বাক্যের শুরুতে How বসে এবং বাক্যের
+        be-verb টি how এর পরে বসাতে হবে। <br /> যেমনঃ <br />
+        Q. He is a teacher. <br />
+        ⇒ What is he?
+        <br />
+        <br />
+        **Rule-13:** <br />
         বাক্যের মধ্যে মূল verb ঠিক পরে যদি ব্যাক্তিবাচক Object থাকে তবে Whom
         দ্বারা এবং যদি বাক্য Object থাকে What দ্বারা প্রশ্ন করা হয়। <br />
         যেমনঃ <br />
-        Q. **I saw Rahim** playing. <br />
+        Q. I saw Rahim playing. <br />
         ⇒ Whom did you see playing? <br /> <br />
-        Q. **I bought some paper.** <br />
+        Q. I bought some paper. <br />
         ⇒ What did you buy? <br /> <br />
         <br />
       </div>
       <div className="">
         <h1 className="text-pink-700">
-          {" "}
           **Practice**
-          <br />{" "}
+          <br />
         </h1>
         ### 1. National University Examination — 2009 <br />
         *(According to the Syllabus of 2003–2004)* <br />
@@ -202,7 +229,9 @@ function Wh() {
         (d) It looks like a forest. <br />
         (e) The boy was shouting to draw the attention of the villagers. <br />
         (f) A stranger knocked at the door. <br />
-        (g) I studied English and Bangla at school. <br /> <br />
+        (g) I studied English and Bangla at school.
+        <br />
+        <br />
         ### 10. Siddheswari Degree College, Dhaka — 2007 <br /> <br />
         (a) I go to bed at 10 o’clock at night. <br />
         (b) Nobody believes a liar. <br />
@@ -210,7 +239,8 @@ function Wh() {
         (d) The medicine should be taken twice a week. <br />
         (e) The books have been collected from the library. <br />
         (f) Mr. Ameen’s speech pleased everybody. <br />
-        (g) We would send the GM as our representative to the conference. <br />{" "}
+        (g) We would send the GM as our representative to the conference.
+        <br />
         <br />
         ### 11. Dohar-Nawabganj College, Dhaka — 2007 <br /> <br />
         (a) The parcel is from Chittagong. <br />
@@ -219,15 +249,19 @@ function Wh() {
         (d) He was late due to a traffic jam. <br />
         (e) The scenery of Cox's Bazar charmed us. <br />
         (f) I am well, thank you. <br />
-        (g) He comes here twice a week. <br />
-        ### 12. Savar College, Dhaka — 2007 <br /> <br />
+        (g) He comes here twice a week.
+        <br />
+        <br />
+        ### 12. Savar College, Dhaka — 2007 <br />
         (a) He looks for a job. <br />
         (b) Rina likes blue color. <br />
         (c) We can get vitamins by eating fruits. <br />
         (d) They are doing the sums. <br />
         (e) Illiteracy is a curse. <br />
         (f) Rajshahi is famous for silk. <br />
-        (g) We shall wait for you. <br /> <br />
+        (g) We shall wait for you.
+        <br />
+        <br />
         ### 13. Dhamrai Govt. College, Dhaka — 2007 <br /> <br />
         (a) The school was built in 1930. <br />
         (b) The plane will take off at 10:30 a.m. <br />
@@ -235,14 +269,18 @@ function Wh() {
         (d) The writer caught sight of the lady at the play. <br />
         (e) It is quarter past five. <br />
         (f) Our Principal is learned and well-behaved. <br />
-        (g) I want a white pen. <br />
+        (g) I want a white pen.
+        <br />
+        <br />
         ### 14. Govt. Girls' College, Narayanganj — 2007 <br />
         (a) Tania lives with her cousin. <br />
         (b) I was annoyed with him. <br />
         (c) The knife was one foot long. <br />
         (d) We are looking for a dangerous criminal. <br />
         (e) Dhaka is the capital of Bangladesh. <br />
-        (f) He insulted me. <br /> <br />
+        (f) He insulted me.
+        <br />
+        <br />
         ### 15. Kumudini Govt. College, Tangail — 2007 <br />
         (a) Rahim went to Rangpur by train. <br />
         (b) Dolly is the name of a lamb. <br />
@@ -250,7 +288,9 @@ function Wh() {
         (d) He talked to Ali. <br />
         (e) They were playing cricket. <br />
         (f) He sold his car. <br />
-        (g) Marconi invented radio. <br /> <br />
+        (g) Marconi invented radio.
+        <br />
+        <br />
         ### 16. Ebrahim Khan College, Bhunpur, Tangail — 2007 <br /> <br />
         (a) My brother is thirty years old. <br />
         (b) He borrowed my uncle. <br />

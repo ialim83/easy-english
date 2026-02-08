@@ -58,7 +58,15 @@ const DPartsOfSpeech = () => {
           এবং প্রদত্ত শব্দটির অর্থ জানা।
         </div>
         <br />
+        <a
+          className="text-blue-500 underline"
+          href="http://localhost:5173/paOfSp"
+        >
+          আরো Parts of Speech জানতে চাইলে এখানে ক্লিক করুন
+        </a>
         <br />
+        <br />
+        {/* পরিবর্তনের নিয়মাবলী */}
         <div className="">
           <h2 className="">Parts of Speech পরিবর্তনের নিয়মাবলী</h2>
           <br />
@@ -156,7 +164,7 @@ const DPartsOfSpeech = () => {
           অনুরুপ ication উঠিয়ে fy যোগ করলে Verb হবে।
           <br />
           <br />
-          (5) ise বা ize থাকলে e  উঠিয়ে ation যোগ করলে Noun হবে।
+          (5) ise বা ize থাকলে e উঠিয়ে ation যোগ করলে Noun হবে।
           <br />
           যেমন- Civilise - Civilisation.
           <br />
@@ -170,8 +178,8 @@ const DPartsOfSpeech = () => {
           অনুরুপ - উল্টাটা করলেই Verbহবে।
           <br />
           <br />
-          (7) Verb এর শেষে Y থাকলে y এর পরিবর্তে বসে i এবং তার পরে age যুক্ত করতে
-          হয়।
+          (7) Verb এর শেষে Y থাকলে y এর পরিবর্তে বসে i এবং তার পরে age যুক্ত
+          করতে হয়।
           <br />
           যেমন- Carry- Carriage
           <br />
@@ -208,33 +216,44 @@ const DPartsOfSpeech = () => {
         <br />
         <br />
         <p className="text-center">-------0-------</p>
-        
         <br /> <br /> <br />
+        {/* বাক্য গঠনের নিয়মাবলী  */}
         <div className="">
-          <h2> Noun, verb এবং adjective, Adverb দ্বারা বাক্য ঠনের নিয়মাবলী</h2>
-          Noun দ্বারাঃ <br />
+          <h2 className="my-5">
+            {" "}
+            Noun, verb এবং adjective, Adverb দ্বারা বাক্য গঠনের নিয়মাবলী
+          </h2>
+          Noun দ্বারা দ্বারা বাক্য গঠন: <br />
           (1) His/her ………. is good/bad.
           <br />
           (ii) He/she had ……………. .<br />
           <br />
-          Adjective দ্বারাঃ <br />
+          Adjective দ্বারা দ্বারা বাক্য গঠন: <br />
           (i) He is ……… man/woman.
           <br />
           (ii) It is a/an ………… thing/matter.
           <br />
           <br />
-          Adverb দ্বারাঃ <br />
+          Adverb দ্বারা দ্বারা বাক্য গঠন: <br />
           (i) He did it ………… <br />
           (ii) Rina used it …………… .<br />
           <br />
-          Verb দ্বারাঃ
+          Verb দ্বারা দ্বারা বাক্য গঠন:
           <br />
           (i) He/ She V2 it.
           <br />
           (ii) He she V2 me/ here/ there.
         </div>
       </div>
-
+      <br />
+      <a
+        className="text-blue-500 underline"
+        href="http://localhost:5173/paOfSp"
+      >
+         Parts of Speech আরো জানতে চাইলে এখানে ক্লিক করুন
+      </a>
+      <br />
+      <br />
       <div className=" overflow-x-auto py-10">
         <h1 className="pb-5">Exercise</h1>
         <table className="min-w-full  border border-gray-300">

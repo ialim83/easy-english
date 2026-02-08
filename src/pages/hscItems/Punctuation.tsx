@@ -27,16 +27,13 @@ const Punctuation = () => {
         </p>
       </div>
 
-
-      
-
       {/* Tabs */}
       <div className="flex justify-center space-x-2 mb-6 border-b border-gray-300">
         <button
           onClick={() => setActiveTab("beginner")}
-          className={`mb-2 py-1 px-3 font-semibold ${
+          className={`mb-2 py-1 px-2  ${
             activeTab === "beginner"
-              ? "border-2 rounded-full border-blue-500 text-blue-500"
+              ? "border rounded-full border-blue-500 text-blue-500"
               : "text-gray-500"
           }`}
         >
@@ -44,9 +41,9 @@ const Punctuation = () => {
         </button>
         <button
           onClick={() => setActiveTab("ShortTechnique")}
-          className={`mb-2 py-1 px-3 font-semibold ${
+          className={`mb-2 py-1 px-2  ${
             activeTab === "ShortTechnique"
-              ? "border-2 rounded-full border-blue-500 text-blue-500"
+              ? "border rounded-full border-blue-500 text-blue-500"
               : "text-gray-500"
           }`}
         >
@@ -54,9 +51,9 @@ const Punctuation = () => {
         </button>
         <button
           onClick={() => setActiveTab("Advanced")}
-          className={`mb-2 py-1 px-3 font-semibold ${
+          className={`mb-2 py-1 px-2  ${
             activeTab === "Advanced"
-              ? "border-2 rounded-full border-blue-500 text-blue-500"
+              ? "border rounded-full border-blue-500 text-blue-500"
               : "text-gray-500"
           }`}
         >
