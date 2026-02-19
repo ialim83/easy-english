@@ -86,7 +86,7 @@ const Accordions = () => {
                   <strong>গঠন</strong> (<strong>Structure</strong>): <br />
                   হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
                   <strong>
-                    👉 Sub + V<sub>1</sub> (s/es) + obj + others.{" "}
+                    👉 Sub + V<sub>1</sub> (s/es) + obj + others.
                   </strong>
                   <br />
                   যেমনঃ <br />
@@ -182,7 +182,7 @@ const Accordions = () => {
               <br />
               {/* <span className="animateText font-bold">*Rule*: </span> */}
               <strong>
-                👉 Sub + am/ is/ are + V<sub>1</sub> এর সাথে ing + obj + others.{" "}
+                👉 Sub + am/ is/ are + V<sub>1</sub> এর সাথে ing + obj + others.
               </strong>
               <br />
               যেমনঃ <br />

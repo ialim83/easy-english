@@ -12,6 +12,7 @@ const DPartsOfSpeech = () => {
       </div>
 
       <div className="text-base">
+        {/* চিনিবার উপায় */}
         <div className="">
           <h3 className="text-rose-500 my-5">Parts of Speech চিনিবার উপায়</h3>
           Adjective চিনিবার উপায়ঃ <br />
@@ -21,7 +22,7 @@ const DPartsOfSpeech = () => {
           Example:
           <br />
           Famous, Creative, beautiful simple, Capable, responsible Casual, evil,
-          servile, Absent, Brilliant, vain, economie, boyish, angry, faulty,
+          servile, Absent, Brilliant, vain, economic, boyish, angry, faulty,
           witty, তবে ty থাকলে বেশির ভাগ ক্ষেত্রে Noun হয়।
           <br />
           <br />
@@ -38,8 +39,8 @@ const DPartsOfSpeech = () => {
           <br />
           Verb-চিনিবার উপায়ঃ <br />
           শব্দের শেষে - ine, ise, ize, de থাকলে, শব্দের শুরুতে - em থাকলে ,
-          শব্দের শুরুতে/ শেষে - en থাকলে, শুরুতে - be থাকলে , শেষে - ume, ute,
-          atc থাকলে , শেষে - ss, fy থাকলে Verb হয়। Example -<br />
+          শব্দের শুরুতে/ শেষে - en থাকলে, শুরুতে - be থাকলে , শেষে - ume, t, te, ute,
+          ate থাকলে , শেষে - ss, fy থাকলে Verb হয়। Example -<br />
           Examine, realise, embed, tighten, enlarge, beware, contribute,
           educate, consume, possess, beautify,
           <br />
@@ -58,6 +59,7 @@ const DPartsOfSpeech = () => {
           বিঃ দ্রঃ সুতরাং Parts of Speech চিনিবার প্রধান উপায় হল "সজ্ঞা" জানা
           এবং প্রদত্ত শব্দটির অর্থ জানা।
         </div>
+
         <br />
         <Link to={"/paOfSp"} >
         <p
@@ -69,6 +71,7 @@ const DPartsOfSpeech = () => {
         </Link>
         <br />
         <br />
+
         {/* পরিবর্তনের নিয়মাবলী */}
         <div className="">
           <h2 className="">Parts of Speech পরিবর্তনের নিয়মাবলী</h2>
@@ -220,6 +223,7 @@ const DPartsOfSpeech = () => {
         <br />
         <p className="text-center">-------0-------</p>
         <br /> <br /> <br />
+
         {/* বাক্য গঠনের নিয়মাবলী  */}
         <div className="">
           <h2 className="my-5">
@@ -227,9 +231,9 @@ const DPartsOfSpeech = () => {
             Noun, verb এবং adjective, Adverb দ্বারা বাক্য গঠনের নিয়মাবলী
           </h2>
           Noun  দ্বারা বাক্য গঠন: <br />
-          (1) His/her ………. is good/bad.
+          (1) His/her ……… is good/bad.
           <br />
-          (ii) He/she had ……………. .<br />
+          (ii) He/she had …………… .<br />
           <br />
           Adjective  দ্বারা বাক্য গঠন: <br />
           (i) He is ……… man/woman.
@@ -249,12 +253,14 @@ const DPartsOfSpeech = () => {
         </div>
       </div>
       <br />
-      <a
-        className="text-blue-500 underline"
-        href="http://localhost:5173/paOfSp"
-      >
-         Parts of Speech আরো জানতে চাইলে এখানে ক্লিক করুন
-      </a>
+      <Link to={"/paOfSp"} >
+        <p
+          className="text-blue-500 underline"
+          
+        >
+          আরো Parts of Speech জানতে চাইলে এখানে ক্লিক করুন
+        </p>
+        </Link>
       <br />
       <br />
       <div className=" overflow-x-auto py-10">

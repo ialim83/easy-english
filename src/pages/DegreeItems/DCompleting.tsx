@@ -1,11 +1,11 @@
 const DCompleting = () => {
   return (
     <div className="px-5 md:w-[85%] mx-auto">
-      <div className="">
+      <div className="text-">
         <div className="relative text-9xl italic text-green-400">
           <p>C</p>
         </div>
-        <div className="absolute top-32 md:top-60 left-20 md:left-48">
+        <div className="absolute top-28 md:top-32 left-20 md:left-48">
           <h1 className="text-xl font-bold italic text-green-500">
             ompleting Sentence
           </h1>
@@ -14,21 +14,33 @@ const DCompleting = () => {
 
       <div className="py-10">
         <h3 className="">Completing Sentence for degree/honors </h3>
+        <br />
         1. Of, for, from, on, in, into, by, about, without, before, after
         ইত্যাদি preposition এর পর verb থাকলে ing যোগ হয়। <br />
         যেমন:
-        <br /> I went to field for playing football. <br />
         <br />
-        2. Preposition 'to এর পর verb-এর present form ব্যবহত হয়। <br />
+        I went to field for ____ football. <br />
+        = I went to field for playing football.
+        <br />
+        <br />
+        2. Preposition- 'to' এর পর সাধারণত Verb-এর present form/V1 ব্যবহত হয়। <br />
         যেমন:
-        <br /> want to meet you. <br />
+        <br />I want to ___ you. <br />
+        = I want to meet you. <br />
         <br />
         3. Look forward to (প্রত্যাশা করা), with a view to (উদ্দেশে), prefer to
         ( অধিকতর পছন্দ করা) accustomed to (অভ্যস্ত হওয়া), be used to (অভ্যন্ত
         হওয়া), get used to (অভ্যস্ত হওয়া) - এর পর verb এরশেষে ing যোগ করতে হয়।
-        <br /> যেমন: <br />I am looking forward to hearing you. (আমি আপনার কথা
-        শোনার প্রত্যাশা করছি।) <br />
-        He is used to living in cold climate no (সে ঠান্ডা জলবায়ুতে বাস করতে
+        <br /> যেমন: 
+        <br />
+        Q. I am looking forward to ___ you. (আমি আপনার কথা
+        শোনার প্রত্যাশা করছি।)  <br />
+        = I am looking forward to hearing you. (আমি আপনার কথা
+        শোনার প্রত্যাশা করছি।) 
+        <br />
+        Q. He is used to living in cold climate no (সে ঠান্ডা জলবায়ুতে বাস করতে
+        অভ্যন্ত।) <br />
+        = He is used to living in cold climate no (সে ঠান্ডা জলবায়ুতে বাস করতে
         অভ্যন্ত।) <br />
         <br />
         4. Active voice-এ subject-এর পর am, is, are, was, were, shall be, will
