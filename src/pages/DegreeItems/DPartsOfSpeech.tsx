@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import data from "../../synAnt.json";
 const DPartsOfSpeech = () => {
   return (
@@ -38,7 +39,7 @@ const DPartsOfSpeech = () => {
           Verb-চিনিবার উপায়ঃ <br />
           শব্দের শেষে - ine, ise, ize, de থাকলে, শব্দের শুরুতে - em থাকলে ,
           শব্দের শুরুতে/ শেষে - en থাকলে, শুরুতে - be থাকলে , শেষে - ume, ute,
-          atc থাকলে , শেষে - ss, fy থাকলে Verbহয়। Example -<br />
+          atc থাকলে , শেষে - ss, fy থাকলে Verb হয়। Example -<br />
           Examine, realise, embed, tighten, enlarge, beware, contribute,
           educate, consume, possess, beautify,
           <br />
@@ -58,12 +59,14 @@ const DPartsOfSpeech = () => {
           এবং প্রদত্ত শব্দটির অর্থ জানা।
         </div>
         <br />
-        <a
+        <Link to={"/paOfSp"} >
+        <p
           className="text-blue-500 underline"
-          href="http://localhost:5173/paOfSp"
+          
         >
           আরো Parts of Speech জানতে চাইলে এখানে ক্লিক করুন
-        </a>
+        </p>
+        </Link>
         <br />
         <br />
         {/* পরিবর্তনের নিয়মাবলী */}
@@ -87,7 +90,7 @@ const DPartsOfSpeech = () => {
           Absent - Absence
           <br />
           <br />
-          (2) Adjective এর শেষে ar/ or থাকলে (ity যোগ করলে Noun হয় -
+          (2) Adjective এর শেষে ar/ or থাকলে ity যোগ করলে Noun হয় -
           Popular-Popularity. <br />
           অনুরুপ - ity তুলে দিলে Adjective হবে।
           <br />
@@ -223,22 +226,22 @@ const DPartsOfSpeech = () => {
             {" "}
             Noun, verb এবং adjective, Adverb দ্বারা বাক্য গঠনের নিয়মাবলী
           </h2>
-          Noun দ্বারা দ্বারা বাক্য গঠন: <br />
+          Noun  দ্বারা বাক্য গঠন: <br />
           (1) His/her ………. is good/bad.
           <br />
           (ii) He/she had ……………. .<br />
           <br />
-          Adjective দ্বারা দ্বারা বাক্য গঠন: <br />
+          Adjective  দ্বারা বাক্য গঠন: <br />
           (i) He is ……… man/woman.
           <br />
           (ii) It is a/an ………… thing/matter.
           <br />
           <br />
-          Adverb দ্বারা দ্বারা বাক্য গঠন: <br />
+          Adverb  দ্বারা বাক্য গঠন: <br />
           (i) He did it ………… <br />
           (ii) Rina used it …………… .<br />
           <br />
-          Verb দ্বারা দ্বারা বাক্য গঠন:
+          Verb  দ্বারা বাক্য গঠন:
           <br />
           (i) He/ She V2 it.
           <br />

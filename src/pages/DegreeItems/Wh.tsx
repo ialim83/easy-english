@@ -1,10 +1,11 @@
 function Wh() {
   return (
     <div className="h-full  lg:w-1/2 mx-auto px-4">
-      <div className="">
-        <h1 className="text-center font-semibold text-md py-20 dark:text-gray-300 text-green-500">
+      <div className="text-center py-20">
+        <h1 className="font-semibold text-md  dark:text-gray-300 text-green-500">
           **Wh-question**
         </h1>
+        <p className="">Only for Degree/Honors</p>
       </div>
 
       <div className="py-10">
@@ -17,43 +18,31 @@ function Wh() {
         <br />
         <br />
         **Rule-1:** <br />
-        প্রত্যেক বাক্যের Subject যদি ব্যাক্তিবাচক হয় সে Subject এর স্থলে Who
-        এবং যদি বস্তুবাচক হয় তবে সে Subject এর স্থলে What/which ব্যবহার হবে।
-        <br />
-        যেমনঃ <br />
-        (i) Nazrul is the shelly of Bangladesh. <br />
-        ⇒ Who is the Shelley of Bangladesh? <br />
-        (ii) The cow gives us milk. <br />
-        ⇒ What gives you milk? <br />
-        বাক্যের Subject এর স্থলে Who/what/which বসালে বাক্যের অন্য কিছু পরিবর্তন
-        হয় না <br />
-        কিন্তু Subject ছাড়া বাক্যের অন্য অংশ হুবহু থাকবে এবং বাক্যের শেষে Wh
-        শব্দ বসার পর বাক্যের সাহায্যকারী Verb টি অবশ্য বসবে। <br />
-        যেমনঃ <br /> <br />
-        **N.B:** <br />
-        বাক্যের মধ্যে যদি I, we, me, us, you থাকলে Wh করার সময় এদের স্থলে youবসে
-        এবং my, our এর পরিবর্তে your বসে। <br /> <br />
-        **Rule-2:** <br />
-        বাক্যের মধ্যে সময় বাচক শব্দ যেমনঃ yesterday, tomorrow থাকলে উক্ত শব্দকে
+        বাক্যের মধ্যে সময় বাচক শব্দ (যেমনঃ yesterday, tomorrow) থাকলে উক্ত শব্দকে
         উঠিয়ে বাক্যের শুরুতে when ব্যবহার করা হবে এবং when এর পরে বাক্যের মূল
         সাহায্যকারী Verb টি বসবে। <br />
         যেমনঃ <br />
         (i) He will go home tomorrow. <br />
-        ⇒ When will he go home? 
+        ⇒ When will he go home?
+        <br />
+        <br />
+        **N.B:** <br />
+        বাক্যের মধ্যে যদি I, we, me, us থাকলে Wh করার সময় এদের স্থলে you বসে
+        এবং my, our এর পরিবর্তে your বসে। 
         <br /> 
         <br />
-        **Rule-3:** <br />
+        **Rule-2:** <br />
         বাক্যের মধ্যে যদি স্থান বাচক শব্দ (যেমনঃ here, there, Dhaka, Bangladesh)
         থাকে তবে বাক্যের শুরুতে where বসিয়ে প্রশ্ন করা হবে এবং সাহায্যকারী verb
         টি where এর পরে বসবে। <br />
         যেমনঃ <br />
         Q. He is going to China. <br />
-        ⇒ Where is he going? 
-        <br /> 
+        ⇒ Where is he going?
         <br />
-        **Rule-4:** <br />
-        বাক্যের মধ্যে যদি with, by এবং Ly যুক্ত শব্দ থাকে তবে How দ্বারা প্রশ্ন
-        করা হয়। <br />
+        <br />
+        **Rule-3:** <br />
+        বাক্যের মধ্যে যদি with, by এবং Ly যুক্ত শব্দ থাকে অথবা Adverb থাকে (যেমন
+        Verb এর পরে hard, well থাকে) তবে How দ্বারা প্রশ্ন করা হয়। <br />
         যেমনঃ <br />
         Q. He did it with great difficulty. <br />
         ⇒ How did he do it?
@@ -64,19 +53,61 @@ function Wh() {
         বাক্যের মধ্যে যদি সাহায্যকারী verb না থাকে তবে do, does, did বাক্যের
         সাহায্যকারী Verb হিসাবে নিতে হয়। অর্থাৎ বাক্যের মূল Verb টি present
         form/v1 এ থাকলে does/ do ব্যবহার করা হবে। আর Verb টি যদি past tense থাকে
-        তবে did ব্যবহার করা হয় এবং মূল verb টি present form/V1 করতে হয়, যেমন
-        আমরা উপরে উদাহরণ করেছি।
+        তবে did ব্যবহার করা হয় এবং মূল verb টি present form/V1 করতে হয়।
         <br />
         <br />
-        **Rule-5:** <br />
-        বাক্যের মধ্যে যদি for অথবা to + V<sub>1</sub> থাকে তবে why দ্বারা প্রশ্ন করা হয়।
+        **Rule-4:** <br />
+        বাক্যের মধ্যে যদি for, because, because of অথবা to + V<sub>1</sub> থাকে
+        তবে why দ্বারা প্রশ্ন করা হয়।
         <br />
         যেমনঃ <br />
         Q. I went to market to buy vegetables. <br />
-        ⇒ Why did you go to market? <br /> <br />
+        ⇒ Why did you go to market? 
+        <br /> 
+        <br />
+        **Rule-5:** <br />
+        বাক্যের মধ্যে যদি am/is/are/was/were এর পরে very অথবা Adjective থাকে তবে
+        এদের পরে থেকে শেষ পর্যন্ত উঠিয়ে বাক্যের শুরুতে How বসে এবং বাক্যের
+        be-verb টি how এর পরে বসাতে হবে। <br />
+        যেমনঃ <br />
+        Q. He is a very good natured man. <br />
+        ⇒ How is he?
+        <br />
+        <br />
         **Rule-6:** <br />
+        বাক্যের মধ্যে যদি am/is/are/was/were এর পরে যদি "পেশাগত" শব্দ থাকে তবে
+        এদের পরে থেকে শেষ পর্যন্ত উঠিয়ে বাক্যের শুরুতে How বসে এবং বাক্যের
+        be-verb টি how এর পরে বসাতে হবে। <br /> যেমনঃ <br />
+        Q. He is a teacher. <br />
+        ⇒ What is he?
+        <br />
+        <br />
+        **Rule-7:** <br />
+        বাক্যের মধ্যে মূল verb ঠিক পরে যদি ব্যাক্তিবাচক Object থাকে তবে Whom
+        দ্বারা এবং যদি বস্তুবাচক Object থাকে তবে What দ্বারা প্রশ্ন করা যায়/হয়। <br />
+        যেমনঃ <br />
+        Q. I saw Rahim playing. <br />
+        ⇒ Whom did you see playing? <br /> <br />
+        Q. I bought some paper. <br />
+        ⇒ What did you buy? <br /> <br />
+        <br />
+        **Rule-8:** <br />
+        প্রত্যেক বাক্যের Subject যদি ব্যাক্তিবাচক হয় সে Subject এর স্থলে Who
+        এবং যদি বস্তুবাচক হয় তবে সে Subject এর স্থলে What/which ব্যবহার হবে।
+        <br />
+        যেমনঃ <br />
+        (i) Nazrul is the shelly of Bangladesh. <br />
+        ⇒ Who is the Shelley of Bangladesh? <br />
+        (ii) The cow gives us milk. <br />
+        ⇒ What gives you milk? <br />
+        বাক্যের Subject এর স্থলে Who/what/which বসালে বাক্যের অন্য কিছু পরিবর্তন
+        হয় না 
+        <br />
+        <br />
+        **Rule-9:** <br />
         বাক্যের Subject যদি Everyone, Everybody এবং all হয় তবে এগুলোর পরিবর্তে
-        who does not/Who did not বসে। বাক্যের মুল Verb এর সঙ্গে S/es থাকলে উঠে যায়। আর
+        who does not/Who did not বসে। বাক্যের মুল Verb এর সঙ্গে S/es থাকলে উঠে
+        যায়। আর
         <br />
         যেমনঃ <br />
         Q. Everybody wishes to be happy. <br />
@@ -84,24 +115,27 @@ function Wh() {
         <br />
         <br />
         ### বাক্যের subject যদি Nobody, no one, none হয় তবে এদের স্থলে
-        শুধুমাত্র who বসে। Q. Nobody could count my love for you. <br />
-        ⇒ Who could count my love for you? <br /> <br />
-        **Rule-7:** <br />
+        শুধুমাত্র who বসে। <br />
+        Q. Nobody could count my love for you. <br />
+        ⇒ Who could count my love for you?
+        <br />
+        <br />
+        **Rule-10:** <br />
         বাক্যের মধ্যে Possessive case (যেমনঃ Rahim’s, my, our, their, her, his)
         থাকলে Whose ব্যবহার করে প্রশ্ন করা হয়। <br />
         যেমনঃ <br />
         Q. Rahim’s house is close to mine. <br />
         ⇒ Whose house is close to mine? <br />
         N.B. বাক্যের Subject-কে প্রশ্ন করলে এখানে helping verb নিয়ে ভাবতে হয় না।
-        <br /> 
         <br />
-        **Rule-8:** <br />
+        <br />
+        **Rule-11:** <br />
         বাক্যের শুরুতে যদি those, that, these, this থাকে তবে এদের পরিবর্তে which
         ব্যবহার করা হয়। <br />
         যেমনঃ <br />
         Q. These books are very interesting. <br />
         ⇒ Which books are very interesting? <br /> <br />
-        **Rule-9:** <br />
+        **Rule-12:** <br />
         বাক্যের শুরুতে যদি There (introductory ) থাকে তবে এর পরিবর্তে where
         ব্যবহার হবে এবং বাক্যের শেষে in/ on/ at/ over থেকে শেষ পর্যন্ত উঠে যাবে।
         <br />
@@ -110,39 +144,13 @@ function Wh() {
         ⇒ Where is a pen?
         <br />
         <br />
-        **Rule-10:** <br />
+        **Rule-13:** <br />
         বাক্যের মধ্যে যদি নির্দিস্ট সময় থাকে তবে Wh হয় What is the time?/ what
         time is it? . <br />
         যেমনঃ <br />
         Q. It is 10.30 pm now. <br />
         ⇒ What time is it now?
         <br />
-        <br />
-        **Rule-11:** <br />
-        বাক্যের মধ্যে যদি am/is/are/was/were এর পরে very অথবা Adjective থাকে তবে
-        এদের পরে থেকে শেষ পর্যন্ত উঠিয়ে বাক্যের শুরুতে How বসে এবং বাক্যের
-        be-verb টি how এর পরে বসাতে হবে। <br />
-        যেমনঃ <br />
-        Q. He is a very good natured man. <br />
-        ⇒ How is he?
-        <br /> 
-        <br />
-        **Rule-12:** <br />
-        বাক্যের মধ্যে যদি am/is/are/was/were এর পরে যদি "পেশাগত" শব্দ থাকে তবে
-        এদের পরে থেকে শেষ পর্যন্ত উঠিয়ে বাক্যের শুরুতে How বসে এবং বাক্যের
-        be-verb টি how এর পরে বসাতে হবে। <br /> যেমনঃ <br />
-        Q. He is a teacher. <br />
-        ⇒ What is he?
-        <br />
-        <br />
-        **Rule-13:** <br />
-        বাক্যের মধ্যে মূল verb ঠিক পরে যদি ব্যাক্তিবাচক Object থাকে তবে Whom
-        দ্বারা এবং যদি বাক্য Object থাকে What দ্বারা প্রশ্ন করা হয়। <br />
-        যেমনঃ <br />
-        Q. I saw Rahim playing. <br />
-        ⇒ Whom did you see playing? <br /> <br />
-        Q. I bought some paper. <br />
-        ⇒ What did you buy? <br /> <br />
         <br />
       </div>
       <div className="">

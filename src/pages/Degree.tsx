@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Degree() {
   return (
     <div className="max-w-7xl h-full mx-auto ">
-      <h1 className="py-24 text-center w-full text-4xl font-bold ">Degree</h1>
+      <h1 className="py-24 text-center w-full text-4xl font-bold ">Degree/Honors</h1>
       <div className="mt- h-screen">
         <ul className=" flex items-center justify-center flex-wrap gap-3 px-2 md:px-20">
           <Link to={"/suggestion"}>
