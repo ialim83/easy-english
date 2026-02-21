@@ -2,7 +2,7 @@ import queryString from "query-string";
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Narration from "./hscItems/Narration";
-import Tense from "./allItems/Tense";
+import Tense from "./GrammarPages/Tense";
 import Paragraph from "./composition/Paragraph";
 import Application from "./composition/Application";
 import Essays from "./composition/Essays";
@@ -28,7 +28,7 @@ import Dialog from "./DegreeItems/Dialog";
 import Advertisement from "./DegreeItems/Advertisement";
 import Poster from "./DegreeItems/Poster";
 import Notice from "./DegreeItems/Notice";
-import PaOfSp from "./allItems/PartsOfSpeech";
+import PaOfSp from "./GrammarPages/PartsOfSpeech";
 
 // Define mockData with components
 const mockData = [
@@ -195,7 +195,7 @@ const SearchResults = () => {
   useEffect(() => {
     if (typeof searchTerm === "string") {
       const filteredResults = mockData.filter((item) =>
-        item.title.toLowerCase().includes(searchTerm.toLowerCase())
+        item.title.toLowerCase().includes(searchTerm.toLowerCase()),
       );
       setResults(filteredResults);
     } else {

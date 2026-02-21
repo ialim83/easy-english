@@ -41,6 +41,11 @@ function GrammarItem() {
               Parts Of Speech
             </li>
           </Link>
+          <Link to={"/DegreeOfAdj"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-green-400 font-bold dark:border dark:border-slate-400">
+              Degree Of Adjective
+            </li>
+          </Link>
           <Link to={"/tense"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-green-400 font-bold dark:border dark:border-slate-400">
               Tense

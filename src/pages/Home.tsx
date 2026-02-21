@@ -1,5 +1,5 @@
 import Banner from "../components/home/Banner";
-import GrammarItem from "../components/home/GrammarItem";
+import GrammarItem from "../components/grammar/GrammarItem";
 import useAuth from "../hooks/useAuth";
 import Welcome from "../components/Welcome";
 import Glob from "../components/home/Glob";
@@ -26,7 +26,6 @@ const Home = () => {
             <Composition />
             {/* <Accordian /> */}
           </div>
-          
         </div>
       ) : (
         <>

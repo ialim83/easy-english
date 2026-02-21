@@ -1,4 +1,4 @@
-import PluralForms from "../../components/PluralForms";
+import PluralForms from "../../components/grammar/PluralForms";
 
 const Number = () => {
   return (

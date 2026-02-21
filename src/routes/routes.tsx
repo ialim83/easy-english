@@ -30,10 +30,10 @@ import Poster from "../pages/DegreeItems/Poster";
 import Report from "../pages/DegreeItems/Report";
 import HSuggestion from "../pages/hscItems/HSuggestion";
 import Wh from "../pages/DegreeItems/Wh";
-import Tense from "../pages/allItems/Tense";
+import Tense from "../pages/GrammarPages/Tense";
 import Narration from "../pages/hscItems/Narration";
-import StrongVerb from "../pages/allItems/StrongVerb";
-import Voice from "../pages/allItems/Voice";
+import StrongVerb from "../pages/GrammarPages/StrongVerb";
+import Voice from "../pages/GrammarPages/Voice";
 import SynAnt from "../pages/hscItems/SynAnt";
 import Paragraph from "../pages/composition/Paragraph";
 import Application from "../pages/composition/Application";
@@ -49,7 +49,7 @@ import Rearrange from "../pages/DegreeItems/Rearrange";
 import SearchResults from "../pages/SearchResults";
 import BoardQuestion from "../pages/hscItems/BoardQuestion";
 import DPartsOfSpeech from "../pages/DegreeItems/DPartsOfSpeech";
-import Sentence from "../pages/allItems/Sentence";
+import Sentence from "../pages/GrammarPages/Sentence";
 import SscQuestion from "../pages/sscItems/SscQuestion";
 import ModelTest from "../pages/hscItems/ModelTest";
 import CompetingStory from "../pages/hscItems/CompetingStory";
@@ -61,18 +61,19 @@ import OxfordWords from "../pages/allItems/OxfordWords";
 import Pronunciation from "../pages/allItems/Pronunciation";
 import StoryVocabulary from "../pages/allItems/StoryVocabulary";
 import Dictionary from "../pages/allItems/Dictionary";
-import Grammar from "../pages/allItems/Grammar";
-import PaOfSp from "../pages/allItems/PartsOfSpeech";
-import There from "../pages/allItems/There";
-import Number from "../pages/allItems/Number";
+import Grammar from "../pages/GrammarPages/Grammar";
+import PaOfSp from "../pages/GrammarPages/PartsOfSpeech";
+import There from "../pages/GrammarPages/There";
+import Number from "../pages/GrammarPages/Number";
 import UseOfIt from "../components/UseOfIt";
-import LetterAlphabets from "../pages/allItems/LetterAlphabets";
+import LetterAlphabets from "../pages/GrammarPages/LetterAlphabets";
 import QuestionOneTwo from "../pages/hscItems/QuestionOneTwo";
 import QuestionFour from "../pages/hscItems/QuestionFour";
 import QuestionThree from "../pages/hscItems/QuestionThree";
 import QuestionFive from "../pages/hscItems/QuestionFive";
 import QuestionSix from "../pages/hscItems/QuestionSix";
 import ThemeWriting from "../pages/hscItems/ThemeWriting";
+import DegreeOfAdj from "../pages/GrammarPages/DegreeOfAdj";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -95,6 +96,10 @@ export const router = createBrowserRouter([
       {
         path: "/modelTestFirstPaper",
         element: <FirstPaperModel />,
+      },
+      {
+        path: "/DegreeOfAdj",
+        element: <DegreeOfAdj />,
       },
       {
         path: "/hsc",

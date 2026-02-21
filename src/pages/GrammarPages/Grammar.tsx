@@ -1,4 +1,4 @@
-import GrammarItem from "../../components/home/GrammarItem";
+import GrammarItem from "../../components/grammar/GrammarItem";
 
 const Grammar = () => {
   return (
