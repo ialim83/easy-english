@@ -77,7 +77,7 @@ function Article() {
   };
 
   return (
-    <div className="h-full lg:w-1/2 mx-auto">
+    <div className="h-full w-full mx-auto">
       <div className="flex flex-col items-center py-10 px-5 md:px-10 overflow-hidden">
         <FlipBook
           width={isPortrait ? 400 : 500} // smaller width for portrait
@@ -609,185 +609,13 @@ function Article() {
       </div>
 
       {/* Scroll view */}
-      <div className="">
-        <div className="px-5 w-full flex items-center justify-center py-20">
-          <div className="relative w-[600px] h-[200px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
-            <span className="text-white">Article</span>
-            {/* <img src="/dialogTitle.png" alt="" /> */}
-            <div className="effect"></div>
-          </div>
-        </div>
-        <div className="h-full px-4">
-          <div className=" pb-10">
-            <p className="pb-5">
-              <strong>Definition of Article: </strong> An article in English
-              grammar is a word that precedes a noun to indicate whether the
-              noun is specific or general.
-              <br />
-              There are three articles in English: one definite article, "the,"
-              and two indefinite articles, "a" and "an."
-            </p>
+      <div className="h-full w-1/2 mx-auto">
 
-            <h3>
-              The <strong>এর ব্যবহার</strong>:
-            </h3>
-            <p className="pt-5">
-              <span className="animateText font-bold">Rule: 1. </span> <br />
-              শুন্যস্থানের একটি বা দুটি শব্দের পরে of থাকলে শুন্যস্থানে the বসে
-              । অথবা দুটি Noun যদি of দ্বার যুক্ত হয় তবে প্রথমটির আগে ...the...
-              বসে।
-              <br />
-              যেমনঃ <br />
-              Q. I like ____ rice of Dinajpur. <br />
-              👉I like <strong>the</strong> rice of Dinajpur.
-              <br />
-              <br />
-              ব্যতিক্রমঃ a lot of, a number of, a great deal of .
-            </p>
-
-            {/* 2 */}
-            <p className="pt-5">
-              <span className="animateText font-bold">Rule: 2. </span> <br />
-              একই শব্দ একাধিক বার ব্যবহার হলে পরের বার গুলোর আগের শুন্যস্থানে
-              The বসে। <br />
-              যেমনঃ <br />
-              Q. I have a pen. ____ pen is red. <br />
-              👉 I have a pen. <strong>the</strong> pen is red.
-            </p>
-            {/* 4 */}
-            <p className="pt-5">
-              <strong>4. </strong>
-              শব্দের শেষে <strong>s/es/est</strong> থাকলে বা শব্দটি বহু বচন হলে
-              শুন্যস্থানে The বসে। <br />
-              যেমনঃ <br />
-              Q. I bought ____ books. <br />
-              👉 I bought <strong>the </strong> books. Note: <br />
-              শব্দের শেষে <strong>s/es</strong> যুক্ত হলে বা শব্দটি বহু বচন হলে
-              তার পূর্বে ক্রসও (X) বসানো যায়।
-            </p>
-            {/* 5 */}
-            <p className="pt-5">
-              <strong>5. </strong> শুন্যস্থানের আগে Both, All, on/ Preposition
-              থাকলে শুন্যস্থানে The বসে। <br />
-              যেমনঃ <br />
-              I've read all ____ book. <br />
-              👉 I've read all <strong>the </strong>
-              book.
-              <br />
-              <br />
-              Note: Preposition এর পরে একটি বস্তু বুঝালে (the) । অদৃশ্য কিছু
-              বুঝালে (X) । বাকি ক্ষেত্রে (a/n) বসে। <br />
-              যেমনঃ <br />
-              Q. On __ day of examination, he looked very anxious. <br />
-              👉 On the day of examination, he looked very anxious.
-            </p>
-            {/* 6 */}
-            <p className="pt-5">
-              <strong>6. </strong>
-              শুন্যস্থানের পরে ক্রমিক নাম্বার/ সংখ্যা/ সংখ্যাবাচক শব্দ থাকলে,
-              ধর্মীয় জিনিসের নাম, নদীর নাম, সাগরের নাম,পর্বত শ্রেণী নাম,ঋতুর
-              নাম, তারিখ, চাঁদ, সূর্য, পৃথিবী, ঐতিহাসিক স্থান/ প্রতিষ্ঠান থাকলে
-              শুন্যস্থানে The বসে। <br />
-              যেমনঃ <br />
-              Q. _____ Padma is a big river. <br />
-              👉 <strong>The</strong> Padma is a big river.
-            </p>
-            {/* 7 */}
-            <p className="pt-5">
-              7. Subject/Object এর পরে Who, Which, Where, Whom থাকলে সেই
-              Subject/Object এর আগে The বসে। <br />
-              যেমনঃ <br />
-              Q. This is ___ place where I was born. <br />
-              👉 This is the place where I was born.
-            </p>
-            {/* Use of Cross */}
-            <h3 className="pt-5 font-bold">X (ক্রস) এর ব্যবহার:</h3>
-            <p className="pt-5">
-              <strong>1. </strong> Proper noun, uncountable noun এবং Verb এর আগে
-              X (ক্রস) বসে। <br />
-              যেমনঃ <br />
-              Q. I live in ...... Tilakpur. <br />
-              👉 I live in ...<strong>x</strong>
-              ...Tilakpur. <br />
-              ব্যতিক্রমঃ USA, UK, UNO, UNICEF, USSR- এগুলোর পূর্বে The বসে।
-            </p>
-            <p className="pt-5">
-              <span className="animateText font-bold">Rule: 2. </span>
-              শুন্যস্থানের পরে এবং পূর্বে Possessive case এবং Demonstrative
-              Pronoun থাকলে শুন্যস্থানে X (ক্রস) বসে। <br />
-              যেমনঃ <br />
-              Q. I wanted his ...... books. <br />
-              👉I wanted his ... <strong>x</strong>... books. <br />
-              Q. I wanted this ...... book. <br />
-              👉I wanted this ... <strong>x</strong>... books.
-              <br />
-              <br />
-              Note: <br />
-              Possessive case: My, his, her, our, their, your, its, Rohim's{" "}
-              <br />
-              Demonstrative Pronoun: This, these, that, those.
-            </p>
-            <p className="pt-5">
-              <strong>3. </strong> A / An / The + (Adjective) + ....... + Noun
-              এভাবে ব্যবহার হলে শুন্যস্থানে X (ক্রস) বসে।
-              <br />
-              যেমনঃ <br />
-              He is an honest ...... man. <br />
-              He is an honest ...<strong>x</strong>... man.
-            </p>
-
-            <h3 className="pt-5">
-              <strong>A/ An এর ব্যবহার:</strong>
-            </h3>
-            <p className="pt-5">
-              <strong>Rule-1.</strong> <br /> Consonant দ্বারা শুরু শব্দের
-              পূর্বের শুন্যস্থানে A বসে। Vowel (a, e, i, o, u) দ্বারা শুরু হলে
-              শুন্যস্থানে An বসে। যেমনঃ <br />
-              Q. I saw __ cow. <br />
-              👉 I saw <strong>a</strong> cow. <br />
-              Q. Take __ umbrella. <br />
-              👉 Take <strong>an</strong> umbrella.
-            </p>
-            <p className="pt-5">
-              <strong>2. কিন্তু</strong> Vowel (a, e, i, o, u) দ্বারা শুরু
-              শব্দের উচ্চারণ যদি ইউ (u) বা ওয়া এর মত হয় তবে সেই শব্দের আগের/
-              পূর্বের শুন্যস্থানে (An না বসে) A বসে। <br />
-              যেমনঃ <br />
-              Q. He reads in ____ university. <br />
-              👉 He reads in <strong> a </strong> university.
-            </p>
-
-            <p className="pt-5">
-              <strong>4. </strong>কিন্তু H দ্বারা শুরু শব্দে H এর উচ্চারণ যদি না
-              হয় বরং H এর পরে থাকা Vowel এর উচ্চারণ যদি হয় তবে সেই H দ্বারা শুরু
-              শব্দের আগে/পূর্বের শুন্যস্থানে (A না বসে) An বসে। <br />
-              যেমনঃ <br />
-              Q. He is _____ honest man. <br />
-              👉 He is <strong>an</strong> honest man.
-            </p>
-            <p className="pt-5">
-              <strong>5. </strong> Consonant দ্বারা শুরু সংক্ষিপ্ত শব্দের
-              উচ্চারণ যদি Vowel এর মত হয় তবে সেই শব্দের আগে/পূর্বের শুন্যস্থানে
-              An বসে।
-              <br />
-              যেমনঃ <br />
-              Q. He is ____ MBBS. <br />
-              👉 He is <strong>an</strong> MBBS. <br />
-              Q. He is _____ FRCP. <br />
-              👉 He is <strong>an</strong> FRCP. <br />
-              <br />
-              কিন্তু Vowel এর মত উচ্চারণ না হলে A বসে। <br />
-              যেমনঃ <br />
-              Q. He is ____ BA. <br />
-              👉 He is <strong>a</strong> BA.
-            </p>
-          </div>
-        </div>
 
         {/* Exercise */}
         <div className="py-10 px-5">
           <h3 className="">Practice</h3>
-          <br />
+          
           <br />
           1. Filling the blanks in the following text with articles (a/an/the)
           as necessary. Some of the blanks are not required an article. Put a

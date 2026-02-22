@@ -15,19 +15,19 @@ const Transformation = () => {
   const totalPages = 6;
 
   // Detect screen width and adjust book size
-  const [bookSize, setBookSize] = useState({ width: 500, height: 700 });
+  const [bookSize, setBookSize] = useState({ width: 900, height: 700 });
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
         // Mobile (sm breakpoint)
-        setBookSize({ width: window.innerWidth - 40, height: 500 });
+        setBookSize({ width: window.innerWidth - 40, height: 700 });
       } else if (window.innerWidth < 1024) {
         // Tablet
-        setBookSize({ width: 400, height: 600 });
+        setBookSize({ width: 400, height: 700 });
       } else {
         // Desktop
-        setBookSize({ width: 500, height: 700 });
+        setBookSize({ width: 900, height: 700 });
       }
     };
 
@@ -37,8 +37,8 @@ const Transformation = () => {
   }, []);
 
   return (
-    <div className="h-full">
-      <div className="flex flex-col items-center py-10 px-2 sm:px-5">
+    <div className="h-full w-full">
+      <div className="flex flex-col items-center py-10 px-2 sm:px-5 w-full">
         {/* FlipBook */}
         <FlipPage
           ref={flipRef}
@@ -52,7 +52,7 @@ const Transformation = () => {
           onPageChange={(e: any) => setCurrentPage(e)}
         >
           <article
-            className="flex items-center justify-center p-6"
+            className="flex flex-col items-center justify-center p-6"
             style={{
               backgroundImage: `url('/bookCover2.jpg')`,
               backgroundSize: "cover",
@@ -62,15 +62,270 @@ const Transformation = () => {
               height: "100%",
             }}
           >
-            <h1 className="text-2xl font-bold">📖 Transformation</h1>
+            <h1> 📖 </h1>
+            <h1 className="text-2xl font-bold">Transformation</h1>
+            <p className="m-5">Swipe to read</p>
           </article>
-          <article className="p-6">
-            <h2 className="text-xl font-bold">Rule 1</h2>
-            <p>Always, regularly, daily... → Present Indefinite</p>
+          <article className="p-3">
+            <h2 className="text-xl font-bold">Page 1</h2>
+            <div className="">
+            
+                <div className="w-full overflow-x-auto ">
+                  <h3 className="text-center md:text-start text-green-500">
+                    [A] Affirmative to Negative/ Negative to Affirmative
+                  </h3>
+                  <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
+                    <tr>
+                      <th>Affirmative (Aff.)</th>
+                      <th>Negative (Neg.)</th>
+                      <th>Example</th>
+                    </tr>
+                    <tr>
+                      <td>Only / Alone (ব্যক্তির ক্ষেত্রে)</td>
+                      <td>None but</td>
+                      <td>
+                        A: Only the brave deserve the fair.
+                        <br />
+                        N: None but the br/ave deserve the fair.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Only/Alone (বস্তুর ক্ষেত্রে)</td>
+                      <td>Nothing but</td>
+                      <td>
+                        A: Only the Moon was visible.
+                        <br />
+                        N: Nothing but the moon was visible.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Only/Alone (সংখ্যার ক্ষেত্রে)</td>
+                      <td>Not more than/Not less than</td>
+                      <td>
+                        A: He is only thirteen.
+                        <br />
+                        N: He is not more than thirteen.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Must/ have to/ has to</td>
+                      <td>Cannot but + V1</td>
+                      <td>
+                        A: Man must submit to destiny.
+                        <br />
+                        N: Man cannot but submit to destiny.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Must/ have to/ has to</td>
+                      <td>Cannot + (V1+ing)</td>
+                      <td>
+                        A: He must go there.
+                        <br />
+                        N: I can not help going there.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Could/should</td>
+                      <td>Could not help + (V1+ing)</td>
+                      <td>
+                        A: I had to go there.
+                        <br />
+                        N: I could not help going there.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Both.....and/ And</td>
+                      <td>Not only.....but also</td>
+                      <td>
+                        A: Both Jony and Jihad can do the work.
+                        <br />
+                        N: Not only Jony but also Jihad can do the work.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Every</td>
+                      <td>There is no......but</td>
+                      <td>
+                        A: There is no mother but loves her child.
+                        <br />
+                        N: There is no mother but loves her child.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Every/All/A-</td>
+                      <td>No/Nobody/No one...+ Opposite Verb</td>
+                      <td>
+                        A: All love flowers.
+                        <br />
+                        N: Nobody hates flowers.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Every/ All</td>
+                      <td>No......... + Opposite Adj.</td>
+                      <td>
+                        A: All men are mortal.
+                        <br />
+                        N: No man is immortal.
+                      </td>
+                    </tr>
+                    
+                  </table>
+                  {/* antonyms */}
+                  <div className="">
+                    <h3 className="">কিছু বিপরীতার্থক শব্দের নমুনা:</h3>
+
+                    <div className="flex gap-10">
+                      <p className="">
+                        good- bad <br />
+                        friend - foe <br />
+                        moral - immoral <br />
+                        mortal - Immortal <br />
+                        regular - Irregular <br />
+                        active - Inactive <br />
+                        always - never <br />
+                        honour - dishonour. <br />
+                        present - absent <br />
+                        healthy - unhealthy <br />
+                        rich - poor <br />
+                        love - hate <br />
+                        wise - unwise <br />
+                        remember - forget <br />
+                        pleasant - unpleasant <br />
+                        grateful - ungrateful <br />
+                        dishonest - dishonest <br />
+                        agreed- disagreed <br />
+                      </p>
+                      <p className="">
+                        honesty - dishonesty <br />
+                        sincere - Insincere <br />
+                        doubtful - undoubtful <br />
+                        wise - unwise/foolish <br />
+                        pleased - displeased <br />
+                        happy - unhappy <br />
+                        possible - impossible <br />
+                        litetate - Biterate <br />
+                        hard - easy <br />
+                        punctual-late <br />
+                        ordinary-extraordinary <br />
+                        responsible- Irresponsible <br />
+                        willing - unwilling <br />
+                        obey - disobey <br />
+                        obedient - disobedient <br />
+                        solvent - insolvent <br />
+                        real - unreal <br />
+                        right - wrong <br />
+                      </p>
+                    </div>
+                  </div>
+                  <div className="pt-5">
+                    <p className="">
+                      Exercise <br />
+                      Transform the following sentences into Negative sentences
+                      : <br />
+                      (i) The baby alone was alive after the disaster. (ii) Only
+                      the sail of the ship was visible. (iii) Only mango-juice
+                      is sufficient for our health. (iv) She ate only two
+                      bananas. (v) Mr. Shafiq will always obey the rules and
+                      regulation of the institution. (vi) Man must submit to
+                      destiny. (vii) As soon as I reached home, she rang me. was
+                      too busy to gossip with us. (ix) I have read a few pages
+                      of the book. (viii) Bashir (x) He is as meritorious as his
+                      brother. (xi) You must help the poor man. (xii) Every
+                      patriot loves his country. (xiii) Everybody wants a good
+                      friend. (xiv) You are as clever as fox. (xv) He goes to
+                      school everyday.
+                    </p>
+                  </div>
+                </div>
+                </div>
           </article>
-          <article className="p-6">
-            <h2 className="text-xl font-bold">Rule 2</h2>
-            <p>Now, at this moment... → Present Continuous</p>
+          {/* page 2 */}
+          <article className="p-3">
+            <h2 className="text-xl font-bold">Page 1</h2>
+            <div className="">
+              <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
+                    <tr>
+                      <th>Affirmative (Aff.)</th>
+                      <th>Negative (Neg.)</th>
+                      <th>Example</th>
+                    </tr>
+                    
+                    <tr>
+                      <td>Every/ All</td>
+                      <td>Opposite Adj.</td>
+                      <td>
+                        A: All Bangladeshis are hospitable.
+                        <br />
+                        N: No Bangladeshis is inhospitable.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Always</td>
+                      <td>Never + Opposite word</td>
+                      <td>
+                        A: They always remember us.
+                        <br />
+                        N: They never forget us.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>চিরসত্য</td>
+                      <td>Not + Opposite Word</td>
+                      <td>
+                        A: Man is mortal.
+                        <br />
+                        N: Man is not immortal.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>As soon as</td>
+                      <td>No sooner had.... than</td>
+                      <td>
+                        A: As soon as the thief saw the police, he ran away.
+                        <br />
+                        N: No sooner had the police than he ran away.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Superlative</td>
+                      <td>Positive</td>
+                      <td>
+                        A: He is the best boy in the class.
+                        <br />
+                        N: He is the boy who is not active.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>too....to</td>
+                      <td>So....that</td>
+                      <td>
+                        A: He is too weak to walk.
+                        <br />
+                        N: He is so weak that he cannot walk.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>as + Adj-1 + as </td>
+                      <td>Not less + Adjective-1 + than</td>
+                      <td>
+                        A: Ice is as white as snow.
+                        <br />
+                        N: Ice is not less white than snow.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Very much </td>
+                      <td>Neg + at all</td>
+
+                      <td>
+                        A: He likes me very much. <br />
+                        N: He doesn't dislike me at all.
+                      </td>
+                    </tr>
+                  </table>
+            </div>
           </article>
           <article className="p-6">
             <h2 className="text-xl font-bold">Rule 3</h2>
@@ -163,6 +418,7 @@ const Transformation = () => {
         </div>
       </div>
 
+          {/* Scroll view */}
       <div className="h-full md:w-[75%] mx-auto px-3">
         <div className="my-20">
           <h1 className="text-center text-green-500">Transformation</h1>
@@ -437,6 +693,7 @@ const Transformation = () => {
                 </div>
               </AccordionContent>
             </AccordionPanel>
+
             {/* Assertive থেকে Interrogative */}
             <AccordionPanel>
               <AccordionTitle>Assertive - Interrogative</AccordionTitle>
@@ -507,6 +764,7 @@ const Transformation = () => {
                 </div>
               </AccordionContent>
             </AccordionPanel>
+
             {/* Assertive থেকে Exclamatory -তে রূপান্তর- */}
             <AccordionPanel>
               <AccordionTitle>
@@ -605,6 +863,7 @@ const Transformation = () => {
                 </div>
               </AccordionContent>
             </AccordionPanel>
+
             {/* Assertive থেকে Imperative */}
             <AccordionPanel>
               <AccordionTitle>Assertive - Imperative</AccordionTitle>
@@ -703,7 +962,7 @@ const Transformation = () => {
 
             {/* Complex to Compound & Compound to complex: */}
             <AccordionPanel>
-              <h2 className="">SIMPLE, COMPOUND, COMPLEX, VISE-VERSA </h2>
+              
               <AccordionTitle>
                 Complex to Compound & Compound to complex:
               </AccordionTitle>

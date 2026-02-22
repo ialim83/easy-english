@@ -251,29 +251,109 @@ const DegreeOfAdj: React.FC = () => {
   ];
 
   const ruleSevenData1 = [
-  { positive: "bad, evil, ill", meaning: "খারাপ, মন্দ, দুষ্ট", comparative: "worse", superlative: "worst" },
-  { positive: "good, well", meaning: "ভাল", comparative: "better", superlative: "best" },
-  { positive: "little", meaning: "কম, ছোট", comparative: "less", superlative: "least" },
-  { positive: "much, many", meaning: "অনেক", comparative: "more", superlative: "most" },
-  { positive: "fore", meaning: "অগ্রবর্তী", comparative: "former", superlative: "foremost, first" },
-  { positive: "hind", meaning: "পশ্চাৎস্থিত", comparative: "hinder", superlative: "hindermost" },
-];
+    {
+      positive: "bad, evil, ill",
+      meaning: "খারাপ, মন্দ, দুষ্ট",
+      comparative: "worse",
+      superlative: "worst",
+    },
+    {
+      positive: "good, well",
+      meaning: "ভাল",
+      comparative: "better",
+      superlative: "best",
+    },
+    {
+      positive: "little",
+      meaning: "কম, ছোট",
+      comparative: "less",
+      superlative: "least",
+    },
+    {
+      positive: "much, many",
+      meaning: "অনেক",
+      comparative: "more",
+      superlative: "most",
+    },
+    {
+      positive: "fore",
+      meaning: "অগ্রবর্তী",
+      comparative: "former",
+      superlative: "foremost, first",
+    },
+    {
+      positive: "hind",
+      meaning: "পশ্চাৎস্থিত",
+      comparative: "hinder",
+      superlative: "hindermost",
+    },
+  ];
 
-const ruleSevenData2 = [
-  { positive: "late", meaning: "দেরি, বিলম্বিত", comparative: "later, latter", superlative: "latest, last" },
-  { positive: "old", meaning: "বয়স্ক, পুরানো", comparative: "elder, older", superlative: "eldest, oldest" },
-  { positive: "near", meaning: "নিকটবর্তী", comparative: "nearer", superlative: "nearest, next" },
-  { positive: "far", meaning: "দূরবর্তী", comparative: "farther", superlative: "farthest" },
-  { positive: "nigh", meaning: "নিকট", comparative: "nigher", superlative: "nighest, next" },
-];
+  const ruleSevenData2 = [
+    {
+      positive: "late",
+      meaning: "দেরি, বিলম্বিত",
+      comparative: "later, latter",
+      superlative: "latest, last",
+    },
+    {
+      positive: "old",
+      meaning: "বয়স্ক, পুরানো",
+      comparative: "elder, older",
+      superlative: "eldest, oldest",
+    },
+    {
+      positive: "near",
+      meaning: "নিকটবর্তী",
+      comparative: "nearer",
+      superlative: "nearest, next",
+    },
+    {
+      positive: "far",
+      meaning: "দূরবর্তী",
+      comparative: "farther",
+      superlative: "farthest",
+    },
+    {
+      positive: "nigh",
+      meaning: "নিকট",
+      comparative: "nigher",
+      superlative: "nighest, next",
+    },
+  ];
 
-const adverbTable = [
-  { positive: "fore", meaning: "সম্মুখে, আগে", comparative: "further", superlative: "furthest (গতিসূচক)" },
-  { positive: "far", meaning: "দূরবর্তী", comparative: "farther", superlative: "farthest" },
-  { positive: "in", meaning: "ভিতরে", comparative: "inner", superlative: "inmost, innermost" },
-  { positive: "out", meaning: "বাইরে", comparative: "outer", superlative: "outmost, outermost" },
-  { positive: "up", meaning: "উপরে", comparative: "upper", superlative: "uppermost" },
-];
+  const adverbTable = [
+    {
+      positive: "fore",
+      meaning: "সম্মুখে, আগে",
+      comparative: "further",
+      superlative: "furthest (গতিসূচক)",
+    },
+    {
+      positive: "far",
+      meaning: "দূরবর্তী",
+      comparative: "farther",
+      superlative: "farthest",
+    },
+    {
+      positive: "in",
+      meaning: "ভিতরে",
+      comparative: "inner",
+      superlative: "inmost, innermost",
+    },
+    {
+      positive: "out",
+      meaning: "বাইরে",
+      comparative: "outer",
+      superlative: "outmost, outermost",
+    },
+    {
+      positive: "up",
+      meaning: "উপরে",
+      comparative: "upper",
+      superlative: "uppermost",
+    },
+  ];
 
   return (
     <div className="">
@@ -284,7 +364,7 @@ const adverbTable = [
       </div>
 
       <div className="min-h-screen bg-gray-100 flex justify-center items-start py-10">
-        <div className="bg-white shadow-lg rounded-lg p-8 max-w-3xl w-full text-gray-800 leading-relaxed">
+        <div className="bg-white shadow-lg rounded-lg p-4 lg:p-8 max-w-3xl w-full text-gray-800 leading-relaxed">
           {/* <h2 className="text-center text-lg font-semibold tracking-widest">
           CHAPTER ▲ 13
         </h2> */}
@@ -636,7 +716,7 @@ const adverbTable = [
 
           <div className="">
             {/* Exercise 1 */}
-            <div className="border border-gray-400 p-3 mb-6">
+            <div className="border border-gray-400 mt-5 p-3 mb-6">
               <h3 className="font-semibold">EXERCISE</h3>
               <p>Correct the spelling (বানান সঠিক কর):</p>
 
@@ -763,137 +843,140 @@ const adverbTable = [
           </div>
 
           <div className="">
-             {/* Exercise */}
-        <div className="border border-gray-400 p-4 mb-6">
-          <h3 className="font-semibold">EXERCISE</h3>
-          <p>Correct the spelling (বানান ঠিক কর):</p>
+            {/* Exercise */}
+            <div className="border border-gray-400 p-4 mb-6">
+              <h3 className="font-semibold">EXERCISE</h3>
+              <p>Correct the spelling (বানান ঠিক কর):</p>
 
-          <div className="grid grid-cols-3 gap-4 mt-3">
-            <div>
-              <p className="font-semibold">Positive</p>
-              <p>happy</p>
-              <p>easy</p>
-              <p>sly</p>
-              <p>ugly</p>
+              <div className="grid grid-cols-3 gap-4 mt-3">
+                <div>
+                  <p className="font-semibold">Positive</p>
+                  <p>happy</p>
+                  <p>easy</p>
+                  <p>sly</p>
+                  <p>ugly</p>
+                </div>
+                <div>
+                  <p className="font-semibold">Comparative</p>
+                  <p>happyer</p>
+                  <p>easyier</p>
+                  <p>slyer</p>
+                  <p>uglyer</p>
+                </div>
+                <div>
+                  <p className="font-semibold">Superlative</p>
+                  <p>happyest</p>
+                  <p>easyiest</p>
+                  <p>slyest</p>
+                  <p>uglyest</p>
+                </div>
+              </div>
+
+              <p className="mt-3">Ans. RULE—6 দেখ।</p>
             </div>
-            <div>
-              <p className="font-semibold">Comparative</p>
-              <p>happyer</p>
-              <p>easyier</p>
-              <p>slyer</p>
-              <p>uglyer</p>
+
+            <p>
+              কিন্তু y এর আগে যদি consonant না থেকে vowel (a, e, i, o, u) থাকে
+              তাহলে y অপরিবর্তিত থাকে। যেমনঃ
+            </p>
+            <p className="my-2 font-mono">
+              gay (রঙ্গিন, প্রফুল্ল)—gayer—gayest
+            </p>
+
+            <h3 className="font-semibold mt-6 mb-2">RULE—7.</h3>
+            <p>
+              কতকগুলো adjective-এর comparative ও superlative অনিয়মিতভাবে গঠিত
+              হয়। যেমনঃ
+            </p>
+
+            {/* Table 1 */}
+            <div className="overflow-x-auto my-4">
+              <table className="w-full border border-gray-400">
+                <thead>
+                  <tr className="bg-gray-200">
+                    <th className="border px-2 py-1">Positive</th>
+                    <th className="border px-2 py-1">Meaning</th>
+                    <th className="border px-2 py-1">Comparative</th>
+                    <th className="border px-2 py-1">Superlative</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {ruleSevenData1.map((item, index) => (
+                    <tr key={index}>
+                      <td className="border px-2 py-1">{item.positive}</td>
+                      <td className="border px-2 py-1">{item.meaning}</td>
+                      <td className="border px-2 py-1">{item.comparative}</td>
+                      <td className="border px-2 py-1">{item.superlative}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-            <div>
-              <p className="font-semibold">Superlative</p>
-              <p>happyest</p>
-              <p>easyiest</p>
-              <p>slyest</p>
-              <p>uglyest</p>
+
+            {/* Table 2 */}
+            <div className="overflow-x-auto my-4">
+              <table className="w-full border border-gray-400">
+                <thead>
+                  <tr className="bg-gray-200">
+                    <th className="border px-2 py-1">Positive</th>
+                    <th className="border px-2 py-1">Meaning</th>
+                    <th className="border px-2 py-1">Comparative</th>
+                    <th className="border px-2 py-1">Superlative</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {ruleSevenData2.map((item, index) => (
+                    <tr key={index}>
+                      <td className="border px-2 py-1">{item.positive}</td>
+                      <td className="border px-2 py-1">{item.meaning}</td>
+                      <td className="border px-2 py-1">{item.comparative}</td>
+                      <td className="border px-2 py-1">{item.superlative}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-          </div>
 
-          <p className="mt-3">Ans. RULE—6 দেখ।</p>
-        </div>
+            <p>
+              নিচের adjective গুলো কখনও comparative ও superlative-এ ব্যবহৃত হয়।
+              positive-এ এগুলো adverb রূপে ব্যবহৃত হয়।
+            </p>
 
-        <p>
-          কিন্তু y এর আগে যদি consonant না থেকে vowel (a, e, i, o, u) থাকে
-          তাহলে y অপরিবর্তিত থাকে। যেমনঃ
-        </p>
-        <p className="my-2 font-mono">gay (রঙ্গিন, প্রফুল্ল)—gayer—gayest</p>
+            {/* Adverb Table */}
+            <div className="overflow-x-auto my-4">
+              <table className="w-full border border-gray-400">
+                <thead>
+                  <tr className="bg-gray-200">
+                    <th className="border px-2 py-1">Positive-Adv.</th>
+                    <th className="border px-2 py-1">Meaning</th>
+                    <th className="border px-2 py-1">Com-Adj</th>
+                    <th className="border px-2 py-1">Super-Adj.</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {adverbTable.map((item, index) => (
+                    <tr key={index}>
+                      <td className="border px-2 py-1">{item.positive}</td>
+                      <td className="border px-2 py-1">{item.meaning}</td>
+                      <td className="border px-2 py-1">{item.comparative}</td>
+                      <td className="border px-2 py-1">{item.superlative}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
 
-        <h3 className="font-semibold mt-6 mb-2">RULE—7.</h3>
-        <p>
-          কতকগুলো adjective-এর comparative ও superlative অনিয়মিতভাবে গঠিত হয়।
-          যেমনঃ
-        </p>
+            <p className="mt-4">
+              NOTE. I will go <strong>later</strong> (পরে)। <br />
+              Rahim and Karim came. Rahim stayed but the <strong>
+                latter
+              </strong>{" "}
+              (পরবর্তজন) went away.
+            </p>
 
-        {/* Table 1 */}
-        <div className="overflow-x-auto my-4">
-          <table className="w-full border border-gray-400">
-            <thead>
-              <tr className="bg-gray-200">
-                <th className="border px-2 py-1">Positive</th>
-                <th className="border px-2 py-1">Meaning</th>
-                <th className="border px-2 py-1">Comparative</th>
-                <th className="border px-2 py-1">Superlative</th>
-              </tr>
-            </thead>
-            <tbody>
-              {ruleSevenData1.map((item, index) => (
-                <tr key={index}>
-                  <td className="border px-2 py-1">{item.positive}</td>
-                  <td className="border px-2 py-1">{item.meaning}</td>
-                  <td className="border px-2 py-1">{item.comparative}</td>
-                  <td className="border px-2 py-1">{item.superlative}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+            <p className="mt-2 underline">NOTE, Older, elder, oldest, eldest</p>
 
-        {/* Table 2 */}
-        <div className="overflow-x-auto my-4">
-          <table className="w-full border border-gray-400">
-            <thead>
-              <tr className="bg-gray-200">
-                <th className="border px-2 py-1">Positive</th>
-                <th className="border px-2 py-1">Meaning</th>
-                <th className="border px-2 py-1">Comparative</th>
-                <th className="border px-2 py-1">Superlative</th>
-              </tr>
-            </thead>
-            <tbody>
-              {ruleSevenData2.map((item, index) => (
-                <tr key={index}>
-                  <td className="border px-2 py-1">{item.positive}</td>
-                  <td className="border px-2 py-1">{item.meaning}</td>
-                  <td className="border px-2 py-1">{item.comparative}</td>
-                  <td className="border px-2 py-1">{item.superlative}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        <p>
-          নিচের adjective গুলো কখনও comparative ও superlative-এ ব্যবহৃত হয়।
-          positive-এ এগুলো adverb রূপে ব্যবহৃত হয়।
-        </p>
-
-        {/* Adverb Table */}
-        <div className="overflow-x-auto my-4">
-          <table className="w-full border border-gray-400">
-            <thead>
-              <tr className="bg-gray-200">
-                <th className="border px-2 py-1">Positive-Adv.</th>
-                <th className="border px-2 py-1">Meaning</th>
-                <th className="border px-2 py-1">Com-Adj</th>
-                <th className="border px-2 py-1">Super-Adj.</th>
-              </tr>
-            </thead>
-            <tbody>
-              {adverbTable.map((item, index) => (
-                <tr key={index}>
-                  <td className="border px-2 py-1">{item.positive}</td>
-                  <td className="border px-2 py-1">{item.meaning}</td>
-                  <td className="border px-2 py-1">{item.comparative}</td>
-                  <td className="border px-2 py-1">{item.superlative}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-
-        <p className="mt-4">
-          NOTE. I will go <strong>later</strong> (পরে)। <br />
-          Rahim and Karim came. Rahim stayed but the <strong>latter</strong> (পরবর্তজন) went away.
-        </p>
-
-        <p className="mt-2 underline">
-          NOTE, Older, elder, oldest, eldest
-        </p>
-
-        <p className="mt-6 text-xs">APTEL—11</p>
+            <p className="mt-6 text-xs">APTEL—11</p>
           </div>
         </div>
       </div>
