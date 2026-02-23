@@ -136,7 +136,7 @@ function Article() {
           </div>
 
           {/* page 2 */}
-          <div className="p-3 text-black md:p-5 bg-[#EFE5D6] book-shadow">
+          <div className="">
             <h2 className="text-base lg:text-xl font-bold mb-1">Page 2</h2>
             <div className="w-full flex flex-col items-center">
               <div className="">
@@ -159,7 +159,7 @@ function Article() {
                       {contents.slice(0, 10).map((item, index) => {
                         // Take the first page from the range "7-8" → 7
                         const targetPage = parseInt(
-                          item.pages.split("-")[0].trim()
+                          item.pages.split("-")[0].trim(),
                         );
 
                         return (
@@ -280,18 +280,8 @@ function Article() {
               </button>
             </div>
             <div className="">
-              <h3 className="font-bold">Use of The </h3>
+              <h3 className="font-bold text-pink-600">Use of The </h3>
               <div className="">
-                {/* 4 */}
-                <p className="pt-1">
-                  <strong>Rule-4. </strong> <br />
-                  শুন্যস্থানের আগে Both, All, on/ Preposition থাকলে শুন্যস্থানে
-                  The বসে। <br />
-                  যেমনঃ <br />
-                  I've read all ____ book. <br />
-                  👉 I've read all <strong> the </strong>
-                  book.
-                </p>
                 {/* 5 */}
                 <p className="pt-1">
                   <strong>Rule-5. </strong> <br />
@@ -304,6 +294,9 @@ function Article() {
                   <span className="font-bold text-pink-600">Note: </span>{" "}
                   Preposition এর পরে একটি বস্তু বুঝালে (the), অদৃশ্য কিছু বুঝালে
                   (X), বাকি ক্ষেত্রে (a/n) বসে। যেমনঃ <br />
+                  যেমনঃ <br />
+                  Q. On __ day of examination, he looked very anxious.
+                  <br />= On the day of examination, he looked very anxious.
                 </p>
               </div>
             </div>
@@ -323,9 +316,6 @@ function Article() {
             <div className="">
               <h3 className="font-bold">Use of The </h3>
               <div className="">
-                যেমনঃ <br />
-                Q. On __ day of examination, he looked very anxious. <br />
-                👉 On the day of examination, he looked very anxious.
                 {/* 6 */}
                 <p className="pt-1 text-justify">
                   <strong>Rule-6. </strong> <br />
@@ -353,7 +343,7 @@ function Article() {
               </button>
             </div>
             <div className="">
-              <h3 className="font-bold">Use of Cross (X) </h3>
+              <h3 className="font-bold text-pink-700">Use of Cross (X) </h3>
               <div className="">
                 {/* 1 */}
                 <p className="">
@@ -371,13 +361,7 @@ function Article() {
                   <span className="animateText font-bold">Rule: 2. </span>{" "}
                   <br />
                   শুন্যস্থানের পরে এবং পূর্বে Possessive case এবং Demonstrative
-                  Pronoun থাকলে শুন্যস্থানে X (ক্রস) বসে। যেমনঃ <br />
-                  Q. I wanted his/this ...... books. <br />
-                  👉I wanted his ... <strong>x</strong>... books. <br />
-                  {/* Q. I wanted this ...... book. <br />
-                  👉I wanted this ... <strong>x</strong>... books. */}
-                  Note: <br />
-                  Possessive case: My, his, her, our, their, your, its, Rohim's
+                  Pronoun থাকলে শুন্যস্থানে X (ক্রস) বসে।
                 </p>
               </div>
             </div>
@@ -398,19 +382,20 @@ function Article() {
               <h3 className="font-bold">Use of Cross </h3>
               <div className="">
                 Note: <br />
+                Possessive case: My, his, her, our, their, your, its, Rohim's
+                Note: <br />
                 Possessive case: My, his, her, our, their, your, its, Rohim's/
-                apostrophe S যুক্ত কোন Noun থাকলে।
-                <br />
-                Demonstrative Pronoun: This, these, that, those.
+                apostrophe S যুক্ত কোন Noun থাকলে। <br />
+                Demonstrative Pronoun: This, these, that, those. <br />
+                যেমনঃ <br />
+                Q. I wanted his/this ...... books. <br />
+                👉I wanted his ... <strong>x</strong>... books. <br />
+                Q. I wanted this ...... book. <br />
+                👉I wanted this ... <strong>x</strong>... books.
                 <p className="pt-5">
                   <strong>Rule-3. </strong> <br />
                   A / An / The + (Adjective) + ....... + Noun এভাবে ব্যবহার হলে
-                  শুন্যস্থানে X (ক্রস) বসে।
-                  <br />
-                  যেমনঃ <br />
-                  He is an honest ...... man. <br />
-                  He is an honest ...<strong>x</strong>... man. <br />
-                  অথবা, Adjective এর কোন Noun না থাকলে Adjective পূর্বে X বসে।
+                  শুন্যস্থানে X (ক্রস) বসে। যেমনঃ <br />
                 </p>
               </div>
             </div>
@@ -427,8 +412,11 @@ function Article() {
                 ⬅ Back to index
               </button>
             </div>
-            <h2 className="">Use of A/An</h2>
             <div className="">
+              He is an honest ...... man. <br />
+              He is an honest ...<strong>x</strong>... man. <br />
+              অথবা, Adjective এর কোন Noun না থাকলে Adjective পূর্বে X বসে।
+              <h2 className="text-rose-700 mt-5">Use of A/An</h2>
               <p className="pt-">
                 <strong>Rule-1.</strong> <br /> Consonant দ্বারা শুরু শব্দের
                 পূর্বের শুন্যস্থানে A বসে। Vowel (a, e, i, o, u) দ্বারা শুরু হলে
@@ -438,14 +426,7 @@ function Article() {
                 Q. Take __ umbrella. <br />
                 👉 Take <strong>an</strong> umbrella.
               </p>
-              <p className="pt-1">
-                <strong>কিন্তু</strong> <br />
-                Vowel (a, e, i, o, u) দ্বারা শুরু শব্দের উচ্চারণ যদি ইউ (u) বা
-                ওয়া এর মত হয় তবে সেই শব্দের আগের/ পূর্বের শুন্যস্থানে (An না
-                বসে) A বসে। যেমনঃ <br />
-                Q. He reads in ____ university. <br />
-                👉 He reads in <strong> a </strong> university.
-              </p>
+              <strong>কিন্তু-</strong> <br />
             </div>
           </div>
 
@@ -462,23 +443,21 @@ function Article() {
             </div>
             <h2 className="">Use of A/An</h2>
             <div className="">
+              <p className="pt-1">
+                <strong>কিন্তু-</strong> <br />
+                Vowel (a, e, i, o, u) দ্বারা শুরু শব্দের উচ্চারণ যদি ইউ (u) বা
+                ওয়া এর মত হয় তবে সেই শব্দের আগের/ পূর্বের শুন্যস্থানে (An না
+                বসে) A বসে। যেমনঃ <br />
+                Q. He reads in ____ university. <br />
+                👉 He reads in <strong> a </strong> university.
+              </p>
               <p className="pt-">
                 <strong>Rule - 4. </strong> <br />
                 কিন্তু H দ্বারা শুরু শব্দে H এর উচ্চারণ যদি না হয় বরং H এর পরে
                 থাকা Vowel এর উচ্চারণ যদি হয় তবে সেই H দ্বারা শুরু শব্দের
-                আগে/পূর্বের শুন্যস্থানে (A না বসে) An বসে। <br />
-                যেমনঃ <br />
+                আগে/পূর্বের শুন্যস্থানে (A না বসে) An বসে। যেমনঃ <br />
                 Q. He is _____ honest man. <br />
                 👉 He is <strong>an</strong> honest man.
-              </p>
-              <p className="pt-2">
-                <strong>Rule-5. </strong> <br /> Consonant দ্বারা শুরু সংক্ষিপ্ত
-                শব্দের উচ্চারণ যদি Vowel এর মত হয় তবে সেই শব্দের আগে/পূর্বের
-                শুন্যস্থানে An বসে।
-                <br />
-                যেমনঃ <br />
-                Q. He is ____ MBBS. <br />
-                👉 He is <strong>an</strong> MBBS. <br />
               </p>
             </div>
           </div>
@@ -496,17 +475,26 @@ function Article() {
             </div>
             <h2 className="">Use of A/An</h2>
             <div className="">
-              Q. He is _____ FRCP. <br />
-              👉 He is <strong>an</strong> FRCP. <br />
-              <br />
-              কিন্তু Vowel এর মত উচ্চারণ না হলে A বসে। যেমনঃ <br />
-              Q. He is ____ BA. <br />
-              👉 He is <strong>a</strong> BA.
+              <p className="pt-2">
+                <strong>Rule-5. </strong> <br /> Consonant দ্বারা শুরু সংক্ষিপ্ত
+                শব্দের উচ্চারণ যদি Vowel এর মত হয় তবে সেই শব্দের আগে/পূর্বের
+                শুন্যস্থানে An বসে।
+                <br />
+                যেমনঃ <br />
+                Q. He is ____ MBBS. <br />
+                👉 He is <strong>an</strong> MBBS. <br />
+                Q. He is _____ FRCP. <br />
+                👉 He is <strong>an</strong> FRCP. <br />
+                কিন্তু -<br />
+                Vowel এর মত উচ্চারণ না হলে A বসে। যেমনঃ <br />
+                Q. He is ____ BA. <br />
+                👉 He is <strong>a</strong> BA.
+              </p>
             </div>
           </div>
 
           {/* Back Cover */}
-          <div className="bg-gradient-to-r from-indigo-600 to-purple-600  text-white text-xl font-bold">
+          <div className="p-3 bg-gradient-to-r from-indigo-600 to-purple-600  text-white text-xl font-bold">
             <div className="flex justify-start gap-10 md:gap-96 mb-1">
               <h2 className="text-base lg:text-xl font-bold ">Page </h2>
               <button
@@ -609,13 +597,238 @@ function Article() {
       </div>
 
       {/* Scroll view */}
-      <div className="h-full w-1/2 mx-auto">
+      <div className="h-full w-full mx-auto pt-10 px-4">
+        <h1 className="text-center py-5">Article</h1>
+        <div className="">
+          {/* page 3 the*/}
+          <div className="">
+            <div className="">
+              <div className="">
+                <p className="pb-2">
+                  <strong>Definition: </strong> <br /> An article in English
+                  grammar is a word that precedes a noun to indicate whether the
+                  noun is specific or general.
+                  <br />
+                  There are three articles in English: one definite article,
+                  "the," and two indefinite articles, "a" and "an."
+                </p>
 
+                <h2 className="text-pink-700 font-bold">Use of The:</h2>
+                <p className="">
+                  <span className=" font-bold">Rule: 1. </span>{" "}
+                  <br />
+                  শুন্যস্থানের একটি বা দুটি শব্দের পরে of/Wh থাকলে শুন্যস্থানে
+                  the বসে । অথবা দুটি Noun যদি of দ্বার যুক্ত হয় তবে প্রথমটির
+                  আগে ...the... বসে।
+                  <br />
+                  যেমনঃ <br />
+                  Q. I like ____ rice of Dinajpur. <br />
+                  👉I like <strong>the</strong> rice of Dinajpur.
+                  <br />
+                  ব্যতিক্রমঃ a lot of, a number of, a great deal of .
+                </p>
+              </div>
+            </div>
+          </div>
 
+          {/* page 4*/}
+          <div className="">
+           
+            <div className="py-3">
+              <div className="">
+                {/* 2 */}
+                <p className="">
+                  <span className=" font-bold">Rule-2. </span> <br />
+                  একই শব্দ একাধিক বার ব্যবহার হলে পরের বার গুলোর পূর্বে The বসে।{" "}
+                  <br />
+                  যেমনঃ <br />
+                  Q. I have a pen. ____ pen is red. <br />
+                  👉 I have a pen. <strong>the</strong> pen is red.
+                </p>
+                <p className="pt-4">
+                  <strong>Rule-3. </strong> <br />
+                  শব্দের শেষে <strong>s/es/est</strong> থাকলে বা শব্দটি বহু বচন
+                  হলে তার পূর্বে The বসে। <br />
+                  যেমনঃ <br />
+                  Q. I bought ____ books. <br />
+                  👉 I bought <strong>the</strong> books. <br />
+                  Note: <br />
+                  শব্দের শেষে <strong>s/es</strong> যুক্ত হলে বা শব্দটি বহু বচন
+                  হলে তার পূর্বে ক্রসও (X)/ The বসানো যায়।
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* page 5 Use of The*/}
+          <div className="">
+            
+            <div className="">
+              <div className="">
+                {/* 5 */}
+                <p className="py-3">
+                  <strong>Rule-4. </strong> <br />
+                  শুন্যস্থানের আগে Both, All, on/ Preposition থাকলে শুন্যস্থানে
+                  The বসে। যেমনঃ <br />
+                  I've read all ____ book. <br />
+                  👉 I've read all <strong>the </strong>
+                  book.
+                  <br />
+                  <span className="font-bold text-pink-600">Note: </span>{" "}
+                  Preposition এর পরে একটি বস্তু বুঝালে (the), অদৃশ্য কিছু বুঝালে
+                  (X), বাকি ক্ষেত্রে (a/n) বসে। যেমনঃ <br />
+                  যেমনঃ <br />
+                  Q. On __ day of examination, he looked very anxious.
+                  <br />= On the day of examination, he looked very anxious.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* page 6 Use of The*/}
+          <div className="">
+            
+            <div className="">
+              <div className="">
+                {/* 6 */}
+                <p className="pt-1 text-justify">
+                  <strong>Rule-5. </strong> <br />
+                  শুন্যস্থানের পরে ক্রমিক নাম্বার/ সংখ্যা/ সংখ্যাবাচক শব্দ
+                  থাকলে, ধর্মীয় জিনিসের নাম, নদীর নাম, সাগরের নাম,পর্বত শ্রেণী
+                  নাম,ঋতুর নাম, তারিখ, চাঁদ, সূর্য, পৃথিবী, ঐতিহাসিক স্থান/
+                  প্রতিষ্ঠান থাকলে শুন্যস্থানে The বসে। <br />
+                  যেমনঃ <br />
+                  Q. _____ Padma is a big river. <br />
+                  👉 <strong>The</strong> Padma is a big river.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* page 7 Use of Cross (X)*/}
+          <div className="">
+            
+            <div className="pt-5">
+              <h3 className="font-bold text-pink-700">Use of Cross (X) </h3>
+              <div className="">
+                {/* 1 */}
+                <p className="">
+                  <strong>Rule-1. </strong> <br />
+                  Proper noun, uncountable noun এবং Verb এর আগে X (ক্রস) বসে।{" "}
+                  <br />
+                  যেমনঃ <br />
+                  Q. I live in ...... Tilakpur. <br />
+                  👉 I live in ...<strong>x</strong>
+                  ...Tilakpur. <br />
+                  ব্যতিক্রমঃ USA, UK, UNO, UNICEF, USSR- এগুলোর পূর্বে The বসে।
+                </p>
+                {/* 2 */}
+                <p className="pt-1">
+                  <span className="animateText font-bold">Rule: 2. </span>{" "}
+                  <br />
+                  শুন্যস্থানের পরে এবং পূর্বে Possessive case এবং Demonstrative
+                  Pronoun থাকলে শুন্যস্থানে X (ক্রস) বসে।
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* page 8 Use of Cross*/}
+          <div className="">
+            
+            <div className="">
+              <div className="">
+                Note: <br />
+                Possessive case: My, his, her, our, their, your, its, Rohim's
+                Note: <br />
+                Possessive case: My, his, her, our, their, your, its, Rohim's/
+                apostrophe S যুক্ত কোন Noun থাকলে। <br />
+                Demonstrative Pronoun: This, these, that, those. <br />
+                যেমনঃ <br />
+                Q. I wanted his/this ...... books. <br />
+                👉I wanted his ... <strong>x</strong>... books. <br />
+                Q. I wanted this ...... book. <br />
+                👉I wanted this ... <strong>x</strong>... books.
+                <p className="pt-5">
+                  <strong>Rule-3. </strong> <br />
+                  A / An / The + (Adjective) + ....... + Noun এভাবে ব্যবহার হলে
+                  শুন্যস্থানে X (ক্রস) বসে। যেমনঃ <br />
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* page 9 Use of A/An*/}
+          <div className="">
+            
+            <div className="">
+              He is an honest ...... man. <br />
+              He is an honest ...<strong>x</strong>... man. <br />
+              অথবা, Adjective এর কোন Noun না থাকলে Adjective পূর্বে X বসে।
+              <h2 className="text-rose-700 mt-5">Use of A/An</h2>
+              <p className="pt-">
+                <strong>Rule-1.</strong> <br /> Consonant দ্বারা শুরু শব্দের
+                পূর্বের শুন্যস্থানে A বসে। Vowel (a, e, i, o, u) দ্বারা শুরু হলে
+                শুন্যস্থানে An বসে। যেমনঃ <br />
+                Q. I saw __ cow. <br />
+                👉 I saw <strong>a</strong> cow. <br />
+                Q. Take __ umbrella. <br />
+                👉 Take <strong>an</strong> umbrella.
+              </p>
+              <strong>কিন্তু-</strong> <br />
+            </div>
+          </div>
+
+          {/* page 10 Use of A/An*/}
+          <div className="">
+            
+            <div className="">
+            <h2 className="">Use of A/An</h2>
+              <p className="pt-1">
+                <strong>কিন্তু-</strong> <br />
+                Vowel (a, e, i, o, u) দ্বারা শুরু শব্দের উচ্চারণ যদি ইউ (u) বা
+                ওয়া এর মত হয় তবে সেই শব্দের আগের/ পূর্বের শুন্যস্থানে (An না
+                বসে) A বসে। যেমনঃ <br />
+                Q. He reads in ____ university. <br />
+                👉 He reads in <strong> a </strong> university.
+              </p>
+              <p className="pt-">
+                <strong>Rule - 4. </strong> <br />
+                কিন্তু H দ্বারা শুরু শব্দে H এর উচ্চারণ যদি না হয় বরং H এর পরে
+                থাকা Vowel এর উচ্চারণ যদি হয় তবে সেই H দ্বারা শুরু শব্দের
+                আগে/পূর্বের শুন্যস্থানে (A না বসে) An বসে। যেমনঃ <br />
+                Q. He is _____ honest man. <br />
+                👉 He is <strong>an</strong> honest man.
+              </p>
+            </div>
+          </div>
+
+          {/* page 11 Use of Cross*/}
+          <div className="">
+            
+            
+            <div className="">
+              <p className="pt-2">
+                <strong>Rule-5. </strong> <br /> Consonant দ্বারা শুরু সংক্ষিপ্ত
+                শব্দের উচ্চারণ যদি Vowel এর মত হয় তবে সেই শব্দের আগে/পূর্বের
+                শুন্যস্থানে An বসে।
+                <br />
+                যেমনঃ <br />
+                Q. He is ____ MBBS. <br />
+                👉 He is <strong>an</strong> MBBS. <br />
+                Q. He is _____ FRCP. <br />
+                👉 He is <strong>an</strong> FRCP. <br />
+                কিন্তু -<br />
+                Vowel এর মত উচ্চারণ না হলে A বসে। যেমনঃ <br />
+                Q. He is ____ BA. <br />
+                👉 He is <strong>a</strong> BA.
+              </p>
+            </div>
+          </div>
+        </div>
         {/* Exercise */}
-        <div className="py-10 px-5">
-          <h3 className="">Practice</h3>
-          
+        <div className="py-10">
+          <h2 className="">Practice</h2>
           <br />
           1. Filling the blanks in the following text with articles (a/an/the)
           as necessary. Some of the blanks are not required an article. Put a
@@ -629,7 +842,7 @@ function Article() {
           house is about 50 million taka per year. An American architect (h)
           _____Louis I Khan designed this (i) _____building. Everyday many
           (j)_____visitor comes to visit the building. <br /> <br />
-          2. The national flag represents (a)_____independence of
+          2. The national flag represents (a)___independence of
           (b)_____country. Ours is (c)_____independent country. Hence, we have a
           national flag symbolizing our independence. (d)_____ cloth of a
           national flag is made of (e)_____ cotton, silk or linen. Our flag is
