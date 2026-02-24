@@ -597,7 +597,7 @@ function Article() {
       </div>
 
       {/* Scroll view */}
-      <div className="h-full w-full mx-auto pt-10 px-4">
+      <div className="h-full lg:w-1/2 mx-auto pt-10 px-4">
         <h1 className="text-center py-5">Article</h1>
         <div className="">
           {/* page 3 the*/}
