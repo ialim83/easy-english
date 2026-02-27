@@ -963,6 +963,9 @@ const Transformation = () => {
               <AccordionContent className="p-2 md:p-5">
                 {/* Complex to Compound & Compound to complex: */}
                 <div className="">
+                  <p className=""></p>
+                </div>
+                <div className="">
                   <h3 className="text-green-500">
                     Complex to Compound & Compound to complex:
                   </h3>
