@@ -2053,33 +2053,41 @@ const DegreeOfAdj: React.FC = () => {
             </section>
 
             {/* RULE—28: else / alternate */}
-<section className="mb-12">
-  <h2 className="text-2xl font-semibold text-indigo-700 mb-5">RULE—28: else ও alternate</h2>
+            <section className="mb-12">
+              <h2 className="text-2xl font-semibold text-indigo-700 mb-5">
+                RULE—28: else ও alternate
+              </h2>
 
-  <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
-    <p className="font-medium mb-4">
-      <strong>else</strong> ও <strong>alternate</strong> (বিকল্প) word দিয়ে comparative adjective-এর পরে <strong>than</strong> বসে।
-    </p>
+              <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
+                <p className="font-medium mb-4">
+                  <strong>else</strong> ও <strong>alternate</strong> (বিকল্প)
+                  word দিয়ে comparative adjective-এর পরে <strong>than</strong>{" "}
+                  বসে।
+                </p>
 
-    <div className="space-y-4 mt-4">
-      <div>
-        <p className="font-medium text-red-700">Incorrect:</p>
-        <p>Nobody else but Rahim can do it.</p>
-        <p>I can do nothing else but go there.</p>
-      </div>
+                <div className="space-y-4 mt-4">
+                  <div>
+                    <p className="font-medium text-red-700">Incorrect:</p>
+                    <p>Nobody else but Rahim can do it.</p>
+                    <p>I can do nothing else but go there.</p>
+                  </div>
 
-      <div>
-        <p className="font-medium text-green-700">Correct:</p>
-        <p><strong>Nobody else than Rahim</strong> can do it.</p>
-        <p>I can do <strong>nothing else than go</strong> there.</p>
-      </div>
-    </div>
+                  <div>
+                    <p className="font-medium text-green-700">Correct:</p>
+                    <p>
+                      <strong>Nobody else than Rahim</strong> can do it.
+                    </p>
+                    <p>
+                      I can do <strong>nothing else than go</strong> there.
+                    </p>
+                  </div>
+                </div>
 
-    <p className="mt-4 text-sm text-gray-600 italic">
-      (এই দুটি word এর সাথে than বসে)
-    </p>
-  </div>
-</section>
+                <p className="mt-4 text-sm text-gray-600 italic">
+                  (এই দুটি word এর সাথে than বসে)
+                </p>
+              </div>
+            </section>
           </div>
         </div>
       </div>

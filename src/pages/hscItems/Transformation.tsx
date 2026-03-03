@@ -7,6 +7,7 @@ import {
   AccordionPanel,
   AccordionTitle,
 } from "flowbite-react";
+import { Link } from "react-router-dom";
 
 const Transformation = () => {
   const flipRef = useRef<any>(null);
@@ -21,7 +22,7 @@ const Transformation = () => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
         // Mobile (sm breakpoint)
-        setBookSize({ width: window.innerWidth - 40, height: 700 });
+        setBookSize({ width: window.innerWidth - 40, height: 500 });
       } else if (window.innerWidth < 1024) {
         // Tablet
         setBookSize({ width: 400, height: 700 });
@@ -38,6 +39,7 @@ const Transformation = () => {
 
   return (
     <div className="h-full w-full">
+      {/* flip book */}
       <div className="flex flex-col items-center py-10 px- w-full">
         {/* FlipBook */}
         <FlipPage
@@ -446,9 +448,554 @@ const Transformation = () => {
 
             {/* TABLE: AFFIRMATIVE-NEGATIVE */}
             <AccordionPanel>
+              <AccordionTitle>
+                
+                <span className="text-rose-800">Sentence</span> (অর্থ অনুসারে)
+              </AccordionTitle>
+              <AccordionContent className="p-2 md:p-5">
+                <div className="">
+                  <div className="py-5">
+                    <Link to={"/sentence"}>
+                      <p className="">
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
+                        সেজন্য
+                        <span className="text-blue-600 underline">
+                          এখানে ক্লিক/টাচ
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
+                  </div>
+                  {/* Affirmative to Negative/ Negative to Affirmative */}
+                  <div className="w-full overflow-x-auto my-10">
+                    <h3 className="text-center md:text-start text-green-500">
+                      [A] Affirmative to Negative/ Negative to Affirmative
+                    </h3>
+                    <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
+                      <tr>
+                        <th>Affirmative (Aff.)</th>
+                        <th>Negative (Neg.)</th>
+                        <th>Example</th>
+                      </tr>
+                      <tr>
+                        <td>Only / Alone (ব্যক্তির ক্ষেত্রে)</td>
+                        <td>None but</td>
+                        <td>
+                          A: Only the brave deserve the fair.
+                          <br />
+                          N: None but the br/ave deserve the fair.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Only/Alone (বস্তুর ক্ষেত্রে)</td>
+                        <td>Nothing but</td>
+                        <td>
+                          A: Only the Moon was visible.
+                          <br />
+                          N: Nothing but the moon was visible.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Only/Alone (সংখ্যার ক্ষেত্রে)</td>
+                        <td>Not more than/Not less than</td>
+                        <td>
+                          A: He is only thirteen.
+                          <br />
+                          N: He is not more than thirteen.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Must/ have to/ has to</td>
+                        <td>Cannot but + V1</td>
+                        <td>
+                          A: Man must submit to destiny.
+                          <br />
+                          N: Man cannot but submit to destiny.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Must/ have to/ has to</td>
+                        <td>Cannot + (V1+ing)</td>
+                        <td>
+                          A: He must go there.
+                          <br />
+                          N: I can not help going there.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Could/should</td>
+                        <td>Could not help + (V1+ing)</td>
+                        <td>
+                          A: I had to go there.
+                          <br />
+                          N: I could not help going there.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Both.....and/ And</td>
+                        <td>Not only.....but also</td>
+                        <td>
+                          A: Both Jony and Jihad can do the work.
+                          <br />
+                          N: Not only Jony but also Jihad can do the work.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Every</td>
+                        <td>There is no......but</td>
+                        <td>
+                          A: There is no mother but loves her child.
+                          <br />
+                          N: There is no mother but loves her child.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Every/All/A-</td>
+                        <td>No/Nobody/No one...+ Opposite Verb</td>
+                        <td>
+                          A: All love flowers.
+                          <br />
+                          N: Nobody hates flowers.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Every/ All</td>
+                        <td>No......... + Opposite Adj.</td>
+                        <td>
+                          A: All men are mortal.
+                          <br />
+                          N: No man is immortal.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Every/ All</td>
+                        <td>Opposite Adj.</td>
+                        <td>
+                          A: All Bangladeshis are hospitable.
+                          <br />
+                          N: No Bangladeshis is inhospitable.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Always</td>
+                        <td>Never + Opposite word</td>
+                        <td>
+                          A: They always remember us.
+                          <br />
+                          N: They never forget us.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>চিরসত্য</td>
+                        <td>Not + Opposite Word</td>
+                        <td>
+                          A: Man is mortal.
+                          <br />
+                          N: Man is not immortal.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>As soon as</td>
+                        <td>No sooner had.... than</td>
+                        <td>
+                          A: As soon as the thief saw the police, he ran away.
+                          <br />
+                          N: No sooner had the police than he ran away.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Superlative</td>
+                        <td>Positive</td>
+                        <td>
+                          A: He is the best boy in the class.
+                          <br />
+                          N: He is the boy who is not active.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>too....to</td>
+                        <td>So....that</td>
+                        <td>
+                          A: He is too weak to walk.
+                          <br />
+                          N: He is so weak that he cannot walk.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>as + Adj-1 + as </td>
+                        <td>Not less + Adjective-1 + than</td>
+                        <td>
+                          A: Ice is as white as snow.
+                          <br />
+                          N: Ice is not less white than snow.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Very much </td>
+                        <td>Neg + at all</td>
+
+                        <td>
+                          A: He likes me very much. <br />
+                          N: He doesn't dislike me at all.
+                        </td>
+                      </tr>
+                    </table>
+                    {/* antonyms */}
+                    <div className="">
+                      <h3 className="">কিছু বিপরীতার্থক শব্দের নমুনা:</h3>
+
+                      <div className="flex gap-10">
+                        <p className="">
+                          good- bad <br />
+                          friend - foe <br />
+                          moral - immoral <br />
+                          mortal - Immortal <br />
+                          regular - Irregular <br />
+                          active - Inactive <br />
+                          always - never <br />
+                          honour - dishonour. <br />
+                          present - absent <br />
+                          healthy - unhealthy <br />
+                          rich - poor <br />
+                          love - hate <br />
+                          wise - unwise <br />
+                          remember - forget <br />
+                          pleasant - unpleasant <br />
+                          grateful - ungrateful <br />
+                          dishonest - dishonest <br />
+                          agreed- disagreed <br />
+                        </p>
+                        <p className="">
+                          honesty - dishonesty <br />
+                          sincere - Insincere <br />
+                          doubtful - undoubtful <br />
+                          wise - unwise/foolish <br />
+                          pleased - displeased <br />
+                          happy - unhappy <br />
+                          possible - impossible <br />
+                          litetate - Biterate <br />
+                          hard - easy <br />
+                          punctual-late <br />
+                          ordinary-extraordinary <br />
+                          responsible- Irresponsible <br />
+                          willing - unwilling <br />
+                          obey - disobey <br />
+                          obedient - disobedient <br />
+                          solvent - insolvent <br />
+                          real - unreal <br />
+                          right - wrong <br />
+                        </p>
+                      </div>
+                    </div>
+                    <div className="pt-5">
+                      <p className="">
+                        Exercise <br />
+                        Transform the following sentences into Negative
+                        sentences : <br />
+                        (i) The baby alone was alive after the disaster. (ii)
+                        Only the sail of the ship was visible. (iii) Only
+                        mango-juice is sufficient for our health. (iv) She ate
+                        only two bananas. (v) Mr. Shafiq will always obey the
+                        rules and regulation of the institution. (vi) Man must
+                        submit to destiny. (vii) As soon as I reached home, she
+                        rang me. was too busy to gossip with us. (ix) I have
+                        read a few pages of the book. (viii) Bashir (x) He is as
+                        meritorious as his brother. (xi) You must help the poor
+                        man. (xii) Every patriot loves his country. (xiii)
+                        Everybody wants a good friend. (xiv) You are as clever
+                        as fox. (xv) He goes to school everyday.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Assertive - Interrogative */}
+                  <div className="py-5">
+                    <div className="">
+                      <h3 className="text-green-500">
+                        Assertive থেকে Interrogative-এ রূপান্তর
+                      </h3>
+                      <div className="pt-5">
+                        Rule:-1. সাধারণ নিয়মঃ <br />
+                        (a) বাক্যের Auxiliary verb বাক্যের শুরুতে বসবে। <br />
+                        (b) বাক্যটি Affirmative হলে তা Negative হবে, আর Negative
+                        এ থাকলে তা Affirmative হবে। <br />
+                        (c) বাক্যের শেষে ? বসবে। <br />
+                        উদাহরণ: <br />
+                        i. Aff: Kamal was a good boy. <br />
+                        Inter: Wasn't Kamal a good boy? <br />
+                        ii . Aff: They are not playing. <br />
+                        Inter: Are they playing? <br />
+                        <br />
+                        2. বাক্যের মধ্যে Auxiliary verb না থাকলে, বাক্যের শুরুতে
+                        Don't/Doesn't/Didn't বসিয়ে Interrogative করা হয়।
+                        Auxiliary verb বলতে সাধারণত 'to be', 'to have', modal
+                        verb গুলোকে বোঝায়। আর Assertive sentence-টি Negative হলে
+                        প্রশ্নবোধক Sentence টিতে do/does/did হয়। <br />
+                        উদাহরণ: <br />
+                        Ass: Liza sings very well. <br />
+                        Inter: Doesn't Liza sing very well? <br />
+                        Ass: Liza sang very well. <br />
+                        Inter: Didn't Liza sing well? <br />
+                        <br />
+                        3. Everybody. Everyone, All থাকলে এদের পরিবর্তে আয়
+                        অনুসারে Who does not/did not বসিয়ে Interrogative করতে
+                        হয়। <br />
+                        উদাহরণ: <br />
+                        i. Ass: Everybody knows him.
+                        <br />
+                        Inter: Who does not know him?
+                        <br />
+                        ii. Ass All loved her.
+                        <br />
+                        Inter: Who did not love her?
+                        <br />
+                        <br />
+                        4. বাক্যে Nobody, None, No one থাকলে এদের পরিবর্তে 'Who'
+                        বসবে।
+                        <br />
+                        উদাহরণ:
+                        <br />
+                        Ass: Nobody believes a liar.
+                        <br />
+                        Inter: Who believes a liar?
+                        <p className="pt-5">
+                          Exercise <br />
+                          Transform the following sentences into Interrogative
+                          sentences : <br />
+                          (i) The girl likes hot tea. (ii) I prefer coffee to
+                          tea. (iii) My father is a man of words. (iv) He goes
+                          to bed late at night everyday. (v) The boy has a good
+                          command in English. (vi) Everybody is longing for
+                          prosperity. (vii) No accurately everytime. (viii)
+                          Courtesy is nothing but a manner. (ix) There is
+                          nothing wrong with them. one hits (x) Frienship is
+                          nothing but a name. (xi) Everybody wishes to get the
+                          1st prize. (xii) They would not drink polluted water.
+                          (xiii) There is nothing in my pocket. (xiv) Nobody
+                          could ever judge it. (xv) Life is nothing but a fight.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Assertive - Exclamatory */}
+                  <div className="">
+                    <div className="">
+                      <h3 className="text-green-500">
+                        Assertive থেকে Exclamatory -তে রূপান্তর-
+                      </h3>
+                      <div className="pt-3">
+                        Rule:-1. সাধারণ নিয়মঃ <br />
+                        (i) বাক্যের শুরুতে What/ How + <br />
+                        (ii) Verb এর পরের অংশ + <br />
+                        (iii) Subject + Verb + <br />
+                        (iv) ! (Exclamatory Sign) <br />
+                        <br />
+                        Ass:The picture is very nice.
+                        <br />
+                        Exc: How nice the picture is!
+                        <br />
+                        Note: <br />
+                        (i) যদি বাক্যের মধ্যে 'a'/an থাকে তবেই What a/an হবে। আর
+                        বাক্যের মধ্যে 'a/ an' না থাকলে 'How' হবে।
+                        <br />
+                        (ii) বাক্যের মধ্যে very/ great থাকলে উঠে যায়, <br />
+                        2. বাক্যে 'I wish' থাকলে 'I wish'-এর পরিবর্তে 'If' বসিয়ে
+                        Exclamatory করা যায়।
+                        <br />
+                        উদাহরণ:
+                        <br />
+                        Ass: I wish I were a bird.
+                        <br />
+                        Exc: If I were a bird!
+                        <br />
+                        Ass:I wish I could do it.
+                        <br />
+                        Exc: If I could do it!
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        3. <br />
+                        i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা
+                        খুশি প্রকাশ করে সেক্ষেত্রে Hurrah-এর পরিবর্তে it is a
+                        matter of joy + that + sentence-এর বাকি অংশ।
+                        <br />
+                        উদাহরণ:
+                        <br />
+                        Exc: Hurrah! We have done well.
+                        <br />
+                        Ass: It is a matter of joy that we have done well.
+                        <br />
+                        <br />
+                        ii. Alas বা দুঃখবোধক Exclamatory sentence-এর ক্ষেত্রে
+                        also-এর পরিবর্তে it is a matter of sorrow + that বসে +
+                        বাক্যের বাকি অংশ বসে।
+                        <br />
+                        উদাহরণ:
+                        <br />
+                        Exc: Alas! I am finished.
+                        <br />
+                        Ass: It is a matter of sorrow that I am finished.
+                        <p className="pt-5">
+                          Exercise <br />
+                          Transform the following sentences into Exclamatory
+                          sentences: <br />
+                          (i) She is very talkative. (ii) It was a very
+                          competitive race. (iii) The accident was very
+                          terrible. (iv) He leads a very unhappy life. (v) A
+                          little learning is a very dangerous thing. (vi) My
+                          hair grows very fast. (vii) I got a very rare
+                          opportunity to talk to her yesterday. (viii) Swapan is
+                          a very well-known figure of this area. (ix) It was a
+                          very lucky day for me. (x) It is a very attractive
+                          dress. (xi) it is a very long tree. (xii) We rejoice
+                          that our team has won the match. (xiii) I wish I were
+                          the king of England. (xiv) It is a matter of Shame
+                          that he does not take care of his parents. (xv) I wish
+                          I could be a child again.
+                        </p>
+                        <p className="">
+                          Exercise <br />
+                          Transform the following sentences into Assertive
+                          sentence : <br />
+                          (i) What a big river the Padma is! (ii) What a nice
+                          gift she has given on your birthday! (iii) What a fool
+                          your brother was! (iv) How amazing the incident is!
+                          (v) How fortunate the porter was! (vi) What a nice
+                          flower it is! (vii) How charming the surroundings of
+                          your house is! (viii) What a nice design it is! (ix)
+                          Alas! He has lost his father. (x) How nice the bird
+                          is! (xi) Would that I could be a bird! (xii) If I were
+                          a child again! (xiii) Had I been a millionaire!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Assertive থেকে Imperative */}
+                  <div className="py-5">
+                    <h3 className="text-green-500">
+                      Assertive থেকে Imperative (command/request/order/advice)
+                      -এ রূপান্তর
+                    </h3>
+                    <div className="pt-5">
+                      1. Assertive sentence-এর subject যদি second person (you)
+                      হয় তবে মূল verb দ্বারা বাক্যটি শুরু হবে। এক্ষেত্রে মূল
+                      verb-এর পূর্বের অংশ বাদ যাবে। তবে Assertive sentence টি
+                      'না-বোধক' হলে 'Do not + verb' দ্বারা বাক্যটি শুরু হবে।
+                      <br />
+                      উদাহরণ:
+                      <br />
+                      i. Ass: You should not run in the sun.
+                      <br />
+                      Imp: Do not run in the sun.
+                      <br />
+                      ii. Aff: Obey your parents.
+                      <br />
+                      2. Assertive sentence টিতে যদি 'request' কথাটি থাকে তবে
+                      Imperative করার সময় 'please/kindly + verb' দ্বারা বাক্যটি
+                      শুরু হবে।
+                      <br />
+                      উদাহরণ:
+                      <br />
+                      1. Ass: I request you to do it.
+                      <br />
+                      Imp: Please do it.
+                      <br />
+                      ii. Ass: You are requested to help him.
+                      <br />
+                      Imp: Please help him.
+                      <br />
+                      <br />
+                      3. Assertive sentence-এর subject যদি 1st person কিংবা 3rd
+                      person হয়, তবে Imperative বাক্যটি Let দ্বারা শুরু হবে।{" "}
+                      <br />
+                      Rule: Let + objective pronoun (me/ us/ him/her/ them) +
+                      Verb + Others. উদাহরণ:
+                      <br />
+                      Ass: I must go now.
+                      <br />
+                      Imp: Let me go now.
+                      <br />
+                      Ass: He should do the sum.
+                      <br />
+                      Imp: Let him do the sum.
+                      <br />
+                      <br />
+                      4. Never যুক্ত assertive sentence-কে imperative করার
+                      <br />
+                      নিয়মে: প্রদত্ত never + প্রদত্ত মূল verb-এর base form +
+                      verb-এর পরের অংশ।
+                      <br />
+                      উদাহরণ:
+                      <br />
+                      Ass: Never do this.
+                      <br />
+                      Imp: You should never do this.
+                      <br />
+                      <br />
+                      5. First person বা third person যুক্ত Assertive sentence-
+                      এ not থাকলে Imperative করার <br />
+                      নিয়ম: Let + প্রদত্ত subject এর objective from + প্রদত্ত
+                      verb থেকে শেষ পর্যন্ত।
+                      <br />
+                      উদাহরণ:
+                      <br />
+                      Ass: We do not hate the poor.
+                      <br />
+                      Imp: Let us not hate the poor.
+                      <br />
+                      Ass: Nilu does not run in the sun.
+                      <br />
+                      Imp: Let not Nilu run in the sun.
+                      <p className="pt-5">
+                        Exercise <br />
+                        Transform the following sentences into imperative
+                        sentences : <br />
+                        (i) You should obey the rules of the company. (ii) You
+                        do not waste your time. (iii) She sings a beautiful
+                        song. (iv) We should go out for a walk. (v) You should
+                        maintain good health. (vi) You should strike the iron
+                        while it is hot. (vii) You should not run in the sun.
+                        (viii) We should not hate the poor. (ix) He plays
+                        football. (x) You should not spit on the floor.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionPanel>
+
+            {/* TABLE: AFFIRMATIVE-NEGATIVE */}
+            <AccordionPanel>
               <AccordionTitle>Affirmative - Negative</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="w-full overflow-x-auto my-10">
+                  <Link to={"/sentence"}>
+                      <p className="">
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
+                        সেজন্য
+                        <span className="text-blue-600 underline">
+                          এখানে ক্লিক/টাচ
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
                   <h3 className="text-center md:text-start text-green-500">
                     [A] Affirmative to Negative/ Negative to Affirmative
                   </h3>
@@ -691,11 +1238,28 @@ const Transformation = () => {
               </AccordionContent>
             </AccordionPanel>
 
-            {/* Assertive থেকে Interrogative */}
+            {/* Assertive - Interrogative */}
             <AccordionPanel>
               <AccordionTitle>Assertive - Interrogative</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
+                  <Link to={"/sentence"}>
+                      <p className="py-5">
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
+                        সেজন্য
+                        <span className="text-blue-600 underline">
+                          এখানে ক্লিক/টাচ
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
                   <h3 className="text-green-500">
                     Assertive থেকে Interrogative-এ রূপান্তর
                   </h3>
@@ -762,11 +1326,28 @@ const Transformation = () => {
               </AccordionContent>
             </AccordionPanel>
 
-            {/* Assertive থেকে Exclamatory -তে রূপান্তর- */}
+            {/* Assertive - Exclamatory */}
             <AccordionPanel>
               <AccordionTitle>Assertive - Exclamatory</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
+                  <Link to={"/sentence"}>
+                      <p className="py-5">
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
+                        সেজন্য
+                        <span className="text-blue-600 underline">
+                          এখানে ক্লিক/টাচ
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
                   <h3 className="text-green-500">
                     Assertive থেকে Exclamatory -তে রূপান্তর-
                   </h3>
@@ -864,6 +1445,23 @@ const Transformation = () => {
               <AccordionTitle>Assertive - Imperative</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
+                  <Link to={"/sentence"}>
+                      <p className="py-5">
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                        <span className="text-blue-600 underline">
+                          Sentence
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
+                        সেজন্য
+                        <span className="text-blue-600 underline">
+                          এখানে ক্লিক/টাচ
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
                   <h3 className="text-green-500">
                     Assertive থেকে Imperative (command/request/order/advice) -এ
                     রূপান্তর
@@ -958,7 +1556,7 @@ const Transformation = () => {
             {/* Sentence */}
             <AccordionPanel>
               <AccordionTitle>
-                <span className="text-rose-800">Sentence:</span> Simple, Compound, Complex
+                <span className="text-rose-800">Sentence</span> (গঠন অনুসারে)
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 {/* Complex to Compound & Compound to complex: */}
@@ -1913,7 +2511,8 @@ const Transformation = () => {
             <AccordionPanel>
               <AccordionTitle>
                 <p className="font-bold">
-                <span className="text-rose-800">Degree:</span>   Positive, Comparative, Superlative
+                  <span className="text-rose-800">Degree:</span> Positive,
+                  Comparative, Superlative
                 </p>
               </AccordionTitle>
               <AccordionContent className="p-1">
@@ -1921,8 +2520,8 @@ const Transformation = () => {
                   {/* Superlative to Positive Comparative to positive */}
                   <div className="p-1">
                     <h1 className="text-xl font-bold mb-4 text-green-500">
-                    Superlative to Positive Comparative to positive
-                  </h1>
+                      Superlative to Positive Comparative to positive
+                    </h1>
                     <table className="table-auto w-full border-collapse border  border-gray-400">
                       <thead>
                         <tr className="bg-gray-200">

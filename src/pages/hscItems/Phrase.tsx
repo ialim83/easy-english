@@ -123,8 +123,10 @@ function Phrase() {
         <div className="py-10">
           <h2 className="">Rules:</h2>
           <div className="mb-6">
-            <h3 className="font-semibold">1. Let alone(চিন্তাই করা যায়না):</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              1. Let alone(চিন্তাই করা যায়না):
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শেষে দিকে শূন্যস্থান থাকবে ।</li>
               <li>শূন্যস্থানের আগে (,) কোমা থাকব</li>
               <li>Less important:</li>
@@ -135,12 +137,12 @@ function Phrase() {
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold "> 
-              2. What's it like (কিসের মতো)/ Would you mind(আপনার কি আপত্তি আছে?):
+            <h3 className="font-bold text-green-500 ">
+              2. What's it like (কিসের মতো)/ Would you mind(আপনার কি আপত্তি
+              আছে?):
             </h3>
-            <ul className="list-disc pl-10">
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
               <li>শূন্যস্থানের পরে ing যুক্ত verb থাকবে ।</li>
               <li>বাক্যের শেষে (?) প্রশ্নবোধক চিহ্ন থাকবে ।</li>
@@ -150,12 +152,11 @@ function Phrase() {
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">
+            <h3 className="font-bold text-green-500">
               3. What's like/ What does look like/ How like:
             </h3>
-            <ul className="list-disc pl-10">
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে এবং শেষে দুটি শূন্যস্থান থাকবে ।</li>
               <li>বাক্যের শেষে প্রশ্নবোধক ( ? ) চিহ্ন থাকবে ।</li>
               <li>
@@ -164,10 +165,11 @@ function Phrase() {
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">4. Would rather(বরং ভালো):</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              4. Would rather(বরং ভালো):
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>
                 Sub এবং Verb এর মাঝখানে শূন্যস্থান থাকবে/ শূন্যস্থানের আগে sub
                 এবং পরে verb থাকবে ।
@@ -178,29 +180,32 @@ function Phrase() {
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">5. What if( যদি  তাহলে কি হবে?):</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              5. What if( যদি তাহলে কি হবে?):
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
               <li>শূন্যস্থানের পরে Subject থাকবে ।</li>
               <li>বাক্যের শেষে প্রশ্নবোধক ( ? ) চিহ্ন থাকবে ।</li>
               <li>যেমনঃ It is raining. _____ he is late?</li>
             </ul>
-          </div> 
-
+          </div>
           <div className="mb-6">
-            <h3 className="font-semibold">6. Wish/ Fancy(কল্পনা করা):</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              6. Wish/ Fancy(কল্পনা করা):
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>শূন্যস্থানের আগে এবং পরে একই subject থাকবে ।</li>
               <li>শূন্যস্থানের পরের subject এর পরে were থাকবে ।</li>
               <li>যেমনঃ I ....... I were a king.</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">7. Was born(জন্ম হয়েছিল):</h3> 
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              7. Was born(জন্ম হয়েছিল):
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>শূন্যস্থানের আগে subject থাকবে এবং পরে verb থাকবে না ।</li>
               <li>শূন্যস্থানের পরে in/ on/ at/ of থাকবে ।</li>
               <li>Preposition এর পরে জন্ম সাল বা বছরের উল্লেখ থাকবে ।</li>
@@ -210,16 +215,17 @@ function Phrase() {
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold ">
+            <h3 className="font-bold text-green-500 ">
               8. Had better (বরং ভালো)/ have to/ has to/ had to/ used to:
             </h3>
-            <ul className="list-disc pl-10">
+            <ul className="list-decimal pl-10">
               <li>শূন্যস্থানের আগে sub এবং পরে V-1 থাকবে ।</li>
             </ul>
-            <h3 className="mt-2 font-semibold italic">Less important:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="mt-2 font-bold text-green-500 italic">
+              Less important:
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>শূন্যস্থানের আগে you থাকলে had better বসানোই ভালো।</li>
               <li>শূন্যস্থানের পরে not থাকলে have to/ has to বসানোই ভালো ।</li>
               <li>
@@ -232,21 +238,26 @@ function Phrase() {
               <li>যেমনঃ He __ taking tea in the morning.</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">9. There/it:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">9. There/it:</h3>
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
               <li>
                 শূন্যস্থানের পরে am/ is/ are/ was/ were/had/ been/ has been /
                 V-1 / V-2 থাকবে ।
               </li>
 
-              <li className="mt-2 font-semibold italic">অন্যান্য:</li>
+              <li className="mt-2 font-bold text-green-500 italic">
+                অন্যান্য:
+              </li>
 
               <li>
-                There এর জন্য ক্ষেত্রে বাক্যের শেষে in/on/at থাকবে এবং স্থানবাচক
-                শব্দ থাকবে।
+                There এর ক্ষেত্রে be, seem, appear, occur, happen, live ইত্যাদি
+                verb এর পৃর্বে বসে ।
+              </li>
+              <li>
+                There এর ক্ষেত্রে বাক্যের শেষে in/on/at থাকবে এবং স্থানবাচক শব্দ
+                থাকবে।
               </li>
               <li>
                 There এর ক্ষেত্রে বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon
@@ -257,6 +268,7 @@ function Phrase() {
                 বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon a time/ long ago
                 ছাড়া)।
               </li>
+              <li>it এর ক্ষেত্রে বাক্যের মধ্যে Since থাকতে পারে।</li>
               <li>যেমনঃ Long ago _____ lived a mighty king Kubla Khan.</li>
               <li>
                 যেমনঃ _____ was in China that the art of Bonsai originated
@@ -264,46 +276,46 @@ function Phrase() {
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">10. As if/ as though:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">10. As if/ as though:</h3>
+            <ul className="list-decimal pl-10">
               <li>দুই বাক্যের মাঝখানে শূন্যস্থান থাকবে ।</li>
               <li>
                 শূন্যস্থানের পরে sub থাকবে এবং sub এর পরে বেশিরভাগ সময় were থাকে
                 কিছু সময় was/ had/had been/V-2 থাকতে পারে।
               </li>
-              <li>যেমনঃ He speaks ___  he were a king.</li>
+              <li>যেমনঃ He speaks ___ he were a king.</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">11. As soon as:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">11. As soon as:</h3>
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শুরতে শূন্যস্থান থাকবে ।</li>
               <li>দুই বাক্যের মাঝখানে কমা(,) থাকবে ।</li>
-            
-            <li className="mt-2 font-semibold italic">অন্যান্য:</li>
-            
+
+              <li className="mt-2 font-bold text-green-500 italic">
+                অন্যান্য:
+              </li>
+
               <li>অনেক সময় শূন্যস্থানের পরে possible থাকে ।</li>
               <li>অনেক সময় দুই বাক্যের মাঝখানে শূন্যস্থানে as soon as বসে।</li>
               <li>শূন্যস্থানের পরের বাক্যে V-2 থাকে ।</li>
               <li>যেমনঃ _____ the rain stopped, I started for home.</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">12. As long as/ as fast as:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              12. As long as/ as fast as:
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>দুই বাক্যের মাঝখানে শূন্যস্থান থাকবে ।</li>
               <li>শূন্যস্থানের পরের বাক্যে V-2 থাকবে ।</li>
               <li>অনেক সময় পরের বাক্যে can/could থাকবে ।</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">13. Unless:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">13. Unless:</h3>
+            <ul className="list-decimal pl-10">
               <li>দুই বাক্যের মাঝখানে শূন্যস্থান থাকবে ।</li>
               <li>
                 প্রথম বাক্যের মধ্যে not থাকবে যদি দুই বাক্যের মাঝখানে শূন্যস্থান
@@ -315,72 +327,80 @@ function Phrase() {
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">
+            <h3 className="font-bold text-green-500">
               14. No sooner had/ hardly had/ scarcely had:
             </h3>
-            <ul className="list-disc pl-10">
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শুরতে শূন্যস্থান থাকবে ।</li>
               <li>শূন্যস্থানের পরে Sub থাকবে ।</li>
               <li>দুই বাক্যের মাঝখানে Than/before/ when থাকবে ।</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold"> 15. Whether........... OR:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              {" "}
+              15. Whether........... OR:
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে এবং শেষের দিকে দুটি শূন্যস্থান থাকে ।</li>
               <li>দ্বিতীয় শূন্যস্থানের পরে not থাকে ।</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h2 className="font-semibold italic">Others:</h2>
-            <h3 className="font-semibold"> 1. What do you mean?:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              {" "}
+              16. What do you mean?:
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>
                 বাক্যের শুরতে শূন্যস্থানের পরে প্রশ্নবোধক(?) চিহ্ন থাকবে ।
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold"> 2. What do the matter?:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              {" "}
+              17. What do the matter?:
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>
                 বাক্যের শুরতে শূন্যস্থানের পরে with থাকবে এবং শেষে (?)
                 প্রশ্নবোধক চিহ্ন থাকবে ।
               </li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold">3. It is high time:</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              18. It is high time/it is time:
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শুরতে শূন্যস্থান থাকবে ।</li>
               <li>শূন্যস্থানের পরে sub + V-2 থাকবে ।</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold"> 4. Enough / in order to::</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              {" "}
+              19. Enough / in order to::
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>বাক্যের শেষের দিকে শূন্যস্থান থাকবে ।</li>
               <li>শূন্যস্থানের পরে to/ to+ V-1 থাকবে ।</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold"> 5. Lest::</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500"> 20. Lest::</h3>
+            <ul className="list-decimal pl-10">
               <li>শূন্যস্থানের পরের বাক্যে Sub এর পরে should/ might থাকবে ।</li>
             </ul>
           </div>
-
           <div className="mb-6">
-            <h3 className="font-semibold"> 6. So that / in order that: :</h3>
-            <ul className="list-disc pl-10">
+            <h3 className="font-bold text-green-500">
+              {" "}
+              21. So that / in order that: :
+            </h3>
+            <ul className="list-decimal pl-10">
               <li>দুই বাক্যের মাঝখানে শূন্যস্থান থাকে।</li>
               <li>
                 শূন্যস্থানের পরের বাক্যের গঠন হবে Sub+ can/ could/ may/ might +
@@ -388,6 +408,132 @@ function Phrase() {
               </li>
             </ul>
           </div>
+          <h2 className="font-bold text-green-500 italic">Extra:</h2>
+          <div className="">
+            22. In case of <br />
+            কোন কিছুর ক্ষেত্রে কোন কিছু হলে বুঝাতে in case of ব্যবহার করে তার
+            পরে noun/noun phrase ব্যবহার করতে হয়। তার পর অর্থ অনুসারে ব্যবহার
+            করে বাক্য শেষ করতে হয়। In case of + noun/noun phrase .... ........ +
+            clause. <br />
+            Or, Clause + In case of ....... <br />
+            <br />
+            Examples: <br />
+            In case of rain, - -…… (we will not start our journey). <br />
+            We will not start our journey -………(in case of rain). <br />
+            In case of his failure…………(he should try again). <br />
+            He should try again……….(in case of his failure)
+          </div>
+          <br />
+          <div className="">
+            23. In spite of/despite/notwithstanding <br />
+            In spite of/despite/notwithstanding এর অর্থ হলো সত্ত্বেও। <br />
+            এটা noun/noun phrase u gerund এর পূর্বে বসে। এটা পর যে clause
+            ব্যবহৃত তা বিপরীত অর্থ নির্দেশ করে। <br />
+            Structure : In spite of/despite/notwithstanding + nour/noun
+            phrasc/gerund + বিপরীত অর্থ প্রকাশক clause. <br />
+            Examples: <br />
+            <br />
+            In spite of his illness,..........(he attended the meeting). Despite
+            his poverty. ………the tries to help the poor with money). <br />
+            Notwithstanding his being popular,…………- (he was not clected
+            trainman). <br />
+            In spite of his having poverty,…………. - (he helped me financially).
+            <br />
+            Note : বিপরীত অর্থ প্রকাশক Cluse বাক্যের শুরুতে বসলে in spite of,
+            despite এবং notwithstanding এর পুর্বে (,) কমা চিহৃ বসবে না । বাক্যের
+            শেষে বসলে উক্ত চিহ্ন বসে না।
+          </div>{" "}
+          <br />
+          <div className="">
+            24. In case of <br />
+            কোন কিছুর ক্ষেত্রে কোন কিছু হলে বুঝাতে in case of ব্যবহার করে তার
+            পরে noun/noun phrase ব্যবহার করতে হয়। তার পর অর্থ অনুসারে ব্যবহার
+            করে বাক্য শেষ করতে হয়। <br />
+            <br />
+            In case of + noun/noun phrase .... ........ + clause. <br />
+            Or, Clause + In case of ....... <br />
+            Examples: <br />
+            In case of rain, - -…… (we will not start our journey). <br />
+            We will not start our journey -………(in case of rain). <br />
+            In case of his failure…………(he should try again). <br />
+            He should try again……….(in case of his failure)
+          </div>
+          <div className="">
+            25. Look forward to <br />
+            – আশা করা, be/get used to- অভ্যস্ত, be/ get accustomed to - অভ্যস্ত
+            এগুলোর পর ব্যবহৃত verb এর সাথে ing যোগ করতে হয়। <br />
+            <br />
+            Examples : <br />
+            i. He looks forward to……. -(receiving his reward). <br />
+            ii. He is accustomed to--…….(working hard). <br />
+            iii. He got used to-……….(gossiping with his friends.)
+          </div>
+          <br />
+          <div className="">
+            26. Instead of/in lieu of <br />
+            কোন কিছুর পরিবর্তে বা কোন কিছু করার পরিবর্তে' বুঝাতে Instead of/in
+            lieu of/instead of ব্যবহৃত হয়। <br />
+            কোন কিছুর পরিবর্তে বুঝাতে এর thing/thing phrase এবং কোন কিছুর করার
+            পরিবর্তে বুঝাতে এর noun/noun phrase এবং <br />
+            কোন কিছুর করার পরিবর্তে বুঝাতে এর পর gerund বসে এবং অর্থবোধক clause
+            ব্যবহার করে বাক্য শেষ করতে হয়। <br />
+            <br />
+            Structure: 1 <br />
+            Instead of in lieu of noun/noun phrase ........... + clause. <br />
+            Or, Clause + instead of .......... <br />
+            <br />
+            Structure: 2 <br />
+            Instead of/in lieu of + gerund ...................... + clause.{" "}
+            <br />
+            Or, Clause + instead of ..................... <br />
+            <br />
+            Examples: <br />
+            Instead of going in Dhaka,………(he went to Feni). <br />
+            He went to Feni………(instead of going to Dhaka). <br />
+            In lieu of a book……………(I bought a pen). <br />
+            I bought a pen — (in lieu of a book). <br />
+          </div>
+          <br />
+          <div className="">
+            27. On account of/ because of/due to/owing to <br />
+            কারণ প্রকাশ করার জন্য On account of/ because of/due to/owing to
+            ব্যবহৃত হয় । এটা এর পূর্বে বসে । <br />
+            এটা দ্বারা গঠিত phrase এর পরে ফল প্রকাশক clause বসে এবং উক্ত clause
+            এর পূর্বে কমা (,) চিহ্ন ব্যবহূত হয়। <br />
+            ফল প্রকাশক clause বাক্যের শুরুতে বসলে On account of/ because of/due
+            to owing এর পুর্বে (,) কমা বসে না । <br />
+            <br />
+            Examples: <br />
+            On account of illness. - …………. (I could not attend the meeting).{" "}
+            <br />I could not attend the meeting -………….- (because of my
+            illness). <br />
+            On account of my being ill. -………….- (I could not appear at the
+            exam).
+          </div>
+          <br />
+          <div className="">
+            28. Cannot but = না করেই পারা যায় না এমন <br />
+            Structure : <br />
+            Subject + cannot but could not but + verb এর base form
+            ................ <br />
+            <br />
+            Examples: <br />
+            i. I cannot but --(do the work). <br />
+            ii. He could not but — (go there).
+          </div>
+          <br />
+          <div className="">
+            29. Cannot help = না করেই পারা যায় না এমন <br />
+            Structure: <br />
+            Subject + cannot help could not help + verb এর সাথে ing.......{" "}
+            <br />
+            <br />
+            Examples : <br />
+            i. I cannot help-………(doing the work). <br />
+            ii. He could not help-………..(going there).
+          </div>
+          <div className=""></div>
+          <div className=""></div>
         </div>
       </div>
 
