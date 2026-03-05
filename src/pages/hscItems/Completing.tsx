@@ -94,8 +94,8 @@ function Completing() {
         <h2 className="">Rules:</h2>
         {/*  */}
         <div className="pb-3">
-          <h3 className="">
-            1. after / before: <span className="animateText">***</span>
+          <h3 className="text-green-500">
+            1. after / before: <span className="">***</span>
           </h3>
           <p>Q. He reached after............</p>
           <p>* He reached after he had / have/ has finished (reading the book/ the work).</p>
@@ -110,7 +110,7 @@ function Completing() {
         
         {/* 2 */}
         <div className="">
-          <h3>2. Lest:</h3>
+          <h3 className="text-green-500">2. Lest:</h3>
           <p>Q. He read diligently lest..................</p>
           <p>* He read diligently lest he might / should fail / miss (it).</p>
           <p>
@@ -120,9 +120,9 @@ function Completing() {
 
         {/* 3 */}
         <div className="py-3">
-          <h3 className="">
+          <h3 className="text-green-500">
             3. It is time/ it is high
-            time:<span className="animateText"> *** </span>
+            time:<span className=""> *** </span>
           </h3>
           <p>Q. It is high time .......</p>
           <p>
@@ -132,7 +132,7 @@ function Completing() {
 
         {/* 4 */}
         <div className="">
-          <h3>4. Who / whom / whose:</h3>
+          <h3 className="text-green-500">4. Who / whom / whose:</h3>
           <p>(i) He is a doctor (who)............</p>
           <p>* He is a doctor who is clever / honest / wants to be happy.</p>
           <p>
@@ -146,7 +146,7 @@ function Completing() {
 
         {/* 5 */}
         <div className="py-3">
-          <h3>5. That / which:</h3>
+          <h3 className="text-green-500">5. That / which:</h3>
           <p>(i) He said / thinks that..................</p>
           <p>
             * He said that it is / was favorite to him / it was beautiful to me/
@@ -167,7 +167,7 @@ function Completing() {
 
         {/* 6 */}
         <div className="">
-          <h3>6. When / where:</h3>
+          <h3 className="text-green-500">6. When / where:</h3>
           <p>(i) Saturday is the day (when)............</p>
           <p>* Saturday is the day when he was born / I went there.</p>
           <p>= Saturday is the day when I went there.</p>
@@ -177,7 +177,7 @@ function Completing() {
 
         {/* 7 */}
         <div className="py-3">
-          <h3>7. Without / By + V1-ing:</h3>
+          <h3 className="text-green-500">7. Without / By + V1-ing:</h3>
           <p>* Without writing much, ........</p>
           <p>= Without writing much, you cannot hope (to attain) it.</p>
           <p>(ii) By eating balance diet..................</p>
@@ -186,8 +186,8 @@ function Completing() {
 
         {/* 8 */}
         <div className="">
-          <h3 className="">
-            <span className="animateText">*** </span> 8. If:
+          <h3 className="text-green-500">
+            8. If <span className="text-pink-500">*** </span> 
           </h3>
           <p>(i) if he comes,..................</p>
           <p>= if he comes. I will do it.</p>
@@ -203,7 +203,7 @@ function Completing() {
         </div>
         {/* 9 */}
         <div className="py-3">
-          <h3>9. as if/ as though:</h3>
+          <h3 className="text-green-500">9. as if/ as though:</h3>
           <p>Q. He tells the matter as though..........</p>
           <p>= He tells the matter as though he were leader.</p>
           <p>Q. He told the matter as though..........</p>
@@ -211,13 +211,13 @@ function Completing() {
         </div>
         {/* 10 */}
         <div className="">
-          <h3>10. It is time to/ it is time for....</h3>
+          <h3 className="text-green-500">10. It is time to/ it is time for....</h3>
           <p>= It is time to start the work.</p>
           <p>= It is time for us to start the work.</p>
         </div>
         {/* 11 */}
         <div className="py-3">
-          <h3>11. (i) No sooner/ Hardly/ Scarcely:</h3>
+          <h3 className="text-green-500">11. (i) No sooner/ Hardly/ Scarcely:</h3>
           <p>(i) No sooner had ....... than.....:</p>
           <p>= No sooner had he gone out than he came.</p>
           <p>(ii) Scarcely had.... when/before.....</p>
@@ -227,13 +227,13 @@ function Completing() {
         </div>
         {/* 12 */}
         <div className="">
-          <h3>12. until / till:</h3>
+          <h3 className="text-green-500">12. until / till:</h3>
           <p>Q. I will stay here until/ till...........</p>
           <p>= I will stay here until he comes back.</p>
         </div>
         {/* 13 */}
         <div className="py-3">
-          <h3>13. Unless:</h3>
+          <h3 className="text-green-500">13. Unless:</h3>
           <p>(i) Unless you read attentively,.........</p>
           <p>= Unless you read attentively, you will fail.</p>
           <p>(ii) You may fail unless..........</p>
@@ -241,15 +241,15 @@ function Completing() {
         </div>
         {/* 14 */}
         <div className="">
-          <h3>14. Too ... to:</h3>
+          <h3 className="text-green-500">14. Too ... to:</h3>
           <p>Q. you are too short to...</p>
           <p>= You are too short to imagine.</p>
         </div>
         {/* 15 */}
         <div className="py-3">
-          <h3 className="">
+          <h3 className="text-green-500">
             15. So that/in order that/provided that:
-            <span className="animateText"> ***</span>
+            <span className=""> ***</span>
           </h3>
           <p>Q. He went to the market so that........</p>
           <p>* He went to the market so that he can / could do the work.</p>
@@ -257,7 +257,7 @@ function Completing() {
         </div>
         {/* 16 */}
         <div className="">
-          <h3>
+          <h3 className="text-green-500">
             16. So ..... that: <span className="animateText"> *** </span>
           </h3>
           <p>Q. He is so interesting (that)...</p>
@@ -266,7 +266,7 @@ function Completing() {
         </div>
         {/* 17 */}
         <div className="py-3">
-          <h3>17. Because of, Due to, owing to:</h3>
+          <h3 className="text-green-500">17. Because of, Due to, owing to:</h3>
           <p>Q. Due to fog, ..........</p>
           <p>= Due to fog, he could not attend the meeting.</p>
           <p>Q. he could not go to college because of ..........</p>
@@ -278,7 +278,7 @@ function Completing() {
         </div>
         {/* 18 */}
         <div className="py-">
-          <h3>18. Because:</h3>
+          <h3 className="text-green-500">18. Because:</h3>
           <p>Q. they do not eat right food because...</p>
           <p>= They do not eat right food because they do not understand.</p>
           <p>Q. they do not eat right food because...</p>
@@ -287,14 +287,14 @@ function Completing() {
 
         {/* 19 */}
         <div className="py-3">
-          <h3>19. despite of, in spite of:</h3>
+          <h3 className="text-green-500">19. despite of, in spite of:</h3>
           <p>= Despite of his being honest, .......... .</p>
           <p>= Despite of his being honest, he was punished.</p>
         </div>
 
         {/* 20 */}
         <div className="">
-          <h3>20. had better / had rather / would rather / better:</h3>
+          <h3 className="text-green-500">20. had better / had rather / would rather / better:</h3>
           <p>(i) He had better.........</p>
           <p>= He had better read now.</p>
           <p>(ii) I would rather / better.......</p>
@@ -303,28 +303,28 @@ function Completing() {
 
         {/* 21 */}
         <div className="py-3">
-          <h3>21. Would you mind?</h3>
+          <h3 className="text-green-500">21. Would you mind?</h3>
           <p>Q. Would you mind ........ ?</p>
           <p> = Would you mind having a cup of tea?</p>
         </div>
 
         {/* 22 */}
         <div className="py-">
-          <h3>22. To be:</h3>
+          <h3 className="text-green-500">22. To be:</h3>
           <p>Q. He is known to be...</p>
           <p>= He is known to be wise / innocent.</p>
         </div>
 
         {/* 23 */}
         <div className="py-3">
-          <h3>23. In case:</h3>
+          <h3 className="text-green-500">23. In case:</h3>
           <p>Q. I took the pen in case............</p>
           <p>I took the pen in case he wants (ed).</p>
         </div>
 
         {/* 24 */}
         <div className="py-3">
-          <h3>24. If:</h3>
+          <h3 className="text-green-500">24. If:</h3>
           <p>(i) We will maintain good health if........</p>
           <p>
             = We will maintain good health if we do the work / he does the work.
@@ -340,15 +340,15 @@ function Completing() {
 
         {/* 25 */}
         <div className="py-">
-          <h3>25. Wish:</h3>
+          <h3 className="text-green-500">25. Wish/ Fancy</h3>
           <p>Q. I wish ....</p>
           <p>= I wish I were a king/ queen/ bird</p>
         </div>
 
         {/* 26 */}
         <div className="py-3">
-          <h3 className="">
-            26. Since<span className="animateText text-4xl"> ***</span>
+          <h3 className="text-green-500">
+            26. Since<span className=""> ***</span>
           </h3>
           <p>Q. It is long since ........</p>
           <p>= It is long since we met.</p>
@@ -360,14 +360,14 @@ function Completing() {
 
         {/* 27 */}
         <div className="py-3">
-          <h3>27. With a view to:</h3>
+          <h3 className="text-green-500">27. With a view to:</h3>
           <p>Q. He went to college with a view to ..........</p>
           <p>= He went to college with a view to solving the problem</p>
         </div>
 
         {/* 28 */}
         <div className="py-">
-          <h3>28. while:</h3>
+          <h3 className="text-green-500">28. while:</h3>
           <p>Q. We met him while ..........</p>
           <p>= We met him while walking on the road</p>
           <p>Q. We met him while we ..........</p>
@@ -376,7 +376,7 @@ function Completing() {
 
         {/* 29 */}
         <div className="py-3">
-          <h3>
+          <h3 className="text-green-500">
             29. Proverb/maxim:<span className="animateText"> ***</span>
           </h3>
           <p>Q. There is a proverb ..........</p>
@@ -387,7 +387,7 @@ function Completing() {
 
         {/* 30 */}
         <div className="">
-          <h3>30. S + v + to:</h3>
+          <h3 className="text-green-500">30. S + v + to:</h3>
           <p>Q. He wants to .........</p>
           <p>Q. He wants to go to home / read more</p>
         </div>

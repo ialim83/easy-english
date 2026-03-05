@@ -1458,7 +1458,7 @@ const Transformation = () => {
                         সেজন্য
                         <span className="text-blue-600 underline">
                           এখানে ক্লিক/টাচ
-                        </span>
+                        </span> 
                         করুন।
                       </p>
                     </Link>
@@ -2516,6 +2516,23 @@ const Transformation = () => {
                 </p>
               </AccordionTitle>
               <AccordionContent className="p-1">
+                <Link to={"/degreeOfAdj"}>
+                      <p className="py-5">
+                        <span className="text-blue-600 underline">
+                          Degree 
+                        </span>
+                         পরিবর্তন এ এক্সপার্ট হতে চাইলে 
+                        <span className="text-blue-600 underline">
+                          Degree of Adjectives 
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে হবে,
+                        সেজন্য 
+                        <span className="text-blue-600 underline">
+                          এখানে ক্লিক/টাচ 
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
                 <div className="text-black bg-gray-100 my-5">
                   {/* Superlative to Positive Comparative to positive */}
                   <div className="p-1">
@@ -3107,6 +3124,23 @@ const Transformation = () => {
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <h1 className="font-bold mb-4 text-green-500">Degree </h1>
+                 <Link to={"/degreeOfAdj"}>
+                      <p className="py-5">
+                        <span className="text-blue-500 underline">
+                          Degree 
+                        </span>
+                         পরিবর্তন এ এক্সপার্ট হতে চাইলে 
+                        <span className="text-blue-500 underline">
+                          Degree of Adjectives 
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে হবে,
+                        সেজন্য 
+                        <span className="text-blue-500 underline">
+                          এখানে ক্লিক/টাচ 
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
                 <div className="p-2 bg-gray-100 my-5">
                   <div className="">
                     <table className="table-auto w-full border-collapse border  border-gray-400">
@@ -3363,6 +3397,23 @@ const Transformation = () => {
                   <h1 className="text-xl font-bold mb-4 text-green-500">
                     Superlative to Comparative & Positive to Comparative
                   </h1>
+                  <Link to={"/degreeOfAdj"}>
+                      <p className="py-5">
+                        <span className="text-blue-500 underline">
+                          Degree 
+                        </span>
+                         পরিবর্তন এ এক্সপার্ট হতে চাইলে 
+                        <span className="text-blue-500 underline">
+                          Degree of Adjectives 
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে হবে,
+                        সেজন্য 
+                        <span className="text-blue-500 underline">
+                          এখানে ক্লিক/টাচ 
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
                   <table className="table-auto w-full border-collapse border border-gray-400">
                     <thead>
                       <tr className="bg-gray-200">
@@ -3546,6 +3597,23 @@ const Transformation = () => {
                   <h1 className="text-xl font-bold mb-4 text-green-500">
                     Comparative to Superlative & Positive to Superlative
                   </h1>
+                  <Link to={"/degreeOfAdj"}>
+                      <p className="py-5">
+                        <span className="text-blue-500 underline">
+                          Degree 
+                        </span>
+                         পরিবর্তন এ এক্সপার্ট হতে চাইলে 
+                        <span className="text-blue-500 underline">
+                          Degree of Adjectives 
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে হবে,
+                        সেজন্য 
+                        <span className="text-blue-500 underline">
+                          এখানে ক্লিক/টাচ 
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
                   <table className="table-auto w-full border-collapse border border-gray-400">
                     <thead>
                       <tr className="bg-gray-200">
