@@ -11,7 +11,7 @@ function Notice() {
       <div className="">
         <CollegeNotice/>
       </div>
-      <div className="pb-10 md:w-[85%] mx-auto">
+      <div className="pb-10 lg:w-[85%] mx-auto">
         <img src="img/notice.jpg" alt="" />
       </div>
     </div>

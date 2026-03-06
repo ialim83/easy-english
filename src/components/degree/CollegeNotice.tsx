@@ -1,5 +1,4 @@
-// src/components/CollegeNotices.tsx
-import React from 'react';
+
 
 const notices = [
   {
@@ -42,8 +41,8 @@ const notices = [
     date: "00/00/00",
     content: (
       <>
-        This is to notify all the students of <strong>Honours 1st year</strong> that the{" "}
-        <strong>First Semester Test Examination</strong> is going to be held from{" "}
+        This is to notify all the students of <strong>Honours 1st year</strong> that the
+        <strong> First Semester Test Examination</strong> is going to be held from
         <strong>00/00/00</strong> to <strong>00/00/00</strong>.
         <br /><br />
         The time table of the examination is given below:
@@ -98,11 +97,9 @@ export default function CollegeNotice() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl">
-            ASM English Private Centre
+            Easy-English Academy
           </h1>
-          <p className="mt-2 text-lg text-gray-600">
-            Ranigonj Mohila Degree College
-          </p>
+          
           <div className="mt-4 h-1 w-24 bg-indigo-600 mx-auto rounded"></div>
         </div>
 
@@ -118,13 +115,15 @@ export default function CollegeNotice() {
                 <h2 className="text-xl font-semibold text-white">
                   {notice.title}
                 </h2>
-                <p className="text-indigo-100 text-sm mt-1">
+                {/* <p className="text-indigo-100 text-sm mt-1">
                   Date: {notice.date}
-                </p>
+                </p> */}
               </div>
 
               {/* Body */}
               <div className="p-6 text-gray-800 leading-relaxed">
+              <p className="text-center underline">{notice.title}</p>
+              <p className="text-right">Date: {notice.date}</p>
                 {notice.content}
               </div>
 
