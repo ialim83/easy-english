@@ -12,7 +12,7 @@ const Banner = () => {
         // showCursor: true,
         backDelay: 1500,
         backSpeed: 60,
-        strings: ["Easy English Academy"],
+        strings: ["Easy-English Academy"],
       });
     }
   }, []);
@@ -102,9 +102,9 @@ const Banner = () => {
           </section>
         </div>
       </div> */}
-      <div className="relative w-full bg-[#fff]">
+      <div className="relative w-full bg-white">
         {/* Global overlay (same everywhere) */}
-        {/* <div className="absolute inset-0 bg-black/20 pointer-events-none" /> */}
+        <div className="absolute inset-0 bg-black/20 pointer-events-none" />
         {/* <div className="hero-overlay bg-opacity-20"></div> */}
         <div className="relative w-full flex justify-center min-h-screen">
           <section className="relative flex items-center justify-center py-16 lg:py-24 w-full">
@@ -134,7 +134,7 @@ const Banner = () => {
               </video>
 
               {/* SAME overlay as page */}
-              {/* <div className="absolute inset-0 bg-black/20" /> */}
+              <div className="absolute inset-0 bg-black/20" />
 
               {/* Centered Content */}
               <div className="relative z-10 flex flex-col items-center justify-center h-full text-center gap-4 px-4">
@@ -142,7 +142,7 @@ const Banner = () => {
                   Welcome to
                 </h1>
 
-                <h2 className="font-bold text-black text-xl sm:text-2xl md:text-4xl lg:text-5xl heading2">
+                <h2 className="font-bold text-green-500 text-xl sm:text-2xl md:text-4xl lg:text-5xl heading2">
                   <span ref={textRef}></span>
                 </h2>
 

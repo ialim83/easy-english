@@ -16,37 +16,48 @@ const Transformation = () => {
   const totalPages = 6;
 
   // Detect screen width and adjust book size
-  const [bookSize, setBookSize] = useState({ width: 900, height: 700 });
+  const [bookSize, setBookSize] = useState({ width: 700, height: 550 });
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
-        // Mobile (sm breakpoint)
-        setBookSize({ width: window.innerWidth - 40, height: 500 });
+        setBookSize({
+          width: window.innerWidth - 30,
+          height: 450,
+        });
       } else if (window.innerWidth < 1024) {
-        // Tablet
-        setBookSize({ width: 400, height: 700 });
+        setBookSize({
+          width: 600,
+          height: 500,
+        });
       } else {
-        // Desktop
-        setBookSize({ width: 900, height: 700 });
+        setBookSize({
+          width: 700,
+          height: 550,
+        });
       }
     };
 
-    handleResize(); // run once on mount
+    handleResize();
     window.addEventListener("resize", handleResize);
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
     <div className="h-full w-full">
       {/* flip book */}
-      <div className="flex flex-col items-center py-10 px- w-full">
+      <div className="flex flex-col items-center py-10 px-4 md:px-10 lg:px-20">
         {/* FlipBook */}
         <FlipPage
           ref={flipRef}
           orientation="horizontal"
           width={bookSize.width}
           height={bookSize.height}
+          style={{
+            width: bookSize.width,
+            height: bookSize.height,
+          }}
           className="shadow-2xl rounded-xl bg-white"
           showHint
           animationDuration={600}
@@ -64,18 +75,21 @@ const Transformation = () => {
               height: "100%",
             }}
           >
-            <h1> 📖 </h1>
-            <h1 className="text-2xl font-bold">Transformation</h1>
-            <p className="m-5">Swipe to read</p>
+            <h1 className="text-9xl"> 📖 </h1>
+            <h1 className="text-2xl font-bold text-green-500">
+              Transformation
+            </h1>
+            <p className="m-5 text-pink-600">Swipe to read</p>
           </article>
           <article className="p-3">
             <h2 className="text-xl font-bold">Page 1</h2>
+
             <div className="">
-              <div className="w-full overflow-x-auto ">
-                <h3 className="text-center md:text-start text-green-500">
-                  [A] Affirmative to Negative/ Negative to Affirmative
-                </h3>
-                <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
+              <h3 className="text-center md:text-start text-green-500">
+                [A] Affirmative to Negative/ Negative to Affirmative
+              </h3>
+              <div className="w-full overflow-x-auto">
+                <table className="min-w-[800px] table-auto border">
                   <tr>
                     <th>Affirmative (Aff.)</th>
                     <th>Negative (Neg.)</th>
@@ -449,7 +463,6 @@ const Transformation = () => {
             {/* TABLE: AFFIRMATIVE-NEGATIVE */}
             <AccordionPanel>
               <AccordionTitle>
-                
                 <span className="text-rose-800">Sentence</span> (অর্থ অনুসারে)
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
@@ -980,22 +993,17 @@ const Transformation = () => {
               <AccordionContent className="p-2 md:p-5">
                 <div className="w-full overflow-x-auto my-10">
                   <Link to={"/sentence"}>
-                      <p className="">
-                        <span className="text-blue-600 underline">
-                          Sentence
-                        </span>
-                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
-                        <span className="text-blue-600 underline">
-                          Sentence
-                        </span>
-                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
-                        সেজন্য
-                        <span className="text-blue-600 underline">
-                          এখানে ক্লিক/টাচ
-                        </span>
-                        করুন।
-                      </p>
-                    </Link>
+                    <p className="">
+                      <span className="text-blue-600 underline">Sentence</span>
+                      পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                      <span className="text-blue-600 underline">Sentence</span>
+                      ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে, সেজন্য
+                      <span className="text-blue-600 underline">
+                        এখানে ক্লিক/টাচ
+                      </span>
+                      করুন।
+                    </p>
+                  </Link>
                   <h3 className="text-center md:text-start text-green-500">
                     [A] Affirmative to Negative/ Negative to Affirmative
                   </h3>
@@ -1244,22 +1252,17 @@ const Transformation = () => {
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <Link to={"/sentence"}>
-                      <p className="py-5">
-                        <span className="text-blue-600 underline">
-                          Sentence
-                        </span>
-                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
-                        <span className="text-blue-600 underline">
-                          Sentence
-                        </span>
-                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
-                        সেজন্য
-                        <span className="text-blue-600 underline">
-                          এখানে ক্লিক/টাচ
-                        </span>
-                        করুন।
-                      </p>
-                    </Link>
+                    <p className="py-5">
+                      <span className="text-blue-600 underline">Sentence</span>
+                      পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                      <span className="text-blue-600 underline">Sentence</span>
+                      ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে, সেজন্য
+                      <span className="text-blue-600 underline">
+                        এখানে ক্লিক/টাচ
+                      </span>
+                      করুন।
+                    </p>
+                  </Link>
                   <h3 className="text-green-500">
                     Assertive থেকে Interrogative-এ রূপান্তর
                   </h3>
@@ -1332,22 +1335,17 @@ const Transformation = () => {
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <Link to={"/sentence"}>
-                      <p className="py-5">
-                        <span className="text-blue-600 underline">
-                          Sentence
-                        </span>
-                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
-                        <span className="text-blue-600 underline">
-                          Sentence
-                        </span>
-                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
-                        সেজন্য
-                        <span className="text-blue-600 underline">
-                          এখানে ক্লিক/টাচ
-                        </span>
-                        করুন।
-                      </p>
-                    </Link>
+                    <p className="py-5">
+                      <span className="text-blue-600 underline">Sentence</span>
+                      পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                      <span className="text-blue-600 underline">Sentence</span>
+                      ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে, সেজন্য
+                      <span className="text-blue-600 underline">
+                        এখানে ক্লিক/টাচ
+                      </span>
+                      করুন।
+                    </p>
+                  </Link>
                   <h3 className="text-green-500">
                     Assertive থেকে Exclamatory -তে রূপান্তর-
                   </h3>
@@ -1446,22 +1444,17 @@ const Transformation = () => {
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <Link to={"/sentence"}>
-                      <p className="py-5">
-                        <span className="text-blue-600 underline">
-                          Sentence
-                        </span>
-                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
-                        <span className="text-blue-600 underline">
-                          Sentence
-                        </span>
-                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
-                        সেজন্য
-                        <span className="text-blue-600 underline">
-                          এখানে ক্লিক/টাচ
-                        </span> 
-                        করুন।
-                      </p>
-                    </Link>
+                    <p className="py-5">
+                      <span className="text-blue-600 underline">Sentence</span>
+                      পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                      <span className="text-blue-600 underline">Sentence</span>
+                      ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে, সেজন্য
+                      <span className="text-blue-600 underline">
+                        এখানে ক্লিক/টাচ
+                      </span>
+                      করুন।
+                    </p>
+                  </Link>
                   <h3 className="text-green-500">
                     Assertive থেকে Imperative (command/request/order/advice) -এ
                     রূপান্তর
@@ -2517,22 +2510,64 @@ const Transformation = () => {
               </AccordionTitle>
               <AccordionContent className="p-1">
                 <Link to={"/degreeOfAdj"}>
-                      <p className="py-5">
-                        <span className="text-blue-600 underline">
-                          Degree 
-                        </span>
-                         পরিবর্তন এ এক্সপার্ট হতে চাইলে 
-                        <span className="text-blue-600 underline">
-                          Degree of Adjectives 
-                        </span>
-                        ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে হবে,
-                        সেজন্য 
-                        <span className="text-blue-600 underline">
-                          এখানে ক্লিক/টাচ 
-                        </span>
-                        করুন।
-                      </p>
-                    </Link>
+                  <p className="py-5">
+                    <span className="text-blue-600 underline">Degree</span>
+                    পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                    <span className="text-blue-600 underline">
+                      Degree of Adjectives
+                    </span>
+                    ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে
+                    হবে, সেজন্য
+                    <span className="text-blue-600 underline">
+                      এখানে ক্লিক/টাচ
+                    </span>
+                    করুন।
+                  </p>
+                  </Link>
+
+                  <p className="my-10">
+                    Degree <br />
+                    Shortcut technique: <br /> <br />
+                    Positive Degree: <br />
+                    Structure: <br /> 
+                    1. Subject + verb + so/as + Adjective-1 + as+ others. <br />
+                    1. No other/ very few + Subject + verb + so/as + Adjective-1 + as + others. <br />
+                    <br /><br />
+                    Explanation: <br />
+                    i. Verb as...as/ so...as <br />
+                    ii. so...as/ as...as Ajective 1 as good as <br />
+                    iii. No ohter/ Very few  <br />
+                    i. He is cleverer than any other boy in the class. <br />
+                    i. He is clever than most oher boys in the class. <br />
+                    iii. He is more intelligent than all other boys in the class. 
+                    <br /> 
+                    <br />
+                    Comparative Degree: <br />
+                    Structure: <br /> 
+                    1. Subject + verb + the/one of the + Adj-3+ others. <br />
+                    2. Subject + verb + the/one of the + most + Adj-1+ others.  <br /><br />
+                    Explanation: <br />
+
+                    i. Verb Adjective-2 er Adj-1 more <br />
+                    ii. Adjective than/ than any other/ than most other/ than all other <br />
+                    iii. <br />
+                    i. He is cleverer than any other boy in the class. <br />
+                    i. He is clever than most oher boys in the class. <br />
+                    iii. He is more intelligent than all other boys in the class. 
+                    <br /> 
+                    <br /> 
+                    Superlative Degree: <br />
+                    Structure: <br /> 
+                    1. Subject + verb + the/one of the + Adj-3+ others. <br />
+                    2. Subject + verb + the/one of the + most + Adj-1+ others.  <br /><br />
+                    Explanation: <br />
+                    i. Verb the/ one of the <br />
+                    ii. the er pore est thakbe ba  Adj-3 thakbe othoba adj-1 er purbe most thakbe <br />
+                    i. He is one of the cleverest boys in the class. <br />
+                    i. He is the cleverest boy in the class. <br />
+                    iii. He is the most intelligent boy in the class. <br />
+                  </p>
+                
                 <div className="text-black bg-gray-100 my-5">
                   {/* Superlative to Positive Comparative to positive */}
                   <div className="p-1">
@@ -3124,23 +3159,21 @@ const Transformation = () => {
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <h1 className="font-bold mb-4 text-green-500">Degree </h1>
-                 <Link to={"/degreeOfAdj"}>
-                      <p className="py-5">
-                        <span className="text-blue-500 underline">
-                          Degree 
-                        </span>
-                         পরিবর্তন এ এক্সপার্ট হতে চাইলে 
-                        <span className="text-blue-500 underline">
-                          Degree of Adjectives 
-                        </span>
-                        ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে হবে,
-                        সেজন্য 
-                        <span className="text-blue-500 underline">
-                          এখানে ক্লিক/টাচ 
-                        </span>
-                        করুন।
-                      </p>
-                    </Link>
+                <Link to={"/degreeOfAdj"}>
+                  <p className="py-5">
+                    <span className="text-blue-500 underline">Degree</span>
+                    পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                    <span className="text-blue-500 underline">
+                      Degree of Adjectives
+                    </span>
+                    ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে
+                    হবে, সেজন্য
+                    <span className="text-blue-500 underline">
+                      এখানে ক্লিক/টাচ
+                    </span>
+                    করুন।
+                  </p>
+                </Link>
                 <div className="p-2 bg-gray-100 my-5">
                   <div className="">
                     <table className="table-auto w-full border-collapse border  border-gray-400">
@@ -3398,22 +3431,20 @@ const Transformation = () => {
                     Superlative to Comparative & Positive to Comparative
                   </h1>
                   <Link to={"/degreeOfAdj"}>
-                      <p className="py-5">
-                        <span className="text-blue-500 underline">
-                          Degree 
-                        </span>
-                         পরিবর্তন এ এক্সপার্ট হতে চাইলে 
-                        <span className="text-blue-500 underline">
-                          Degree of Adjectives 
-                        </span>
-                        ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে হবে,
-                        সেজন্য 
-                        <span className="text-blue-500 underline">
-                          এখানে ক্লিক/টাচ 
-                        </span>
-                        করুন।
-                      </p>
-                    </Link>
+                    <p className="py-5">
+                      <span className="text-blue-500 underline">Degree</span>
+                      পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                      <span className="text-blue-500 underline">
+                        Degree of Adjectives
+                      </span>
+                      ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে
+                      হবে, সেজন্য
+                      <span className="text-blue-500 underline">
+                        এখানে ক্লিক/টাচ
+                      </span>
+                      করুন।
+                    </p>
+                  </Link>
                   <table className="table-auto w-full border-collapse border border-gray-400">
                     <thead>
                       <tr className="bg-gray-200">
@@ -3598,22 +3629,21 @@ const Transformation = () => {
                     Comparative to Superlative & Positive to Superlative
                   </h1>
                   <Link to={"/degreeOfAdj"}>
-                      <p className="py-5">
-                        <span className="text-blue-500 underline">
-                          Degree 
-                        </span>
-                         পরিবর্তন এ এক্সপার্ট হতে চাইলে 
-                        <span className="text-blue-500 underline">
-                          Degree of Adjectives 
-                        </span>
-                        ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে হবে,
-                        সেজন্য 
-                        <span className="text-blue-500 underline">
-                          এখানে ক্লিক/টাচ 
-                        </span>
-                        করুন।
-                      </p>
-                    </Link>
+                    <p className="py-5">
+                      <span className="text-blue-500 underline">Degree</span>
+                      পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                      <span className="text-blue-500 underline">
+                        Degree of Adjectives
+                      </span>
+                      ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে
+                      হবে, সেজন্য
+                      <span className="text-blue-500 underline">
+                        এখানে ক্লিক/টাচ
+                      </span>
+                      করুন।
+                    </p>
+                  </Link>
+
                   <table className="table-auto w-full border-collapse border border-gray-400">
                     <thead>
                       <tr className="bg-gray-200">

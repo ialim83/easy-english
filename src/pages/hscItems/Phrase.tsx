@@ -70,8 +70,9 @@ function Phrase() {
 
   return (
     <div className="h-full md:w-[85%]  mx-auto px-4">
-      <div className="my-20 ">
-        <h1 className="text-center text-green-400">Phrase</h1>
+      <div className="my-20 text-center">
+        <h1 className="animate-bounce text-green-400">Phrase</h1>
+        <p className="">Phrase: only for HSC</p>
       </div>
       <div className="">
         <p className="">
@@ -121,10 +122,10 @@ function Phrase() {
         </div>
 
         <div className="py-10">
-          <h2 className="">Rules:</h2>
+          <h1 className="">Rules:</h1>
           <div className="mb-6">
             <h3 className="font-bold text-green-500">
-              1. Let alone(চিন্তাই করা যায়না):
+              1. Let alone (চিন্তাই করা যায়না)
             </h3>
             <ul className="list-decimal pl-10">
               <li>বাক্যের শেষে দিকে শূন্যস্থান থাকবে ।</li>
@@ -139,8 +140,8 @@ function Phrase() {
           </div>
           <div className="mb-6">
             <h3 className="font-bold text-green-500 ">
-              2. What's it like (কিসের মতো)/ Would you mind(আপনার কি আপত্তি
-              আছে?):
+              2. What's it like (কিসের মতো)/ <br /> Would you mind (আপত্তি
+              আছে কি?)
             </h3>
             <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
@@ -154,7 +155,7 @@ function Phrase() {
           </div>
           <div className="mb-6">
             <h3 className="font-bold text-green-500">
-              3. What's like/ What does look like/ How like:
+              3. What's like/ What does look like/ How like
             </h3>
             <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে এবং শেষে দুটি শূন্যস্থান থাকবে ।</li>
@@ -167,7 +168,7 @@ function Phrase() {
           </div>
           <div className="mb-6">
             <h3 className="font-bold text-green-500">
-              4. Would rather(বরং ভালো):
+              4. Would rather (বরং ভালো)
             </h3>
             <ul className="list-decimal pl-10">
               <li>
@@ -182,7 +183,7 @@ function Phrase() {
           </div>
           <div className="mb-6">
             <h3 className="font-bold text-green-500">
-              5. What if( যদি তাহলে কি হবে?):
+              5. What if (যদি তাহলে কি হবে?):
             </h3>
             <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
@@ -193,7 +194,7 @@ function Phrase() {
           </div>
           <div className="mb-6">
             <h3 className="font-bold text-green-500">
-              6. Wish/ Fancy(কল্পনা করা):
+              6. Wish/ Fancy (কল্পনা করা):
             </h3>
             <ul className="list-decimal pl-10">
               <li>শূন্যস্থানের আগে এবং পরে একই subject থাকবে ।</li>

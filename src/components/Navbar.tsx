@@ -41,7 +41,7 @@ const Navbar = () => {
         className={
           nav
             ? "fixed top-0 left-0 right-0 z-50 transition bg-slate-100  text-pink-500 font-bold"
-            : "bg-white font-bold text-black"
+            : "bg-green-500 font-bold text-black"
         }
       >
         <div className="navbar">
@@ -155,7 +155,7 @@ const Navbar = () => {
             >
               {/* <img src={"/man.jpg"}/> */}
               <img src={auth?.user?.photoURL || "/man.jpg"} className="w-10 border-2 rounded-full"  />
-              <span className="heading2 ">Easy English</span>
+              <span className="heading2 ">Easy-English</span>
             </Link>
           </div>
 

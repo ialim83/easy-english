@@ -33,7 +33,7 @@ function Completing() {
   ];
 
   return (
-    <div className="h-full md:w-[85%] mx-auto px-5">
+    <div className="h-full lg:w-[85%] mx-auto px-5">
       <div className="">
         <div className="relative text-9xl italic text-green-400">
           <p>C</p>
@@ -45,7 +45,8 @@ function Completing() {
         </div>
       </div>
 
-      <div className="">
+      <div className="pt-20">
+        <div className="">
         <p className="">
           Completing Sentence পরীক্ষায় আসে Oucation No-4 এ, শূন্যস্থান থাকে ১০
           টি, মার্কস-5. এই গুলিকে 5 out of 5 পাওয়ার জন্য নিচের রুলস গুল্যে পড়লেই
@@ -98,7 +99,10 @@ function Completing() {
             1. after / before: <span className="">***</span>
           </h3>
           <p>Q. He reached after............</p>
-          <p>* He reached after he had / have/ has finished (reading the book/ the work).</p>
+          <p>
+            * He reached after he had / have/ has finished (reading the book/
+            the work).
+          </p>
           <p>
             = He reached after <u> he had finished it</u> .
           </p>
@@ -107,7 +111,7 @@ function Completing() {
             (Note: before এর পরে had হবেনা)
           </p>
         </div>
-        
+
         {/* 2 */}
         <div className="">
           <h3 className="text-green-500">2. Lest:</h3>
@@ -121,8 +125,7 @@ function Completing() {
         {/* 3 */}
         <div className="py-3">
           <h3 className="text-green-500">
-            3. It is time/ it is high
-            time:<span className=""> *** </span>
+            3. It is time/ it is high time:<span className=""> *** </span>
           </h3>
           <p>Q. It is high time .......</p>
           <p>
@@ -187,7 +190,7 @@ function Completing() {
         {/* 8 */}
         <div className="">
           <h3 className="text-green-500">
-            8. If <span className="text-pink-500">*** </span> 
+            8. If <span className="text-pink-500">*** </span>
           </h3>
           <p>(i) if he comes,..................</p>
           <p>= if he comes. I will do it.</p>
@@ -211,13 +214,17 @@ function Completing() {
         </div>
         {/* 10 */}
         <div className="">
-          <h3 className="text-green-500">10. It is time to/ it is time for....</h3>
+          <h3 className="text-green-500">
+            10. It is time to/ it is time for....
+          </h3>
           <p>= It is time to start the work.</p>
           <p>= It is time for us to start the work.</p>
         </div>
         {/* 11 */}
         <div className="py-3">
-          <h3 className="text-green-500">11. (i) No sooner/ Hardly/ Scarcely:</h3>
+          <h3 className="text-green-500">
+            11. (i) No sooner/ Hardly/ Scarcely:
+          </h3>
           <p>(i) No sooner had ....... than.....:</p>
           <p>= No sooner had he gone out than he came.</p>
           <p>(ii) Scarcely had.... when/before.....</p>
@@ -294,7 +301,9 @@ function Completing() {
 
         {/* 20 */}
         <div className="">
-          <h3 className="text-green-500">20. had better / had rather / would rather / better:</h3>
+          <h3 className="text-green-500">
+            20. had better / had rather / would rather / better:
+          </h3>
           <p>(i) He had better.........</p>
           <p>= He had better read now.</p>
           <p>(ii) I would rather / better.......</p>
@@ -392,6 +401,8 @@ function Completing() {
           <p>Q. He wants to go to home / read more</p>
         </div>
       </div>
+      </div>
+      
 
       {/* <!-- Exercise --> */}
       <div className="pb-10">
