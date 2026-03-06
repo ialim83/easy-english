@@ -466,7 +466,7 @@ const Accordions = () => {
                 না-বোধক বাক্যের <strong>গঠন</strong>: <br />* Sub + was not/
                 were not + V<sub>1</sub> এর সাথে ing + obj + others.
                 <br />
-                অথবাঃ * Sub + was not/ were not + V<sub>1</sub> এর সাথে ing +
+                অথবাঃ * Sub + wasn't/ weren't + V<sub>1</sub> এর সাথে ing +
                 obj + others.
                 <br />
                 <br />
