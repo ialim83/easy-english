@@ -22,7 +22,7 @@ const Transformation = () => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
         setBookSize({
-          width: window.innerWidth - 30,
+          width: window.innerWidth - 40,
           height: 450,
         });
       } else if (window.innerWidth < 1024) {
@@ -47,7 +47,7 @@ const Transformation = () => {
   return (
     <div className="h-full w-full">
       {/* flip book */}
-      <div className="flex flex-col items-center py-10 px-4 md:px-10 lg:px-20">
+      <div className="flex flex-col items-center py-10 px-4 md:px-10 lg:px-20 overflow-hidden">
         {/* FlipBook */}
         <FlipPage
           ref={flipRef}
@@ -2530,27 +2530,35 @@ const Transformation = () => {
                     Shortcut technique: <br /> <br />
                     Positive Degree: <br />
                     Structure: <br /> 
-                    1. Subject + verb + so/as + Adjective-1 + as+ others. <br />
+                    1. Subject + verb + so/as + Adjective-1 + as + others. <br />
                     1. No other/ very few + Subject + verb + so/as + Adjective-1 + as + others. <br />
                     <br /><br />
                     Explanation: <br />
-                    i. Verb as...as/ so...as <br />
-                    ii. so...as/ as...as Ajective 1 as good as <br />
-                    iii. No ohter/ Very few  <br />
-                    i. He is cleverer than any other boy in the class. <br />
-                    i. He is clever than most oher boys in the class. <br />
-                    iii. He is more intelligent than all other boys in the class. 
+                    i. Verb এর পরে as...as / so...as থাকবে।<br />
+                    ii. so...as/ as...as এর পরে Ajective-1 থাকবে। যেমনঃ  as good as <br />
+                    
+                    iii. No ohter/ Very few দ্বারা বাক্যটি শুরু হতে পারে।  <br />
+                    <br />
+                    যেমনঃ 
+                    <br />
+                    
+                    i. He is so clever as Rohim in the class. <br />
+                    i. No other boy is so clever as Rohim in the class. <br />
                     <br /> 
                     <br />
-                    Comparative Degree: <br />
-                    Structure: <br /> 
-                    1. Subject + verb + the/one of the + Adj-3+ others. <br />
-                    2. Subject + verb + the/one of the + most + Adj-1+ others.  <br /><br />
-                    Explanation: <br />
 
-                    i. Verb Adjective-2 er Adj-1 more <br />
-                    ii. Adjective than/ than any other/ than most other/ than all other <br />
-                    iii. <br />
+                    Comparative Degree: <br />
+                    Structure: <br />  
+                    1. Subject + verb + Adj-2 + others. <br />
+                    2. Subject + verb + more + Adj-1 + others.  <br /><br /> 
+                    Explanation: <br />
+                    i. Verb এর পরে Adjective-2 বা er যুক্ত শব্দ থাকবে <br /> 
+                    অথবা Adj-1 এর পূর্বে more থাকবে। <br />
+                    ii. Adjective এর পরে  than/ than any other/ than most other/ than all other থাকবে। <br />
+                    iii. of all থাকতে পারে।
+                    <br />
+                    <br />
+                    যেমনঃ <br />
                     i. He is cleverer than any other boy in the class. <br />
                     i. He is clever than most oher boys in the class. <br />
                     iii. He is more intelligent than all other boys in the class. 
@@ -2558,11 +2566,15 @@ const Transformation = () => {
                     <br /> 
                     Superlative Degree: <br />
                     Structure: <br /> 
-                    1. Subject + verb + the/one of the + Adj-3+ others. <br />
+                    1. Subject + verb + the/one of the + Adjective-3+ others. <br />
                     2. Subject + verb + the/one of the + most + Adj-1+ others.  <br /><br />
                     Explanation: <br />
-                    i. Verb the/ one of the <br />
-                    ii. the er pore est thakbe ba  Adj-3 thakbe othoba adj-1 er purbe most thakbe <br />
+                    i. Verb এর পরে the/ one of the থাকবে।  <br />
+                    ii. the এর পরে est যুক্ত শব্দ থাকবে বা Adjective-3 থাকবে <br /> 
+                    অথবা adjective-1 এর পূর্বে most থাকবে। 
+                    <br />
+                    <br />
+                    যেমনঃ <br />
                     i. He is one of the cleverest boys in the class. <br />
                     i. He is the cleverest boy in the class. <br />
                     iii. He is the most intelligent boy in the class. <br />
