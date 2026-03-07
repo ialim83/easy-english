@@ -34,10 +34,10 @@ function Report() {
         </h1>
       </div>
       <div className="">
-        <div className="min-h-screen bg-gray-50 py-10 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-full bg-gray-50 py-10 px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl bg-white shadow-lg rounded-xl overflow-hidden">
             {/* 1 */}
-            <div className="min-h-screen bg-gray-50 py-10 px-4 font-serif text-gray-800">
+            <div className="min-h-full bg-gray-50 py-10 px-4 font-serif text-gray-800">
               <div className=" bg-white p-4 shadow-md border border-gray-100">
                 {/* Header */}
                     <header className="text-center mb-10">
@@ -93,7 +93,7 @@ function Report() {
             </div>
 
             <div className="">
-              <div className="min-h-screen bg-gray-100 p-4 font-serif">
+              <div className="min-h-full bg-gray-100 p-4 font-serif">
                 <div className="max-w-4xl mx-auto bg-white shadow-lg p-4 md:p-12 border border-gray-200 relative">
                   
                   {/* 2 */}
@@ -225,8 +225,8 @@ function Report() {
 
           {/* 4 */}
           <div className="">
-            <div className="min-h-screen bg-gray-100 py-10">
-              <div className="max-w-3xl mx-auto bg-white p-4 shadow-lg border border-gray-200 text-gray-800 leading-relaxed">
+            <div className="min-h-full  py-10">
+              <div className="max-w-4xl mx-auto bg-white p-4 shadow-lg border border-gray-200 text-gray-800 leading-relaxed">
                 {/* Header Section */}
                 <div className="text-center mb-10">
                   <h1 className="text-3xl font-normal mb-1">Report 4</h1>

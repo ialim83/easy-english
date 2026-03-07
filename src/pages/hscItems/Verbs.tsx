@@ -118,9 +118,9 @@ function Verbs() {
             <img src="/bookCover3.jpg" className="w-full h-full" alt="" />
           </div>
 
-          {/* page1 */}
+          {/* page2 */}
           <div className="p-3 text-black lg:p-5 bg-[#FDFAF7] book-shadow">
-            <h2 className="text-xl font-bold ">Page 1</h2>
+            <h2 className="text-xl font-bold ">Page 2</h2>
             {/* 1 */}
             <div className="text-base">
               <p>
@@ -153,10 +153,9 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 2 */}
+          {/* page 3 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold">Page 2</h2>
-
+            <h2 className="text-xl font-bold">Page 3</h2>
             {/* 3 */}
             <div className="">
               <p>
@@ -187,9 +186,58 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 3 */}
+          {/* page 4 */}
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold">Page 4</h2>
+            {/* 3 */}
+            <div className="space-y-1">
+              <p className="font-bold">Tense:</p>
+              <p className="font-bold">1. Present Indefinite Tense</p>
+              i. Subject + V<sub>1</sub> (s/es) + extension. <br />
+              ii. Subject + do/ does + V<sub>1</sub> + extension.
+              <p className="font-bold">2. Present Continuous Tense</p>
+              = Subject + am/is/are + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">3. Present Perfect Tense</p>
+              = Subject + have/ has + V<sub>3</sub> + extension.
+              <p className="font-bold">4. Present Perfect Continuous Tense</p>
+              = Subject + have been/ has been + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">5. Past Indefinite Tense</p>
+              = i. Sub + V<sub>2</sub> + extension. <br />
+              = ii. Sub + did not + V<sub>1</sub> + extension.
+              
+            </div>
+          </div>
+          {/* page 5  */}
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold">Page 5</h2>
+            <div className="space-y-1">   
+              <p className="font-bold">6. Past Continuous Tense</p>
+              = Sub + was/were + V<sub>1</sub>-ing + extension.
+
+              <p className="font-bold">7. Past Perfect Tense</p>
+              = Sub + had + V<sub>3</sub> + extension.
+
+              <p className="font-bold">8. Past Perfect Continuous Tense</p>
+              = Subject + had been/ had been + V<sub>1</sub>-ing + extension.
+
+              <p className="font-bold">9. Future Indefinite Tense</p>
+              = Subject + shall/ will + V<sub>1</sub> + extension.
+
+              <p className="font-bold">10. Future Continuous Tense</p>
+              = Subject + shall be/ will be + V<sub>1</sub>-ing + extension.
+
+              <p className="font-bold">11. Future Perfect Tense</p>
+              = Subject + shall have/ will have + V<sub>1</sub> + extension.
+
+              <p className="font-bold">12. Future Perfect Continuous Tense</p>
+              = Subject + shall have been/ will have been + V<sub>1</sub> + extension.
+            </div>
+          </div>
+
+          {/* page 6 */}
           <div className="p-3 text-base text-black md:p-20 bg-[#EFE5D6]  book-shadow">
-            <h2 className="text-xl font-bold ">Page 3</h2>
+            <h2 className="text-xl font-bold ">Page 6</h2>
+              <div>
             <p className="">
               <span className=" font-bold">Rule: 5. </span>
               <br />
@@ -202,20 +250,8 @@ function Verbs() {
               Q. I went out having (close) the door.
               <br />= I went out having closed the door.
             </p>
-
-            <div>
-              {/* <p className="py-1 font-bold"> আবার-</p>
-              <p>
-                <strong> (b). </strong>having এবং get, got, gotten এবং
-                Linking-verb (be, become) এর পর ব্রাকেটের Verb টি V<sub>3</sub>
-                হয়। <br />
-                যেমনঃ
-                <br />
-                <span className="dark:text-green-400">
-                  Q. I went out having (close) the door.
-                  <br />= I went out having closed the door.
-                </span>
-              </p> */}
+          
+           
               <p className="text-rose-500 mt-4 font-semibold">কিন্তু</p>
               <p>
                 <strong> (c). </strong>
@@ -229,10 +265,9 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 4 */}
+          {/* page 7 */}
           <div className="p-3 text-base text-black lg:p-5 bg-[#EFE5D6]  book-shadow">
-            <h2 className="text-xl font-bold">Page 4</h2>
-
+            <h2 className="text-xl font-bold">Page 7</h2>
             {/* 6 */}
             <div className="">
               <p>
@@ -266,9 +301,9 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 5 */}
+          {/* page 8 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold ">Page 5</h2>
+            <h2 className="text-xl font-bold ">Page 8</h2>
 
             <p className="dark:text-green-400">
               cannot help, could not help, confess to ইত্যাদির পরে ব্রাকেটের
@@ -298,9 +333,9 @@ function Verbs() {
             </p>
           </div>
 
-          {/* page 6 */}
+          {/* page 9 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold ">Page 6</h2>
+            <h2 className="text-xl font-bold ">Page 9</h2>
             {/* 9 */}
             <p className="">
               <strong>Rule: 9. </strong> <br />
@@ -328,9 +363,9 @@ function Verbs() {
             </p>
           </div>
 
-          {/* page 7 */}
+          {/* page 10 */}
           <div className="p-2 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold ">Page 7</h2>
+            <h2 className="text-xl font-bold ">Page 10</h2>
 
             {/* 10 */}
             <p className="">
@@ -360,9 +395,9 @@ function Verbs() {
             </p>
           </div>
 
-          {/* page 8 */}
+          {/* page 11 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <p className="text-xl font-bold mb-1">Page 8</p>
+            <p className="text-xl font-bold mb-1">Page 11</p>
             <div className="">
               কিন্তু
               <p className="py-">
@@ -388,9 +423,9 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 9 */}
+          {/* page 12 */}
           <div className="p-2 text-black md:p-14 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold">Page 9</h2>
+            <h2 className="text-xl font-bold">Page 12</h2>
             {/* 13 */}
             <div className="">
               <p>
@@ -403,9 +438,8 @@ function Verbs() {
                 <br />
                 গঠন: Sub + shall/ will + V<sub>1</sub> +.....
                 <br />
-                <strong>(b). </strong>If বাক্যটি Past Indefinite
-                tense হলে if ছাড়া বাক্যটি Subject + would/could /might + V
-                <sub>1</sub> হবে।
+                <strong>(b). </strong>If বাক্যটি Past Indefinite tense হলে if
+                ছাড়া বাক্যটি Subject + would/could /might + V<sub>1</sub> হবে।
                 <br />
                 Q. If he came, I (go).
                 <br />= If he came, I <u>would go</u>.
@@ -416,23 +450,22 @@ function Verbs() {
                 ছাড়া বাক্যটি Subject + would have/could have/might have + V
                 <sub>3</sub> হবে।
                 <br />
-                Q. If you had told me this, I (do) it. 
+                Q. If you had told me this, I (do) it.
                 <br />= If you had told me this, I <u>would have done</u> it.
               </p>
             </div>
           </div>
 
-          {/* page 10 */}
+          {/* page 13 */}
           <div className="p-3  text-black md:p-12 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 10</h2>
+            <h2 className="text-xl font-bold mb-2">Page 13</h2>
 
             <p className="">
               <strong> (d) </strong>যদি Had + Subject + V<sub>3</sub> থাকে তাহলে
               had ছাড়া বাক্যেটি- Subj + would have/could have/might have + V
               <sub>3</sub> হবে/হয়। যেমন: <br />
-              Q. Had Muni told me this, I (do) it. 
-              <br />= Had Muni told me
-              this, I<u> would have done</u> it.
+              Q. Had Muni told me this, I (do) it.
+              <br />= Had Muni told me this, I<u> would have done</u> it.
             </p>
             <div className="pb-">
               {/* 14 */}
@@ -440,51 +473,50 @@ function Verbs() {
                 <span className=" font-bold">Rule: 14. </span> <br />
                 V + object + (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে ing
                 যুক্ত হয়। <br />
-                Q. I saw him (play) card. 
-                <br />
-                = I saw him playing card.
+                Q. I saw him (play) card.
+                <br />= I saw him playing card.
               </p>
 
               {/* 15 */}
               <p className="">
                 <strong>Rule: 15. </strong>
                 সাধারণত ব্রাকেটে Verb দ্বারা বাক্য শুরু হলে সেই Verb এর সাথে ing
-                যুক্ত হয়।<br />
-                Q. (Go) home, he will sleep. <br />
-                = Going home, he will sleep.
+                যুক্ত হয়।
+                <br />
+                Q. (Go) home, he will sleep. <br />= Going home, he will sleep.
               </p>
             </div>
           </div>
 
-          {/* page 11 */}
+          {/* page 14 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 11</h2>
+            <h2 className="text-xl font-bold mb-2">Page 14</h2>
             {/* 16 */}
             <div className="">
               <p>
                 <strong>Rule: 16. </strong> <br />
                 objective এবং possessive case এর পর verb এর সাথে ing হয়।
                 <br />
-                Q. Zahid insisted on my (go) his home. <br />
-                = Zahid insisted on my going his home.
+                Q. Zahid insisted on my (go) his home. <br />= Zahid insisted on
+                my going his home.
               </p>
               {/* 17 */}
               <p>
                 <strong>Rule: 17. </strong> <br />
                 Since/for এর পর সময় বা (period of time) থাকলে Present Perfect
                 Continuous tense হয়। যেমন: <br />
-                Q.  He (read) in our college for two years. <br />
+                Q. He (read) in our college for two years. <br />
                 = He has been reading in our college for two years. <br />
                 <span className="text-rose-600 font-bold ">কিন্তু-</span> <br />
-                👉 Since/ for এর পরে সময় বা (period of time) থাকলে এবং ব্রাকেটে be
-                থাকলে Present Perfect tense হয়। যেমন:
+                👉 Since/ for এর পরে সময় বা (period of time) থাকলে এবং ব্রাকেটে
+                be থাকলে Present Perfect tense হয়। যেমন:
               </p>
             </div>
           </div>
 
-          {/* page 12 */}
+          {/* page 15 */}
           <div className="p-3 text-black md:p-12 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold ">Page 12</h2>
+            <h2 className="text-xl font-bold ">Page 15</h2>
 
             <div className="">
               <p className="">
@@ -521,9 +553,9 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 13 */}
+          {/* page 16 */}
           <div className="p-3 text-black md:p-11 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 13</h2>
+            <h2 className="text-xl font-bold mb-2">Page 16</h2>
             {/* 20 */}
             <div className="">
               <p className="">
@@ -556,9 +588,9 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 14 */}
+          {/* page 17 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <p className="text-xl font-bold ">Page 14</p>
+            <p className="text-xl font-bold ">Page 17</p>
             <p className="">
               am, is, are, was, were, be, being, been এর যেকোন একটি হতে পারে।
               যেমন: <br />
@@ -587,9 +619,9 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 15 */}
+          {/* page 18 */}
           <div className="p-4 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 15</h2>
+            <h2 className="text-xl font-bold mb-2">Page 18</h2>
             {/* 25 */}
             <div className="pb-3">
               <p className="bengali">
@@ -617,9 +649,9 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 17 */}
+          {/* page 19 */}
           <div className="p-6 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 17</h2>
+            <h2 className="text-xl font-bold mb-2">Page 19</h2>
             <h2>Exercise</h2>
             <p>1. The moon (shine) at night.</p>
             <p>2. Flowers (be) gift of nature.</p>
@@ -639,9 +671,9 @@ function Verbs() {
             <p>14. The baby (cry) because it is hungry now.</p>
           </div>
 
-          {/* page 18 */}
+          {/* page 20 */}
           <div className="p-6 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 18</h2>
+            <h2 className="text-xl font-bold mb-2">Page 20</h2>
             <p>15. What you (go) to drink now?</p>
             <p>16. Rina (return) home just now.</p>
             <p>17. The play just (begin).</p>
@@ -658,9 +690,9 @@ function Verbs() {
             <p>28. Shikha saw him (go) to the town.</p>
             <p>29. I answered (thank) her.</p>
           </div>
-          {/* page 19 */}
+          {/* page 21 */}
           <div className="p-3 text-black md:p-18 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 19</h2>
+            <h2 className="text-xl font-bold mb-2">Page 21</h2>
             <p>30. The old sailor went away (leave) the marriage guest.</p>
             <p>31. They just (reach) playground.</p>
             <p>32. What you generally (do) for living?</p>
@@ -677,9 +709,9 @@ function Verbs() {
             <p>43. They (play) football since morning.</p>
           </div>
 
-          {/* page 20 */}
+          {/* page 22 */}
           <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl  font-bold mb-2">Page 20</h2>
+            <h2 className="text-xl  font-bold mb-2">Page 22</h2>
             <p>45. I not (choose) my career yet.</p>
             <p>46. I (see) her long since.</p>
             <p>47. Last night I (have) a wonderful dream.</p>
@@ -696,9 +728,9 @@ function Verbs() {
             <p>58. It reflects the matter as if he (know) it.</p>
           </div>
 
-          {/* page 21 */}
+          {/* page 23 */}
           <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 21</h2>
+            <h2 className="text-xl font-bold mb-2">Page 24</h2>
             <p>59. Fancy (turn) a trifle pale.</p>
             <p>60. The door was (open) by a Christian.</p>
             <p>61. Munir was greatly (hug) by Della.</p>
@@ -719,9 +751,9 @@ function Verbs() {
             <p>73. Jim’s income (be) shrunk to twenty dollars.</p>
           </div>
 
-          {/* page 22 */}
+          {/* page 24 */}
           <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 22</h2>
+            <h2 className="text-xl font-bold mb-2">Page 24</h2>
             <p>
               74. The headmaster and the secretary (be) present in the meeting
               yesterday.
@@ -733,9 +765,17 @@ function Verbs() {
             <p>79. If I were a bird, I (fly) in the sky.</p>
             <p>80. Would that I (enter) the room.</p>
           </div>
-          {/* page 23 */}
+          {/* page 25 */}
           <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 23</h2>
+            <h2 className="text-xl font-bold mb-2">Page 25</h2>
+            <p>
+              When sentences contain <b>now, at this moment, at present</b> →
+              use <b>Present Continuous</b>.
+            </p>
+          </div>
+          {/* page 25 */}
+          <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-2">Page 25</h2>
             <p>
               When sentences contain <b>now, at this moment, at present</b> →
               use <b>Present Continuous</b>.
@@ -1461,6 +1501,19 @@ function Verbs() {
               <p>79. If I were a bird, I (fly) in the sky.</p>
               <p>80. Would that I (enter) the room.</p>
             </div>
+          </div>
+          <div className="">
+            
+          </div>
+          {/* DOwnload button */}
+          <div className="text-center py-4 ">
+            <a
+              href="/rightFormOfVerbs.pdf"
+              download
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Download PDF
+            </a>
           </div>
         </div>
       </div>

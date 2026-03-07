@@ -204,6 +204,7 @@ function Completing() {
           <p>* Had he come, He would have/could have/ might have done it .</p>
           <p>= Had he come, He would have done it .</p>
         </div>
+
         {/* 9 */}
         <div className="py-3">
           <h3 className="text-green-500">9. as if/ as though:</h3>
@@ -223,14 +224,17 @@ function Completing() {
         {/* 11 */}
         <div className="py-3">
           <h3 className="text-green-500">
-            11. (i) No sooner/ Hardly/ Scarcely:
+            11. <br /> 
+            No sooner had ... than/ <br /> 
+            Hardly ... when/ <br /> 
+            Scarcely had ... when:
           </h3>
           <p>(i) No sooner had ....... than.....:</p>
           <p>= No sooner had he gone out than he came.</p>
           <p>(ii) Scarcely had.... when/before.....</p>
           <p>= Scarcely had he gone out when he came.</p>
           <p>(iii) Hardly had he gone out when/before ........</p>
-          <p>(iii) Hardly had he gone out when/before he came.</p>
+          <p>= Hardly had he gone out when/before he came.</p>
         </div>
         {/* 12 */}
         <div className="">
@@ -395,6 +399,12 @@ function Completing() {
         </div>
 
         {/* 30 */}
+        <div className="">
+          <h3 className="text-green-500">30. Although/ Though:</h3>
+          <p>Q. Though he is poor, .........</p>
+          <p>Q. Though he is poor, <span className="underline-offset-4">we cannot think otherwise.</span> </p>
+        </div>
+        {/* 31 */}
         <div className="">
           <h3 className="text-green-500">30. S + v + to:</h3>
           <p>Q. He wants to .........</p>
