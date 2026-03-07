@@ -195,63 +195,56 @@ function Verbs() {
               <p className="font-bold">1. Present Indefinite Tense</p>
               i. Subject + V<sub>1</sub> (s/es) + extension. <br />
               ii. Subject + do/ does + V<sub>1</sub> + extension.
-              <p className="font-bold">2. Present Continuous Tense</p>
-              = Subject + am/is/are + V<sub>1</sub>-ing + extension.
-              <p className="font-bold">3. Present Perfect Tense</p>
-              = Subject + have/ has + V<sub>3</sub> + extension.
-              <p className="font-bold">4. Present Perfect Continuous Tense</p>
-              = Subject + have been/ has been + V<sub>1</sub>-ing + extension.
-              <p className="font-bold">5. Past Indefinite Tense</p>
-              = i. Sub + V<sub>2</sub> + extension. <br />
-              = ii. Sub + did not + V<sub>1</sub> + extension.
-              
+              <p className="font-bold">2. Present Continuous Tense</p>= Subject
+              + am/is/are + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">3. Present Perfect Tense</p>= Subject +
+              have/ has + V<sub>3</sub> + extension.
+              <p className="font-bold">4. Present Perfect Continuous Tense</p>=
+              Subject + have been/ has been + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">5. Past Indefinite Tense</p>= i. Sub + V
+              <sub>2</sub> + extension. <br />= ii. Sub + did not + V
+              <sub>1</sub> + extension.
             </div>
           </div>
           {/* page 5  */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold">Page 5</h2>
-            <div className="space-y-1">   
-              <p className="font-bold">6. Past Continuous Tense</p>
-              = Sub + was/were + V<sub>1</sub>-ing + extension.
-
-              <p className="font-bold">7. Past Perfect Tense</p>
-              = Sub + had + V<sub>3</sub> + extension.
-
-              <p className="font-bold">8. Past Perfect Continuous Tense</p>
-              = Subject + had been/ had been + V<sub>1</sub>-ing + extension.
-
-              <p className="font-bold">9. Future Indefinite Tense</p>
-              = Subject + shall/ will + V<sub>1</sub> + extension.
-
-              <p className="font-bold">10. Future Continuous Tense</p>
-              = Subject + shall be/ will be + V<sub>1</sub>-ing + extension.
-
-              <p className="font-bold">11. Future Perfect Tense</p>
-              = Subject + shall have/ will have + V<sub>1</sub> + extension.
-
-              <p className="font-bold">12. Future Perfect Continuous Tense</p>
-              = Subject + shall have been/ will have been + V<sub>1</sub> + extension.
+            <div className="space-y-1">
+              <p className="font-bold">6. Past Continuous Tense</p>= Sub +
+              was/were + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">7. Past Perfect Tense</p>= Sub + had + V
+              <sub>3</sub> + extension.
+              <p className="font-bold">8. Past Perfect Continuous Tense</p>=
+              Subject + had been/ had been + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">9. Future Indefinite Tense</p>= Subject +
+              shall/ will + V<sub>1</sub> + extension.
+              <p className="font-bold">10. Future Continuous Tense</p>= Subject
+              + shall be/ will be + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">11. Future Perfect Tense</p>= Subject +
+              shall have/ will have + V<sub>1</sub> + extension.
+              <p className="font-bold">12. Future Perfect Continuous Tense</p>=
+              Subject + shall have been/ will have been + V<sub>1</sub> +
+              extension.
             </div>
           </div>
 
           {/* page 6 */}
           <div className="p-3 text-base text-black md:p-20 bg-[#EFE5D6]  book-shadow">
             <h2 className="text-xl font-bold ">Page 6</h2>
-              <div>
-            <p className="">
-              <span className=" font-bold">Rule: 5. </span>
-              <br />
-              <strong> (a). </strong> Am, is, are, was, were, be, being, been,
-              (passive Voice এর ক্ষেত্রে ) এবং having get, got, gotten, be,
-              become ইত্যাদির পরে ব্রাকেটে Verb থাকলে ব্রাকেটের Verb এর V
-              <sub>3</sub> হয়। যেমন: <br />
-              Q. Rice is (sell) in the market. <br />
-              =Rice is <u>sold</u> in the market. <br />
-              Q. I went out having (close) the door.
-              <br />= I went out having closed the door.
-            </p>
-          
-           
+            <div>
+              <p className="">
+                <span className=" font-bold">Rule: 5. </span>
+                <br />
+                <strong> (a). </strong> Am, is, are, was, were, be, being, been,
+                (passive Voice এর ক্ষেত্রে ) এবং having get, got, gotten, be,
+                become ইত্যাদির পরে ব্রাকেটে Verb থাকলে ব্রাকেটের Verb এর V
+                <sub>3</sub> হয়। যেমন: <br />
+                Q. Rice is (sell) in the market. <br />
+                =Rice is <u>sold</u> in the market. <br />
+                Q. I went out having (close) the door.
+                <br />= I went out having closed the door.
+              </p>
+
               <p className="text-rose-500 mt-4 font-semibold">কিন্তু</p>
               <p>
                 <strong> (c). </strong>
@@ -885,7 +878,6 @@ function Verbs() {
             <div className="effect"></div>
           </div>
         </div>
-
         <div className="">
           {/* Rules */}
           <h2 className="mt-5">Rules:</h2>
@@ -1503,12 +1495,162 @@ function Verbs() {
             </div>
           </div>
           <div className="">
-            
+            More about <br />
+            Subject-verb Agreement <br />
+            মনে রাখবে agreement সানে হল "সামঞ্জস্য"। <br />
+            অর্থাৎ subject এর number এবং person অনুসারে verb-এর রূপ বা form
+            নির্ধারিত হয়। <br />
+            যেমন: <br />
+            Rahim is honest. <br />
+            Rahim and Karim are honest. <br />
+            Rahim as well as Karim is honest. <br />
+            1. And দ্বারা দুই বা ততোধিক singular subject যুক্ত হলে তাদের পরে
+            plural verb বসে। <br />
+            যেমন: <br />
+            Rahim is a good boy. (singular subject) <br />
+            Rahim and Karim are good boys. (দু'টি singular subject 'and' দ্বারা
+            যুক্ত হয়েছে।) <br />
+            Both the man and his brother have a lot of money. (has - নয়) <br />
+            You, he, and I are students. (am বা is - নয়) <br />
+            (dances - নয়) Mina and Biva dance well. <br />
+            Exceptions (ব্যতিক্রম): <br />
+            [A]. Each এবং every (প্রত্যেক) এই শব্দ দুটো দিয়ে অনেক গুলো ব্যক্তি,
+            বস্তু ইত্যাদিকে আলাদা আলাদা ভাবে বুঝায়। সুতরাং and দ্বারা যুক্ত
+            subjectগুলোর আগে এই শব্দদু'টি বসলে সেক্ষেত্রে singular verb ব্যবহৃত
+            হবে। <br />
+            যেমন: <br />
+            Each boy and girl has paid the money. (have) <br />
+            Every man and woman is satisfied. (are নয়) <br />
+            [B] যখন দু'টি singular subject দ্বারা একই ব্যক্তি বা বস্তুকে নির্দেশ
+            করে তখন তাদের পরবর্তী verbটি হয় singular. <br />
+            যেমন: <br />
+            The Headmaster and secretary has (have) come to the meeting.
+            (Headmaster এবং secretary একই ব্যক্তি।) <br />
+            কিন্তু ভিন্ন ভিন্ন ব্যক্তিকে বুঝালে সেক্ষেত্রে plural verb ব্যবহৃত
+            হবে। <br />
+            যেমন: <br />
+            The Headmaster and the secretary have (has) come to the meeting.{" "}
+            <br />
+            (লক্ষ্য কর, একই ব্যক্তিকে বুঝালে দুইবার the ব্যবহৃত হয় না, একবার
+            ব্যবহৃত হয়; কিন্তু ভিন্ন ভিন্ন ব্যক্তিকে বুঝালে প্রতিক্ষেত্রেই the
+            ব্যবহৃত হয়।) <br />
+            [C] গাণিতিক হিসাবের বেলায় plural বা singular যে কোন verb-ই ব্যবহার
+            করা যায়। <br />
+            যেমন: <br />
+            Two and two are four. (plu.) <br />
+            Two and two is four. (sing.) <br /> <br />
+            2. দুই বা ততোধিক singular subject যদি or, nor, but - দ্বারা যুক্ত হয়
+            তাহলে তাদের পরে singular verb ব্যবহৃত হয় <br />
+            মনে রাখবে- প্রতিটি subject-ই হবে singular. <br />
+            → তারা or, nor, but দ্বারা যুক্ত থাকবে। <br />
+            যেমন: <br />
+            He or his brother has (have নয়) done this. <br />
+            Either he or his brother is (are নয়) intelligent. <br />
+            Neither he nor his brother is honest. (সে বা তার ভাই কেউই সৎ নয়।){" "}
+            <br />
+            Not Kashem but Karim is (areনয়) happy. <br />
+            3. যখন or, nor, but দ্বারা একটি singular এবং একটি plural subject
+            যুক্ত হয় তখন verb এর number হবে নিকটবর্তী subject টির number-এর
+            অনুরূপ। <br />
+            যেমন: <br />
+            He or his brother has done it. <br />
+            He or his brothers have done it. <br />
+            Not only Biva but also her friends have come. <br />
+            Neither Karim nor his friends are guilty. <br />
+            Neither Karim nor his friend is guilty. <br />
+            Either Karim or his sisters have said so. <br />
+            Not only Biva but also Shuva has come. <br />
+            4. যখন or বা nor দ্বারা যুক্ত দু'টি subject-এর person ভিন্ন হয় (যেমন
+            first person-second person, second person-third person, second
+            person- first person) তখন নিকটবর্তী subject অনুসারে verb ব্যবহৃত
+            হবে। <br />
+            যেমন: <br />
+            Rahim or you are guilty. <br />
+            Rahim or Karim is guilty. <br />
+            যখন এইরূপ ব্যবহারে সমস্যার সৃষ্টি হতে পারে ব'লে মনে হয় তখন বাক্য
+            অন্য কৌশলে গঠন করা যায়। যেমনঃ <br />
+            Neither Shuman nor I am guilty. <br />
+            5. as well as, in addition to, including, no less than, with,
+            together with, accompanied by ইত্যাদি দ্বারা দুটী subject যুক্ত
+            হ'লে, প্রথম/ আগের Subject অনুসারে Verb হ'বে। যেমন: <br />
+            He as well as his brother has done this. <br />
+            NOTE: তবে মনে রাখবে; প্রথম subject-টিকে অবশ্যই singular হতে হবে।{" "}
+            <br />
+            6. Singular subject কে যদি plural modifier (phrase) modify করে তাহলে
+            verb-টি হবে singular. যেমন: <br />
+            The tallest boy of the seventy students is a talent. <br />
+            One of the girls has said so. <br />
+            The leader of the people is present here. <br />
+            7. Any body (যে-কেউ), anyone (যে-কেউ), each (প্রত্যেকে), either (যে-
+            কোন একজন) everybody (প্রত্যেকে), every one (প্রত্যেকে), neither
+            (দুইজনের মধ্যে কেউই নয়), nobody (কেউই নয়), no one (কেউই নয়), none
+            (=no one), somebody (কোন একজন) এই indefinite pronoun (অনির্দিষ্টতা
+            বাচক সর্বনাম) গুলো যদি subject হিসেবে কাজ করে তাহলে তাদের পরে
+            singular verb বসে। যেমন: <br />
+            Anybody who has money is rich. <br />
+            Nobody has so much money that he/she can buy a country. <br />
+            Everybody is liable to error. (are-নয়) <br />
+            Someone has done this. (have - নয়) <br />
+            Does anyone like this? (Do-নয়) <br />
+            8. Any এবং none এই pronoun দু'টি singular বা plural যে কোন verb
+            গ্রহণ করতে পারে। যেমন: <br />
+            Are any of you going there? <br />
+            None are called in the meeting. <br />
+            [লক্ষ্য কর, any এর পর কোন noun বসেনি, of (preposition) বসেছে। সুতরাং
+            any-এখানে pronoun. যদি any+noun এভাবে ব্যবহৃত হত তাহলে তখন any-কে
+            adjective বলা হত। যেমন-anybody, anyone ইত্যাদি। এ ক্ষেত্রে any হল
+            adjective কিন্তু anybody এবং anyone হল pronoun. 'any'-একমাত্র
+            pronoun হিসেবে ব্যবহৃত হলেই এই নিয়মটি খাটে ।] <br />
+            Is any of them going there? <br />
+            মনে রাখবে, উভয় রূপই (plural এবং singular) গ্রহণ যোগ্য। তবে কথোপকথনে
+            এবং informal English-plural verb বেশি ব্যবহৃত হয় এবং Formal
+            English-এ singular verbই বেশি ব্যবহৃত হয়। <br />
+            9. introductory 'there' কিংবা adverb 'here' দিয়ে বাক্য শুরু হলে তার
+            পরবর্তী verb singular নাকি plural হবে তা নির্ভর করবে তার পরবর্তী
+            subject (noun বা pronoun বা noun phrase) এর number-এর উপর। singular
+            number হয় তাহলে verb ও হবে singular number এবং plural number হয়
+            তাহলে verb-ও হবে plural number. যেমন: <br />
+            Here is your book <br />
+            Here are three books <br />
+            There is a mosque in our village. <br />
+            There were two beggars in a village. <br />
+            EXERCISE <br />
+            Use the correct form of the verb. <br />
+            1. Anybody who (am/is/are) honest (am/is/are) happy. <br />
+            2. Each of them (have/has) much money. <br />
+            3. The opinion of the people (are / is) acceptable (গ্রহণ যোগ্য).{" "}
+            <br />
+            4. The man as well as the woman (have, has) much money. <br />
+            5. He is one of the boys who (study / studies) hard. <br />
+            6. Here (is/are) your pen. <br />
+            7.Rahim together with his sisters (have/has) done this. <br />
+            8.Here (are/is) your pens. <br />
+            9. There (is/are) a book on the shelf. <br />
+            10. There (is/are) many books on the shelf. <br />
+            10. introductory 'It' দ্বারা যখন কোন sentence শুরু হয় তখন তার
+            পরবর্তী verbটি হয় singular, পরবর্তী subject-এর number যা-ই থাক না
+            কেন। <br />
+            যেমন: <br />
+            It is I who am to blame. (আমিই দোষী,) <br /> It is we who are to
+            blame. (আমরাই দোষী।) <br />
+            11. Collective noun দ্বারা কোন class বা সমষ্টিকে বুঝায়। এই সমষ্টিকে
+            যদি একটি unit বা "অখন্ড"-হিসেবে ধরা হয় তাহলে ঐ collective noun এর পর
+            singular verb (is, was, has, eats, goes etc.) বসে। কিন্তু যদি
+            'খন্ডিত' বা 'আলাদা' হিসেবে বিবেচনা করা হয় তাহলে তার পরে plural verb
+            (are, were, have eat, go- etc) বসে। <br />
+            যেমনঃ <br />
+            The jury is of the same opinion. <br />
+            (জুরি একই মত পোষণ করলেন) [অর্থাৎ, জুরির সকল সদস্য মিলে মত দিলেন ।]{" "}
+            <br />
+            The jury are divided in their opinions. <br />
+            (জুরিগণ ভিন্ন মত পোষণ করলেন।) [অর্থাৎ এখন তাদের 'ঐক্য' ভেঙ্গে
+            "খণ্ডিত" "অখন্ড" হয়ে গেছে।] <br />
           </div>
+
           {/* DOwnload button */}
           <div className="text-center py-4 ">
             <a
-              href="/rightFormOfVerbs.pdf"
+              href="/RightFormOfVerbs.pdf"
               download
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >
