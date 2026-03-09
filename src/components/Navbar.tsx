@@ -40,8 +40,8 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed top-0 left-0 right-0 z-50 transition bg-green-300  text-pink-500 font-bold"
-            : "bg-green-500 font-bold text-black"
+            ? "fixed top-0 left-0 right-0 z-50 transition bg-[#00A63E]  text-white font-bold"
+            : "bg-[#008532] font-bold text-black"
         }
       >
         <div className="navbar">
@@ -219,8 +219,8 @@ const Navbar = () => {
               <div
                 className={
                   nav
-                    ? "w-10 rounded-full border border-pink-600 animate-pulse"
-                    : "w-10 rounded-full border-2 animate-pulse"
+                    ? "w-10 rounded-full border animate-pulse"
+                    : "w-10 rounded-full border animate-pulse"
                 }
               >
                 <ul className="flex items-center justify-center gap-2">

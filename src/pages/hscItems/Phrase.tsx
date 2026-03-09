@@ -140,8 +140,8 @@ function Phrase() {
           </div>
           <div className="mb-6">
             <h3 className="font-bold text-green-500 ">
-              2. What's it like (কিসের মতো)/ <br /> Would you mind (আপত্তি
-              আছে কি?)
+              2. What's it like (কিসের মতো)/ <br /> 
+              Would you mind (আপত্তি আছে কি?)
             </h3>
             <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
@@ -480,7 +480,7 @@ function Phrase() {
             ব্যবহার করে বাক্য শেষ করতে হয়। <br />
             <br />
             Structure: 1 <br />
-            Instead of in lieu of noun/noun phrase ........... + clause. <br />
+            Instead of / in lieu of noun/noun phrase ........... + clause. <br />
             Or, Clause + instead of .......... <br />
             <br />
             Structure: 2 <br />

@@ -142,7 +142,7 @@ const Banner = () => {
                   Welcome to
                 </h1>
 
-                <h2 className="font-bold text-green-600 text-xl sm:text-2xl md:text-4xl lg:text-5xl heading2">
+                <h2 className="font-bold text-[#00A63E] text-xl sm:text-2xl md:text-4xl lg:text-5xl heading2">
                   <span ref={textRef}></span>
                 </h2>
 
