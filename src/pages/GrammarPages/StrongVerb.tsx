@@ -48,8 +48,8 @@ const StrongVerb = () => {
               <tr>
                 <td>6</td>
                 <td>bear(ফল ধরা)</td>
-                <td>borne</td>
-                <td>borne</td>
+                <td>bore</td>
+                <td>born/borne</td>
               </tr>
               <tr>
                 <td>7</td>
@@ -251,7 +251,7 @@ const StrongVerb = () => {
                 <td>had</td>
               </tr>
               <tr>
-                <td>40</td>
+                <td>39</td>
                 <td>hang(ফাসি দেওয়া)</td>
                 <td>hanged</td>
                 <td>hanged</td>
@@ -394,7 +394,7 @@ const StrongVerb = () => {
                 <td>63</td>
                 <td>sew (সেলাই করা)</td>
                 <td>sewed</td>
-                <td>sewn</td>
+                <td>sewn/sewed</td>
               </tr>
               <tr>
                 <td>64</td>
@@ -418,7 +418,7 @@ const StrongVerb = () => {
                 <td>67</td>
                 <td>show (দেখানো)</td>
                 <td>showed</td>
-                <td>shown</td>
+                <td>shown/showed</td>
               </tr>
               <tr>
                 <td>68</td>
@@ -493,18 +493,7 @@ const StrongVerb = () => {
                 <td>spat</td>
                 <td>spat</td>
               </tr>
-              {/* <tr>
-                <td>83</td>
-                <td>split (ভাগ করা)</td>
-                <td>split</td>
-                <td>split</td>
-              </tr> */}
-              {/* <tr>
-                <td>84</td>
-                <td>spread(ছড়ানো)</td>
-                <td>spread</td>
-                <td>spread</td>
-              </tr> */}
+              
               <tr>
                 <td>81</td>
                 <td>spring(লাফানো)</td>
