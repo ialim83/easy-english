@@ -112,12 +112,7 @@ const StrongVerb = () => {
                 <td>came</td>
                 <td>come</td>
               </tr>
-              <tr>
-                <td>17</td>
-                <td>cut (কাটা)</td>
-                <td>cut</td>
-                <td>cut</td>
-              </tr>
+              
               <tr>
                 <td>18</td>
                 <td>deal (চুক্তি করা)</td>
@@ -231,6 +226,12 @@ const StrongVerb = () => {
                 <td>give (দেওয়া)</td>
                 <td>gave</td>
                 <td>given</td>
+              </tr>
+              <tr>
+                <td>36</td>
+                <td>get (দেওয়া)</td>
+                <td>got</td>
+                <td>got/gotten</td>
               </tr>
               <tr>
                 <td>37</td>
@@ -623,13 +624,13 @@ const StrongVerb = () => {
                 <td>wept</td>
               </tr>
               <tr>
-                <td>102</td>
+                <td>100</td>
                 <td>win (জয় করা)</td>
                 <td>won</td>
                 <td>won</td>
               </tr>
               <tr>
-                <td>103</td>
+                <td>101</td>
                 <td>write (লিখা)</td>
                 <td>wrote</td>
                 <td>written</td>

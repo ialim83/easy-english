@@ -333,7 +333,7 @@ function Verbs() {
             <p className="">
               <strong>Rule: 9. </strong> <br />
               Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
-              enjoy, fancy, imagine, delay, suggest, postpone, mind, involve,
+              enjoy, fancy, imagine, delay, suggest, postpone, matter, matter, mind, involve,
               practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb এর সাথে ing
               হয়।যেমনঃ
             </p>
@@ -1066,7 +1066,7 @@ function Verbs() {
               <p className="">
                 <strong>Rule: 9. </strong> <br />
                 Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
-                enjoy, fancy, imagine, delay, suggest, postpone, mind, involve,
+                enjoy, fancy, imagine, delay, suggest, postpone, matter, mind, involve,
                 practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb এর সাথে ing
                 হয়।যেমনঃ
               </p>
