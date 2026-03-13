@@ -2,6 +2,7 @@
 import "pdfjs-dist/build/pdf.worker.entry";
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
+import { Link } from "react-router-dom";
 // import frontCover from "../../../public/bookCover.jpg";
 
 function Verbs() {
@@ -333,9 +334,9 @@ function Verbs() {
             <p className="">
               <strong>Rule: 9. </strong> <br />
               Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
-              enjoy, fancy, imagine, delay, suggest, postpone, matter, matter, mind, involve,
-              practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb এর সাথে ing
-              হয়।যেমনঃ
+              enjoy, fancy, imagine, delay, suggest, postpone, matter, matter,
+              mind, involve, practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb এর
+              সাথে ing হয়।যেমনঃ
             </p>
 
             <p className="dark:text-green-400">
@@ -875,7 +876,9 @@ function Verbs() {
           <div className="relative w-11/12 md:w-10/12 h-[400px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
             <span className="text-white">Right Form of Verbs</span>
 
-            <div className="effect"></div>
+            <div className="effect">
+              
+            </div>
           </div>
         </div>
         <div className="">
@@ -885,6 +888,21 @@ function Verbs() {
             {/* page1 */}
             <div className="p-3 text-black lg:p-5 bg-[#FDFAF7] book-shadow">
               <h2 className="text-xl font-bold ">Page 1</h2>
+              <Link to={"/tense"}>
+                <p className="py-5">
+                  <span className="text-blue-600 underline">Right form of verbs</span>
+                  এ এক্সপার্ট হতে চাইলে
+                  <span className="text-blue-600 underline">
+                    Tense
+                  </span>
+                  ভালোভাবে চিনতে হবে সেজন্য Tense অধ্যায় পড়তে
+                  হবে, সেজন্য
+                  <span className="text-blue-600 underline">
+                    এখানে ক্লিক/টাচ
+                  </span>
+                  করুন।
+                </p>
+              </Link>
               {/* 1 */}
               <div className="text-base">
                 <p>
@@ -1066,9 +1084,9 @@ function Verbs() {
               <p className="">
                 <strong>Rule: 9. </strong> <br />
                 Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
-                enjoy, fancy, imagine, delay, suggest, postpone, matter, mind, involve,
-                practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb এর সাথে ing
-                হয়।যেমনঃ
+                enjoy, fancy, imagine, delay, suggest, postpone, matter, mind,
+                involve, practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb এর সাথে
+                ing হয়।যেমনঃ
               </p>
 
               <p className="dark:text-green-400">

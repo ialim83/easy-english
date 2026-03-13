@@ -112,7 +112,7 @@ const StrongVerb = () => {
                 <td>came</td>
                 <td>come</td>
               </tr>
-              
+
               <tr>
                 <td>18</td>
                 <td>deal (চুক্তি করা)</td>
@@ -274,6 +274,12 @@ const StrongVerb = () => {
                 <td>hide (লুকানো)</td>
                 <td>hid</td>
                 <td>hidden</td>
+              </tr>
+              <tr>
+                <td>43</td>
+                <td>hold (লুকানো)</td>
+                <td>held</td>
+                <td>held</td>
               </tr>
               <tr>
                 <td>44</td>
@@ -494,7 +500,7 @@ const StrongVerb = () => {
                 <td>spat</td>
                 <td>spat</td>
               </tr>
-              
+
               <tr>
                 <td>81</td>
                 <td>spring(লাফানো)</td>
@@ -650,106 +656,103 @@ const StrongVerb = () => {
                 <th>Serial</th>
               </tr>
               <tr>
+                <td>1</td>
                 <td>Bet(বাজি ধরা)</td>
                 <td>bet</td>
                 <td>bet</td>
-                <td>1</td>
               </tr>
               <tr>
+                <td>2</td>
                 <td>Burst(ফেটে যাওয়া)</td>
                 <td>burst</td>
                 <td>burst</td>
-                <td>2</td>
               </tr>
               <tr>
+                <td>3</td>
                 <td>Cut(কাটা)</td>
                 <td>cut</td>
                 <td>cut</td>
-                <td>3</td>
               </tr>
               <tr>
+                <td>4</td>
                 <td>Cast(নিক্ষেপ করা)</td>
                 <td>cast</td>
                 <td>cast</td>
-                <td>4</td>
               </tr>
               <tr>
+                <td>5</td>
                 <td>Cost (খরচ করা)</td>
                 <td>cost</td>
                 <td>cost</td>
-                <td>5</td>
               </tr>
+
               <tr>
+                <td>6</td>
                 <td>Hit (আঘাত করা)</td>
                 <td>hit</td>
                 <td>hit</td>
-                <td>6</td>
               </tr>
               <tr>
-                <td>Put (রাখা)</td>
-                <td>put</td>
-                <td>put</td>
-                <td>7</td>
-              </tr>
-              <tr>
+                <td>8</td>
                 <td>Hurt (আঘাত করা)</td>
                 <td>hurt</td>
                 <td>hurt</td>
-                <td>8</td>
               </tr>
               <tr>
-                <td>Read (পড়া)</td>
-                <td>read</td>
-                <td>read</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>Rid (মুক্ত করা)</td>
-                <td>rid</td>
-                <td>rid</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Split (বিদীর্ণ করা)</td>
-                <td>split</td>
-                <td>split</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>Shut (বন্ধ করা)</td>
-                <td>shut</td>
-                <td>shut</td>
-                <td>12</td>
-              </tr>
-              <tr>
-                <td>Set (স্থাপন করা)</td>
-                <td>set</td>
-                <td>set</td>
-                <td>13</td>
-              </tr>
-              <tr>
+                <td>7</td>
                 <td>Let (দেওয়া)</td>
                 <td>let</td>
                 <td>let</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Put (রাখা)</td>
+                <td>put</td>
+                <td>put</td>
+              </tr>
+
+              <tr>
+                <td>9</td>
+                <td>Read (পড়া)</td>
+                <td>read</td>
+                <td>read</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Rid (মুক্ত করা)</td>
+                <td>rid</td>
+                <td>rid</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Split (বিদীর্ণ করা)</td>
+                <td>split</td>
+                <td>split</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Shut (বন্ধ করা)</td>
+                <td>shut</td>
+                <td>shut</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Set (স্থাপন করা)</td>
+                <td>set</td>
+                <td>set</td>
+              </tr>
+
+              <tr>
                 <td>14</td>
-              </tr>
-              <tr>
-                <td>Cost (খরচ হওয়া)</td>
-                <td>cost</td>
-                <td>cost</td>
-                <td>15</td>
-              </tr>
-              <tr>
                 <td>quit (ছেড়ে দেওয়া)</td>
                 <td>quit</td>
                 <td>quit</td>
-                <td>16</td>
               </tr>
               <tr>
+                <td>15</td>
                 <td>spread(ছড়ানো)</td>
                 <td>spread</td>
                 <td>spread</td>
-                <td>17</td>
               </tr>
             </table>
           </div>
