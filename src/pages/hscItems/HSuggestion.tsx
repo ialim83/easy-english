@@ -9,32 +9,32 @@ function HSuggestion() {
 
         <p className="py-2">
           Passage: (Question no-1-3) <br />
-          1. In civic engagement                                		 Unit: 5, L-3 <br />
-          2. Nelson Mandela guided South Africa.    ***          		 Unit: 01,L-2 <br />
-          3. Dreams have fascinated philosophers for.. ***     		 Unit: 03, L-1 <br />
-          4. The success of Kalsindur girls         ***        		 Unit: 07,L-5 <br />
+
+          1. Artificial intelligence....in their work          		 [Unit: 1, L-2] <br />
+          1. Education aims at....volunteerism                		 [Unit: 1, L-4] <br />
+          1. Art is generally understood as an           		 [Unit: 2, L-3] <br />
+          1. Folk music consist of...separation           		 [Unit: 2, L-2] <br />
+          16. According to some myth...British Museum	***			[Unit:3, Lesson: 3]
           5. As a child you must have been taught.            		 Umit: 04, L-1<br />
-          6. I was ten years old. My grandmother.....   **       		 Unit: 04, L-3 <br />
-          7. Children must pass through several stages....		 Urrit:06, L-1 <br />
-          8. Shilpi was only 15 years dd when                   		 Unit 06, L-4 <br />
-          9. My name is Amerigo.                                       		 Unit 08,L-4 <br />
-          10. World health                		 			 Unit: 09,L-1 <br />
-          11. One of the sources of water in our..... ***         		 Unit: 12, L-1 <br />
-          12. Water, water, water                 ***                      		 Unit:12. L-2 <br />
-          13. kuakata locally known as Sagar konnya.       		 Unit: 12.L-5 <br />
-          14. When a girl gets married				Unit: 9, Lesson: 2<br />
-          15. In traditional society					Unit: 7, Lesson: 5<br />
-          16. Eco-tourism 			***			Unit: 13, Lesson: 3
-          17. Hold fast to dreams….		***		Unit: 6, Lesson: 2<br />
+          17. I have a dream...at last		***		              [Unit: 4, Lesson:2]<br />
+          7. Children must pass through several stages....		 [Unit:06, L-1] <br />
+          3. Dreams have fascinated philosophers for... ***     [Unit: 06, L-1] <br />
+          15. In traditional society like					[Unit: 7, Lesson: 3]<br />
+          4. The success of Kalsindur girls   ***  [Unit: 07,L-5] <br />
+          20. Nishat Majumder						 Unit: 7, Lesson: 4                   <br />
+          19. The famous Greek Philosopher 				[Unit: 8, Lesson: 1]<br />
+          23. In 1921 Leela Nag...as well  ***			[Unit: 08, Lesson:2]<br />
+          19. Jerry began to chop...subterfuge 				[Unit: 8, Lesson:03]<br />
+          19. His name was Jerry...anxious 				[Unit: 8, Lesson:03]<br />
           18. The orphanage is high 			**		Unit: 8, Lesson: 3<br />
-          19. The famous Greek Philosopher 				Unit: 8, Lesson: 1<br />
-          20.  Nishat Majumder						 Unit: 7, Lesson: 4<br />
-          21.   The act of thinking 					Unit: 10, Lesson: 4	<br />
-          22.  Adolescents constitute 	      ****				Unit: 9, Lesson: 2<br />
-          23.  A plate of hot French fries  ***			Unit: 10, Lesson: 3<br />
-          24. Junk foods are processed 				Unit: 10, Lesson: 3<br />
-          25. The island of St. Martin’s				Unit: 13, Lesson: 3<br />
-          26. Frequent consumption of				Unit: 10, Lesson: 3<br />
+          14. When a girl gets married				[Unit: 9, Lesson: 2]<br />
+          8. Shilpi was only 15 years dd when                   		 [Unit 09, L-3] <br />
+          9. In Bangladesh, 35 percent...a button 		 [Unit 09,L-4] <br />
+          22. Adolescents constitute 	      ****		[Unit: 9, Lesson: 2]<br />
+          10. Training the mind cam get...of practice	 [Unit: 10,L-4] <br />
+          11. We spend money for...without it      		 [Unit: 10, L-5]<br />
+          12. Water, water, water                 ***  [Unit:12. L-1] <br />
+          13. kuakata locally known as Sagar konnya.       		 Unit: 12.L-5 <br />
         </p>
         <br />
         <p>
@@ -72,7 +72,6 @@ function HSuggestion() {
           18. All species is...
           <br />
           19. Mendela <br />
-          20. Bangabandhu <br />
           21. Literally and truly one***
           <br />
           22. Liberty ...
@@ -80,6 +79,12 @@ function HSuggestion() {
           23. Self-employment... <br />
           24. The disposal of various kinds <br />
           25. A library <br />
+          26. Communicative competence ***
+          27. All things that 
+          28. Good citizens are... 
+          29. Facebook is an... 
+          30. Hospitality has long...
+          31. It is a great concern that... 
           <br />
           <strong>Q: 5 (without clues):</strong>
           <br />
@@ -93,11 +98,7 @@ function HSuggestion() {
           8. A large number of people <br />
           9. The great ship Titanic <br />
           10. The destruction of forest and other habitats… <br />
-          11. All things that make up the environment <br />
-          12. Computer is … <br />
-          13. Every year
           <br />
-          14. Hospitality ***
           <br />
           15. Language***** <br />
           16. Civility *****
@@ -114,9 +115,9 @@ function HSuggestion() {
           26. Dream <br />
           27. One day a lad <br />
           28. Sincerity <br />
-          29. Television <br />
           30. Change is <br />
           31. Television ***
+          32. Communicative competence ***
           <br />
           <br />
           <strong>Q: 6 (Re-arrange): </strong>
