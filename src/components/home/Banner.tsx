@@ -27,7 +27,7 @@ const Banner = () => {
 
   return (
     <div className="h-full">
-      {/* <div className="hero bannerBg h-screen">
+      <div className="hero bannerBg h-screen">
         <div className="hero-overlay bg-opacity-60"></div>
 
         <div className="flex flex-col items-center justify-normal text-center text-neutral-content gap-4">
@@ -50,7 +50,7 @@ const Banner = () => {
             </Button>
           </div>
         </div>
-      </div> */}
+      </div> 
       {/* <div className="hero bg-white">
         <div className="hero-overlay bg-black/10"></div>
         <div className="relative w-full flex justify-center h-screen">
@@ -102,14 +102,14 @@ const Banner = () => {
           </section>
         </div>
       </div> */}
-      <div className="relative w-full bg-white">
+      {/* <div className="relative w-full bg-white"> */}
         {/* Global overlay (same everywhere) */}
-        <div className="absolute inset-0 bg-black/20 pointer-events-none" />
+        {/* <div className="absolute inset-0 bg-black/20 pointer-events-none" /> */}
         {/* <div className="hero-overlay bg-opacity-20"></div> */}
-        <div className="relative w-full flex justify-center min-h-screen">
-          <section className="relative flex items-center justify-center py-16 lg:py-24 w-full">
+        {/* <div className="relative w-full flex justify-center min-h-screen"> */}
+          {/* <section className="relative flex items-center justify-center py-16 lg:py-24 w-full"> */}
             {/* Video Wrapper */}
-            <div
+            {/* <div
               className="
           relative
           w-[380px] h-[380px]
@@ -118,9 +118,9 @@ const Banner = () => {
           lg:w-[600px] lg:h-[600px]
           overflow-hidden
         "
-            >
+            > */}
               {/* Background Video */}
-              <video
+              {/* <video
                 autoPlay
                 muted
                 loop
@@ -131,13 +131,13 @@ const Banner = () => {
                   src="https://d33vw3iu5hs0zi.cloudfront.net/media/exness_c76dfeb683.webm"
                   type="video/webm"
                 />
-              </video>
+              </video> */}
 
               {/* SAME overlay as page */}
-              <div className="absolute inset-0 bg-black/20" />
+              {/* <div className="absolute inset-0 bg-black/20" /> */}
 
               {/* Centered Content */}
-              <div className="relative z-10 flex flex-col items-center justify-center h-full text-center gap-4 px-4">
+              {/* <div className="relative z-10 flex flex-col items-center justify-center h-full text-center gap-4 px-4">
                 <h1 className="text-pink-700 text-lg sm:text-xl lg:text-3xl">
                   Welcome to
                 </h1>
@@ -157,7 +157,7 @@ const Banner = () => {
             </div>
           </section>
         </div>
-      </div>
+      </div> */}
 
       <div className="h-full max-w-7xl  mx-auto py-20" id="category">
         {/* <div className="px-5 w-full flex items-center justify-center py-20">

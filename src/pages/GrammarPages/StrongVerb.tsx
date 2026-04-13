@@ -600,43 +600,43 @@ const StrongVerb = () => {
               </tr>
 
               <tr>
-                <td>97</td>
+                <td>96</td>
                 <td>undo (বাতিল করা)</td>
                 <td>undid</td>
                 <td>undone</td>
               </tr>
               <tr>
-                <td>98</td>
+                <td>97</td>
                 <td>wake(জাগ্রত হওয়া)</td>
                 <td>woke</td>
                 <td>woken</td>
               </tr>
               <tr>
-                <td>99</td>
+                <td>98</td>
                 <td>wear(পরিধান করা)</td>
                 <td>wore</td>
                 <td>worn</td>
               </tr>
               <tr>
-                <td>100</td>
+                <td>99</td>
                 <td>weave(বোনা)</td>
                 <td>wove</td>
                 <td>woven</td>
               </tr>
               <tr>
-                <td>101</td>
+                <td>100</td>
                 <td>weep (ক্রন্দন করা)</td>
                 <td>wept</td>
                 <td>wept</td>
               </tr>
               <tr>
-                <td>100</td>
+                <td>101</td>
                 <td>win (জয় করা)</td>
                 <td>won</td>
                 <td>won</td>
               </tr>
               <tr>
-                <td>101</td>
+                <td>102</td>
                 <td>write (লিখা)</td>
                 <td>wrote</td>
                 <td>written</td>

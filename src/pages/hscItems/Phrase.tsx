@@ -69,7 +69,7 @@ function Phrase() {
   ];
 
   return (
-    <div className="h-full md:w-[85%]  mx-auto px-4">
+    <div className="h-full md:w-[55%]  mx-auto px-4">
       <div className="my-20 text-center">
         <h1 className="animate-bounce text-green-400">Phrase</h1>
         <p className="">Phrase: only for HSC</p>
@@ -140,8 +140,8 @@ function Phrase() {
           </div>
           <div className="mb-6">
             <h3 className="font-bold text-green-500 ">
-              2. What's it like (কিসের মতো)/ <br /> 
-              Would you mind (আপত্তি আছে কি?)
+              2. What's it like (কিসের মতো)/ <br />
+             <span className="mr-5"></span> Would you mind (আপত্তি আছে কি?)
             </h3>
             <ul className="list-decimal pl-10">
               <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
@@ -204,7 +204,7 @@ function Phrase() {
           </div>
           <div className="mb-6">
             <h3 className="font-bold text-green-500">
-              7. Was born(জন্ম হয়েছিল):
+              7. Was born (জন্ম হয়েছিল):
             </h3>
             <ul className="list-decimal pl-10">
               <li>শূন্যস্থানের আগে subject থাকবে এবং পরে verb থাকবে না ।</li>
@@ -218,7 +218,7 @@ function Phrase() {
           </div>
           <div className="mb-6">
             <h3 className="font-bold text-green-500 ">
-              8. Had better (বরং ভালো)/ have to/ has to/ had to/ used to:
+              8. Had better/ have to/ has to/ had to/ used to:
             </h3>
             <ul className="list-decimal pl-10">
               <li>শূন্যস্থানের আগে sub এবং পরে V-1 থাকবে ।</li>
@@ -253,23 +253,24 @@ function Phrase() {
               </li>
 
               <li>
-                There এর ক্ষেত্রে be, seem, appear, occur, happen, live ইত্যাদি
-                verb এর পৃর্বে বসে ।
+                it এর ক্ষেত্রে শূন্যস্থানের seem, appear, occur, happen ইত্যাদি
+                verb বসে ।
+              </li>
+              <li>
+                বাক্যের মধ্যে কোন সময়ের উল্লেখ থাকলে শূন্যস্থানে it বসে (তবে
+                বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon a time/ long ago/
+                in modern time/ today ছাড়া)।
+              </li>
+
+              <li>
+                There এর ক্ষেত্রে বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon
+                a time/ long ago/ in modern time/ today থাকতে পারে।
               </li>
               <li>
                 There এর ক্ষেত্রে বাক্যের শেষে in/on/at থাকবে এবং স্থানবাচক শব্দ
                 থাকবে।
               </li>
-              <li>
-                There এর ক্ষেত্রে বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon
-                a time/ long ago থাকতে পারে।
-              </li>
-              <li>
-                বাক্যের মধ্যে কোন সময়ের উল্লেখ থাকলে শূন্যস্থানে it বসে (তবে
-                বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon a time/ long ago
-                ছাড়া)।
-              </li>
-              <li>it এর ক্ষেত্রে বাক্যের মধ্যে Since থাকতে পারে।</li>
+              <li>it এর ক্ষেত্রে বাক্যের মাঝখানে Since থাকতে পারে।</li>
               <li>যেমনঃ Long ago _____ lived a mighty king Kubla Khan.</li>
               <li>
                 যেমনঃ _____ was in China that the art of Bonsai originated
@@ -289,7 +290,7 @@ function Phrase() {
             </ul>
           </div>
           <div className="mb-6">
-            <h3 className="font-bold text-green-500">11. As soon as:</h3>
+            <h3 className="font-bold text-green-500">11. As soon as/  as long as/ whenever:</h3>
             <ul className="list-decimal pl-10">
               <li>বাক্যের শুরতে শূন্যস্থান থাকবে ।</li>
               <li>দুই বাক্যের মাঝখানে কমা(,) থাকবে ।</li>
@@ -349,10 +350,7 @@ function Phrase() {
             </ul>
           </div>
           <div className="mb-6">
-            <h3 className="font-bold text-green-500">
-              {" "}
-              16. What do you mean?:
-            </h3>
+            <h3 className="font-bold text-green-500">16. What do you mean?:</h3>
             <ul className="list-decimal pl-10">
               <li>
                 বাক্যের শুরতে শূন্যস্থানের পরে প্রশ্নবোধক(?) চিহ্ন থাকবে ।
@@ -480,7 +478,8 @@ function Phrase() {
             ব্যবহার করে বাক্য শেষ করতে হয়। <br />
             <br />
             Structure: 1 <br />
-            Instead of / in lieu of noun/noun phrase ........... + clause. <br />
+            Instead of / in lieu of noun/noun phrase ........... + clause.{" "}
+            <br />
             Or, Clause + instead of .......... <br />
             <br />
             Structure: 2 <br />

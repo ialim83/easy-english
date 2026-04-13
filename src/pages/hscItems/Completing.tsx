@@ -96,7 +96,7 @@ function Completing() {
         {/*  */}
         <div className="pb-3">
           <h3 className="text-green-500">
-            1. after / before: <span className="">***</span>
+            1. after / before
           </h3>
           <p>Q. He reached after............</p>
           <p>
@@ -118,14 +118,14 @@ function Completing() {
           <p>Q. He read diligently lest..................</p>
           <p>* He read diligently lest he might / should fail / miss (it).</p>
           <p>
-            = He read diligently lest <u> he might miss it</u> .
+            = He read diligently lest <span className="underline-offset-1"> he might miss it</span> .
           </p>
         </div>
 
         {/* 3 */}
         <div className="py-3">
           <h3 className="text-green-500">
-            3. It is time/ it is high time:<span className=""> *** </span>
+            3. It is time/ it is high time
           </h3>
           <p>Q. It is high time .......</p>
           <p>
@@ -144,6 +144,10 @@ function Completing() {
           <p>(ii) He is a doctor whom _____ .</p>
           <p>
             = He is a doctor whom <u>I Know</u> .
+          </p>
+          <p>(iii) He is a doctor whose _____ .</p>
+          <p>
+            = He is a doctor whose<u> house I Know</u> .
           </p>
         </div>
 
@@ -170,12 +174,17 @@ function Completing() {
 
         {/* 6 */}
         <div className="">
-          <h3 className="text-green-500">6. When / where:</h3>
+          <h3 className="text-green-500">6. When/ whenever/ as soon as:</h3>
           <p>(i) Saturday is the day (when)............</p>
           <p>* Saturday is the day when he was born / I went there.</p>
           <p>= Saturday is the day when I went there.</p>
-          <p>(ii) It is Rajshahi where .......... .</p>
+          
+        </div>
+        <div className="">
+          <h3 className="text-green-500">6.where</h3>
+          <p> It is Rajshahi where .......... .</p>
           <p>= It is Rajshahi where he was born / I went last year.</p>
+          <p>= It is Rajshahi where I went last year.</p>
         </div>
 
         {/* 7 */}
@@ -216,7 +225,8 @@ function Completing() {
         {/* 10 */}
         <div className="">
           <h3 className="text-green-500">
-            10. It is time to/ it is time for....
+            10. It is time to/ <br />
+            it is time for....
           </h3>
           <p>= It is time to start the work.</p>
           <p>= It is time for us to start the work.</p>
@@ -269,7 +279,7 @@ function Completing() {
         {/* 16 */}
         <div className="">
           <h3 className="text-green-500">
-            16. So ..... that: <span className="animateText"> *** </span>
+            16. So ..... that:
           </h3>
           <p>Q. He is so interesting (that)...</p>
           <p>* He is so interesting that we cannot / couldn’t imagine.</p>
@@ -277,7 +287,8 @@ function Completing() {
         </div>
         {/* 17 */}
         <div className="py-3">
-          <h3 className="text-green-500">17. Because of, Due to, owing to:</h3>
+          <h3 className="text-green-500">17. Because of/ 
+            Due to/ owing to:</h3>
           <p>Q. Due to fog, ..........</p>
           <p>= Due to fog, he could not attend the meeting.</p>
           <p>Q. he could not go to college because of ..........</p>
@@ -298,7 +309,7 @@ function Completing() {
 
         {/* 19 */}
         <div className="py-3">
-          <h3 className="text-green-500">19. despite of, in spite of:</h3>
+          <h3 className="text-green-500">19. despite of/ in spite of:</h3>
           <p>= Despite of his being honest, .......... .</p>
           <p>= Despite of his being honest, he was punished.</p>
         </div>
@@ -390,7 +401,7 @@ function Completing() {
         {/* 29 */}
         <div className="py-3">
           <h3 className="text-green-500">
-            29. Proverb/maxim:<span className="animateText"> ***</span>
+            29. Proverb that/ <br />  maxim that:
           </h3>
           <p>Q. There is a proverb ..........</p>
           <p>= There is a proverb that time and tide wait for none</p>

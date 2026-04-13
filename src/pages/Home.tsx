@@ -14,7 +14,7 @@ const Home = () => {
   }
   return (
     <div className="">
-      {auth?.user ? (
+      
         <div>
           <Banner />
           {/* <Video /> */}
@@ -24,14 +24,9 @@ const Home = () => {
           <div className="md:max-w-[65%]  mx-auto">
             <GrammarItem />
             <Composition />
-            {/* <Accordian /> */}
           </div>
         </div>
-      ) : (
-        <>
-          <Welcome />
-        </>
-      )}
+      
     </div>
   );
 };
