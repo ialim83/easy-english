@@ -10,15 +10,15 @@ function HSuggestion() {
         <p className="py-2">
           Passage: (Question no-1-3) <br />
 
-          1. Artificial intelligence....in their work          		 [Unit: 1, L-2] <br />
-          1. Education aims at....volunteerism                		 [Unit: 1, L-4] <br />
+          1. Artificial intelligence....in their work   [Unit: 1, L-2] <br />
+          1. Education aims at....volunteerism          [Unit: 1, L-4] <br />
           1. Art is generally understood as an           		 [Unit: 2, L-3] <br />
           1. Folk music consist of...separation           		 [Unit: 2, L-2] <br />
           16. According to some myth...British Museum	***			[Unit:3, Lesson: 3]
-          5. As a child you must have been taught.            		 Umit: 04, L-1<br />
-          17. I have a dream...at last		***		              [Unit: 4, Lesson:2]<br />
+          5. As a child you must have been taught.           Umit: 04, L-1<br />
+          17. I have a dream...at last		***		           [Unit: 4, Lesson:2]<br />
           7. Children must pass through several stages....		 [Unit:06, L-1] <br />
-          3. Dreams have fascinated philosophers for... ***     [Unit: 06, L-1] <br />
+          3. Dreams have fascinated philosophers for... ***    [Unit: 06, L-1] <br />
           15. In traditional society like					[Unit: 7, Lesson: 3]<br />
           4. The success of Kalsindur girls   ***  [Unit: 07,L-5] <br />
           20. Nishat Majumder						 Unit: 7, Lesson: 4                   <br />
@@ -28,13 +28,13 @@ function HSuggestion() {
           19. His name was Jerry...anxious 				[Unit: 8, Lesson:03]<br />
           18. The orphanage is high 			**		Unit: 8, Lesson: 3<br />
           14. When a girl gets married				[Unit: 9, Lesson: 2]<br />
-          8. Shilpi was only 15 years dd when                   		 [Unit 09, L-3] <br />
+          8. Shilpi was only 15 years dd when     [Unit 09, L-3] <br />
           9. In Bangladesh, 35 percent...a button 		 [Unit 09,L-4] <br />
           22. Adolescents constitute 	      ****		[Unit: 9, Lesson: 2]<br />
           10. Training the mind cam get...of practice	 [Unit: 10,L-4] <br />
           11. We spend money for...without it      		 [Unit: 10, L-5]<br />
           12. Water, water, water                 ***  [Unit:12. L-1] <br />
-          13. kuakata locally known as Sagar konnya.       		 Unit: 12.L-5 <br />
+          14. Shaikh Muhammad Sultan
         </p>
         <br />
         <p>
@@ -43,7 +43,7 @@ function HSuggestion() {
           <strong>Q: 4. with clues:</strong>
           <br />
           1. Every year <br />
-          2. Education
+          2. Education***
           <br />
           3. Man's dignity
           <br />
@@ -54,7 +54,7 @@ function HSuggestion() {
           6. The most important event <br />
           7. Student should be
           <br />
-          8. White eating **
+          8. While eating ***
           <br />
           9. Over eating <br />
           10. Trees ***
@@ -82,9 +82,9 @@ function HSuggestion() {
           26. Communicative competence ***
           27. All things that 
           28. Good citizens are... 
-          29. Facebook is an... 
-          30. Hospitality has long...
-          31. It is a great concern that... 
+          29. Facebook is an... *****
+          30. Hospitality has long *****
+          31. It is a great concern that *****... 
           <br />
           <strong>Q: 5 (without clues):</strong>
           <br />
@@ -132,7 +132,6 @@ function HSuggestion() {
           7. Androcles <br />
           8. Rabindranath Tagore <br />
           9. Nelson Mendala ***** <br />
-          10. Shaikh Muzibur Rahman <br />
           11. Grocer and the fruit seller <br />
           12. Ak Fazlul Huq <br />
           13. Dr. Mohammad Shahidulla <br />
@@ -142,16 +141,15 @@ function HSuggestion() {
           <br />
           <strong>Q. 6 (Paragraph): </strong>
           <br />
-          1. Food adulteration <br />
-          1. Historic speech of 7th March *** <br />
+          1. Pahela Baishakh/ Bangla New year <br />
+          1. Artificial Intelligence/ AI *** <br />
           3. Digital Bangladesh/ Information technology/ Mobile phone*** <br />
           4. Environment pollution/ Water Pollution *** <br />
-          5. Your aim in life <br />
           7. International Mother Language Day/ 21st February** <br />
           8. Bangladesh/ Your country/ Your motherland * <br />
-          9. Your family/ The family you live in *** <br />
-          10. Street child like Amerigo * <br />
-          11. Folk music and Modern music <br />
+          9. Cause of failure in English and remedies *** <br />
+          10. Good Citizen ***** <br />
+          11. Folk music and Modern music *** <br />
           <br />
           <br />
           <strong> Q: 7 (Graph/pie chart)</strong> <br />
@@ -179,6 +177,7 @@ function HSuggestion() {
           10. Grapes are sour ***
           <br />
           11.The Crow ***** <br />
+
           <br />
           <br />
           <strong>Q: 9 (Letter/ E-mail)</strong>
@@ -201,8 +200,8 @@ function HSuggestion() {
         </p>
 
         <h2>English 2nd Paper</h2>
+          <h3>Application: </h3>
         <p className="pb-5">
-          <strong>Application: </strong>
           <br />
           1. Seat in the college hostel ***** <br />
           2. Computer lab <br />
@@ -214,8 +213,9 @@ function HSuggestion() {
           9. Debating club <br />
           10. Multimedia facilities <br />
           11. To increase common room facilities*** <br />
-          <br />
-          <strong>Paragraph:</strong> <br />
+          <br /></p>
+          <h3>Paragraph:</h3> <br />
+          <p className="">
           1. Your aim in life** <br />
           2. Deforestation/ tree plantation * <br />
           3. Drug addiction ***** <br />
@@ -225,26 +225,24 @@ function HSuggestion() {
           facebook/ gift of science/ wonder of modern science/ Social Network/
           Modern technology/ *****
           <br />
-          7. Independence Day/ victory Day/ 21st February/ Mother language day/
-          Pahela Baishakh ** <br />
+          4. Qualities of Good Citizen *****
+          7. Independence Day/ victory Day
+          8. 21st February/ Mother language day
+          9. Pahela Baishakh ** <br />
           8. Environment pollution/Air pollution/ Water pollution/ climate
           change/ Global Warming *****
           <br />
           9. Summer and winter <br />
           10. School life and hostel life/ school life and college life <br />
           11. An idea student <br />
-          12. A Beggar
           <br />
           13. Load shedding** <br />
           14. A street child ** <br />
-          15. A street hawker <br />
-          16. Price hike/ price spiral***
           <br />
           17. Your favorite person/ player/ leader/ friend/ mother. *** <br />
           18. Your country/ village <br />
           19. Your college library/ campus/ your reading room. ***** <br />
-          20. Historic speech of 7th March *** <br />
-          21. Folk music
+          
           <br />
           22. Dowry <br />
           23. Genders discrimination <br />
@@ -253,7 +251,31 @@ function HSuggestion() {
           <br />
           25. The importance of learning English
           <br />
-          26. The railway station/ a bus station
+        </p>
+        <h3>Report Writing:</h3>
+        <p className="">
+          1. Celebration of Pahela Baishakh <br />
+          2. Observance of Independence day <br />
+          3. Observance of 21st February 
+          4. Road/ fire Accident ***** 
+          6. Corruption 
+          7. Drug Addiction 
+          8. Cultural program/ prize giving ceremony in your college 
+          9. traffic jam in your city
+          10.
+        </p>
+          <h1>Composition: </h1>
+        <p className="">
+          1. Your aim in Life <br />
+          2. Your hobby/ Leisure <br />
+          3. Childhood Memories <br />
+          4. Greenhouse Effect/ Environment pollution/ Climate change  <br />
+          6. Journey by bus/ train/ Visit to a historical place
+          6. My First day at College
+          7. Value of time 
+          8. Patriotism *****
+          9. The Season You Like most. 
+          10. City life vs Village life. 
         </p>
       </div>
 
