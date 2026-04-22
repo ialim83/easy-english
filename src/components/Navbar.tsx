@@ -106,24 +106,23 @@ const Navbar = () => {
                     </li>
                   </>
                 )}
-
+                <li>
+                  <Link onClick={closeMobileMenu} to={"/ssc"}>
+                    SSC
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={closeMobileMenu} to={"/hsc"}>
+                    HSC
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={closeMobileMenu} to={"/degree"}>
+                    Degree
+                  </Link>
+                </li>
                 {auth?.user && (
                   <>
-                    <li>
-                      <Link onClick={closeMobileMenu} to={"/ssc"}>
-                        SSC
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={closeMobileMenu} to={"/hsc"}>
-                        HSC
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={closeMobileMenu} to={"/degree"}>
-                        Degree
-                      </Link>
-                    </li>
                     <li>
                       <Link onClick={closeMobileMenu} to={"/dashboard"}>
                         Dashboard
@@ -154,7 +153,10 @@ const Navbar = () => {
               className="btn btn-ghost text-xl ml-[-20px]"
             >
               {/* <img src={"/man.jpg"}/> */}
-              <img src={auth?.user?.photoURL || "/man.jpg"} className="w-10 border-2 rounded-full"  />
+              <img
+                src={auth?.user?.photoURL || "/man.jpg"}
+                className="w-10 border-2 rounded-full"
+              />
               <span className="heading2 ">Easy-English</span>
             </Link>
           </div>
@@ -163,8 +165,8 @@ const Navbar = () => {
             <SearchBar />
           </div>
           {/* <> */}
-            {/* Desktop menu */}
-            {/* <div className="navbar-center hidden lg:flex">
+          {/* Desktop menu */}
+          {/* <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-0">
               <li>
                 <Link to={"/"}>Home</Link>

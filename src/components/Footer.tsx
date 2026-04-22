@@ -35,9 +35,9 @@ const Footer = () => {
               <li>
                 <Link
                   to={"/ssc"}
-                  className={
-                    !auth?.user ? "pointer-events-none opacity-50" : ""
-                  }
+                  className=
+                    "pointer-events-none opacity-50"
+                  
                 >
                   SSC
                 </Link>
@@ -45,9 +45,8 @@ const Footer = () => {
               <li>
                 <Link
                   to={"/hsc"}
-                  className={
-                    !auth?.user ? "pointer-events-none opacity-50" : ""
-                  }
+                  className="pointer-events-none opacity-50"
+                  
                 >
                   HSC
                 </Link>

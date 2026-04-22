@@ -9,22 +9,21 @@ const Suggestion = () => {
           <h3>Essay</h3>
           <p>1. Globalization.</p>
           <p>2. Natural Calamities in Bangladesh.</p>
-          <p>3. Poverty alleviation.</p>
           <p>4. Our national festivals.</p>
-          <p>5. Uses and Abuses of Satellite TV Channels.</p>
-          <p>6. Patriotism.</p>
-          <p>7. Empowerment of Women in Bangladesh.</p>
+          <p>6. Patriotism.***</p>
+          <p>7. Empowerment of Women/ Female Education. ***</p>
           <p>8. Corruption.</p>
           <p>9. Digital Bangladesh.</p>
           <p>10. Unemployment problem in Bangladesh.</p>
-          <p>11. Climate change and its effect on us.</p>
-          <p>12. Gender Equality in Bangladesh.</p>
+          <p>11. Climate change/ Global Warming/Greenhouse Effect.****</p>
+          <p>12. Your Favorite Leader/ writer/ Singer/ Person/ player ***.</p>
+          <p>12. Good citizen.*********</p>
         </div>
 
         <div className="">
           <h3>Paragraph</h3>
           <p>1. Self-reliance.</p>
-          <p>2. Internet.</p>
+          <p>2. Internet/ Face Book/ Social Media.*****</p>
           <p>3. Tree Plantation / Afforestation.</p>
           <p>4. Food Adulteration.</p>
           <p>5. Pahela Baishakh.</p>
@@ -33,10 +32,11 @@ const Suggestion = () => {
           <p>8. Use and abuses of mobile phone.</p>
           <p>9. Price Hike/Spiral/Rise.</p>
           <p>10. Friendship.</p>
-          <p>11. Campus Violence.</p>
+          <p>11. Your College Campus ***.</p>
           <p>12. Load Shedding.</p>
           <p>13. Road Accident.</p>
-          <p>14. Acid Throwing.</p>
+          <p>15. Qualities of Good Citizen *******</p>
+          <p>16. Artificial Intelligence/ AI *******</p>
         </div>
 
         <div>
