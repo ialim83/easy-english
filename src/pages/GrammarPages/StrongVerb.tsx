@@ -47,7 +47,7 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>6</td>
-                <td>bear(ফল ধরা)</td>
+                <td>bear(জন্ম দেওয়া)</td>
                 <td>bore</td>
                 <td>born/borne</td>
               </tr>
@@ -61,7 +61,7 @@ const StrongVerb = () => {
               <tr>
                 <td>8</td>
                 <td>bid (নির্দেশ দেওয়া)</td>
-                <td>bid</td>
+                <td>bade/bid</td>
                 <td>bidden</td>
               </tr>
               <tr>
@@ -310,6 +310,12 @@ const StrongVerb = () => {
                 <td>lead (নেতৃত্ব দেওয়া)</td>
                 <td>led</td>
                 <td>led</td>
+              </tr>
+              <tr>
+                <td>48</td>
+                <td>leave (ত্যাগ করা)</td>
+                <td>left</td>
+                <td>left</td>
               </tr>
               <tr>
                 <td>49</td>

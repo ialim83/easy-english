@@ -121,8 +121,7 @@ function Verbs() {
 
           {/* page2 */}
           <div className="p-3 text-black lg:p-5 bg-[#FDFAF7] book-shadow">
-            <h2 className="text-xl font-bold ">Page 2</h2>
-            {/* 1 */}
+                        {/* 1 */}
             <div className="text-base">
               <p>
                 <span className=" font-bold">Rule: 1.</span> <br /> Always,
@@ -231,8 +230,7 @@ function Verbs() {
 
           {/* page 6 */}
           <div className="p-3 text-base text-black md:p-20 bg-[#EFE5D6]  book-shadow">
-            <h2 className="text-xl font-bold ">Page 6</h2>
-            <div>
+                        <div>
               <p className="">
                 <span className=" font-bold">Rule: 5. </span>
                 <br />
@@ -297,8 +295,7 @@ function Verbs() {
 
           {/* page 8 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold ">Page 8</h2>
-
+            
             <p className="dark:text-green-400">
               cannot help, could not help, confess to ইত্যাদির পরে ব্রাকেটের
               Verb এর সাথে ing যুক্ত হয় । যেমন: <br />
@@ -329,8 +326,7 @@ function Verbs() {
 
           {/* page 9 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold ">Page 9</h2>
-            {/* 9 */}
+                        {/* 9 */}
             <p className="">
               <strong>Rule: 9. </strong> <br />
               Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
@@ -359,7 +355,7 @@ function Verbs() {
 
           {/* page 10 */}
           <div className="p-2 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold ">Page 10</h2>
+            
 
             {/* 10 */}
             <p className="">
@@ -510,7 +506,7 @@ function Verbs() {
 
           {/* page 15 */}
           <div className="p-3 text-black md:p-12 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold ">Page 15</h2>
+            
 
             <div className="">
               <p className="">
@@ -887,8 +883,7 @@ function Verbs() {
           <div className="">
             {/* page1 */}
             <div className="p-3 text-black lg:p-5 bg-[#FDFAF7] book-shadow">
-              <h2 className="text-xl font-bold ">Page 1</h2>
-              <Link to={"/tense"}>
+                            <Link to={"/tense"}>
                 <p className="py-5">
                   <span className="text-blue-600 underline">Right form of verbs</span>
                   এ এক্সপার্ট হতে চাইলে
@@ -904,15 +899,47 @@ function Verbs() {
                 </p>
               </Link>
               {/* 1 */}
-              <div className="text-base">
+              <div className="space-y-1">
+              <p className="font-bold">Tense:</p>
+              <p className="font-bold">1. Present Indefinite Tense</p>
+              i. Subject + V<sub>1</sub> (s/es) + extension. <br />
+              ii. Subject + do/ does + V<sub>1</sub> + extension.
+              <p className="font-bold">2. Present Continuous Tense</p>= Subject
+              + am/is/are + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">3. Present Perfect Tense</p>= Subject +
+              have/ has + V<sub>3</sub> + extension.
+              <p className="font-bold">4. Present Perfect Continuous Tense</p>=
+              Subject + have been/ has been + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">5. Past Indefinite Tense</p>= i. Sub + V
+              <sub>2</sub> + extension. <br />= ii. Sub + did not + V
+              <sub>1</sub> + extension.
+              <p className="font-bold">6. Past Continuous Tense</p>= Sub +
+              was/were + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">7. Past Perfect Tense</p>= Sub + had + V
+              <sub>3</sub> + extension.
+              <p className="font-bold">8. Past Perfect Continuous Tense</p>=
+              Subject + had been/ had been + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">9. Future Indefinite Tense</p>= Subject +
+              shall/ will + V<sub>1</sub> + extension.
+              <p className="font-bold">10. Future Continuous Tense</p>= Subject
+              + shall be/ will be + V<sub>1</sub>-ing + extension.
+              <p className="font-bold">11. Future Perfect Tense</p>= Subject +
+              shall have/ will have + V<sub>1</sub> + extension.
+              <p className="font-bold">12. Future Perfect Continuous Tense</p>=
+              Subject + shall have been/ will have been + V<sub>1</sub> +
+              extension.
+            </div>
+              <div className="text-base mt-7 ">
+                <h1 className="mb-3">Rules</h1>
                 <p>
-                  <span className=" font-bold">Rule: 1.</span> <br /> Always,
+                <span className=" font-bold">Rule: 1.</span> 
+                  <br /> Always,
                   regularly, daily, often, sometimes, normally, generally,
                   occasionally, every+time ইত্যাদি বাক্যে থাকলে বা বাক্যটি চির
                   সত্য হলে- বাক্যটি Present Indefinite Tense-এ হয়।
                 </p>
                 <p className="dark:text-green-400">
-                  {/* Q. I often (take) tea. <br />= I often <u>take</u> tea. <br /> */}
+                  Q. I often (take) tea. <br />= I often <u>take</u> tea. <br />
                   Q. He often (take) tea. <br />= He often <u>takes</u> tea.{" "}
                   <br />
                   গঠন: Sub + V<sub>1</sub> (s/es) + obj + others.
@@ -937,7 +964,6 @@ function Verbs() {
 
             {/* page 2 */}
             <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold">Page 2</h2>
 
               {/* 3 */}
               <div className="">
@@ -965,22 +991,15 @@ function Verbs() {
                   Q. He (return) last night.
                   <br />= He <u>returned</u> last night.
                 </p>
-                {/* 5 */}
-                <p className="pt-1">
-                  <span className=" font-bold">Rule: 5. </span>
-                  <br />
-                  <strong> (a). </strong> Am, is, are, was, were, be, being,
-                  been, ...
-                  <br />
-                  pto-
-                </p>
+               
+                
               </div>
             </div>
 
             {/* page 3 */}
-            <div className="p-3 text-base text-black md:p-20 bg-[#EFE5D6]  book-shadow">
-              <h2 className="text-xl font-bold ">Page 3</h2>
-              <p className="">
+            <div className="p-3 text-base text-black bg-[#EFE5D6]  book-shadow">
+                <p className=""> 
+                  {/* 5 */}
                 <span className=" font-bold">Rule: 5. </span>
                 <br />
                 <strong> (a). </strong> Am, is, are, was, were, be, being, been,
@@ -1009,7 +1028,6 @@ function Verbs() {
 
             {/* page 4 */}
             <div className="p-3 text-base text-black lg:p-5 bg-[#EFE5D6]  book-shadow">
-              <h2 className="text-xl font-bold">Page 4</h2>
 
               {/* 6 */}
               <div className="">
@@ -1046,8 +1064,7 @@ function Verbs() {
 
             {/* page 5 */}
             <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold ">Page 5</h2>
-
+              
               <p className="dark:text-green-400">
                 cannot help, could not help, confess to ইত্যাদির পরে ব্রাকেটের
                 Verb এর সাথে ing যুক্ত হয় । যেমন: <br />
@@ -1079,8 +1096,7 @@ function Verbs() {
 
             {/* page 6 */}
             <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold ">Page 6</h2>
-              {/* 9 */}
+                            {/* 9 */}
               <p className="">
                 <strong>Rule: 9. </strong> <br />
                 Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
@@ -1109,8 +1125,7 @@ function Verbs() {
 
             {/* page 7 */}
             <div className="p-2 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold ">Page 7</h2>
-
+              
               {/* 10 */}
               <p className="">
                 <strong>Rule: 10. </strong> <br />
@@ -1141,7 +1156,6 @@ function Verbs() {
 
             {/* page 8 */}
             <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              <p className="text-xl font-bold mb-1">Page 8</p>
               <div className="">
                 কিন্তু
                 <p className="py-">
@@ -1169,7 +1183,6 @@ function Verbs() {
 
             {/* page 9 */}
             <div className="p-2 text-black md:p-14 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold">Page 9</h2>
               {/* 13 */}
               <div className="">
                 <p>
@@ -1201,7 +1214,6 @@ function Verbs() {
 
             {/* page 10 */}
             <div className="p-3  text-black md:p-12 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold mb-2">Page 10</h2>
 
               <p className="">
                 <strong> (d) </strong>যদি Had + Subject + V<sub>3</sub> থাকে
@@ -1232,7 +1244,6 @@ function Verbs() {
 
             {/* page 11 */}
             <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold mb-2">Page 11</h2>
               {/* 16 */}
               <div className="">
                 <p>
@@ -1259,7 +1270,7 @@ function Verbs() {
 
             {/* page 12 */}
             <div className="p-3 text-black md:p-12 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold ">Page 12</h2>
+              
 
               <div className="">
                 <p className="">
@@ -1299,7 +1310,6 @@ function Verbs() {
 
             {/* page 13 */}
             <div className="p-3 text-black md:p-11 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold mb-2">Page 13</h2>
               {/* 20 */}
               <div className="">
                 <p className="">
@@ -1324,18 +1334,15 @@ function Verbs() {
               </div>
               {/* 22 */}
               <p className="py-2 font-bold">Subject-verb Agreement</p>
-              <div className="">
-                <p className="">
-                  <strong>Rule-22: </strong> <br />
-                  ব্রাকেটে Be/to be এর স্থলে Tense অনুসারে am, ...
-                </p>
+              
               </div>
             </div>
 
             {/* page 14 */}
             <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              <p className="text-xl font-bold ">Page 14</p>
               <p className="">
+                 <strong>Rule-22: </strong> <br />
+                  ব্রাকেটে Be/to be এর স্থলে Tense অনুসারে am,
                 am, is, are, was, were, be, being, been এর যেকোন একটি হতে পারে।
                 যেমন: <br />
                 Q. The rich (to be) not always happy. <br />
@@ -1346,7 +1353,7 @@ function Verbs() {
               <div className="py-2">
                 <p className="">
                   <strong>Rule-23: </strong> <br />
-                  দৈঘ বা পরিমাণ বাচক শব্দ Sub হেল সেটি Singular হয়। যেমন: <br />
+                  দৈঘ বা পরিমাণ বাচক শব্দ Subject হলে সেটি Singular হয়। যেমন: <br />
                   Q. Ten kgs (be) heavy weight. <br />
                   =Ten kgs is heavy weight.
                 </p>
@@ -1365,7 +1372,6 @@ function Verbs() {
 
             {/* page 15 */}
             <div className="p-4 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold mb-2">Page 15</h2>
               {/* 25 */}
               <div className="pb-3">
                 <p className="bengali">
@@ -1383,7 +1389,8 @@ function Verbs() {
                 <p className="">
                   <strong>Rule: 26. </strong> <br />
                   Before/after দ্বারা দুটি বাক্য যুক্ত হলে এদের একটি Past
-                  Indefinite Tense হলে অন্যটি Past Perfect Tense হয়। যেমন:{" "}
+                  Indefinite Tense হলে অন্যটি Past Perfect Tense হয়। একটি Past
+                   Perfect Tense হলে অন্যটি Past Indefinite Tense হয়। যেমন:{" "}
                   <br />
                   Q. He came home after I (eat) rice. <br />
                   =He came home after I <u> had eaten</u> rice.
@@ -1396,7 +1403,6 @@ function Verbs() {
 
             {/* page 17 */}
             <div className="p-6 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold mb-2">Page 17</h2>
               <h2>Exercise</h2>
               <p>1. The moon (shine) at night.</p>
               <p>2. Flowers (be) gift of nature.</p>
@@ -1419,7 +1425,6 @@ function Verbs() {
 
             {/* page 18 */}
             <div className="p-6 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold mb-2">Page 18</h2>
               <p>15. What you (go) to drink now?</p>
               <p>16. Rina (return) home just now.</p>
               <p>17. The play just (begin).</p>
@@ -1438,7 +1443,6 @@ function Verbs() {
             </div>
             {/* page 19 */}
             <div className="p-3 text-black md:p-18 bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold mb-2">Page 19</h2>
               <p>30. The old sailor went away (leave) the marriage guest.</p>
               <p>31. They just (reach) playground.</p>
               <p>32. What you generally (do) for living?</p>
@@ -1457,7 +1461,6 @@ function Verbs() {
 
             {/* page 20 */}
             <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl  font-bold mb-2">Page 20</h2>
               <p>45. I not (choose) my career yet.</p>
               <p>46. I (see) her long since.</p>
               <p>47. Last night I (have) a wonderful dream.</p>
@@ -1476,8 +1479,7 @@ function Verbs() {
 
             {/* page 21 */}
             <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold mb-2">Page 21</h2>
-              <p>59. Fancy (turn) a trifle pale.</p>
+              <p>59. I fancy I (turn) a trifle pale.</p>
               <p>60. The door was (open) by a Christian.</p>
               <p>61. Munir was greatly (hug) by Della.</p>
               <p>62. When was the book (buy)?</p>
@@ -1499,7 +1501,6 @@ function Verbs() {
 
             {/* page 22 */}
             <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
-              <h2 className="text-xl font-bold mb-2">Page 22</h2>
               <p>
                 74. The headmaster and the secretary (be) present in the meeting
                 yesterday.
@@ -1512,6 +1513,8 @@ function Verbs() {
               <p>80. Would that I (enter) the room.</p>
             </div>
           </div>
+
+          {/* More about subject-verb agreement */}
           <div className="">
             More about <br />
             Subject-verb Agreement <br />
@@ -1666,18 +1669,18 @@ function Verbs() {
           </div>
 
           {/* DOwnload button */}
-          <div className="text-center py-4 ">
-            <a
-              href="/RightFormOfVerbs.pdf"
-              download
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-            >
-              Download PDF
-            </a>
-          </div>
+          <div className="text-center py-4 sticky bottom-0 left-0 right-0">
+        <a
+          href="/RightFormOfVerbs.pdf"
+          download
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Download PDF
+        </a>
+      </div>
+          
         </div>
       </div>
-    </div>
   );
 }
 

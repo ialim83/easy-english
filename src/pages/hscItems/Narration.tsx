@@ -77,11 +77,11 @@ const Narration = () => {
 
           {/* rule 1 Tense changing */}
           <AccordionPanel>
-            <AccordionTitle>Rule-1: Tense/ Verb Changing</AccordionTitle>
+            <AccordionTitle>Rule-1: Tense/ Verb </AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400 text-lg md:text-xl">
                 <div className="">
-                  {/* <h2>Rule-1: Tense Changing</h2> */}
+                  <h2>Rule-1: Tense Changing</h2>
                   <p>
                     সাধারণত Reporting Verb(বা ইনভারটেড কোমার বাইরের বাক্যের Verb
                     টি) যদি V2 থাকে তাহলে Reported Speech এর (বা ইনভারটেড কোমার
@@ -101,11 +101,11 @@ const Narration = () => {
                   <br />
                   <p>
                     <strong>Note:</strong>
-                    <br /> ### উপরের সাহায্যকারি Verb গুলোর পরে মুল Verb থাকলে
+                    <br /> 👉 উপরের সাহায্যকারি Verb গুলোর পরে মুল Verb থাকলে
                     সেই Verb এর কোন পরিবর্তন হয় না ।
                     <br />
                     <br />
-                    ### যদি উপরের সাহায্যকারি Verb গুলো না থাকে তাহলে মুল Verb
+                    👉 যদি উপরের সাহায্যকারি Verb গুলো না থাকে তাহলে মুল Verb
                     এর পরিবর্তন হয়।
                     <br /> যেমন:
                   </p>
@@ -130,41 +130,18 @@ const Narration = () => {
 
           {/* rule 2 */}
           <AccordionPanel>
-            <AccordionTitle>Rule-2: Person Changing</AccordionTitle>
+            <AccordionTitle>Rule-2: Pronoun</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400 text-lg md:text-xl">
                 <div className="text-start">
-                  {/* <h2 className="">Person Changing:</h2> */}
+                  <h2 className="">Pronoun/ Person Changing:</h2>
                   <p className="text-start">
                     দ্বিতীয় বাক্যের (অর্থাৎ Reporting Speech এর) Pronoun এর
                     পরিবর্তন হয়। <br /> অর্থাৎ- <br />
-                    ### I - me - my/ We - us - our প্রথম বাক্যের Subject অনুসারে
-                    পরিবর্তন হবে।
-                    <br />
-                    যেমনঃ
-                    <br />
-                    Q. He said to me, "I have done my duty according to her
-                    order". <br />= He said to me tha <strong>he </strong>
-                    had done <strong> his </strong> duty according to her order.
-                    <br />
-                    <br />
-                    ### You - you - your প্রথম বাক্যের Object - অনুসারে পরিবর্তন
-                    হয়। <br />
-                  </p>
-
-                  <p className="">
-                    যেমনঃ
-                    <br />
-                    Q. He said to me, "You had done your duty." <br />= He said
-                    to me that <strong> I </strong>had done <strong> my</strong>{" "}
-                    duty according to her order.
-                  </p>
-
-                  <p className="py-3 text-rose-500 font-bold">
-                    ### উক্ত Pronoun-গুলো ছাড়া আন্য কোন Pronoun পরিবর্তন হয় না।
+                    
                   </p>
                   <p className="py-2">
-                    ### Subject/ Pronoun এর পরিবর্তন বুঝার জন্য নিচের টেবিলটি
+                    # Subject/ Pronoun এর পরিবর্তন বুঝার জন্য নিচের টেবিলটি
                     মনে রাখতে হবেঃ
                   </p>
                   {/* Subject-Objective-Possessive  */}
@@ -209,6 +186,31 @@ const Narration = () => {
                       </tr>
                     </tbody>
                   </table>
+                  <p className="mt-3">
+                    👉 I - me - my, We - us - our প্রথম বাক্যের Subject অনুসারে
+                    পরিবর্তন হয়। 
+                    👉 You - you - your প্রথম বাক্যের Object  অনুসারে পরিবর্তন
+                    হয়। 
+                    <span className=" text-rose-500 font-bold">
+                    👉 উক্ত Pronoun-গুলো ছাড়া আন্য কোন Pronoun পরিবর্তন হয় না।
+                  </span>
+                    <br />
+                    যেমনঃ
+                    <br />
+                    Q. He said to me, "I have done my duty according to her
+                    order". <br />= He said to me tha <strong>he </strong>
+                    had done <strong> his </strong> duty according to her order.
+                    
+                  </p>
+
+                  <p className="">
+                    Q. He said to me, "You had done your duty." <br />= He said
+                    to me that <strong> I </strong>had done <strong> my</strong>{" "}
+                    duty according to her order.
+                  </p>
+
+                  
+                  
                 </div>
               </div>
             </AccordionContent>
@@ -216,12 +218,12 @@ const Narration = () => {
 
           {/* rule3 */}
           <AccordionPanel>
-            <AccordionTitle>Changing adverbial phrase</AccordionTitle>
+            <AccordionTitle>Rule-3: Adverb</AccordionTitle>
             <AccordionContent className="p-2 md:p-5 ">
               <div className="dark:text-gray-400 ">
                 {/* Adverbial Clause */}
                 <div className="overflow-x-auto">
-                  {/* <h2 className="pb-3">Changing adverbial phrase:</h2> */}
+                  <h2 className="pb-3">Changing adverbial phrase:</h2>
                   <table className="min-w-full text-center text-lg">
                     <thead className="border-b bg-gray-50">
                       <tr>
@@ -277,11 +279,11 @@ const Narration = () => {
 
           {/* Sentence Narration */}
           <AccordionPanel>
-            <AccordionTitle>Sentence Narration</AccordionTitle>
+            <AccordionTitle>Rule-4: Sentence</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400 ttext-lg md:text-xl">
                 <div className="">
-                  <h2>Assertive Sentence:</h2>
+                  <h2 className="text-green-500">Assertive Sentence:</h2>
                   <div className="rule-section">
                     <p>
                       চিনার উপায়ঃ <br />
@@ -328,7 +330,7 @@ const Narration = () => {
                   </div>
 
                   <div className="rule-section">
-                    <h2>Interrogative Sentence:</h2>
+                    <h2 className="text-green-500">Interrogative Sentence:</h2>
                     <div className="">
                       <p>
                         চিনার উপায়ঃ
@@ -400,7 +402,7 @@ const Narration = () => {
 
                   {/* Imperative sentence  */}
                   <div className="rule-section">
-                    <h2>Imperative Sentence:</h2>
+                    <h2 className="text-green-500">Imperative Sentence:</h2>
                     <div className="">
                       <p>
                         চিনার উপায়ঃ <br />
@@ -408,7 +410,7 @@ const Narration = () => {
                         আদেশ/অনুরোধ/উপদেশ বোঝায়।
                       </p>
                       <h3>পরিবর্তনের নিয়ম:</h3>
-                      <p>
+                      <p className="my-3">
                         (i) say/ says/ said to যদি থাকে তাহলে- <br />
                         <span className="text-rose-400"># </span>Say/ says to
                         পরিবর্তে = tell/ ask হবে।
@@ -419,7 +421,7 @@ const Narration = () => {
                         Q. He said to me, "Go home directly". <br />= He asked
                         me to Go home directly.
                       </p>
-                      <p>
+                      <p className="my-3">
                         (ii) কিন্তু দ্বিতীয় বাক্যটি Let us/ Let's দ্বারা শুরু
                         হলে say, say to, said, said to এর পরিবর্তে propose(d)/
                         suggest(ed) হবে এবং Let us/ Let's উঠিয়ে Let us এর পরের
@@ -428,7 +430,7 @@ const Narration = () => {
                         He proposed rectifying themselves.
                       </p>
                       <p>
-                        (ii) কিন্তু দ্বিতীয় বাক্যটি Let me/ him/ them/ her
+                        (iii) কিন্তু দ্বিতীয় বাক্যটি Let me/ him/ them/ her
                         দ্বারা শুরু হলে say, say to, said, said to এর পরিবর্তে
                         tell/told/wish(ed)/ request(ed)/order(ed) হবে এবং <br />
                         ** Let এর পরের Object কে Subject বানিয়ে এর পরে
@@ -465,7 +467,7 @@ const Narration = () => {
 
                   {/* Exclamatory Sentence  */}
                   <div className="rule-section">
-                    <h2>Exclamatory Sentence:</h2>
+                    <h2 className="text-green-500">Exclamatory Sentence:</h2>
                     <div className="">
                       <p>
                         চিনার উপায়ঃ <br />
@@ -519,8 +521,8 @@ const Narration = () => {
 
                   {/* <!-- Optative sentence --> */}
                   <div className="rule-section">
-                    <h2>Optative Sentence:</h2>
-                    <div className="">
+                    <h2 className="text-green-500">Optative Sentence:</h2>
+                    <div>
                       <p>
                         চিনার উপায়ঃ <br />
                         দ্বিতীয় বাক্যে May দ্বারা শুরু হয় এবং বাকের শেষে ফুল
@@ -600,7 +602,7 @@ const Narration = () => {
                       </tr>
                       <tr>
                         <td>
-                          Reported Speech – এ "Yes" or "No” থাকলে Indirect করার
+                          Reported Speech - এ "Yes" or "No” থাকলে Indirect করার
                           সময় যথাক্রমে replied in the affirmative that এবং
                           replied in the negative that ব্যবহার করতে হয়।
                         </td>
