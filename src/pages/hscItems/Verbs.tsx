@@ -194,7 +194,7 @@ function Verbs() {
               <p className="font-bold">Tense:</p>
               <p className="font-bold">1. Present Indefinite Tense</p>
               i. Subject + V<sub>1</sub> (s/es) + extension. <br />
-              ii. Subject + do/ does + V<sub>1</sub> + extension.
+              ii. Subject + do not/ does not + V<sub>1</sub> + extension.
               <p className="font-bold">2. Present Continuous Tense</p>= Subject
               + am/is/are + V<sub>1</sub>-ing + extension.
               <p className="font-bold">3. Present Perfect Tense</p>= Subject +
@@ -903,7 +903,7 @@ function Verbs() {
               <p className="font-bold">Tense:</p>
               <p className="font-bold">1. Present Indefinite Tense</p>
               i. Subject + V<sub>1</sub> (s/es) + extension. <br />
-              ii. Subject + do/ does + V<sub>1</sub> + extension.
+              ii. Subject + do not/ does not + V<sub>1</sub> + extension.
               <p className="font-bold">2. Present Continuous Tense</p>= Subject
               + am/is/are + V<sub>1</sub>-ing + extension.
               <p className="font-bold">3. Present Perfect Tense</p>= Subject +

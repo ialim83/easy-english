@@ -88,12 +88,12 @@ const StrongVerb = () => {
                 <td>broadcast</td>
                 <td>broadcast</td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td>13</td>
                 <td>build (নির্মাণ করা)</td>
                 <td>built</td>
                 <td>built</td>
-              </tr>
+              </tr> */}
               <tr>
                 <td>14</td>
                 <td>catch (ধরা)</td>
@@ -157,7 +157,7 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>25</td>
-                <td>fall (পড়া)</td>
+                <td>fall (পতন হওয়া)</td>
                 <td>fell</td>
                 <td>fallen</td>
               </tr>
@@ -229,7 +229,7 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>36</td>
-                <td>get (দেওয়া)</td>
+                <td>get (পাওয়া/ হওয়া)</td>
                 <td>got</td>
                 <td>got/gotten</td>
               </tr>
@@ -263,12 +263,7 @@ const StrongVerb = () => {
                 <td>hung</td>
                 <td>hung</td>
               </tr>
-              <tr>
-                <td>42</td>
-                <td>hear (শোনা)</td>
-                <td>heard</td>
-                <td>heard</td>
-              </tr>
+              
               <tr>
                 <td>43</td>
                 <td>hide (লুকানো)</td>
@@ -289,7 +284,7 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>45</td>
-                <td>kneel (গোড়া)</td>
+                <td>kneel (হামাগুড়ি দেওয়া)</td>
                 <td>knelt</td>
                 <td>knelt</td>
               </tr>
@@ -317,12 +312,7 @@ const StrongVerb = () => {
                 <td>left</td>
                 <td>left</td>
               </tr>
-              <tr>
-                <td>49</td>
-                <td>lend (ঋণ দেওয়া)</td>
-                <td>lent</td>
-                <td>lent</td>
-              </tr>
+              
               <tr>
                 <td>50</td>
                 <td>lie (শুয়ে থাকা)</td>
@@ -335,12 +325,7 @@ const StrongVerb = () => {
                 <td>lost</td>
                 <td>lost</td>
               </tr>
-              <tr>
-                <td>52</td>
-                <td>mean (অর্থ করা)</td>
-                <td>meant</td>
-                <td>meant</td>
-              </tr>
+             
               <tr>
                 <td>53</td>
                 <td>meet (মিলিত হওয়া)</td>
@@ -439,12 +424,7 @@ const StrongVerb = () => {
                 <td>shrank</td>
                 <td>shrunk</td>
               </tr>
-              <tr>
-                <td>69</td>
-                <td>send (পাঠানো)</td>
-                <td>sent</td>
-                <td>sent</td>
-              </tr>
+              
               <tr>
                 <td>70</td>
                 <td>strike (প্রহার করা)</td>
@@ -494,12 +474,12 @@ const StrongVerb = () => {
                 <td>spoken</td>
               </tr>
 
-              <tr>
+              {/* <tr>
                 <td>79</td>
                 <td>spend (ব্যয় করা)</td>
                 <td>spent</td>
                 <td>spent</td>
-              </tr>
+              </tr> */}
               <tr>
                 <td>80</td>
                 <td>spit (থুথু ফেলা)</td>
