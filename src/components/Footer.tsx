@@ -140,7 +140,7 @@ const Footer = () => {
             </li>
             <li className="flex flex-col">
               <a href="tel:+8801860060068">+8801860060068 </a>
-              <a href="tel:+8801751337773">+8801751337773</a>
+              {/* <a href="tel:+8801751337773">+8801751337773</a> */}
             </li>
             <li></li>
           </ul>

@@ -29,7 +29,7 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>3</td>
-                <td>be/am/is/are(হওয়া)</td>
+                <td>be/am/is/are(হওয়া/থাকা)</td>
                 <td>was/were</td>
                 <td>been</td>
               </tr>
@@ -51,12 +51,12 @@ const StrongVerb = () => {
                 <td>bore</td>
                 <td>born/borne</td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td>7</td>
                 <td>bend (মোড়ানো)</td>
                 <td>bent</td>
                 <td>bent</td>
-              </tr>
+              </tr> */}
 
               <tr>
                 <td>8</td>
@@ -66,7 +66,7 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>9</td>
-                <td>blow (পড়া)</td>
+                <td>blow (প্রবাহিত হওয়া)</td>
                 <td>blew</td>
                 <td>blown</td>
               </tr>
@@ -180,8 +180,8 @@ const StrongVerb = () => {
                 <td>fought</td>
               </tr>
               <tr>
-                <td>29</td>
-                <td>find (খুঁজে পাওয়া)</td>
+                <td>29</td> 
+                <td>find (পাওয়া)</td>
                 <td>found</td>
                 <td>found</td>
               </tr>
@@ -259,7 +259,7 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>41</td>
-                <td>hang (লটকানো)</td>
+                <td>hang (ঝুলানো)</td>
                 <td>hung</td>
                 <td>hung</td>
               </tr>
@@ -272,7 +272,7 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>43</td>
-                <td>hold (লুকানো)</td>
+                <td>hold (ধরা)</td>
                 <td>held</td>
                 <td>held</td>
               </tr>
@@ -334,13 +334,13 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>54</td>
-                <td>mistake (ভুল বোঝা)</td>
+                <td>mistake (ভুল করা)</td>
                 <td>mistook</td>
                 <td>mistaken</td>
               </tr>
               <tr>
                 <td>55</td>
-                <td>pay (পেমেন্ট করা)</td>
+                <td>pay (দেওয়া)</td>
                 <td>paid</td>
                 <td>paid</td>
               </tr>
@@ -396,13 +396,13 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>64</td>
-                <td>shake (কাঁপানো)</td>
+                <td>shake (ঝাকানো)</td>
                 <td>shook</td>
                 <td>shaken</td>
               </tr>
               <tr>
                 <td>65</td>
-                <td>shine (চকচকে করা)</td>
+                <td>shine (কিরন দেওয়া)</td>
                 <td>shone</td>
                 <td>shone</td>
               </tr>
@@ -507,7 +507,7 @@ const StrongVerb = () => {
               </tr>
               <tr>
                 <td>84</td>
-                <td>stick(আটকে থাকা)</td>
+                <td>stick(লেগে থাকা)</td>
                 <td>stuck</td>
                 <td>stuck</td>
               </tr>
@@ -580,7 +580,7 @@ const StrongVerb = () => {
 
               <tr>
                 <td>96</td>
-                <td>understand (বোঝা)</td>
+                <td>understand (বুঝতে পার)</td>
                 <td>understood</td>
                 <td>understood</td>
               </tr>
@@ -592,7 +592,7 @@ const StrongVerb = () => {
                 <td>undone</td>
               </tr>
               <tr>
-                <td>97</td>
+                <td>97</td>  
                 <td>wake(জাগ্রত হওয়া)</td>
                 <td>woke</td>
                 <td>woken</td>

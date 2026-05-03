@@ -227,7 +227,7 @@ const Navbar = () => {
               >
                 <ul className="flex items-center justify-center gap-2">
                   <li className="p-2  hover:text-rose-500 transition-all">
-                    <a href="tel:+8801751337773">
+                    <a href="tel:+8801860060068">
                       <MdLocalPhone size={20} className="" />
                     </a>
                   </li>
