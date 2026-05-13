@@ -8,6 +8,7 @@ import {
   AccordionTitle,
 } from "flowbite-react";
 import { Link } from "react-router-dom";
+import Voice from "../GrammarPages/Voice";
 
 const Transformation = () => {
   const flipRef = useRef<any>(null);
@@ -65,7 +66,7 @@ const Transformation = () => {
           onPageChange={(e: any) => setCurrentPage(e)}
         >
           <article
-            className="flex flex-col items-center justify-center p-6"
+            className="flex flex-col items-center justify-center p-6 bg-[#EFE5D6] text-black"
             style={{
               backgroundImage: `url('/bookCover2.jpg')`,
               backgroundSize: "cover",
@@ -76,12 +77,12 @@ const Transformation = () => {
             }}
           >
             <h1 className="text-9xl"> 📖 </h1>
-            <h1 className="text-2xl font-bold text-green-500">
-              Transformation
+            <h1 className="text-2xl font-bold text-green-500 mt-5">
+              Changing
             </h1>
             <p className="m-5 text-pink-600">Swipe to read</p>
           </article>
-          <article className="p-3">
+          <article className="p-3 bg-[#EFE5D6] text-black">
             <h2 className="text-xl font-bold">Page 1</h2>
 
             <div className="">
@@ -255,7 +256,7 @@ const Transformation = () => {
             </div>
           </article>
           {/* page 2 */}
-          <article className="p-3">
+          <article className="p-3 bg-[#EFE5D6] text-black">
             <h2 className="text-xl font-bold">Page 1</h2>
             <div className="">
               <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
@@ -340,7 +341,7 @@ const Transformation = () => {
               </table>
             </div>
           </article>
-          <article className="p-6">
+          <article className="p-6 bg-[#EFE5D6] text-black">
             <h2 className="text-xl font-bold">Rule 3</h2>
             <p>Yesterday, ago, last night... → Past Indefinite</p>
           </article>
@@ -434,7 +435,7 @@ const Transformation = () => {
       {/* Scroll view */}
       <div className="h-full w-full mx-auto px-2">
         <div className="my-20">
-          <h1 className="text-center text-green-500">Transformation</h1>
+          <h1 className="text-center text-green-500">Changing</h1>
           <p className="text-center">
             Changing Sentence without changing meaning
           </p>
@@ -1317,8 +1318,8 @@ const Transformation = () => {
                       (iii) My father is a man of words. (iv) He goes to bed
                       late at night everyday. (v) The boy has a good command in
                       English. (vi) Everybody is longing for prosperity. (vii)
-                      No accurately everytime. (viii) Courtesy is nothing but a
-                      manner. (ix) There is nothing wrong with them. one hits
+                      No one hits accurately everytime. (viii) Courtesy is nothing but a
+                      manner. (ix) There is nothing wrong with them. 
                       (x) Frienship is nothing but a name. (xi) Everybody wishes
                       to get the 1st prize. (xii) They would not drink polluted
                       water. (xiii) There is nothing in my pocket. (xiv) Nobody
@@ -1379,8 +1380,7 @@ const Transformation = () => {
                     Exc: If I could do it!
                     <br />
                     <br />
-                    <br />
-                    <br />
+                    <h3>Exclamatory to Assertive:</h3>
                     3. <br />
                     i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা খুশি
                     প্রকাশ করে সেক্ষেত্রে Hurrah-এর পরিবর্তে it is a matter of
@@ -1394,7 +1394,7 @@ const Transformation = () => {
                     <br />
                     <br />
                     ii. Alas বা দুঃখবোধক Exclamatory sentence-এর ক্ষেত্রে
-                    also-এর পরিবর্তে it is a matter of sorrow + that বসে +
+                    alas-এর পরিবর্তে it is a matter of sorrow + that বসে +
                     বাক্যের বাকি অংশ বসে।
                     <br />
                     উদাহরণ:
@@ -1402,8 +1402,10 @@ const Transformation = () => {
                     Exc: Alas! I am finished.
                     <br />
                     Ass: It is a matter of sorrow that I am finished.
+                    <br />
+                    <br />
+                    <h3>Exercise </h3>
                     <p className="pt-5">
-                      Exercise <br />
                       Transform the following sentences into Exclamatory
                       sentences: <br />
                       (i) She is very talkative. (ii) It was a very competitive
@@ -1419,8 +1421,9 @@ const Transformation = () => {
                       take care of his parents. (xv) I wish I could be a child
                       again.
                     </p>
+                    <br />
+                    <h3>Exercise </h3>
                     <p className="">
-                      Exercise <br />
                       Transform the following sentences into Assertive sentence
                       : <br />
                       (i) What a big river the Padma is! (ii) What a nice gift
@@ -1473,6 +1476,7 @@ const Transformation = () => {
                     <br />
                     ii. Aff: Obey your parents.
                     <br />
+                    <br />
                     2. Assertive sentence টিতে যদি 'request' কথাটি থাকে তবে
                     Imperative করার সময় 'please/kindly + verb' দ্বারা বাক্যটি
                     শুরু হবে।
@@ -1488,11 +1492,14 @@ const Transformation = () => {
                     Imp: Please help him.
                     <br />
                     <br />
-                    3. Assertive sentence-এর subject যদি 1st person কিংবা 3rd
-                    person হয়, তবে Imperative বাক্যটি Let দ্বারা শুরু হবে।{" "}
+                    3. First person বা third person যুক্ত Assertive sentence- এ
+                    not থাকলে Imperative করার <br />
+                    নিয়ম: Let + প্রদত্ত subject এর objective from + প্রদত্ত verb
+                    থেকে শেষ পর্যন্ত।
                     <br />
                     Rule: Let + objective pronoun (me/ us/ him/her/ them) + Verb
-                    + Others. উদাহরণ:
+                    + Others. <br />
+                    উদাহরণ:
                     <br />
                     Ass: I must go now.
                     <br />
@@ -1505,7 +1512,7 @@ const Transformation = () => {
                     <br />
                     4. Never যুক্ত assertive sentence-কে imperative করার
                     <br />
-                    নিয়মে: প্রদত্ত never + প্রদত্ত মূল verb-এর base form +
+                    নিয়মে: প্রদত্ত never + প্রদত্ত মূল verb-এর base form/V1 +
                     verb-এর পরের অংশ।
                     <br />
                     উদাহরণ:
@@ -1513,24 +1520,13 @@ const Transformation = () => {
                     Ass: Never do this.
                     <br />
                     Imp: You should never do this.
+                    
+                    
                     <br />
                     <br />
-                    5. First person বা third person যুক্ত Assertive sentence- এ
-                    not থাকলে Imperative করার <br />
-                    নিয়ম: Let + প্রদত্ত subject এর objective from + প্রদত্ত verb
-                    থেকে শেষ পর্যন্ত।
-                    <br />
-                    উদাহরণ:
-                    <br />
-                    Ass: We do not hate the poor.
-                    <br />
-                    Imp: Let us not hate the poor.
-                    <br />
-                    Ass: Nilu does not run in the sun.
-                    <br />
-                    Imp: Let not Nilu run in the sun.
+                    <h3>Exercise </h3>
                     <p className="pt-5">
-                      Exercise <br />
+                     
                       Transform the following sentences into imperative
                       sentences : <br />
                       (i) You should obey the rules of the company. (ii) You do
@@ -2029,7 +2025,8 @@ const Transformation = () => {
                     Complex to Compound & Compound to complex:
                   </h3>
                   <p className="">
-                    <strong>Rule:(1) </strong>Since/as/ when / as soon as/
+                    <strong>Rule:(1) <br /> </strong>
+                    Since/as/ when / as soon as/
                     because দ্বারা শুরু / যুক্ত বাক্যের মাঝখানে And বসিয়ে Since
                     /as/ when উঠিয়ে দিলে Compound হবে। <br />
                     যেমনঃ <br />
@@ -2043,7 +2040,8 @@ const Transformation = () => {
                   </p>
                   <br />
                   <p className="">
-                    <strong>Rule:(2) </strong> Though/ Although উঠিয়ে মাঝখানে
+                    <strong>Rule:(2) </strong> <br /> 
+                    Though/ Although উঠিয়ে মাঝখানে
                     but বসালে Compound হবে। <br />
                     যেমনঃ <br />
                     Q. Although he was sick, he was walking. <br />
@@ -2058,17 +2056,20 @@ const Transformation = () => {
                   </p>
                   <br />
                   <p className="">
-                    <strong>Rule:(3) </strong> If দ্বারা শুরু বাক্য না বোধক হলে
-                    মূল if + Subject উঠিয়ে মাঝখানে or বসাতে হবে। <br />
+                    <strong>Rule:(3) <br /> </strong> 
+                    If দ্বারা শুরু বাক্য হ্যাঁ-বোধক  হলে
+                    if + Subject উঠিয়ে মাঝখানে and বসাতে হবে। <br />
                     যেমনঃ <br />
                     Q. If you work hard, you will pass. <br />
                     = Work hard and you will pass. <br />
                     কিন্তু- <br />
-                    if দ্বারা শুরু বাক্য হ্যাঁবোধক হলে if - থেকে - not পর্যন্ত
+                    if দ্বারা শুরু বাক্য না-বোধক হলে if - থেকে - not পর্যন্ত
                     উঠিয়ে মাঝখানে and বসালে Compound হবে। <br />
                     যেমনঃ <br />
                     Q. If you do not do, you will die. <br />
-                    = Do or you will die. <br />
+                    = Do or you will die. 
+                    <br />
+                    <br />
                     <strong>অনুরুপভাবেঃ</strong> <br />
                     And দ্বারা যুক্ত বাক্যের শুরুতে subject না থাকলে If + Sub
                     (you) বসিয়ে And উঠালে Complex হবে। আবার or উঠিয়ে বাক্যের
@@ -2081,6 +2082,7 @@ const Transformation = () => {
                   </p>
 
                   <br />
+
                   <p className="pt-5">
                     Exercise <br />
                     Transform the following Compound sentences into Complex:{" "}
@@ -2110,11 +2112,12 @@ const Transformation = () => {
                     attentively or you fail. (xxv) Do or die. (xxvi) He worked
                     hard but he could not succeed.
                   </p>
+                  <br />
                   <p className="">
                     Exercise <br />
-                    Transform the following sentences from complex to compound :{" "}
+                    Transform the following sentences from complex to compound :
                     <br />
-                    saw the police, he did not eat (i) We went to the market so
+                    (i) We went to the market so
                     that we could buy the necessities. (ii) Though he was poor,
                     he was honest. (iii) He admitted that he was responsible for
                     breaking the handle. (iv) If we read books, we can enrich
@@ -2127,7 +2130,7 @@ const Transformation = () => {
                     your health. (xi) As there was a traffic jam on the road, I
                     was late for school. (xii) Unless you read, you will not
                     pass. (xiii) He was so weak that he could not speak. (xiv)
-                    Although they tried hard, they could not win the match.
+                    Although they tried hard, they could not win the match. (xv) When he saw the police, he did not eat 
                   </p>
                 </div>
               </AccordionContent>
@@ -3803,6 +3806,14 @@ const Transformation = () => {
               </AccordionContent>
             </AccordionPanel>
 
+            <AccordionPanel>
+              <AccordionTitle><span className="text-rose-800">Voice: </span> Active-Passive </AccordionTitle>
+              <AccordionContent className="p-2 md:p-5">
+                <div className="">
+                  <Voice/>
+                </div>
+              </AccordionContent>
+            </AccordionPanel>          
             {/* <AccordionPanel>
             <AccordionTitle>Steps</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">

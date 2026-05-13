@@ -51,578 +51,555 @@ const StrongVerb = () => {
                 <td>bore</td>
                 <td>born/borne</td>
               </tr>
-              {/* <tr>
-                <td>7</td>
-                <td>bend (মোড়ানো)</td>
-                <td>bent</td>
-                <td>bent</td>
-              </tr> */}
 
               <tr>
-                <td>8</td>
+                <td>7</td>
                 <td>bid (নির্দেশ দেওয়া)</td>
-                <td>bade/bid</td>
+                <td>bade/bid</td> 
                 <td>bidden</td>
               </tr>
               <tr>
-                <td>9</td>
+                <td>8</td>
                 <td>blow (প্রবাহিত হওয়া)</td>
                 <td>blew</td>
                 <td>blown</td>
               </tr>
               <tr>
-                <td>10</td>
+                <td>9</td>
                 <td>break (ভাঙা)</td>
                 <td>broke</td>
                 <td>broken</td>
               </tr>
               <tr>
-                <td>11</td>
+                <td>10</td>
                 <td>bring (নিয়ে আসা)</td>
                 <td>brought</td>
                 <td>brought</td>
               </tr>
               <tr>
-                <td>12</td>
+                <td>11</td>
                 <td>broadcast (প্রচার করা)</td>
                 <td>broadcast</td>
                 <td>broadcast</td>
               </tr>
-              {/* <tr>
-                <td>13</td>
-                <td>build (নির্মাণ করা)</td>
-                <td>built</td>
-                <td>built</td>
-              </tr> */}
+
               <tr>
-                <td>14</td>
+                <td>12</td>
                 <td>catch (ধরা)</td>
                 <td>caught</td>
                 <td>caught</td>
               </tr>
               <tr>
-                <td>15</td>
+                <td>13</td>
                 <td>choose (বাছাই করা)</td>
                 <td>chose</td>
                 <td>chosen</td>
               </tr>
               <tr>
-                <td>16</td>
+                <td>14</td>
                 <td>come (আসা)</td>
                 <td>came</td>
                 <td>come</td>
               </tr>
 
               <tr>
-                <td>18</td>
+                <td>15</td>
                 <td>deal (চুক্তি করা)</td>
                 <td>dealt</td>
                 <td>dealt</td>
               </tr>
               <tr>
-                <td>19</td>
+                <td>16</td>
                 <td>dig (খোঁড়া)</td>
                 <td>dug</td>
                 <td>dug</td>
               </tr>
               <tr>
-                <td>20</td>
+                <td>17</td>
                 <td>do (করা)</td>
                 <td>did</td>
                 <td>done</td>
               </tr>
               <tr>
-                <td>21</td>
+                <td>18</td>
                 <td>draw (আঁকা)</td>
                 <td>drew</td>
                 <td>drawn</td>
               </tr>
               <tr>
-                <td>22</td>
+                <td>19</td>
                 <td>drink (পান করা)</td>
                 <td>drank</td>
                 <td>drunk</td>
               </tr>
               <tr>
-                <td>23</td>
+                <td>20</td>
                 <td>drive (চালানো)</td>
                 <td>drove</td>
                 <td>driven</td>
               </tr>
               <tr>
-                <td>24</td>
+                <td>21</td>
                 <td>eat (খাওয়া)</td>
                 <td>ate</td>
                 <td>eaten</td>
               </tr>
               <tr>
-                <td>25</td>
+                <td>22</td>
                 <td>fall (পতন হওয়া)</td>
                 <td>fell</td>
                 <td>fallen</td>
               </tr>
               <tr>
-                <td>26</td>
+                <td>23</td>
                 <td>feed (খাওয়ানো)</td>
                 <td>fed</td>
                 <td>fed</td>
               </tr>
               <tr>
-                <td>27</td>
+                <td>24</td>
                 <td>feel (অনুভব করা)</td>
                 <td>felt</td>
                 <td>felt</td>
               </tr>
               <tr>
-                <td>28</td>
+                <td>25</td>
                 <td>fight (যুদ্ধ করা)</td>
                 <td>fought</td>
                 <td>fought</td>
               </tr>
               <tr>
-                <td>29</td> 
+                <td>26</td> 
                 <td>find (পাওয়া)</td>
                 <td>found</td>
                 <td>found</td>
               </tr>
               <tr>
-                <td>30</td>
+                <td>27</td>
                 <td>flee (পালানো)</td>
                 <td>fled</td>
                 <td>fled</td>
               </tr>
               <tr>
-                <td>31</td>
+                <td>28</td>
                 <td>fly (উড়া)</td>
                 <td>flew</td>
                 <td>flown</td>
               </tr>
               <tr>
-                <td>32</td>
+                <td>29</td>
                 <td>forbid (নিষেধ করা)</td>
                 <td>forbade</td>
                 <td>forbidden</td>
               </tr>
               <tr>
-                <td>33</td>
+                <td>30</td>
                 <td>forget (ভুলে যাওয়া)</td>
                 <td>forgot</td>
                 <td>forgotten</td>
               </tr>
               <tr>
-                <td>34</td>
+                <td>31</td>
                 <td>forgive (মাফ করা)</td>
                 <td>forgave</td>
                 <td>forgiven</td>
               </tr>
               <tr>
-                <td>35</td>
+                <td>32</td>
                 <td>freeze (জমা)</td>
                 <td>froze</td>
                 <td>frozen</td>
               </tr>
               <tr>
-                <td>36</td>
+                <td>33</td>
                 <td>give (দেওয়া)</td>
                 <td>gave</td>
                 <td>given</td>
               </tr>
               <tr>
-                <td>36</td>
+                <td>34</td>
                 <td>get (পাওয়া/ হওয়া)</td>
                 <td>got</td>
                 <td>got/gotten</td>
               </tr>
               <tr>
-                <td>37</td>
+                <td>35</td>
                 <td>go (যাওয়া)</td>
                 <td>went</td>
                 <td>gone</td>
               </tr>
               <tr>
-                <td>38</td>
+                <td>36</td>
                 <td>grow (বড় হওয়া)</td>
                 <td>grew</td>
                 <td>grown</td>
               </tr>
               <tr>
-                <td>39</td>
+                <td>37</td>
                 <td>have/has (থাকা)</td>
                 <td>had</td>
                 <td>had</td>
               </tr>
               <tr>
-                <td>39</td>
+                <td>38</td>
                 <td>hang(ফাসি দেওয়া)</td>
                 <td>hanged</td>
                 <td>hanged</td>
               </tr>
               <tr>
-                <td>41</td>
+                <td>38</td>
                 <td>hang (ঝুলানো)</td>
                 <td>hung</td>
                 <td>hung</td>
               </tr>
               
               <tr>
-                <td>43</td>
+                <td>40</td>
                 <td>hide (লুকানো)</td>
                 <td>hid</td>
                 <td>hidden</td>
               </tr>
               <tr>
-                <td>43</td>
+                <td>41</td>
                 <td>hold (ধরা)</td>
                 <td>held</td>
                 <td>held</td>
               </tr>
               <tr>
-                <td>44</td>
+                <td>42</td>
                 <td>keep (রাখা)</td>
                 <td>kept</td>
                 <td>kept</td>
               </tr>
               <tr>
-                <td>45</td>
+                <td>43</td>
                 <td>kneel (হামাগুড়ি দেওয়া)</td>
                 <td>knelt</td>
                 <td>knelt</td>
               </tr>
               <tr>
-                <td>46</td>
+                <td>44</td>
                 <td>know (জানা)</td>
                 <td>knew</td>
                 <td>known</td>
               </tr>
               <tr>
-                <td>47</td>
+                <td>45</td>
                 <td>lay (রাখা)</td>
                 <td>laid</td>
                 <td>laid</td>
               </tr>
               <tr>
-                <td>48</td>
+                <td>46</td>
                 <td>lead (নেতৃত্ব দেওয়া)</td>
                 <td>led</td>
                 <td>led</td>
               </tr>
               <tr>
-                <td>48</td>
+                <td>47</td>
                 <td>leave (ত্যাগ করা)</td>
                 <td>left</td>
                 <td>left</td>
               </tr>
               
               <tr>
-                <td>50</td>
+                <td>48</td>
                 <td>lie (শুয়ে থাকা)</td>
                 <td>lay</td>
                 <td>lain</td>
               </tr>
               <tr>
-                <td>51</td>
+                <td>49</td>
                 <td>lose (হারানো)</td>
                 <td>lost</td>
                 <td>lost</td>
               </tr>
              
               <tr>
-                <td>53</td>
+                <td>50</td>
                 <td>meet (মিলিত হওয়া)</td>
                 <td>met</td>
                 <td>met</td>
               </tr>
               <tr>
-                <td>54</td>
+                <td>51</td>
                 <td>mistake (ভুল করা)</td>
                 <td>mistook</td>
                 <td>mistaken</td>
               </tr>
               <tr>
-                <td>55</td>
+                <td>52</td>
                 <td>pay (দেওয়া)</td>
                 <td>paid</td>
                 <td>paid</td>
               </tr>
 
               <tr>
-                <td>56</td>
+                <td>53</td>
                 <td>ride (চালানো)</td>
                 <td>rode</td>
                 <td>ridden</td>
               </tr>
               <tr>
-                <td>57</td>
+                <td>54</td>
                 <td>rise (উঠা)</td>
                 <td>rose</td>
                 <td>risen</td>
               </tr>
               <tr>
-                <td>58</td>
+                <td>56</td>
                 <td>run (দৌড়ানো)</td>
                 <td>ran</td>
                 <td>run</td>
               </tr>
               <tr>
-                <td>59</td>
+                <td>57</td>
                 <td>say (বলা)</td>
                 <td>said</td>
                 <td>said</td>
               </tr>
               <tr>
-                <td>60</td>
+                <td>58</td>
                 <td>see (দেখা)</td>
                 <td>saw</td>
                 <td>seen</td>
               </tr>
               <tr>
-                <td>61</td>
+                <td>59</td>
                 <td>seek (খোঁজা)</td>
                 <td>sought</td>
                 <td>sought</td>
               </tr>
               <tr>
-                <td>62</td>
+                <td>60</td>
                 <td>sell (বিক্রি করা)</td>
                 <td>sold</td>
                 <td>sold</td>
               </tr>
 
               <tr>
-                <td>63</td>
+                <td>61</td>
                 <td>sew (সেলাই করা)</td>
                 <td>sewed</td>
                 <td>sewn/sewed</td>
               </tr>
               <tr>
-                <td>64</td>
+                <td>62</td>
                 <td>shake (ঝাকানো)</td>
                 <td>shook</td>
                 <td>shaken</td>
               </tr>
               <tr>
-                <td>65</td>
+                <td>63</td>
                 <td>shine (কিরন দেওয়া)</td>
                 <td>shone</td>
                 <td>shone</td>
               </tr>
               <tr>
-                <td>66</td>
+                <td>64</td>
                 <td>shoot (গুলি করা)</td>
                 <td>shot</td>
                 <td>shot</td>
               </tr>
               <tr>
-                <td>67</td>
+                <td>65</td>
                 <td>show (দেখানো)</td>
                 <td>showed</td>
                 <td>shown/showed</td>
               </tr>
               <tr>
-                <td>68</td>
+                <td>66</td>
                 <td>shrink (সঙ্কুচিত হওয়া)</td>
                 <td>shrank</td>
                 <td>shrunk</td>
               </tr>
               
               <tr>
-                <td>70</td>
+                <td>67</td>
                 <td>strike (প্রহার করা)</td>
                 <td>struck</td>
                 <td>struck</td>
               </tr>
               <tr>
-                <td>71</td>
+                <td>68</td>
                 <td>swear (শপথ করা)</td>
                 <td>swore</td>
                 <td>sworn</td>
               </tr>
               <tr>
-                <td>72</td>
+                <td>69</td>
                 <td>swim (সাঁতার কাটা)</td>
                 <td>swam</td>
                 <td>swum</td>
               </tr>
               <tr>
-                <td>73</td>
+                <td>70</td>
                 <td>sing (গাওয়া)</td>
                 <td>sang</td>
                 <td>sung</td>
               </tr>
               <tr>
-                <td>74</td>
+                <td>71</td>
                 <td>sink (ডুবে যাওয়া)</td>
                 <td>sank</td>
                 <td>sunk</td>
               </tr>
               <tr>
-                <td>75</td>
+                <td>72</td>
                 <td>sit (বসা)</td>
                 <td>sat</td>
                 <td>sat</td>
               </tr>
               <tr>
-                <td>76</td>
+                <td>73</td>
                 <td>sleep (ঘুমানো)</td>
                 <td>slept</td>
                 <td>slept</td>
               </tr>
               <tr>
-                <td>78</td>
+                <td>74</td>
                 <td>speak (কথা বলা)</td>
                 <td>spoke</td>
                 <td>spoken</td>
               </tr>
-
-              {/* <tr>
-                <td>79</td>
-                <td>spend (ব্যয় করা)</td>
-                <td>spent</td>
-                <td>spent</td>
-              </tr> */}
               <tr>
-                <td>80</td>
+                <td>75</td>
                 <td>spit (থুথু ফেলা)</td>
                 <td>spat</td>
                 <td>spat</td>
               </tr>
 
               <tr>
-                <td>81</td>
+                <td>76</td>
                 <td>spring(লাফানো)</td>
                 <td>sprang</td>
                 <td>sprung</td>
               </tr>
               <tr>
-                <td>82</td>
+                <td>77</td>
                 <td>stand(দাঁড়ানো)</td>
                 <td>stood</td>
                 <td>stood</td>
               </tr>
               <tr>
-                <td>83</td>
+                <td>78</td>
                 <td>steal(চুরি করা)</td>
                 <td>stole</td>
                 <td>stolen</td>
               </tr>
               <tr>
-                <td>84</td>
+                <td>79</td>
                 <td>stick(লেগে থাকা)</td>
                 <td>stuck</td>
                 <td>stuck</td>
               </tr>
               <tr>
-                <td>85</td>
+                <td>80</td>
                 <td>sting(হুল ফোটানো)</td>
                 <td>stung</td>
                 <td>stung</td>
               </tr>
               <tr>
-                <td>86</td>
+                <td>81</td>
                 <td>stink(পঁচা গন্ধ হওয়া)</td>
                 <td>stank</td>
                 <td>stunk</td>
               </tr>
               <tr>
-                <td>87</td>
+                <td>81</td>
                 <td>strike(প্রহার করা)</td>
                 <td>struck</td>
                 <td>struck</td>
               </tr>
               <tr>
-                <td>88</td>
+                <td>82</td>
                 <td>swear(শপথ করা)</td>
                 <td>swore</td>
                 <td>sworn</td>
               </tr>
               <tr>
-                <td>89</td>
+                <td>83</td>
                 <td>swing(দোলানো)</td>
                 <td>swung</td>
                 <td>swung</td>
               </tr>
               <tr>
-                <td>90</td>
+                <td>84</td>
                 <td>take(নেওয়া)</td>
                 <td>took</td>
                 <td>taken</td>
               </tr>
               <tr>
-                <td>91</td>
+                <td>85</td>
                 <td>teach(শেখানো)</td>
                 <td>taught</td>
                 <td>taught</td>
               </tr>
               <tr>
-                <td>92</td>
+                <td>86</td>
                 <td>tear (ছিঁড়া)</td>
                 <td>tore</td>
                 <td>torn</td>
               </tr>
               <tr>
-                <td>93</td>
+                <td>87</td>
                 <td>tell (বলা)</td>
                 <td>told</td>
                 <td>told</td>
               </tr>
               <tr>
-                <td>94</td>
+                <td>88</td>
                 <td>think (ভাবা)</td>
                 <td>thought</td>
                 <td>thought</td>
               </tr>
               <tr>
-                <td>95</td>
+                <td>89</td>
                 <td>throw (নিক্ষেপ করা)</td>
                 <td>threw</td>
                 <td>thrown</td>
               </tr>
 
               <tr>
-                <td>96</td>
+                <td>90</td>
                 <td>understand (বুঝতে পার)</td>
                 <td>understood</td>
                 <td>understood</td>
               </tr>
 
+              
               <tr>
-                <td>96</td>
-                <td>undo (বাতিল করা)</td>
-                <td>undid</td>
-                <td>undone</td>
-              </tr>
-              <tr>
-                <td>97</td>  
+                <td>91</td>  
                 <td>wake(জাগ্রত হওয়া)</td>
                 <td>woke</td>
                 <td>woken</td>
               </tr>
               <tr>
-                <td>98</td>
+                <td>92</td>
                 <td>wear(পরিধান করা)</td>
                 <td>wore</td>
                 <td>worn</td>
               </tr>
               <tr>
-                <td>99</td>
+                <td>93</td>
                 <td>weave(বোনা)</td>
                 <td>wove</td>
                 <td>woven</td>
               </tr>
               <tr>
-                <td>100</td>
+                <td>94</td>
                 <td>weep (ক্রন্দন করা)</td>
                 <td>wept</td>
                 <td>wept</td>
               </tr>
               <tr>
-                <td>101</td>
+                <td>94</td>
                 <td>win (জয় করা)</td>
                 <td>won</td>
                 <td>won</td>
               </tr>
               <tr>
-                <td>102</td>
+                <td>95</td>
                 <td>write (লিখা)</td>
                 <td>wrote</td>
                 <td>written</td>
@@ -679,63 +656,63 @@ const StrongVerb = () => {
                 <td>hit</td>
               </tr>
               <tr>
-                <td>8</td>
+                <td>7</td>
                 <td>Hurt (আঘাত করা)</td>
                 <td>hurt</td>
                 <td>hurt</td>
               </tr>
               <tr>
-                <td>7</td>
+                <td>8</td>
                 <td>Let (দেওয়া)</td>
                 <td>let</td>
                 <td>let</td>
               </tr>
               <tr>
-                <td>8</td>
+                <td>9</td>
                 <td>Put (রাখা)</td>
                 <td>put</td>
                 <td>put</td>
               </tr>
 
               <tr>
-                <td>9</td>
+                <td>10</td>
                 <td>Read (পড়া)</td>
                 <td>read</td>
                 <td>read</td>
               </tr>
               <tr>
-                <td>10</td>
+                <td>11</td>
                 <td>Rid (মুক্ত করা)</td>
                 <td>rid</td>
                 <td>rid</td>
               </tr>
               <tr>
-                <td>11</td>
+                <td>12</td>
                 <td>Split (বিদীর্ণ করা)</td>
                 <td>split</td>
                 <td>split</td>
               </tr>
               <tr>
-                <td>12</td>
+                <td>13</td>
                 <td>Shut (বন্ধ করা)</td>
                 <td>shut</td>
                 <td>shut</td>
               </tr>
               <tr>
-                <td>13</td>
+                <td>14</td>
                 <td>Set (স্থাপন করা)</td>
                 <td>set</td>
                 <td>set</td>
               </tr>
 
               <tr>
-                <td>14</td>
+                <td>15</td>
                 <td>quit (ছেড়ে দেওয়া)</td>
                 <td>quit</td>
                 <td>quit</td>
               </tr>
               <tr>
-                <td>15</td>
+                <td>16</td>
                 <td>spread(ছড়ানো)</td>
                 <td>spread</td>
                 <td>spread</td>
