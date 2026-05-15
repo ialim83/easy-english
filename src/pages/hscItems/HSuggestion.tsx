@@ -14,14 +14,14 @@ function HSuggestion() {
           2. Education aims at....volunteerism          [Unit: 1, L-4] <br />
           3. Art is generally understood as an          [Unit: 2, L-3] <br />
           4. Folk music consist of...separation          [Unit: 2, L-2] <br />
-          5. According to some myth...British Museum	***	[Unit:3, Lesson: 3]
+          5. According to some myth...British Museum	***	[Unit:3, Lesson: 3] <br />
           6. As a child you must have been taught.         [Umit: 04, L-1]<br />
           7. I have a dream...at last		***		           [Unit: 4, Lesson:2]<br />
           8. Children must pass through several stages....[Unit:06, L-1] <br />
           9. Dreams have fascinated philosophers for... ***  [Unit: 06, L-1] <br />
           10. In traditional society like					[Unit: 7, Lesson: 3]<br />
           11. The success of Kalsindur girls   ***  [Unit: 07,L-5] <br />
-          12. Nishat Majumder						 Unit: 7, Lesson: 4                   <br />
+          12. Nishat Majumder						 Unit: 7, Lesson: 4          <br />
           13. The famous Greek Philosopher 				[Unit: 8, Lesson: 1]<br />
           14. In 1921 Leela Nag...as well  ***		[Unit: 08, Lesson:2]<br />
           15. Jerry began to chop...subterfuge 		[Unit: 8, Lesson:03]<br />
@@ -59,13 +59,14 @@ function HSuggestion() {
           22. Liberty ... <br />
           23. Self-employment... <br />
           25. A library <br />
-          26. Communicative competence ***
-          27. All things that 
-          28. Good citizens are... 
-          29. Facebook is an... *****
-          30. Hospitality has long *****
-          31. It is a great concern that Bangladesh *****... 
+          26. Communicative competence *** <br />
+          27. All things that  <br />
+          28. Good citizens are...  <br />
+          29. Facebook is an... ***** <br />
+          30. Hospitality has long ***** <br />
+          31. It is a great concern that Bangladesh *****...  <br />
           32. Football...
+          <br />
           <br />
 
 
@@ -80,7 +81,7 @@ function HSuggestion() {
           7. While eating food ** <br />
           9. The great ship Titanic <br />
           10. The destruction of forest and other habitats… <br />
-=          11. Language***** <br />
+          11. Language***** <br />
           12. Civility ***** <br />
           13. Bangladesh <br />
           14. Jerry** <br />
@@ -115,7 +116,7 @@ function HSuggestion() {
           15. The great ship Titanic ***** <br />
           <br />
           <br />
-          <strong>Q. 6 (Paragraph): </strong><br />
+          <strong>Q. 7 (Paragraph): </strong><br />
           1. Pahela Baishakh/ Bangla New year ***** <br />
           2. Artificial Intelligence/ AI *** <br />
           3. Internet/ Digital Bangladesh/ Information technology/ Mobile phone*** <br />
@@ -127,7 +128,7 @@ function HSuggestion() {
           9. Folk music and Modern music *** <br />
           <br />
           <br />
-          <strong> Q: 7 (Graph/pie chart)</strong> <br />
+          <strong> Q: 8 (Graph/pie chart)</strong> <br />
           1. air pollution/ water pollution/ environment pollution <br />
           2. Internet/ Facebook/ mobile phone user ***<br />
           3. Literacy rate <br />
@@ -137,12 +138,12 @@ function HSuggestion() {
           7. choice of profession by educated people <br />
           8. number of road accident *** <br />
           9. source of income of middle family <br />
-          10.the interest of the student of a college in different subject. *****
-          11. Importance and usage of English. *****
-          12. selling rates of seven types of books in 'Ekushey Boi Mela'.
-          13. Percentage of transportation used by 1000 student to come to college.
+          10.the interest of the student of a college in different subject. ***** <br />
+          11. Importance and usage of English. ***** <br />
+          12. selling rates of seven types of books in 'Ekushey Boi Mela'. <br />
+          13. Percentage of transportation used by 1000 student to come to college. <br />
           <br />
-          <strong> Q: 8 (completing story)</strong>
+          <strong> Q: 9 (completing story)</strong>
           <br />
           1. The lion and the mouse*** <br />
           2. A foolish crow <br />
@@ -159,7 +160,7 @@ function HSuggestion() {
 
           <br />
           <br />
-          <strong>Q: 9 (Letter/ E-mail)</strong> <br />
+          <strong>Q: 10 (Letter/ E-mail)</strong> <br />
           1. Write a Letter to your  brother for running and learning computer. *****
           ** <br />
           2. Misuse of facebook/ advising not to waste time in facebook
@@ -174,20 +175,37 @@ function HSuggestion() {
           8. to console /condole him on father's death/dengue fever ***** <br />
           <br />
         </p>
-        <strong>Q: 9 (E-mail)</strong> 
+        <strong>Q: 10 (E-mail)</strong> 
         1. to return book. *****
-        2. congratulation on getting first prize in debate competition.
-        3. About your progress of studies.
-        4. advising to take part in games and sport regularly.
-        5. inviting to join a picnic.
-        6. to send routine of HSC examination. *** 
-        7. Your brother passed SSC examination with brilliant result. Send him congratulation by sending email. *****
-        8. Inviting to join marriage ceremony.
-
-        <h2>English 2nd Paper</h2>
+        2. congratulation on getting first prize in debate competition. <br />
+        3. About your progress of studies. <br />
+        4. advising to take part in games and sport regularly. <br />
+        5. inviting to join a picnic. <br />
+        6. to send routine of HSC examination. ***  <br />
+        7. Your brother passed SSC examination with brilliant result. Send him congratulation by sending email. ***** <br />
+        8. Inviting to join marriage ceremony. 
+        <br />
+        <br />
+        <strong>Q: 3/11 (theme/ summery writing)</strong> <br />
+        1. Because I have seen the bengal's face... ***<br />
+        2. All people dream ... come true.***<br />
+        3. Hold fast to dreams... snow. <br />         
+        4. Sundays too my father got up early...offices. <br />
+        5. I sit on one of the dives...night. ******** <br />
+        6. I will arise and go...core.  <br />
+        7. Blow blow thou winter...green holy. ******* <br />
+        8. Under the greenwood tree...weather. ********** <br /> 
+        9. Alone, alone all, all alone...did I. <br />
+        10. I love to rise in a summer morn...spring. <br /> 
+        12. Fair Daffodils, we weep...again.  <br />
+        13. TIME you old gipsyman...away.  <br />
+        14. She walks in beauty...innocent.  <br />
+        15. I died for beauty...names.  <br />
+        <br />
+        <br />
+        <h1>English 2nd Paper</h1>
           <h3>Application-1: </h3>
         <p className="pb-5">
-          <br />
           1. Seat in the college hostel ***** <br />
           2. Computer lab <br />
           3. Language club ***** <br />
@@ -202,15 +220,15 @@ function HSuggestion() {
           <br /></p>
           <h3>Application-2: Email Writing</h3>
           <p className="">
-            1. Write an email to the Admission Section of Oxford University, UK, asking about admission procedure for overseas student .
-            2. Regarding cancellation of a booked ticket.
-            3. Prayer for issuing SSC and HSC certificate in English. 
-            4. Request for supplying some essential drugs.
+            1. Write an email to the Admission Section of Oxford University, UK, asking about admission procedure for overseas student . <br />
+            2. Regarding cancellation of a booked ticket. <br />
+            3. Prayer for issuing SSC and HSC certificate in English. <br /> 
+            4. Request for supplying some essential drugs. <br />
            
-            5. for information about getting admitted into an English language club  
-            6. A request to participate in Essay Writing Competition.
-          </p>
-          <h3>Paragraph:</h3> <br />
+            5. for information about getting admitted into an English language club   <br />
+            6. A request to participate in Essay Writing Competition. <br />
+          </p><br />
+          <h3>Paragraph:</h3> 
           <p className="">
 
           1. Artificial Intelligence/ AI/ ICT Education *** <br />
@@ -221,57 +239,52 @@ function HSuggestion() {
           facebook/ gift of science/ wonder of modern science/ Social Network/
           Modern technology/ *****
           <br />
-          7. Qualities of Good Citizen *****
-          7. Independence Day/ victory Day ***
-          8. 21st February/ Mother language day
+          7. Qualities of Good Citizen ***** <br />
+          7. Independence Day/ victory Day *** <br />
+          8. 21st February/ Mother language day <br />
           9. Pahela Baishakh *** <br />
-          10. July Revolution.
-          <br />
+          10. July Revolution.<br />
           10. Summer and winter <br />
           11. School life and hostel life/ school life and college life <br />
           12. An idea student <br />
-          <br />
           13. Load shedding** <br />
-          <br />
           15. Your favorite person/ player/ leader/ friend/ mother. *** <br />
           16. Your country/ village <br />
           17. Your college library/ campus/ your reading room. ***** <br />
-          
-          <br />
           18. Dowry * <br />
           19. Genders discrimination <br />
-          <br />
           20. The importance of learning English
-          <br />
-        </p>
+          
+        </p> <br />
         <h3>Report Writing:</h3>
         <p className="">
           1. Celebration of Pahela Baishakh <br />
           2. Observance of Independence day <br />
           3. Observance of 21st February 
           4. Road/ fire Accident ***** 
-          6. Corruption 
-          7. Drug Addiction 
-          8. Cultural program/ prize giving ceremony in your college 
-          9. traffic jam in your city
+          6. Corruption  <br />
+          7. Drug Addiction  <br />
+          8. Cultural program/ prize giving ceremony in your college  <br />
+          9. traffic jam in your city <br />
           10.
         </p>
-          <h1>Composition: </h1>
+        <br />
+          <h2>Composition: </h2>
         <p className="">
           1. Your aim in Life *<br />
           2. Your hobby/ Leisure ***** <br />
           3. Childhood Memories <br />
           4. Greenhouse Effect/ Environment pollution/ Climate change *****  <br />
-          6. Journey by bus/ train/ Visit to a historical place
-          6. My First day at College
-          7. Value of time *****
-          8. Patriotism *****
-          9. The Season You Like most. 
-          10. City life vs Village life. 
-          11. Internet/ uses and abuses of Internet *
-          12. Your favorite personality
-          13. Female Education. ***
-          14. Rivers of Bangladesh.
+          6. Journey by bus/ train/ Visit to a historical place <br />
+          6. My First day at College <br />
+          7. Value of time ***** <br />
+          8. Patriotism ***** <br />
+          9. The Season You Like most.  <br />
+          10. City life vs Village life. <br /> 
+          11. Internet/ uses and abuses of Internet * <br />
+          12. Your favorite personality <br />
+          13. Female Education. *** <br />
+          14. Rivers of Bangladesh. <br />
         </p>
       </div>
 
