@@ -206,7 +206,7 @@ function HSuggestion() {
         <h1>English 2nd Paper</h1>
           <h3>Application-1: </h3>
         <p className="pb-5">
-          1. Seat in the college hostel ***** <br />
+          1. To arrange extra English class.       <br />  
           2. Computer lab <br />
           3. Language club ***** <br />
           4. Permission for study tour/picnic/excursion ** <br />
@@ -216,8 +216,9 @@ function HSuggestion() {
           9. Debating club <br />
           10. Multimedia facilities <br />
           11. To increase common room facilities*** <br />
-          12. Write an application to the Mayor of your city corporation to repair a road/ bridge in your locality. ***
-          <br /></p>
+          12. Write an application to the Mayor of your city corporation to repair a road/ bridge in your locality. *** <br />
+          13. Seat in the college hostel ***** <br />
+          </p><br />
           <h3>Application-2: Email Writing</h3>
           <p className="">
             1. Write an email to the Admission Section of Oxford University, UK, asking about admission procedure for overseas student . <br />
@@ -237,8 +238,8 @@ function HSuggestion() {
           4. Road accident *** <br />
           6. Internet/ Digital Bangladesh/ Information technology/ Mobile phone/ 
           facebook/ gift of science/ wonder of modern science/ Social Network/
-          Modern technology/ *****
-          <br />
+          Modern technology/ *****  <br />
+         
           7. Qualities of Good Citizen ***** <br />
           7. Independence Day/ victory Day *** <br />
           8. 21st February/ Mother language day <br />
@@ -260,8 +261,8 @@ function HSuggestion() {
         <p className="">
           1. Celebration of Pahela Baishakh <br />
           2. Observance of Independence day <br />
-          3. Observance of 21st February 
-          4. Road/ fire Accident ***** 
+          3. Observance of 21st February <br />
+          4. Road/ fire Accident ***** <br />
           6. Corruption  <br />
           7. Drug Addiction  <br />
           8. Cultural program/ prize giving ceremony in your college  <br />

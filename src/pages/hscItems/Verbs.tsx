@@ -934,16 +934,18 @@ function Verbs() {
                 <p>
                 <span className=" font-bold">Rule: 1.</span> 
                   <br /> Always,
-                  regularly, daily, often, sometimes, normally, generally,
-                  occasionally, every+time ইত্যাদি বাক্যে থাকলে বা বাক্যটি চির
+                  regularly, daily, often, sometimes, usually, normally, generally,
+                  occasionally, everyday, everyyear ইত্যাদি বাক্যে থাকলে বা বাক্যটি চির
                   সত্য হলে- বাক্যটি Present Indefinite Tense-এ হয়।
                 </p>
                 <p className="dark:text-green-400">
                   Q. I often (take) tea. <br />= I often <u>take</u> tea. <br />
                   Q. He often (take) tea. <br />= He often <u>takes</u> tea.{" "}
                   <br />
-                  গঠন: Sub + V<sub>1</sub> (s/es) + obj + others.
                 </p>
+                <br />
+                  Structure-1: Sub + <span className="underline text-blue-500"> V<sub>1</sub> <Link to={"/tense"}> (s/es)</Link> </span>+ others. <br />
+                Structure-2: Sub + do not/does not + V1 + extention.
 
                 {/* 2 */}
                 <p className="pt-1">
@@ -956,15 +958,15 @@ function Verbs() {
                     <br />= She is <u>writing</u> an email now.
                   </span>{" "}
                   <br />
-                  গঠন: Sub + am/ is/ are + V<sub>1</sub> এর সাথে ing + obj +
+                  গঠন: Sub + am/ is/ are + V<sub>1</sub> - ing + obj +
                   others.
                 </p>
+                
               </div>
             </div>
 
             {/* page 2 */}
             <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-
               {/* 3 */}
               <div className="">
                 <p>
@@ -973,8 +975,9 @@ function Verbs() {
                   ever, immediately, in the mean time থাকলে - বাক্যটি Present
                   Perfect Tense এ হয়। যেমন: <br />
                   Q. He not (choose) her career yet. <br />
-                  =He <u>has not chosen</u> her career yet.
+                  = He <u>has not chosen</u> her career yet.
                 </p>
+                Structure-2: Sub + have/ has + V3 + extention.
               </div>
               {/* 4 */}
               <div className="pt-1 text-base">
@@ -991,7 +994,8 @@ function Verbs() {
                   Q. He (return) last night.
                   <br />= He <u>returned</u> last night.
                 </p>
-               
+               Structure-1: Sub + V2 + extention.
+               Structure-2: Sub + did not + V1 + extention.
                 
               </div>
             </div>
@@ -1000,7 +1004,7 @@ function Verbs() {
             <div className="p-3 text-base text-black bg-[#EFE5D6]  book-shadow">
                 <p className=""> 
                   {/* 5 */}
-                <span className=" font-bold">Rule: 5. </span>
+                <span className=" font-bold text-pink-600">Rule: 5. </span>
                 <br />
                 <strong> (a). </strong> Am, is, are, was, were, be, being, been,
                 (passive Voice এর ক্ষেত্রে ) এবং having get, got, gotten, be,
@@ -1009,10 +1013,11 @@ function Verbs() {
                 Q. Rice is (sell) in the market. <br />
                 =Rice is <u>sold</u> in the market. <br />
                 Q. I went out having (close) the door.
-                <br />= I went out having closed the door.
+                <br />= I went out having closed the door. <br /> 
+               <span className="font-bold"> Passive-structure: </span>Sub + be verb + V3.
               </p>
 
-              <div>
+              {/* <div>
                 <p className="text-rose-500 mt-4 font-semibold">কিন্তু</p>
                 <p>
                   <strong> (c). </strong>
@@ -1023,7 +1028,7 @@ function Verbs() {
                     Q. The festival (hold). <br />= The festival was held.
                   </span>
                 </p>
-              </div>
+              </div> */}
             </div>
 
             {/* page 4 */}
@@ -1032,7 +1037,7 @@ function Verbs() {
               {/* 6 */}
               <div className="">
                 <p>
-                  <strong>Rule: 6. </strong> <br />
+                  <span className=" font-bold text-pink-600"> Rule: 6. </span> <br />
                   Can, could, may, might, shall, should, will, would, must,
                   need, dare, had better, would rather, would better এর পরের
                   ব্রাকেটের Verb টি V<sub>1</sub> হয় । যেমন:
@@ -1083,7 +1088,7 @@ function Verbs() {
               <p className="text-rose-600 font-bold ">কিন্তু-</p>
               {/* 8 */}
               <p>
-                <strong>Rule: 8. </strong>(To ছাড়া) অনান্য সকল preposition
+                <span className=" font-bold text-pink-600">Rule: 8. </span>(To ছাড়া) অনান্য সকল preposition
                 (যেমনঃ in, into, on, over, up, upon, of, by, with, without,
                 before, after, away) এর পরের ব্রাকেটের verb এর সাথে ing হয়।
                 যেমন:
@@ -1098,7 +1103,7 @@ function Verbs() {
             <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
                             {/* 9 */}
               <p className="">
-                <strong>Rule: 9. </strong> <br />
+                <span className=" font-bold text-pink-600">Rule: 9. </span> <br />
                 Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
                 enjoy, fancy, imagine, delay, suggest, postpone, matter, mind,
                 involve, practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb এর সাথে
@@ -1168,11 +1173,11 @@ function Verbs() {
                 </p>
                 {/* 12 */}
                 <p>
-                  <strong>Rule: 12. </strong> <br />
+                  <span className=" font-bold text-pink-600">Rule: 12. </span> <br />
                   As if, as though, এবং since দ্বারা দুটি বক্য যুক্ত হলে এদের
-                  প্রথমটি Present Indefinite tense পরেরটি Past Indefinite tense
+                  প্রথমটি Present Tense পরেরটি Past Indefinite Tense
                   হয়, এবং প্রথমটি Past Indefinite tense হলে পরেরটি Past Perfect
-                  tense হয়। যেমন: <br />
+                  Tense হয়। যেমন: <br />
                   Q. Shohel talks as though he (become) a leader. <br />
                   =Shohel talks as though he <u>became</u> a leader. <br />
                   Q. Rohim talks as though he (be) a leader. <br />
@@ -1183,10 +1188,10 @@ function Verbs() {
 
             {/* page 9 */}
             <div className="p-2 text-black md:p-14 bg-[#EFE5D6] book-shadow">
-              {/* 13 */}
+              
               <div className="">
-                <p>
-                  <span className=" font-bold">Rule: 13. </span> <br />
+                <p>{/* 13 */}
+                  <span className=" font-bold text-pink-600">Rule: 13. </span> <br />
                   <strong> (a). </strong> If দ্বারা শুরু বাক্যটি Present
                   Indefinite tense হলে if ছাড়া বাক্যে Future Indefinite Tense
                   হয়।
@@ -1225,15 +1230,15 @@ function Verbs() {
               <div className="pb-">
                 {/* 14 */}
                 <p>
-                  <span className=" font-bold">Rule: 14. </span> <br />
-                  V + object + (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে
+                  <span className=" font-bold text-pink-600">Rule: 14. </span> <br />
+                 Subject + V + object + (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে
                   ing যুক্ত হয়। যেমন: <br />
                   Q. I saw him (play) card. <br />= I saw him playing card.
                 </p>
 
                 {/* 15 */}
                 <p className="">
-                  <strong>Rule: 15. </strong>
+                  <span className=" font-bold text-pink-600">Rule: 15. </span>
                   সাধারণত ব্রাকেটে verb দ্বারা বাক্য শুরু হলে সেই verb এর সাথে
                   ing যুক্ত হয়। যেমন: <br />
                   Q. (Go) home, Ruhul will sleep. <br />
@@ -1247,15 +1252,15 @@ function Verbs() {
               {/* 16 */}
               <div className="">
                 <p>
-                  <strong>Rule: 16. </strong> <br />
-                  objective এবং possessive case এর পর verb এর সাথে ing হয়। যেমন:
+                  <span className=" font-bold text-pink-600">Rule: 16. </span> <br />
+                  objective এবং possessive case এর পর Verb এর সাথে ing হয়। যেমন:
                   <br />
                   Q. Zahid insisted on my (go) his home. <br />
                   =Zahid insisted on my going his home.
                 </p>
                 {/* 17 */}
                 <p>
-                  <strong>Rule: 17. </strong> <br />
+                  <span className=" font-bold text-pink-600">Rule: 17. </span> <br />
                   Since/for এর পর সময় বা (period of time) থাকলে Present Perfect
                   Continuous tense হয়। যেমন: <br />
                   Q. Ruhul (read) in our college for two years. <br />
@@ -1280,7 +1285,7 @@ function Verbs() {
 
                 {/* 18 */}
                 <p>
-                  <strong>Rule-18: </strong> <br />
+                  <span className=" font-bold text-pink-600">Rule: 18. </span>
                   Next, tomorrow, ইত্যাদি বাক্যে থাকলে Future Indefinite হয়।
                   যেমনঃ
                 </p>
@@ -1293,7 +1298,7 @@ function Verbs() {
               <div className="">
                 <p>
                   <strong>
-                    Rule-19: <br />
+                    <span className=" font-bold text-pink-600">Rule: 19. </span> <br />
                   </strong>
                   While এর পরে Subject + V থাকলে Past Continuous Tense হয়। যেমন:
                   <br />
