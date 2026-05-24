@@ -66,15 +66,25 @@ function Voice() {
         <div className="">
           <p className="py-3">
             Voice: <br /> Verb এর যে রুপ তার Subject সক্রিয় না নিস্ক্রিয় তা
-            বুঝায় তাকে Voice বলে।
+            বুঝায় তাকে Voice বলে। Voice দুই প্রকারঃ (i) Active Voice (ii) Passive Voice
+          </p>
+          <p className="my-5">
+            (i) Active Voice: <br />
+            Active voice occurs when the subject of a sentence performs the action on the object. It is direct, clear, and follows a standard Subject  Verb Object structure
+            (ii) Passive Voice: <br /> 
+            Passive voice occurs when the subject is acted upon by the verb. The focus shifts to the receiver of the action, often using a form of the "to be" verb and the past participle
           </p>
         </div>
 
         <h3 className="underline text-green-500">From Active to Passive</h3>
         <p className="text-blue-500 dark:text-gray-300 font-extrabold">
           <span className="text-rose-500">Rule: </span> Obj কে Sub বানাতে হবে +
-          (helping verb) + V<sub>3</sub> + by + sub কে obj বানাতে হবে।
+          (helping verb) + V<sub>3</sub> + by + sub কে obj বানাতে হবে। 
         </p>
+        যেমনঃ <br />
+          Q. I eat rice. <br />
+          ➡️ Rice is eaten by me. <br />
+        <h3 className="pt-5 text-green-400">Shortcut technique for helping Verb:</h3>
         <p className="py-2">
           (1) প্রদত্ত বাক্যের মুল Verb যদি V<sub>1</sub> থাকে তাহলে Passive
           voice এর helping verb হয় - am/is/are <br />
@@ -121,20 +131,20 @@ function Voice() {
           = be. <br />
           যেমনঃ <br />
           Q. She can make tea. <br />
-          👉 Tea can be made by her.
+          ➡️ Tea can be made by her.
         </p>
         <p className="py-2">
           (5) প্রদত্ত বাক্যে have/ has/ had যদি থাকে তাহলে এগুলোর সাথে Passive
           voice এর helping verb হবে = been. <br />
           যেমনঃ <br />
           Q. She has made tea. <br />
-          👉 Tea has been made by her.
+          ➡️ Tea has been made by her.
         </p>
       </div>
 
       {/* Tense */}
       <div className="pt-5">
-        <h1>Tense অনুসারে Passive Voice এর সাহায্যকারী Verb: </h1>
+        <h2>Tense technique অনুসারে Passive Voice এর সাহায্যকারী Verb: </h2>
         <br />
         বাক্যটি Present Indefinite Tense হলে Passive Voice এর সাহায্যকারী Verb
         হবে - am/ is/ are.
@@ -159,13 +169,13 @@ function Voice() {
         হবে- will be/ shall be. <br />
         <br />
         বাক্যটি Present Continuous Tense হলে Passive Voice এর সাহায্যকারী Verb
-        হবে 👉 am being/ is being/ are being. <br />
+        হবে ➡️ am being/ is being/ are being. <br />
         আবার, <br />
         বাক্যটি Past Continuous Tense হলে Passive Voice এর সাহায্যকারী Verb হবে
-        👉 was being/ were being. <br />
+        ➡️ was being/ were being. <br />
         আবার, <br />
         বাক্যটি Future Continuous Tense হলে Passive Voice এর সাহায্যকারী Verb
-        হবে 👉 shall be being/ will be being. <br />
+        হবে ➡️ shall be being/ will be being. <br />
       </div>
 
       {/* PASSIVE TO ACTIVE */}
@@ -236,59 +246,7 @@ function Voice() {
         </p>
       </div>
 
-      {/* Some More Examples */}
-      <div className="py-5">
-        Some More Examples <br />
-        01. I have to do this. <br />
-        02. What did you do yesterday? <br />
-        03. Change the dress. <br />
-        04. He is not known here. <br />
-        05. He listened to me.. <br />
-        06. You made me king. <br />
-        07. Let me have a cup of coffee. <br />
-        Ans: This has to be done by me. <br />
-        Ans: What was done by you yesterday? <br />
-        Ans: Let the dress be changed. <br />
-        Ans: Nobody knows him here. <br />
-        Ans: I was listened to by him. <br />
-        Ans: I was made king by you. <br />
-        Ans: Let a cup of coffee be had by me. <br />
-        08. Am I wanted by you? <br />
-        09. Did you eat the guava? <br />
-        10. How can you do this? <br />
-        11. Allah loves us all. <br />
-        12. Let him do whatever he likes.. <br />
-        13. Rahul saw the boy crying. <br />
-        14. He is going to catch fish. <br />
-        15. Fortune favours the brave. <br />
-        16. I asked them their name. <br />
-        17. The pen is well when it is used in writing. <br />
-        18. Steps will be taken. <br />
-        19. Rome was not built in a day. <br />
-        20. Eat a balanced diet. <br />
-        21. The man helps himself. <br />
-        22. People call the lion the king of beasts. <br />
-        23. I saw him do it. <br />
-        24. I often help the poor. <br />
-        25. Don't call him by <br />
-        Ans : Do you want me? <br />
-        Ans: Was the guava eaten by you? <br />
-        Ans: How can this be done by you? <br />
-        Ans: We are all loved by Allah. <br />
-        Ans: Let whatever he likes be done by him. <br />
-        Ans: The boy was seen crying by Rahul. <br />
-        Ans: Fish is going to be caught by him. <br />
-        Ans: The brave are favoured with fortune. <br />
-        Ans: They were asked their name by me. <br />
-        Ans: The pen writes well. <br />
-        Ans: The authority will take steps. <br />
-        Ans: The Romans did not build Rome in a day. <br />
-        Ans: Let a balanced diet be eaten. <br />
-        Ans: The man is helped by himself. <br />
-        Ans: The lion is called the king of beasts. <br />
-        Ans: He was seen to do it by me. <br />
-        Ans: The poor are often helped by <br />
-      </div>
+      
       {/* Exercise */}
       <div className="pt-4 text-lg md:text-xl">
         <h3 className="font-bold text-green-400">
@@ -343,6 +301,59 @@ function Voice() {
             <li>Frankel's spell can be used by me for housework.</li>
           </ol>
         </div>
+      </div>
+      {/* Some More Examples */}
+      <div className="py-5">
+        Some More Examples <br />
+        01. I have to do this. <br />
+        02. What did you do yesterday? <br />
+        03. Change the dress. <br />
+        04. He is not known here. <br />
+        05. He listened to me.. <br />
+        06. You made me king. <br />
+        07. Let me have a cup of coffee. <br />
+        Ans: This has to be done by me. <br />
+        Ans: What was done by you yesterday? <br />
+        Ans: Let the dress be changed. <br />
+        Ans: Nobody knows him here. <br />
+        Ans: I was listened to by him. <br />
+        Ans: I was made king by you. <br />
+        Ans: Let a cup of coffee be had by me. <br />
+        08. Am I wanted by you? <br />
+        09. Did you eat the guava? <br />
+        10. How can you do this? <br />
+        11. Allah loves us all. <br />
+        12. Let him do whatever he likes.. <br />
+        13. Rahul saw the boy crying. <br />
+        14. He is going to catch fish. <br />
+        15. Fortune favours the brave. <br />
+        16. I asked them their name. <br />
+        17. The pen is well when it is used in writing. <br />
+        18. Steps will be taken. <br />
+        19. Rome was not built in a day. <br />
+        20. Eat a balanced diet. <br />
+        21. The man helps himself. <br />
+        22. People call the lion the king of beasts. <br />
+        23. I saw him do it. <br />
+        24. I often help the poor. <br />
+        25. Don't call him by <br />
+        Ans : Do you want me? <br />
+        Ans: Was the guava eaten by you? <br />
+        Ans: How can this be done by you? <br />
+        Ans: We are all loved by Allah. <br />
+        Ans: Let whatever he likes be done by him. <br />
+        Ans: The boy was seen crying by Rahul. <br />
+        Ans: Fish is going to be caught by him. <br />
+        Ans: The brave are favoured with fortune. <br />
+        Ans: They were asked their name by me. <br />
+        Ans: The pen writes well. <br />
+        Ans: The authority will take steps. <br />
+        Ans: The Romans did not build Rome in a day. <br />
+        Ans: Let a balanced diet be eaten. <br />
+        Ans: The man is helped by himself. <br />
+        Ans: The lion is called the king of beasts. <br />
+        Ans: He was seen to do it by me. <br />
+        Ans: The poor are often helped by <br />
       </div>
     </div>
   );

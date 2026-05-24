@@ -1426,10 +1426,9 @@ function Verbs() {
               </p>
               <p>13. Size do not matter (chop) wood.</p>
               <p>14. The baby (cry) because it is hungry now.</p>
-            </div>
+            
 
-            {/* page 18 */}
-            <div className="p-6 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
+        
               <p>15. What you (go) to drink now?</p>
               <p>16. Rina (return) home just now.</p>
               <p>17. The play just (begin).</p>
@@ -1439,15 +1438,12 @@ function Verbs() {
               <p>21. Why she (look) so nervous?</p>
               <p>22. My brother just (move) to a new place.</p>
               <p>23. Rahul can’t help (listen) to them.</p>
-              <p>18. You (see) her lately?</p>
+              <p>24. You (see) her lately?</p>
               <p>25. I have a boy (come) from the orphanage.</p>
               <p>26. We are none of us (get) any younger.</p>
               <p>27. I don’t mind (have) asparagus.</p>
               <p>28. Shikha saw him (go) to the town.</p>
               <p>29. I answered (thank) her.</p>
-            </div>
-            {/* page 19 */}
-            <div className="p-3 text-black md:p-18 bg-[#EFE5D6] book-shadow">
               <p>30. The old sailor went away (leave) the marriage guest.</p>
               <p>31. They just (reach) playground.</p>
               <p>32. What you generally (do) for living?</p>
@@ -1462,60 +1458,58 @@ function Verbs() {
               <p>41. It was long sine I (see) her last.</p>
               <p>42. Eight years have passed since I (come).</p>
               <p>43. They (play) football since morning.</p>
-            </div>
+            
 
-            {/* page 20 */}
-            <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
-              <p>45. I not (choose) my career yet.</p>
-              <p>46. I (see) her long since.</p>
-              <p>47. Last night I (have) a wonderful dream.</p>
-              <p>48. He (go) ten minutes ago.</p>
-              <p>49. Lucy (break) her leg in a car accident last year.</p>
-              <p>50. Lucy (be) in Dhaka since last week.</p>
-              <p>51. The boy (suffer) from fever for five days.</p>
-              <p>52. It is high time we (start) the work.</p>
-              <p>53. It is high time they (leave) home.</p>
-              <p>54. Imran talks as though he (be) a king.</p>
-              <p>55. I wish she (be) a millionaire.</p>
-              <p>56. She sings as if she (to be) mad.</p>
-              <p>57. He proceeded as though I not (speak).</p>
-              <p>58. It reflects the matter as if he (know) it.</p>
-            </div>
+            
+            
+              <p>44. I not (choose) my career yet.</p>
+              <p>45. I (see) her long since.</p>
+              <p>46. Last night I (have) a wonderful dream.</p>
+              <p>47. He (go) ten minutes ago.</p>
+              <p>48. Lucy (break) her leg in a car accident last year.</p>
+              <p>49. Lucy (be) in Dhaka since last week.</p>
+              <p>50. The boy (suffer) from fever for five days.</p>
+              <p>51. It is high time we (start) the work.</p>
+              <p>52. It is high time they (leave) home.</p>
+              <p>53. Imran talks as though he (be) a king.</p>
+              <p>54. I wish she (be) a millionaire.</p>
+              <p>55. She sings as if she (to be) mad.</p>
+              <p>56. He proceeded as though I not (speak).</p>
+              <p>57. It reflects the matter as if he (know) it.</p>
+            
 
-            {/* page 21 */}
-            <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
-              <p>59. I fancy I (turn) a trifle pale.</p>
-              <p>60. The door was (open) by a Christian.</p>
-              <p>61. Munir was greatly (hug) by Della.</p>
-              <p>62. When was the book (buy)?</p>
-              <p>63. The beggar went away (cry).</p>
-              <p>64. The children came to us (run).</p>
-              <p>65. He looked at his mother (smile).</p>
+            
+              <p>58. I fancy I (turn) a trifle pale.</p>
+              <p>59. The door was (open) by a Christian.</p>
+              <p>60. Munir was greatly (hug) by Della.</p>
+              <p>61. When was the book (buy)?</p>
+              <p>62. The beggar went away (cry).</p>
+              <p>63. The children came to us (run).</p>
+              <p>64. He looked at his mother (smile).</p>
               <p>
-                66. They (sail) away to the south until they arrived in cold
+                65. They (sail) away to the south until they arrived in cold
                 grey sea.
               </p>
-              <p>67. Della (save) every penny she could.</p>
-              <p>68. Today she (weight) twenty one stone.</p>
-              <p>69. Fifty miles (be) a long way.</p>
-              <p>70. Why (be) you not with her?</p>
-              <p>71. It (be) like him.</p>
-              <p>72. His eyes (be) fixed upon Della.</p>
-              <p>73. Jim’s income (be) shrunk to twenty dollars.</p>
-            </div>
+              <p>66. Della (save) every penny she could.</p>
+              <p>67. Today she (weight) twenty one stone.</p>
+              <p>68. Fifty miles (be) a long way.</p>
+              <p>69. Why (be) you not with her?</p>
+              <p>70. It (be) like him.</p>
+              <p>71. His eyes (be) fixed upon Della.</p>
+              <p>72. Jim’s income (be) shrunk to twenty dollars.</p>
+            
 
-            {/* page 22 */}
-            <div className="p-6 md:p-18 text-black bg-[#EFE5D6] book-shadow">
+           
               <p>
-                74. The headmaster and the secretary (be) present in the meeting
+                73. The headmaster and the secretary (be) present in the meeting
                 yesterday.
               </p>
-              <p>75. When you (come) last night?</p>
-              <p>76. When he (go) to market yesterday?</p>
-              <p>77. Where they (see) him last week?</p>
-              <p>78. It is high time we (start) for the station.</p>
-              <p>79. If I were a bird, I (fly) in the sky.</p>
-              <p>80. Would that I (enter) the room.</p>
+              <p>74. When you (come) last night?</p>
+              <p>75. When he (go) to market yesterday?</p>
+              <p>76. Where they (see) him last week?</p>
+              <p>77. It is high time we (start) for the station.</p>
+              <p>78. If I were a bird, I (fly) in the sky.</p>
+              <p>79. Would that I (enter) the room.</p>
             </div>
           </div>
 

@@ -9,7 +9,7 @@ function Graph() {
       <div className="">
         {/* model-1 */}
         <div className="">
-          <h3 className="">Model-1</h3>
+          <h1 className="">Model-1</h1>
 
           <p className="text-rose-500">[##] ডাটা এবং পারচেন্টেজ দেওয়া থাকলেঃ</p>
           <p className="pb-10 text-justify">
@@ -23,24 +23,9 @@ function Graph() {
             information given in the [graph/pie chart] are highly significant
             for us.
           </p>
-        </div>
+        
 
-        {/* model-2 */}
-        <div className="">
-          <h3 className="">Model-2</h3>
-          <p className="text-green-500">[##] সাল এবং পারচেন্টেজ দেওয়া থাকলেঃ</p>
-
-          <p className="pb-10 text-justify">
-            The graph/ pie chart shows [shows er por theke full stop porjontu].
-            The most striking feature of the graph/ pie chart is the increase/
-            decrease of [NAME] users during this period. The graph chart/ pie
-            chart shows that..........[DESCRIPTION]............ . Analyzing the
-            graph/pie we find that the highest percentage is [%] in [DATE] and
-            the least percentage is [%] in [DATE]. Finally we can say that the
-            information given in the [graph/pie chart] are highly significant
-            for us.
-          </p>
-        </div>
+        
 
         {/* pollution-1 */}
         <div className="">
@@ -56,8 +41,8 @@ function Graph() {
           </div>
           <h3 className="">Answer:</h3>
           <p className="">
-            {" "}
-            [DESCRIPTION]: Occupying half of the pie chart, [DATA NAME] cause[s]
+            
+            [DESCRIPTION]:[DATA NAME] cause[s]
             [50] percent air pollution of Dhaka city. On the contrary, [DATA
             NAME] cause ...... . Then [DATA NAME] ...... . Lastly, [DATA NAME]
             ..... .
@@ -79,7 +64,7 @@ function Graph() {
           </div>
           <h3 className="">Answer:</h3>
           <p className="">
-            {" "}
+            
             [DESCRIPTION]: [30%] of the total income of the family is spent on
             [DATA NAME = food]. On the contrary, [%]..... . Then [%]...... .
             Lastly, [%]..... .
@@ -99,14 +84,31 @@ function Graph() {
           </div>
           <h3 className="">Answer:</h3>
           <p className="">
-            {" "}
+          
             [DESCRIPTION]: as a profession [Govt. job] is liked by [30%] while
             [private job] is liked by [%] . On the contrary, [DATA NAME]..... .
             Then [DATA NAME]...... . Lastly, [DATA NAME]..... .
           </p>
         </div>
+        </div>
 
         <div className="py-10">
+          {/* model-2 */}
+        <div className="">
+          <h1 className="">Model-2</h1>
+          <p className="text-green-500">[##] সাল এবং পারচেন্টেজ দেওয়া থাকলেঃ</p>
+
+          <p className="pb-10 text-justify">
+            The graph/ pie chart shows [shows er por theke full stop porjontu].
+            The most striking feature of the graph/ pie chart is the increase/
+            decrease of [NAME] users during this period. The graph chart/ pie
+            chart shows that______ . [DESCRIPTION]________ . Analyzing the
+            graph/pie we find that the highest percentage is [%] in [DATE] and
+            the least percentage is [%] in [DATE]. Finally we can say that the
+            information given in the [graph/pie chart] are highly significant
+            for us.
+          </p>
+        </div>
           <h2 className="">Example of Model-2</h2>
           <p className="text-justify">
             <strong>Question-4:</strong> Look at the following graph-chart. It
@@ -130,7 +132,7 @@ function Graph() {
       {/* DOwnload button */}
       <div className="text-center py-4 sticky bottom-0 left-0 right-0">
         <a
-          href="/suffix-prefix.pdf"
+          href="/suffix-prefi.pdf"
           download
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >

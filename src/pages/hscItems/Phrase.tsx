@@ -227,7 +227,7 @@ function Phrase() {
               Less important:
             </h3>
             <ul className="list-decimal pl-10">
-              <li>শূন্যস্থানের আগে you থাকলে had better বসানোই ভালো।</li>
+              <li>শূন্যস্থানের আগে You থাকলে had better বসানোই ভালো।</li>
               <li>শূন্যস্থানের পরে not থাকলে have to/ has to বসানোই ভালো ।</li>
               <li>
                 শূন্যস্থানের পরে ing যুক্ত verb থাকলে used to বসানোই ভালো।
@@ -283,7 +283,7 @@ function Phrase() {
             <ul className="list-decimal pl-10">
               <li>দুই বাক্যের মাঝখানে শূন্যস্থান থাকবে ।</li>
               <li>
-                শূন্যস্থানের পরে sub থাকবে এবং sub এর পরে বেশিরভাগ সময় were থাকে
+                শূন্যস্থানের পরে sub থাকবে এবং sub এর পরে বেশিরভাগ সময় were/knew থাকে
                 কিছু সময় was/ had/had been/V-2 থাকতে পারে।
               </li>
               <li>যেমনঃ He speaks ___ he were a king.</li>
