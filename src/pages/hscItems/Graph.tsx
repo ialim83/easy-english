@@ -14,13 +14,13 @@ function Graph() {
           <p className="text-rose-500">[##] ডাটা এবং পারচেন্টেজ দেওয়া থাকলেঃ</p>
           <p className="pb-10 text-justify">
             The [graph/ pie] chart shows [shows er por theke full stop
-            porjontu]. In the [ graph/pie chart] the data shown are of [farming,
+            porjontu]. In the [ graph/pie] chart the data shown are of [farming,
             business, govt. job and intellectual work]. The [graph/ pie] chart
             shows that .............[DESCRIPTION]
             ............................... . Analyzing the [graph/pie] we find
             that the highest percentage is [name] which is [%] and the lowest
             percentage is [name] which is [%]. Finally we can say that the
-            information given in the [graph/pie chart] are highly significant
+            information given in the [graph/pie] chart are highly significant
             for us.
           </p>
         

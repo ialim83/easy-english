@@ -74,6 +74,7 @@ import QuestionFive from "../pages/hscItems/QuestionFive";
 import QuestionSix from "../pages/hscItems/QuestionSix";
 import ThemeWriting from "../pages/hscItems/ThemeWriting";
 import DegreeOfAdj from "../pages/GrammarPages/DegreeOfAdj";
+import { DegreeSummary } from "../pages/DegreeItems/DegreeSummary";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -228,6 +229,10 @@ export const router = createBrowserRouter([
       {
         path: "/correction",
         element: <Correction />,
+      },
+      {
+        path: "/DSummary",
+        element: <DegreeSummary />,
       },
       {
         path: "/DPartsOfSpeech",

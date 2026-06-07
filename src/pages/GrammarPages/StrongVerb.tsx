@@ -1,4 +1,102 @@
 const StrongVerb = () => {
+  const strongVerbsData = [
+  {
+    pattern: "i → a → u (The 'Sing' Pattern)",
+    verbs: [
+      { base: "begin", bengali: "শুরু করা", past: "began", participle: "begun" },
+      { base: "drink", bengali: "পান করা", past: "drank", participle: "drunk" },
+      { base: "ring", bengali: "ঘণ্টা বাজানো", past: "rang", participle: "rung" },
+      { base: "shrink", bengali: "সংকুচিত হওয়া", past: "shrank", participle: "shrunked" },
+      { base: "sing", bengali: "গান গাওয়া", past: "sang", participle: "sung" },
+      { base: "sink", bengali: "ডুবে যাওয়া", past: "sank", participle: "sunk" },
+      { base: "stink", bengali: "দুর্গন্ধ ছড়ানো", past: "stank", participle: "stunk" },
+      { base: "swim", bengali: "সাঁতার কাটা", past: "swam", participle: "swum" },
+    ]
+  },
+  {
+    pattern: "i → o → o-en (The 'Drive' Pattern)",
+    verbs: [
+      { base: "drive", bengali: "চালানো", past: "drove", participle: "driven" },
+      { base: "arise", bengali: "জেগে ওঠা / ঘটা", past: "arose", participle: "arisen" },
+      { base: "ride", bengali: "আরোহণ করা", past: "rode", participle: "ridden" },
+      { base: "rise", bengali: "ওঠা / উদিত হওয়া", past: "rose", participle: "risen" },
+      { base: "smite", bengali: "আঘাত করা", past: "smote", participle: "smitten" },
+      { base: "stride", bengali: "লম্বা পদক্ষেপে হাঁটা", past: "strode", participle: "stridden" },
+      { base: "strive", bengali: "প্রচেষ্টা করা", past: "strove", participle: "striven" },
+      { base: "write", bengali: "লেখা", past: "wrote", participle: "written" },
+    ]
+  },
+  {
+    pattern: "ow/ey → ew → own (The 'Blow' Pattern)",
+    verbs: [
+      { base: "blow", bengali: "বাতাস বওয়া / ফুঁ দেওয়া", past: "blew", participle: "blown" },
+      { base: "fly", bengali: "ওড়া", past: "flew", participle: "flown" },
+      { base: "grow", bengali: "জন্মানো / বৃদ্ধি পাওয়া", past: "grew", participle: "grown" },
+      { base: "know", bengali: "জানা / চেনা", past: "knew", participle: "known" },
+      { base: "throw", bengali: "নিক্ষেপ করা / ছুঁড়ে মারা", past: "threw", participle: "thrown" },
+    ]
+  },
+  {
+    pattern: "ea/a → o → o-en (The 'Break' Pattern)",
+    verbs: [
+      { base: "break", bengali: "ভাঙা", past: "broke", participle: "broken" },
+      { base: "choose", bengali: "পছন্দ করা / নির্বাচন করা", past: "chose", participle: "chosen" },
+      { base: "freeze", bengali: "জমে বরফ হওয়া", past: "froze", participle: "frozen" },
+      { base: "speak", bengali: "কথা বলা", past: "spoke", participle: "spoken" },
+      { base: "steal", bengali: "চুরি করা", past: "stole", participle: "stolen" },
+      { base: "swear", font: "bold", bengali: "শপথ করা", past: "swore", participle: "sworn" },
+      { base: "tear", bengali: "ছেঁড়া", past: "tore", participle: "torn" },
+      { base: "wake", bengali: "জেগে ওঠা", past: "woke", participle: "woken" },
+      { base: "wear", bengali: "পরিধান করা", past: "wore", participle: "worn" },
+      { base: "weave", bengali: "বোনা (কাপড়)", past: "wove", participle: "woven" },
+    ]
+  },
+  {
+    pattern: "e/a → o → o (The 'Get' Pattern)",
+    verbs: [
+      { base: "get", bengali: "পাওয়া", past: "got", participle: "got / gotten" },
+      { base: "forget", bengali: "ভুলে যাওয়া", past: "forgot", participle: "forgotten" },
+      { base: "tread", bengali: "পদদলিত করা / হাঁটা", past: "trod", participle: "trodden" },
+    ]
+  },
+  {
+    pattern: "oo/ee → o → o (The 'Shoot' Pattern)",
+    verbs: [
+      { base: "shoot", bengali: "গুলি করা", past: "shot", participle: "shot" },
+      { base: "bleed", bengali: "রক্তক্ষরণ হওয়া", past: "bled", participle: "bled" },
+      { base: "feed", bengali: "খাওয়ানো", past: "fed", participle: "fed" },
+      { base: "meet", bengali: "সাক্ষাৎ করা", past: "met", participle: "met" },
+      { base: "lead", bengali: "পরিচালনা করা / নেতৃত্ব দেওয়া", past: "led", participle: "led" },
+    ]
+  },
+  {
+    pattern: "a → oo → a-en (The 'Take' Pattern)",
+    verbs: [
+      { base: "take", bengali: "নেওয়া", past: "took", participle: "taken" },
+      { base: "forsake", bengali: "পরিত্যাগ করা", past: "forsook", participle: "forsaken" },
+      { base: "shake", bengali: "ঝাঁকানো / কাঁপা", past: "shook", participle: "shaken" },
+    ]
+  },
+  {
+    pattern: "Miscellaneous Vowel Shifts (Irregular Strong Verbs)",
+    verbs: [
+      { base: "bite", bengali: "কামড়ানো", past: "bit", participle: "bitten" },
+      { base: "come", bengali: "আসা", past: "came", participle: "come" },
+      { base: "eat", bengali: "খাওয়া", past: "ate", participle: "eaten" },
+      { base: "fall", bengali: "পড়ে যাওয়া", past: "fell", participle: "fallen" },
+      { base: "forbid", bengali: "নিষেধ করা", past: "forbade", participle: "forbidden" },
+      { base: "give", bengali: "দেওয়া", past: "gave", participle: "given" },
+      { base: "hide", bengali: "লুকানো", past: "hid", participle: "hidden" },
+      { base: "run", bengali: "দৌড়ানো", past: "ran", participle: "run" },
+      { base: "see", bengali: "দেখা", past: "saw", participle: "seen" },
+      { base: "slay", bengali: "হত্যা করা", past: "slew", participle: "slain" },
+      { base: "spit", bengali: "থুতু ফেলা", past: "spat", participle: "spat" },
+      { base: "strike", bengali: "আঘাত করা / ধর্মঘট করা", past: "struck", participle: "struck / stricken" },
+    ]
+  }
+];
+// Global counter track across all pattern categories
+  let absoluteSerialNumber = 1;
   return (
     <div className="px-3 md:w-[65%] mx-auto">
       <div className="w-full mx-auto">
@@ -63,6 +161,12 @@ const StrongVerb = () => {
                 <td>bid (নির্দেশ দেওয়া)</td>
                 <td>bade/bid</td> 
                 <td>bidden</td>
+              </tr>
+              <tr> 
+                <td>8</td>
+                <td>bite (কামড়ানো)</td>
+                <td>bit</td> 
+                <td>bitten</td>
               </tr>
               <tr>
                 <td>9</td>
@@ -461,7 +565,14 @@ const StrongVerb = () => {
                 <td>sleep (ঘুমানো)</td>
                 <td>slept</td>
                 <td>slept</td>
+              </tr> 
+              <tr>
+                <td>73</td>
+                <td>slay (হত্যা করা)</td>
+                <td>slew</td>
+                <td>slain</td>
               </tr>
+              
               <tr>
                 <td>74</td>
                 <td>speak (কথা বলা)</td>
@@ -725,6 +836,72 @@ const StrongVerb = () => {
               </tr>
             </table>
           </div>
+        </div>
+        {/* pattern */}
+        <div className="">
+          <div className="w-full max-w-6xl mx-auto p-6 bg-slate-50 rounded-xl shadow-md my-8">
+      <div className="mb-6">
+        <h2 className="text-3xl font-extrabold text-slate-800 tracking-tight">
+          English Strong Verbs List (স্ট্রং ভার্ব তালিকা)
+        </h2>
+        <p className="mt-2 text-sm text-slate-600">
+          Strong verbs form their past tense and past participle through an internal vowel change.
+        </p>
+      </div>
+
+      <div className="space-y-8">
+        {strongVerbsData.map((group, groupIndex) => (
+          <div key={groupIndex} className="overflow-hidden border border-slate-200 rounded-lg shadow-sm bg-white">
+            <div className="bg-slate-100 px-4 py-3 border-b border-slate-200">
+              <h3 className="text-md font-bold text-slate-700 tracking-wide">
+                Pattern: <span className="text-indigo-600">{group.pattern}</span>
+              </h3>
+            </div>
+            
+            <div className="overflow-x-auto">
+              <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
+                <thead className="bg-slate-50 uppercase text-xs font-semibold text-slate-500 tracking-wider">
+                  <tr>
+                    <th scope="col" className="px-4 py-3 w-16 text-center">S.N.</th>
+                    <th scope="col" className="px-6 py-3">Base Form (V1)</th>
+                    <th scope="col" className="px-6 py-3">Bengali Meaning</th>
+                    <th scope="col" className="px-6 py-3">Simple Past (V2)</th>
+                    <th scope="col" className="px-6 py-3">Past Participle (V3)</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-200 bg-white">
+                  {group.verbs.map((verb, vIndex) => {
+                    const currentSerialNumber = absoluteSerialNumber++;
+                    return (
+                      <tr 
+                        key={vIndex} 
+                        className="hover:bg-slate-50 transition-colors duration-150 ease-in-out odd:bg-white even:bg-slate-50/50"
+                      >
+                        <td className="px-4 py-4 text-center font-mono text-xs text-slate-400">
+                          {currentSerialNumber}
+                        </td>
+                        <td className="px-6 py-4 font-semibold text-slate-900">
+                          {verb.base}
+                        </td>
+                        <td className="px-6 py-4 font-normal text-slate-600 font-sans tracking-wide">
+                          {verb.bengali}
+                        </td>
+                        <td className="px-6 py-4 font-medium text-indigo-600">
+                          {verb.past}
+                        </td>
+                        <td className="px-6 py-4 font-medium text-emerald-600">
+                          {verb.participle}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
         </div>
       </div>
     </div>
