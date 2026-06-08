@@ -1,729 +1,995 @@
 const StrongVerb = () => {
-  const strongVerbsData = [
+
+  const verb1 = [
   {
-    pattern: "i → a → u (The 'Sing' Pattern)",
-    verbs: [
-      { base: "begin", bengali: "শুরু করা", past: "began", participle: "begun" },
-      { base: "drink", bengali: "পান করা", past: "drank", participle: "drunk" },
-      { base: "ring", bengali: "ঘণ্টা বাজানো", past: "rang", participle: "rung" },
-      { base: "shrink", bengali: "সংকুচিত হওয়া", past: "shrank", participle: "shrunked" },
-      { base: "sing", bengali: "গান গাওয়া", past: "sang", participle: "sung" },
-      { base: "sink", bengali: "ডুবে যাওয়া", past: "sank", participle: "sunk" },
-      { base: "stink", bengali: "দুর্গন্ধ ছড়ানো", past: "stank", participle: "stunk" },
-      { base: "swim", bengali: "সাঁতার কাটা", past: "swam", participle: "swum" },
-    ]
+    "base": "arise",
+    "bengali": "উঠা",
+    "past": "arose",
+    "participle": "arisen"
   },
   {
-    pattern: "i → o → o-en (The 'Drive' Pattern)",
-    verbs: [
-      { base: "drive", bengali: "চালানো", past: "drove", participle: "driven" },
-      { base: "arise", bengali: "জেগে ওঠা / ঘটা", past: "arose", participle: "arisen" },
-      { base: "ride", bengali: "আরোহণ করা", past: "rode", participle: "ridden" },
-      { base: "rise", bengali: "ওঠা / উদিত হওয়া", past: "rose", participle: "risen" },
-      { base: "smite", bengali: "আঘাত করা", past: "smote", participle: "smitten" },
-      { base: "stride", bengali: "লম্বা পদক্ষেপে হাঁটা", past: "strode", participle: "stridden" },
-      { base: "strive", bengali: "প্রচেষ্টা করা", past: "strove", participle: "striven" },
-      { base: "write", bengali: "লেখা", past: "wrote", participle: "written" },
-    ]
+    "base": "awake",
+    "bengali": "জাগানো",
+    "past": "awoke",
+    "participle": "awoken"
   },
   {
-    pattern: "ow/ey → ew → own (The 'Blow' Pattern)",
-    verbs: [
-      { base: "blow", bengali: "বাতাস বওয়া / ফুঁ দেওয়া", past: "blew", participle: "blown" },
-      { base: "fly", bengali: "ওড়া", past: "flew", participle: "flown" },
-      { base: "grow", bengali: "জন্মানো / বৃদ্ধি পাওয়া", past: "grew", participle: "grown" },
-      { base: "know", bengali: "জানা / চেনা", past: "knew", participle: "known" },
-      { base: "throw", bengali: "নিক্ষেপ করা / ছুঁড়ে মারা", past: "threw", participle: "thrown" },
-    ]
+    "base": "am/\nis/are",
+    "bengali": "হওয়া/থাকা",
+    "past": "was/\nwere",
+    "participle": "been"
   },
   {
-    pattern: "ea/a → o → o-en (The 'Break' Pattern)",
-    verbs: [
-      { base: "break", bengali: "ভাঙা", past: "broke", participle: "broken" },
-      { base: "choose", bengali: "পছন্দ করা / নির্বাচন করা", past: "chose", participle: "chosen" },
-      { base: "freeze", bengali: "জমে বরফ হওয়া", past: "froze", participle: "frozen" },
-      { base: "speak", bengali: "কথা বলা", past: "spoke", participle: "spoken" },
-      { base: "steal", bengali: "চুরি করা", past: "stole", participle: "stolen" },
-      { base: "swear", font: "bold", bengali: "শপথ করা", past: "swore", participle: "sworn" },
-      { base: "tear", bengali: "ছেঁড়া", past: "tore", participle: "torn" },
-      { base: "wake", bengali: "জেগে ওঠা", past: "woke", participle: "woken" },
-      { base: "wear", bengali: "পরিধান করা", past: "wore", participle: "worn" },
-      { base: "weave", bengali: "বোনা (কাপড়)", past: "wove", participle: "woven" },
-    ]
+    "base": "beat",
+    "bengali": "পেটানো",
+    "past": "beat",
+    "participle": "beaten"
   },
   {
-    pattern: "e/a → o → o (The 'Get' Pattern)",
-    verbs: [
-      { base: "get", bengali: "পাওয়া", past: "got", participle: "got / gotten" },
-      { base: "forget", bengali: "ভুলে যাওয়া", past: "forgot", participle: "forgotten" },
-      { base: "tread", bengali: "পদদলিত করা / হাঁটা", past: "trod", participle: "trodden" },
-    ]
+    "base": "become",
+    "bengali": "হওয়া",
+    "past": "became",
+    "participle": "become"
   },
   {
-    pattern: "oo/ee → o → o (The 'Shoot' Pattern)",
-    verbs: [
-      { base: "shoot", bengali: "গুলি করা", past: "shot", participle: "shot" },
-      { base: "bleed", bengali: "রক্তক্ষরণ হওয়া", past: "bled", participle: "bled" },
-      { base: "feed", bengali: "খাওয়ানো", past: "fed", participle: "fed" },
-      { base: "meet", bengali: "সাক্ষাৎ করা", past: "met", participle: "met" },
-      { base: "lead", bengali: "পরিচালনা করা / নেতৃত্ব দেওয়া", past: "led", participle: "led" },
-    ]
+    "base": "bear",
+    "bengali": "জন্ম দেওয়া",
+    "past": "bore",
+    "participle": "born/\nborne"
   },
   {
-    pattern: "a → oo → a-en (The 'Take' Pattern)",
-    verbs: [
-      { base: "take", bengali: "নেওয়া", past: "took", participle: "taken" },
-      { base: "forsake", bengali: "পরিত্যাগ করা", past: "forsook", participle: "forsaken" },
-      { base: "shake", bengali: "ঝাঁকানো / কাঁপা", past: "shook", participle: "shaken" },
-    ]
+    "base": "begin",
+    "bengali": "শুরু করা",
+    "past": "began",
+    "participle": "begun"
   },
   {
-    pattern: "Miscellaneous Vowel Shifts (Irregular Strong Verbs)",
-    verbs: [
-      { base: "bite", bengali: "কামড়ানো", past: "bit", participle: "bitten" },
-      { base: "come", bengali: "আসা", past: "came", participle: "come" },
-      { base: "eat", bengali: "খাওয়া", past: "ate", participle: "eaten" },
-      { base: "fall", bengali: "পড়ে যাওয়া", past: "fell", participle: "fallen" },
-      { base: "forbid", bengali: "নিষেধ করা", past: "forbade", participle: "forbidden" },
-      { base: "give", bengali: "দেওয়া", past: "gave", participle: "given" },
-      { base: "hide", bengali: "লুকানো", past: "hid", participle: "hidden" },
-      { base: "run", bengali: "দৌড়ানো", past: "ran", participle: "run" },
-      { base: "see", bengali: "দেখা", past: "saw", participle: "seen" },
-      { base: "slay", bengali: "হত্যা করা", past: "slew", participle: "slain" },
-      { base: "spit", bengali: "থুতু ফেলা", past: "spat", participle: "spat" },
-      { base: "strike", bengali: "আঘাত করা / ধর্মঘট করা", past: "struck", participle: "struck / stricken" },
-    ]
+    "base": "bid",
+    "bengali": "নির্দেশ দেওয়া",
+    "past": "bade/\nbid",
+    "participle": "bidden"
+  },
+  {
+    "base": "bite",
+    "bengali": "কামড়ানো",
+    "past": "bit",
+    "participle": "bitten"
+  },
+  {
+    "base": "blow",
+    "bengali": "প্রবাহিত হওয়া",
+    "past": "blew",
+    "participle": "blown"
+  },
+  {
+    "base": "break",
+    "bengali": "ভাঙা",
+    "past": "broke",
+    "participle": "broken"
+  },
+  {
+    "base": "bring",
+    "bengali": "নিয়ে আসা",
+    "past": "brought",
+    "participle": "brought"
+  },
+  // {
+  //   "base": "broadcast",
+  //   "bengali": "প্রচার করা",
+  //   "past": "broadcast",
+  //   "participle": "broadcast"
+  // },
+  {
+    "base": "buy",
+    "bengali": "ক্রয় করা",
+    "past": "bought",
+    "participle": "bought"
+  },
+  {
+    "base": "catch",
+    "bengali": "ধরা",
+    "past": "caught",
+    "participle": "caught"
+  },
+  {
+    "base": "choose",
+    "bengali": "বাছাই করা",
+    "past": "chose",
+    "participle": "chosen"
+  },
+  {
+    "base": "come",
+    "bengali": "আসা",
+    "past": "came",
+    "participle": "come"
+  },
+  {
+    "base": "dig",
+    "bengali": "খোঁড়া",
+    "past": "dug",
+    "participle": "dug"
+  },
+  {
+    "base": "do",
+    "bengali": "করা",
+    "past": "did",
+    "participle": "done"
+  },
+  {
+    "base": "draw",
+    "bengali": "আঁকা",
+    "past": "drew",
+    "participle": "drawn"
+  },
+  {
+    "base": "drink",
+    "bengali": "পান করা",
+    "past": "drank",
+    "participle": "drunk"
+  },
+  {
+    "base": "drive",
+    "bengali": "চালানো",
+    "past": "drove",
+    "participle": "driven"
+  },
+  {
+    "base": "eat",
+    "bengali": "খাওয়া",
+    "past": "ate",
+    "participle": "eaten"
+  },
+  {
+    "base": "fall",
+    "bengali": "পতন হওয়া",
+    "past": "fell",
+    "participle": "fallen"
+  },
+  {
+    "base": "feed",
+    "bengali": "খাওয়ানো",
+    "past": "fed",
+    "participle": "fed"
+  },
+  {
+    "base": "feel",
+    "bengali": "অনুভব করা",
+    "past": "felt",
+    "participle": "felt"
+  },
+  {
+    "base": "fight",
+    "bengali": "যুদ্ধ করা",
+    "past": "fought",
+    "participle": "fought"
+  },
+  {
+    "base": "find",
+    "bengali": "পাওয়া",
+    "past": "found",
+    "participle": "found"
+  },
+  {
+    "base": "flee",
+    "bengali": "পালানো",
+    "past": "fled",
+    "participle": "fled"
+  },
+  {
+    "base": "fly",
+    "bengali": "উড়া",
+    "past": "flew",
+    "participle": "flown"
+  },
+  // {
+  //   "base": "forbid",
+  //   "bengali": "নিষেধ করা",
+  //   "past": "forbade",
+  //   "participle": "forbidden"
+  // },
+  {
+    "base": "forget",
+    "bengali": "ভুলে যাওয়া",
+    "past": "forgot",
+    "participle": "forgotten"
+  },
+  // {
+  //   "base": "forgive",
+  //   "bengali": "মাফ করা",
+  //   "past": "forgave",
+  //   "participle": "forgiven"
+  // },
+  {
+    "base": "freeze",
+    "bengali": "জমা",
+    "past": "froze",
+    "participle": "frozen"
+  },
+  {
+    "base": "give",
+    "bengali": "দেওয়া",
+    "past": "gave",
+    "participle": "given"
+  },
+  {
+    "base": "get",
+    "bengali": "পাওয়া/ হওয়া",
+    "past": "got",
+    "participle": "got/\ngotten"
+  },
+  {
+    "base": "go",
+    "bengali": "যাওয়া",
+    "past": "went",
+    "participle": "gone"
+  },
+  {
+    "base": "grow",
+    "bengali": "বড় হওয়া",
+    "past": "grew",
+    "participle": "grown"
+  },
+  {
+    "base": "have/has",
+    "bengali": "থাকা",
+    "past": "had",
+    "participle": "had"
+  },
+  {
+    "base": "hang",
+    "bengali": "ফাসি দেওয়া",
+    "past": "hanged",
+    "participle": "hanged"
+  },
+  {
+    "base": "hang",
+    "bengali": "ঝুলানো",
+    "past": "hung",
+    "participle": "hung"
+  },
+  {
+    "base": "hide",
+    "bengali": "লুকানো",
+    "past": "hid",
+    "participle": "hidden"
+  },
+  {
+    "base": "hold",
+    "bengali": "ধরা",
+    "past": "held",
+    "participle": "held"
+  },
+  {
+    "base": "keep",
+    "bengali": "রাখা",
+    "past": "kept",
+    "participle": "kept"
+  },
+  {
+    "base": "kneel",
+    "bengali": "হামাগুড়ি দেওয়া",
+    "past": "knelt",
+    "participle": "knelt"
+  },
+  {
+    "base": "know",
+    "bengali": "জানা",
+    "past": "knew",
+    "participle": "known"
+  },
+  {
+    "base": "lay",
+    "bengali": "রাখা",
+    "past": "laid",
+    "participle": "laid"
+  },
+  {
+    "base": "lead",
+    "bengali": "নেতৃত্ব দেওয়া",
+    "past": "led",
+    "participle": "led"
+  },
+  {
+    "base": "leave",
+    "bengali": "ত্যাগ করা",
+    "past": "left",
+    "participle": "left"
+  },
+  {
+    "base": "lie",
+    "bengali": "শুয়ে থাকা",
+    "past": "lay",
+    "participle": "lain"
+  },
+  {
+    "base": "lose",
+    "bengali": "হারানো",
+    "past": "lost",
+    "participle": "lost"
+  },
+  {
+    "base": "meet",
+    "bengali": "মিলিত হওয়া",
+    "past": "met",
+    "participle": "met"
+  },
+  // {
+  //   "base": "mistake",
+  //   "bengali": "ভুল করা",
+  //   "past": "mistook",
+  //   "participle": "mistaken"
+  // },
+  {
+    "base": "pay",
+    "bengali": "দেওয়া",
+    "past": "paid",
+    "participle": "paid"
+  },
+  {
+    "base": "ride",
+    "bengali": "চালানো",
+    "past": "rode",
+    "participle": "ridden"
+  },
+  {
+    "base": "rise",
+    "bengali": "উঠা",
+    "past": "rose",
+    "participle": "risen"
+  },
+  {
+    "base": "run",
+    "bengali": "দৌড়ানো",
+    "past": "ran",
+    "participle": "run"
+  },
+  {
+    "base": "say",
+    "bengali": "বলা",
+    "past": "said",
+    "participle": "said"
+  },
+  {
+    "base": "see",
+    "bengali": "দেখা",
+    "past": "saw",
+    "participle": "seen"
+  },
+  {
+    "base": "seek",
+    "bengali": "খোঁজা",
+    "past": "sought",
+    "participle": "sought"
+  },
+  {
+    "base": "sell",
+    "bengali": "বিক্রি করা",
+    "past": "sold",
+    "participle": "sold"
+  },
+  {
+    "base": "sew",
+    "bengali": "সেলাই করা",
+    "past": "sewed",
+    "participle": "sewn/\nsewed"
+  },
+  {
+    "base": "shake",
+    "bengali": "ঝাকানো",
+    "past": "shook",
+    "participle": "shaken"
+  },
+  {
+    "base": "shine",
+    "bengali": "কিরন দেওয়া",
+    "past": "shone",
+    "participle": "shone"
+  },
+  {
+    "base": "shoot",
+    "bengali": "গুলি করা",
+    "past": "shot",
+    "participle": "shot"
+  },
+  {
+    "base": "show",
+    "bengali": "দেখানো",
+    "past": "showed",
+    "participle": "shown/\nshowed"
+  },
+  {
+    "base": "shrink",
+    "bengali": "সঙ্কুচিত হওয়া",
+    "past": "shrank",
+    "participle": "shrunk"
+  },
+  {
+    "base": "strike",
+    "bengali": "প্রহার করা",
+    "past": "struck",
+    "participle": "struck"
+  },
+  {
+    "base": "swear",
+    "bengali": "শপথ করা",
+    "past": "swore",
+    "participle": "sworn"
+  },
+  {
+    "base": "swim",
+    "bengali": "সাঁতার কাটা",
+    "past": "swam",
+    "participle": "swum"
+  },
+  {
+    "base": "sing",
+    "bengali": "গাওয়া",
+    "past": "sang",
+    "participle": "sung"
+  },
+  {
+    "base": "sink",
+    "bengali": "ডুবে যাওয়া",
+    "past": "sank",
+    "participle": "sunk"
+  },
+  {
+    "base": "sit",
+    "bengali": "বসা",
+    "past": "sat",
+    "participle": "sat"
+  },
+  {
+    "base": "sleep",
+    "bengali": "ঘুমানো",
+    "past": "slept",
+    "participle": "slept"
+  },
+  {
+    "base": "slay",
+    "bengali": "হত্যা করা",
+    "past": "slew",
+    "participle": "slain"
+  },
+  {
+    "base": "speak",
+    "bengali": "কথা বলা",
+    "past": "spoke",
+    "participle": "spoken"
+  },
+  {
+    "base": "spit",
+    "bengali": "থুথু ফেলা",
+    "past": "spat",
+    "participle": "spat"
+  },
+  {
+    "base": "spring",
+    "bengali": "লাফানো",
+    "past": "sprang",
+    "participle": "sprung"
+  },
+  {
+    "base": "stand",
+    "bengali": "দাঁড়ানো",
+    "past": "stood",
+    "participle": "stood"
+  },
+  {
+    "base": "steal",
+    "bengali": "চুরি করা",
+    "past": "stole",
+    "participle": "stolen"
+  },
+  {
+    "base": "stick",
+    "bengali": "লেগে থাকা",
+    "past": "stuck",
+    "participle": "stuck"
+  },
+  {
+    "base": "sting",
+    "bengali": "হুল ফোটানো",
+    "past": "stung",
+    "participle": "stung"
+  },
+  {
+    "base": "stink",
+    "bengali": "পঁচা গন্ধ হওয়া",
+    "past": "stank",
+    "participle": "stunk"
+  },
+  {
+    "base": "swing",
+    "bengali": "দোলানো",
+    "past": "swung",
+    "participle": "swung"
+  },
+  {
+    "base": "take",
+    "bengali": "নেওয়া",
+    "past": "took",
+    "participle": "taken"
+  },
+  {
+    "base": "teach",
+    "bengali": "শেখানো",
+    "past": "taught",
+    "participle": "taught"
+  },
+  {
+    "base": "tear",
+    "bengali": "ছিঁড়া",
+    "past": "tore",
+    "participle": "torn"
+  },
+  {
+    "base": "tell",
+    "bengali": "বলা",
+    "past": "told",
+    "participle": "told"
+  },
+  {
+    "base": "think",
+    "bengali": "ভাবা",
+    "past": "thought",
+    "participle": "thought"
+  },
+  {
+    "base": "throw",
+    "bengali": "নিক্ষেপ করা",
+    "past": "threw",
+    "participle": "thrown"
+  },
+  // {
+  //   "base": "understand",
+  //   "bengali": "বুঝতে পার",
+  //   "past": "understood",
+  //   "participle": "understood"
+  // },
+  {
+    "base": "wake",
+    "bengali": "জাগ্রত হওয়া",
+    "past": "woke",
+    "participle": "woken"
+  },
+  {
+    "base": "wear",
+    "bengali": "পরিধান করা",
+    "past": "wore",
+    "participle": "worn"
+  },
+  {
+    "base": "weave",
+    "bengali": "বোনা",
+    "past": "wove",
+    "participle": "woven"
+  },
+  {
+    "base": "weep",
+    "bengali": "ক্রন্দন করা",
+    "past": "wept",
+    "participle": "wept"
+  },
+  {
+    "base": "win",
+    "bengali": "জয় করা",
+    "past": "won",
+    "participle": "won"
+  },
+  {
+    "base": "write",
+    "bengali": "লিখা",
+    "past": "wrote",
+    "participle": "written"
   }
 ];
-// Global counter track across all pattern categories
+
+  const strongVerbsData = [
+    {
+      pattern: "i → a → u (The 'Sing' Pattern)",
+      verbs: [
+        {
+          base: "begin",
+          bengali: "শুরু করা",
+          past: "began",
+          participle: "begun",
+        },
+        {
+          base: "drink",
+          bengali: "পান করা",
+          past: "drank",
+          participle: "drunk",
+        },
+        {
+          base: "ring",
+          bengali: "ঘণ্টা বাজানো",
+          past: "rang",
+          participle: "rung",
+        },
+        {
+          base: "shrink",
+          bengali: "সংকুচিত হওয়া",
+          past: "shrank",
+          participle: "shrunked",
+        },
+        {
+          base: "sing",
+          bengali: "গান গাওয়া",
+          past: "sang",
+          participle: "sung",
+        },
+        {
+          base: "sink",
+          bengali: "ডুবে যাওয়া",
+          past: "sank",
+          participle: "sunk",
+        },
+        {
+          base: "stink",
+          bengali: "দুর্গন্ধ ছড়ানো",
+          past: "stank",
+          participle: "stunk",
+        },
+        {
+          base: "swim",
+          bengali: "সাঁতার কাটা",
+          past: "swam",
+          participle: "swum",
+        },
+      ],
+    },
+    {
+      pattern: "i → o → o-en (The 'Drive' Pattern)",
+      verbs: [
+        {
+          base: "drive",
+          bengali: "চালানো",
+          past: "drove",
+          participle: "driven",
+        },
+        {
+          base: "arise",
+          bengali: "জেগে ওঠা / ঘটা",
+          past: "arose",
+          participle: "arisen",
+        },
+        {
+          base: "ride",
+          bengali: "আরোহণ করা",
+          past: "rode",
+          participle: "ridden",
+        },
+        {
+          base: "rise",
+          bengali: "ওঠা / উদিত হওয়া",
+          past: "rose",
+          participle: "risen",
+        },
+        {
+          base: "smite",
+          bengali: "আঘাত করা",
+          past: "smote",
+          participle: "smitten",
+        },
+        {
+          base: "stride",
+          bengali: "লম্বা পদক্ষেপে হাঁটা",
+          past: "strode",
+          participle: "stridden",
+        },
+        {
+          base: "strive",
+          bengali: "প্রচেষ্টা করা",
+          past: "strove",
+          participle: "striven",
+        },
+        {
+          base: "write",
+          bengali: "লেখা",
+          past: "wrote",
+          participle: "written",
+        },
+      ],
+    },
+    {
+      pattern: "ow/ey → ew → own (The 'Blow' Pattern)",
+      verbs: [
+        {
+          base: "blow",
+          bengali: "বাতাস বওয়া / ফুঁ দেওয়া",
+          past: "blew",
+          participle: "blown",
+        },
+        { base: "fly", bengali: "ওড়া", past: "flew", participle: "flown" },
+        {
+          base: "grow",
+          bengali: "জন্মানো / বৃদ্ধি পাওয়া",
+          past: "grew",
+          participle: "grown",
+        },
+        {
+          base: "know",
+          bengali: "জানা / চেনা",
+          past: "knew",
+          participle: "known",
+        },
+        {
+          base: "throw",
+          bengali: "নিক্ষেপ করা / ছুঁড়ে মারা",
+          past: "threw",
+          participle: "thrown",
+        },
+      ],
+    },
+    {
+      pattern: "ea/a → o → o-en (The 'Break' Pattern)",
+      verbs: [
+        { base: "break", bengali: "ভাঙা", past: "broke", participle: "broken" },
+        {
+          base: "choose",
+          bengali: "পছন্দ করা / নির্বাচন করা",
+          past: "chose",
+          participle: "chosen",
+        },
+        {
+          base: "freeze",
+          bengali: "জমে বরফ হওয়া",
+          past: "froze",
+          participle: "frozen",
+        },
+        {
+          base: "speak",
+          bengali: "কথা বলা",
+          past: "spoke",
+          participle: "spoken",
+        },
+        {
+          base: "steal",
+          bengali: "চুরি করা",
+          past: "stole",
+          participle: "stolen",
+        },
+        {
+          base: "swear",
+          font: "bold",
+          bengali: "শপথ করা",
+          past: "swore",
+          participle: "sworn",
+        },
+        { base: "tear", bengali: "ছেঁড়া", past: "tore", participle: "torn" },
+        {
+          base: "wake",
+          bengali: "জেগে ওঠা",
+          past: "woke",
+          participle: "woken",
+        },
+        {
+          base: "wear",
+          bengali: "পরিধান করা",
+          past: "wore",
+          participle: "worn",
+        },
+        {
+          base: "weave",
+          bengali: "বোনা (কাপড়)",
+          past: "wove",
+          participle: "woven",
+        },
+      ],
+    },
+    {
+      pattern: "e/a → o → o (The 'Get' Pattern)",
+      verbs: [
+        {
+          base: "get",
+          bengali: "পাওয়া",
+          past: "got",
+          participle: "got / gotten",
+        },
+        {
+          base: "forget",
+          bengali: "ভুলে যাওয়া",
+          past: "forgot",
+          participle: "forgotten",
+        },
+        {
+          base: "tread",
+          bengali: "পদদলিত করা / হাঁটা",
+          past: "trod",
+          participle: "trodden",
+        },
+      ],
+    },
+    {
+      pattern: "oo/ee → o → o (The 'Shoot' Pattern)",
+      verbs: [
+        {
+          base: "shoot",
+          bengali: "গুলি করা",
+          past: "shot",
+          participle: "shot",
+        },
+        {
+          base: "bleed",
+          bengali: "রক্তক্ষরণ হওয়া",
+          past: "bled",
+          participle: "bled",
+        },
+        { base: "feed", bengali: "খাওয়ানো", past: "fed", participle: "fed" },
+        {
+          base: "meet",
+          bengali: "সাক্ষাৎ করা",
+          past: "met",
+          participle: "met",
+        },
+        {
+          base: "lead",
+          bengali: "পরিচালনা করা / নেতৃত্ব দেওয়া",
+          past: "led",
+          participle: "led",
+        },
+      ],
+    },
+    {
+      pattern: "a → oo → a-en (The 'Take' Pattern)",
+      verbs: [
+        { base: "take", bengali: "নেওয়া", past: "took", participle: "taken" },
+        {
+          base: "forsake",
+          bengali: "পরিত্যাগ করা",
+          past: "forsook",
+          participle: "forsaken",
+        },
+        {
+          base: "shake",
+          bengali: "ঝাঁকানো / কাঁপা",
+          past: "shook",
+          participle: "shaken",
+        },
+      ],
+    },
+    {
+      pattern: "Miscellaneous Vowel Shifts (Irregular Strong Verbs)",
+      verbs: [
+        { base: "bite", bengali: "কামড়ানো", past: "bit", participle: "bitten" },
+        { base: "come", bengali: "আসা", past: "came", participle: "come" },
+        { base: "eat", bengali: "খাওয়া", past: "ate", participle: "eaten" },
+        {
+          base: "fall",
+          bengali: "পড়ে যাওয়া",
+          past: "fell",
+          participle: "fallen",
+        },
+        {
+          base: "forbid",
+          bengali: "নিষেধ করা",
+          past: "forbade",
+          participle: "forbidden",
+        },
+        { base: "give", bengali: "দেওয়া", past: "gave", participle: "given" },
+        { base: "hide", bengali: "লুকানো", past: "hid", participle: "hidden" },
+        { base: "run", bengali: "দৌড়ানো", past: "ran", participle: "run" },
+        { base: "see", bengali: "দেখা", past: "saw", participle: "seen" },
+        {
+          base: "slay",
+          bengali: "হত্যা করা",
+          past: "slew",
+          participle: "slain",
+        },
+        {
+          base: "spit",
+          bengali: "থুতু ফেলা",
+          past: "spat",
+          participle: "spat",
+        },
+        {
+          base: "strike",
+          bengali: "আঘাত করা / ধর্মঘট করা",
+          past: "struck",
+          participle: "struck / stricken",
+        },
+      ],
+    },
+  ];
+
+
+  // Global counter track across all pattern categories
   let absoluteSerialNumber = 1;
+
   return (
     <div className="px-3 md:w-[65%] mx-auto">
       <div className="w-full mx-auto">
         <div className="py-20">
           <h1 className="text-center text-green-400">Strong Verbs</h1>
         </div>
+        
+
         <div className="">
-          <div className="pb-10 w-full overflow-x-auto">
-            <table border={1} className="w-full table-auto">
-              <tr>
-                <th>Serial</th>
-                <th>Present</th>
-                <th>Past</th>
-                <th>Participle</th>
-              </tr>
+          <div className="w-full max-w-6xl mx-auto p-3 bg-slate-5 rounded-xl shadow-md my-8">
+            <div className="mb-6">
+              <h2 className="text-3xl font-extrabold text-slate- tracking-tight">
+               Strong Verb:
+              </h2>
+              <p className="mt-2 text-sm text-slate-">
+                Strong verbs form their past tense and past participle through
+                an internal vowel change.
+              </p>
+            </div>
 
-              <tr>
-                <td>1</td>
-                <td>arise (উঠা)</td>
-                <td>arose</td>
-                <td>arisen</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>awake(জাগানো)</td>
-                <td>awoke</td>
-                <td>awoken</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>be/am/is/are(হওয়া/থাকা)</td>
-                <td>was/were</td>
-                <td>been</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>beat (পেটানো)</td>
-                <td>beat</td>
-                <td>beaten</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>become (হওয়া)</td>
-                <td>became</td>
-                <td>become</td>
-              </tr>
-              
-              <tr>
-                <td>6</td>
-                <td>bear(জন্ম দেওয়া)</td>
-                <td>bore</td>
-                <td>born/borne</td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>begin (শুরু করা)</td>
-                <td>began</td>
-                <td>begun</td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>bid (নির্দেশ দেওয়া)</td>
-                <td>bade/bid</td> 
-                <td>bidden</td>
-              </tr>
-              <tr> 
-                <td>8</td>
-                <td>bite (কামড়ানো)</td>
-                <td>bit</td> 
-                <td>bitten</td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>blow (প্রবাহিত হওয়া)</td>
-                <td>blew</td>
-                <td>blown</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>break (ভাঙা)</td>
-                <td>broke</td>
-                <td>broken</td>
-              </tr>
-              <tr>
-                <td>11</td>
-                <td>bring (নিয়ে আসা)</td>
-                <td>brought</td>
-                <td>brought</td>
-              </tr>
-              <tr>
-                <td>12</td>
-                <td>broadcast (প্রচার করা)</td>
-                <td>broadcast</td>
-                <td>broadcast</td>
-              </tr>
-              <tr>
-                <td>13</td>
-                <td>buy (ক্রয় করা)</td>
-                <td>bought</td>
-                <td>bought</td>
-              </tr>
+            <div className="space-y-8">
+              {/* {strongVerbsData.map((group, groupIndex) => ( */}
+                <div
+                  // key={groupIndex}
+                  className="overflow-hidden border border-slate-200 rounded-lg shadow-sm"
+                >
+                  <div className="bg-slate-100 px-2 py-3 border-b border-slate-200">
+                    <p className="text-md font-bold text-slate-700 tracking-wide">
+                      Pattern:{" "}
+                      <span className="text-indigo-600">Alphabetic pattern</span>
+                    </p>
+                  </div>
 
-              <tr>
-                <td>14</td>
-                <td>catch (ধরা)</td>
-                <td>caught</td>
-                <td>caught</td>
-              </tr>
-              <tr>
-                <td>15</td>
-                <td>choose (বাছাই করা)</td>
-                <td>chose</td>
-                <td>chosen</td>
-              </tr>
-              <tr>
-                <td>16</td>
-                <td>come (আসা)</td>
-                <td>came</td>
-                <td>come</td>
-              </tr>
-
-              <tr>
-                <td>17</td>
-                <td>dig (খোঁড়া)</td>
-                <td>dug</td>
-                <td>dug</td>
-              </tr>
-              <tr>
-                <td>18</td>
-                <td>do (করা)</td>
-                <td>did</td>
-                <td>done</td>
-              </tr>
-              <tr>
-                <td>19</td>
-                <td>draw (আঁকা)</td>
-                <td>drew</td>
-                <td>drawn</td>
-              </tr>
-              <tr>
-                <td>20</td>
-                <td>drink (পান করা)</td>
-                <td>drank</td>
-                <td>drunk</td>
-              </tr>
-              <tr>
-                <td>21</td>
-                <td>drive (চালানো)</td>
-                <td>drove</td>
-                <td>driven</td>
-              </tr>
-              <tr>
-                <td>22</td>
-                <td>eat (খাওয়া)</td>
-                <td>ate</td>
-                <td>eaten</td>
-              </tr>
-              <tr>
-                <td>23</td>
-                <td>fall (পতন হওয়া)</td>
-                <td>fell</td>
-                <td>fallen</td>
-              </tr>
-              <tr>
-                <td>24</td>
-                <td>feed (খাওয়ানো)</td>
-                <td>fed</td>
-                <td>fed</td>
-              </tr>
-              <tr>
-                <td>25</td>
-                <td>feel (অনুভব করা)</td>
-                <td>felt</td>
-                <td>felt</td>
-              </tr>
-              <tr>
-                <td>26</td>
-                <td>fight (যুদ্ধ করা)</td>
-                <td>fought</td>
-                <td>fought</td>
-              </tr>
-              <tr>
-                <td>27</td> 
-                <td>find (পাওয়া)</td>
-                <td>found</td>
-                <td>found</td>
-              </tr>
-              <tr>
-                <td>28</td>
-                <td>flee (পালানো)</td>
-                <td>fled</td>
-                <td>fled</td>
-              </tr>
-              <tr>
-                <td>29</td>
-                <td>fly (উড়া)</td>
-                <td>flew</td>
-                <td>flown</td>
-              </tr>
-              <tr>
-                <td>30</td>
-                <td>forbid (নিষেধ করা)</td>
-                <td>forbade</td>
-                <td>forbidden</td>
-              </tr>
-              <tr>
-                <td>31</td>
-                <td>forget (ভুলে যাওয়া)</td>
-                <td>forgot</td>
-                <td>forgotten</td>
-              </tr>
-              <tr>
-                <td>32</td>
-                <td>forgive (মাফ করা)</td>
-                <td>forgave</td>
-                <td>forgiven</td>
-              </tr>
-              <tr>
-                <td>33</td>
-                <td>freeze (জমা)</td>
-                <td>froze</td>
-                <td>frozen</td>
-              </tr>
-              <tr>
-                <td>34</td>
-                <td>give (দেওয়া)</td>
-                <td>gave</td>
-                <td>given</td>
-              </tr>
-              <tr>
-                <td>35</td>
-                <td>get (পাওয়া/ হওয়া)</td>
-                <td>got</td>
-                <td>got/gotten</td>
-              </tr>
-              <tr>
-                <td>36</td>
-                <td>go (যাওয়া)</td>
-                <td>went</td>
-                <td>gone</td>
-              </tr>
-              <tr>
-                <td>37</td>
-                <td>grow (বড় হওয়া)</td>
-                <td>grew</td>
-                <td>grown</td>
-              </tr>
-              <tr>
-                <td>38</td>
-                <td>have/has (থাকা)</td>
-                <td>had</td>
-                <td>had</td>
-              </tr>
-              <tr>
-                <td>39</td>
-                <td>hang(ফাসি দেওয়া)</td>
-                <td>hanged</td>
-                <td>hanged</td>
-              </tr>
-              <tr>
-                <td>40</td>
-                <td>hang (ঝুলানো)</td>
-                <td>hung</td>
-                <td>hung</td>
-              </tr>
-              
-              <tr>
-                <td>41</td>
-                <td>hide (লুকানো)</td>
-                <td>hid</td>
-                <td>hidden</td>
-              </tr>
-              <tr>
-                <td>42</td>
-                <td>hold (ধরা)</td>
-                <td>held</td>
-                <td>held</td>
-              </tr>
-              <tr>
-                <td>43</td>
-                <td>keep (রাখা)</td>
-                <td>kept</td>
-                <td>kept</td>
-              </tr>
-              <tr>
-                <td>44</td>
-                <td>kneel (হামাগুড়ি দেওয়া)</td>
-                <td>knelt</td>
-                <td>knelt</td>
-              </tr>
-              <tr>
-                <td>45</td>
-                <td>know (জানা)</td>
-                <td>knew</td>
-                <td>known</td>
-              </tr>
-              <tr>
-                <td>46</td>
-                <td>lay (রাখা)</td>
-                <td>laid</td>
-                <td>laid</td>
-              </tr>
-              <tr>
-                <td>47</td>
-                <td>lead (নেতৃত্ব দেওয়া)</td>
-                <td>led</td>
-                <td>led</td>
-              </tr>
-              <tr>
-                <td>48</td>
-                <td>leave (ত্যাগ করা)</td>
-                <td>left</td>
-                <td>left</td>
-              </tr>
-              
-              <tr>
-                <td>49</td>
-                <td>lie (শুয়ে থাকা)</td>
-                <td>lay</td>
-                <td>lain</td>
-              </tr>
-              <tr>
-                <td>50</td>
-                <td>lose (হারানো)</td>
-                <td>lost</td>
-                <td>lost</td>
-              </tr>
-             
-              <tr>
-                <td>51</td>
-                <td>meet (মিলিত হওয়া)</td>
-                <td>met</td>
-                <td>met</td>
-              </tr>
-              <tr>
-                <td>52</td>
-                <td>mistake (ভুল করা)</td>
-                <td>mistook</td>
-                <td>mistaken</td>
-              </tr>
-              <tr>
-                <td>53</td>
-                <td>pay (দেওয়া)</td>
-                <td>paid</td>
-                <td>paid</td>
-              </tr>
-
-              <tr>
-                <td>54</td>
-                <td>ride (চালানো)</td>
-                <td>rode</td>
-                <td>ridden</td>
-              </tr>
-              <tr>
-                <td>55</td>
-                <td>rise (উঠা)</td>
-                <td>rose</td>
-                <td>risen</td>
-              </tr>
-              <tr>
-                <td>56</td>
-                <td>run (দৌড়ানো)</td>
-                <td>ran</td>
-                <td>run</td>
-              </tr>
-              <tr>
-                <td>57</td>
-                <td>say (বলা)</td>
-                <td>said</td>
-                <td>said</td>
-              </tr>
-              <tr>
-                <td>58</td>
-                <td>see (দেখা)</td>
-                <td>saw</td>
-                <td>seen</td>
-              </tr>
-              <tr>
-                <td>59</td>
-                <td>seek (খোঁজা)</td>
-                <td>sought</td>
-                <td>sought</td>
-              </tr>
-              <tr>
-                <td>60</td>
-                <td>sell (বিক্রি করা)</td>
-                <td>sold</td>
-                <td>sold</td>
-              </tr>
-
-              <tr>
-                <td>61</td>
-                <td>sew (সেলাই করা)</td>
-                <td>sewed</td>
-                <td>sewn/sewed</td>
-              </tr>
-              <tr>
-                <td>62</td>
-                <td>shake (ঝাকানো)</td>
-                <td>shook</td>
-                <td>shaken</td>
-              </tr>
-              <tr>
-                <td>63</td>
-                <td>shine (কিরন দেওয়া)</td>
-                <td>shone</td>
-                <td>shone</td>
-              </tr>
-              <tr>
-                <td>64</td>
-                <td>shoot (গুলি করা)</td>
-                <td>shot</td>
-                <td>shot</td>
-              </tr>
-              <tr>
-                <td>65</td>
-                <td>show (দেখানো)</td>
-                <td>showed</td>
-                <td>shown/showed</td>
-              </tr>
-              <tr>
-                <td>66</td>
-                <td>shrink (সঙ্কুচিত হওয়া)</td>
-                <td>shrank</td>
-                <td>shrunk</td>
-              </tr>
-              
-              <tr>
-                <td>67</td>
-                <td>strike (প্রহার করা)</td>
-                <td>struck</td>
-                <td>struck</td>
-              </tr>
-              <tr>
-                <td>68</td>
-                <td>swear (শপথ করা)</td>
-                <td>swore</td>
-                <td>sworn</td>
-              </tr>
-              <tr>
-                <td>69</td>
-                <td>swim (সাঁতার কাটা)</td>
-                <td>swam</td>
-                <td>swum</td>
-              </tr>
-              <tr>
-                <td>70</td>
-                <td>sing (গাওয়া)</td>
-                <td>sang</td>
-                <td>sung</td>
-              </tr>
-              <tr>
-                <td>71</td>
-                <td>sink (ডুবে যাওয়া)</td>
-                <td>sank</td>
-                <td>sunk</td>
-              </tr>
-              <tr>
-                <td>72</td>
-                <td>sit (বসা)</td>
-                <td>sat</td>
-                <td>sat</td>
-              </tr>
-              <tr>
-                <td>73</td>
-                <td>sleep (ঘুমানো)</td>
-                <td>slept</td>
-                <td>slept</td>
-              </tr> 
-              <tr>
-                <td>73</td>
-                <td>slay (হত্যা করা)</td>
-                <td>slew</td>
-                <td>slain</td>
-              </tr>
-              
-              <tr>
-                <td>74</td>
-                <td>speak (কথা বলা)</td>
-                <td>spoke</td>
-                <td>spoken</td>
-              </tr>
-              <tr>
-                <td>75</td>
-                <td>spit (থুথু ফেলা)</td>
-                <td>spat</td>
-                <td>spat</td>
-              </tr>
-
-              <tr>
-                <td>76</td>
-                <td>spring(লাফানো)</td>
-                <td>sprang</td>
-                <td>sprung</td>
-              </tr>
-              <tr>
-                <td>77</td>
-                <td>stand(দাঁড়ানো)</td>
-                <td>stood</td>
-                <td>stood</td>
-              </tr>
-              <tr>
-                <td>78</td>
-                <td>steal(চুরি করা)</td>
-                <td>stole</td>
-                <td>stolen</td>
-              </tr>
-              <tr>
-                <td>79</td>
-                <td>stick(লেগে থাকা)</td>
-                <td>stuck</td>
-                <td>stuck</td>
-              </tr>
-              <tr>
-                <td>80</td>
-                <td>sting(হুল ফোটানো)</td>
-                <td>stung</td>
-                <td>stung</td>
-              </tr>
-              <tr>
-                <td>81</td>
-                <td>stink(পঁচা গন্ধ হওয়া)</td>
-                <td>stank</td>
-                <td>stunk</td>
-              </tr>
-              <tr>
-                <td>82</td>
-                <td>strike(প্রহার করা)</td>
-                <td>struck</td>
-                <td>struck</td>
-              </tr>
-              <tr>
-                <td>83</td>
-                <td>swear(শপথ করা)</td>
-                <td>swore</td>
-                <td>sworn</td>
-              </tr>
-              <tr>
-                <td>84</td>
-                <td>swing(দোলানো)</td>
-                <td>swung</td>
-                <td>swung</td>
-              </tr>
-              <tr>
-                <td>85</td>
-                <td>take(নেওয়া)</td>
-                <td>took</td>
-                <td>taken</td>
-              </tr>
-              <tr>
-                <td>86</td>
-                <td>teach(শেখানো)</td>
-                <td>taught</td>
-                <td>taught</td>
-              </tr>
-              <tr>
-                <td>87</td>
-                <td>tear (ছিঁড়া)</td>
-                <td>tore</td>
-                <td>torn</td>
-              </tr>
-              <tr>
-                <td>88</td>
-                <td>tell (বলা)</td>
-                <td>told</td>
-                <td>told</td>
-              </tr>
-              <tr>
-                <td>89</td>
-                <td>think (ভাবা)</td>
-                <td>thought</td>
-                <td>thought</td>
-              </tr>
-              <tr>
-                <td>90</td>
-                <td>throw (নিক্ষেপ করা)</td>
-                <td>threw</td>
-                <td>thrown</td>
-              </tr>
-
-              <tr>
-                <td>91</td>
-                <td>understand (বুঝতে পার)</td>
-                <td>understood</td>
-                <td>understood</td>
-              </tr>
-
-              
-              <tr>
-                <td>92</td>  
-                <td>wake(জাগ্রত হওয়া)</td>
-                <td>woke</td>
-                <td>woken</td>
-              </tr>
-              <tr>
-                <td>93</td>
-                <td>wear(পরিধান করা)</td>
-                <td>wore</td>
-                <td>worn</td>
-              </tr>
-              <tr>
-                <td>94</td>
-                <td>weave(বোনা)</td>
-                <td>wove</td>
-                <td>woven</td> 
-              </tr>
-              <tr>
-                <td>95</td>
-                <td>weep (ক্রন্দন করা)</td>
-                <td>wept</td>
-                <td>wept</td>
-              </tr>
-              <tr>
-                <td>96</td>
-                <td>win (জয় করা)</td>
-                <td>won</td>
-                <td>won</td>
-              </tr>
-              <tr>
-                <td>97</td>
-                <td>write (লিখা)</td>
-                <td>wrote</td>
-                <td>written</td>
-              </tr>
-            </table>
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
+                      <thead className="bg-slate-50 uppercase text-xs font-semibold text-slate-500 tracking-wider">
+                        <tr>
+                          <th
+                            scope="col"
+                            className="px-2 py-3 w-16 text-center"
+                          >
+                            S.N.
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            V1
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            Meaning
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                              V2
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            V3
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate- bg-">
+                        {verb1.map((verb, vIndex) => {
+                          const currentSerialNumber = absoluteSerialNumber++;
+                          return (
+                            <tr
+                              key={vIndex}
+                              className="hover:bg-slate-50 transition-colors duration-150 ease-in-out "
+                            >
+                              <td className="px-2 py-3 text-center font-mono text-xs text-slate-400">
+                                {currentSerialNumber}
+                              </td>
+                              <td className="px-2 py-3 font-semibold text-slate-400">
+                                {verb.base}
+                              </td>
+                              <td className="px-2 py-3 text-pink-500 font-sans font-bold tracking-wide">
+                                {verb.bengali}
+                              </td>
+                              <td className="px-2 py-3 font-medium text-indigo-500">
+                                {verb.past}
+                              </td>
+                              <td className="px-2 py-3 font-medium text-emerald-600">
+                                {verb.participle}
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              {/* ))} */}
+            </div>
           </div>
+        </div>
 
+        <div className="">
           <div className="pb-10 w-full overflow-x-auto">
             <h3 className="my-3">
               Note: কিছু Verb আছে যাদের Present, Past ও Past Participle একইরুপঃ
@@ -834,74 +1100,99 @@ const StrongVerb = () => {
                 <td>spread</td>
                 <td>spread</td>
               </tr>
+              <tr>
+                <td>17</td>
+                <td>broadcast(প্রচার করা)</td>
+                <td>broadcast</td>
+                <td>broadcast</td>
+              </tr>
             </table>
           </div>
         </div>
-        {/* pattern */}
-        <div className="">
-          <div className="w-full max-w-6xl mx-auto p-6 bg-slate-50 rounded-xl shadow-md my-8">
-      <div className="mb-6">
-        <h2 className="text-3xl font-extrabold text-slate-800 tracking-tight">
-          English Strong Verbs List (স্ট্রং ভার্ব তালিকা)
-        </h2>
-        <p className="mt-2 text-sm text-slate-600">
-          Strong verbs form their past tense and past participle through an internal vowel change.
-        </p>
-      </div>
 
-      <div className="space-y-8">
-        {strongVerbsData.map((group, groupIndex) => (
-          <div key={groupIndex} className="overflow-hidden border border-slate-200 rounded-lg shadow-sm bg-white">
-            <div className="bg-slate-100 px-4 py-3 border-b border-slate-200">
-              <h3 className="text-md font-bold text-slate-700 tracking-wide">
-                Pattern: <span className="text-indigo-600">{group.pattern}</span>
-              </h3>
+        {/* Shortcut Technique */}
+        <div className="">
+          <div className="w-full max-w-6xl mx-auto p-3 bg-slate-50 rounded-xl shadow-md my-8">
+            <div className="mb-6">
+              <h2 className="text-3xl font-extrabold text-slate-800 tracking-tight">
+                Shortcut Technique List
+              </h2>
+              <p className="mt-2 text-sm text-slate-600">
+                Strong verbs form their past tense and past participle through
+                an internal vowel change.
+              </p>
             </div>
-            
-            <div className="overflow-x-auto">
-              <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
-                <thead className="bg-slate-50 uppercase text-xs font-semibold text-slate-500 tracking-wider">
-                  <tr>
-                    <th scope="col" className="px-4 py-3 w-16 text-center">S.N.</th>
-                    <th scope="col" className="px-6 py-3">Base Form (V1)</th>
-                    <th scope="col" className="px-6 py-3">Bengali Meaning</th>
-                    <th scope="col" className="px-6 py-3">Simple Past (V2)</th>
-                    <th scope="col" className="px-6 py-3">Past Participle (V3)</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-slate-200 bg-white">
-                  {group.verbs.map((verb, vIndex) => {
-                    const currentSerialNumber = absoluteSerialNumber++;
-                    return (
-                      <tr 
-                        key={vIndex} 
-                        className="hover:bg-slate-50 transition-colors duration-150 ease-in-out odd:bg-white even:bg-slate-50/50"
-                      >
-                        <td className="px-4 py-4 text-center font-mono text-xs text-slate-400">
-                          {currentSerialNumber}
-                        </td>
-                        <td className="px-6 py-4 font-semibold text-slate-900">
-                          {verb.base}
-                        </td>
-                        <td className="px-6 py-4 font-normal text-slate-600 font-sans tracking-wide">
-                          {verb.bengali}
-                        </td>
-                        <td className="px-6 py-4 font-medium text-indigo-600">
-                          {verb.past}
-                        </td>
-                        <td className="px-6 py-4 font-medium text-emerald-600">
-                          {verb.participle}
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
+
+            <div className="space-y-8">
+              {strongVerbsData.map((group, groupIndex) => (
+                <div
+                  key={groupIndex}
+                  className="overflow-hidden border border-slate-200 rounded-lg shadow-sm bg-white"
+                >
+                  <div className="bg-slate-100 px-4 py-3 border-b border-slate-200">
+                    <p className="text-md font-bold text-slate-700 tracking-wide">
+                      Pattern:{" "}
+                      <span className="text-indigo-600">{group.pattern}</span>
+                    </p>
+                  </div>
+
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
+                      <thead className="bg-slate-50 uppercase text-xs font-semibold text-slate-500 tracking-wider">
+                        <tr>
+                          <th
+                            scope="col"
+                            className="px-4 py-3 w-16 text-center"
+                          >
+                            S.N.
+                          </th>
+                          <th scope="col" className="px-3 py-3">
+                            V1
+                          </th>
+                          <th scope="col" className="px-3 py-3">
+                            Meaning
+                          </th>
+                          <th scope="col" className="px-3 py-3">
+                              V2
+                          </th>
+                          <th scope="col" className="px-3 py-3">
+                            V3
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-200 bg-white">
+                        {group.verbs.map((verb, vIndex) => {
+                          const currentSerialNumber = absoluteSerialNumber++;
+                          return (
+                            <tr
+                              key={vIndex}
+                              className="hover:bg-slate-50 transition-colors duration-150 ease-in-out odd:bg-white even:bg-slate-50/50"
+                            >
+                              <td className="px-4 py-4 text-center font-mono text-xs text-slate-400">
+                                {currentSerialNumber}
+                              </td>
+                              <td className="px-3 py-4 font-semibold text-slate-900">
+                                {verb.base}
+                              </td>
+                              <td className="px-3 py-4 font-normal text-slate-600 font-sans tracking-wide">
+                                {verb.bengali}
+                              </td>
+                              <td className="px-3 py-4 font-medium text-indigo-600">
+                                {verb.past}
+                              </td>
+                              <td className="px-3 py-4 font-medium text-emerald-600">
+                                {verb.participle}
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-        ))}
-      </div>
-    </div>
         </div>
       </div>
     </div>
