@@ -76,7 +76,7 @@ function Hsc() {
                 Email
               </li>
             </Link>
-            <Link to={"/letter"}>
+            <Link to={"/email"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
                 Letter
               </li>

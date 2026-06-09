@@ -14,7 +14,7 @@ const StrongVerb = () => {
     "participle": "awoken"
   },
   {
-    "base": "am/\nis/are",
+    "base": "(be)am/\nis/are",
     "bengali": "হওয়া/থাকা",
     "past": "was/\nwere",
     "participle": "been"
@@ -56,6 +56,12 @@ const StrongVerb = () => {
     "participle": "bitten"
   },
   {
+    "base": "bleed",
+    "bengali": "রক্ত প্রবাহিত হওয়া",
+    "past": "bled",
+    "participle": "bled"
+  },
+  {
     "base": "blow",
     "bengali": "প্রবাহিত হওয়া",
     "past": "blew",
@@ -73,12 +79,7 @@ const StrongVerb = () => {
     "past": "brought",
     "participle": "brought"
   },
-  // {
-  //   "base": "broadcast",
-  //   "bengali": "প্রচার করা",
-  //   "past": "broadcast",
-  //   "participle": "broadcast"
-  // },
+  
   {
     "base": "buy",
     "bengali": "ক্রয় করা",
@@ -181,24 +182,26 @@ const StrongVerb = () => {
     "past": "flew",
     "participle": "flown"
   },
-  // {
-  //   "base": "forbid",
-  //   "bengali": "নিষেধ করা",
-  //   "past": "forbade",
-  //   "participle": "forbidden"
-  // },
+  
   {
     "base": "forget",
     "bengali": "ভুলে যাওয়া",
     "past": "forgot",
     "participle": "forgotten"
   },
-  // {
-  //   "base": "forgive",
-  //   "bengali": "মাফ করা",
-  //   "past": "forgave",
-  //   "participle": "forgiven"
-  // },
+  {
+    "base": "forgive",
+    "bengali": "মাফ করা",
+    "past": "forgave",
+    "participle": "forgiven"
+  },
+  {
+    "base": "forsake",
+    "bengali": "ত্যাগ করা",
+    "past": "forsook",
+    "participle": "forsaken"
+  },
+  
   {
     "base": "freeze",
     "bengali": "জমা",
@@ -231,7 +234,7 @@ const StrongVerb = () => {
   },
   {
     "base": "have/has",
-    "bengali": "থাকা",
+    "bengali": "থাকা/খাওয়া",
     "past": "had",
     "participle": "had"
   },
@@ -313,12 +316,7 @@ const StrongVerb = () => {
     "past": "met",
     "participle": "met"
   },
-  // {
-  //   "base": "mistake",
-  //   "bengali": "ভুল করা",
-  //   "past": "mistook",
-  //   "participle": "mistaken"
-  // },
+  
   {
     "base": "pay",
     "bengali": "দেওয়া",
@@ -404,10 +402,28 @@ const StrongVerb = () => {
     "participle": "shrunk"
   },
   {
+    "base": "stride",
+    "bengali": "হাটা",
+    "past": "strode",
+    "participle": "stridden"
+  },
+  {
+    "base": "smite",
+    "bengali": "আঘাত করা",
+    "past": "smote",
+    "participle": "smitten"
+  },
+  {
+    "base": "strive",
+    "bengali": "চেষ্টা করা",
+    "past": "strove",
+    "participle": "striven"
+  },
+  {
     "base": "strike",
     "bengali": "প্রহার করা",
     "past": "struck",
-    "participle": "struck"
+    "participle": "struck /\n stricken"
   },
   {
     "base": "swear",
@@ -541,12 +557,13 @@ const StrongVerb = () => {
     "past": "threw",
     "participle": "thrown"
   },
-  // {
-  //   "base": "understand",
-  //   "bengali": "বুঝতে পার",
-  //   "past": "understood",
-  //   "participle": "understood"
-  // },
+  {
+    "base": "tread",
+    "bengali": "পদদলিত করা",
+    "past": "trode",
+    "participle": "trodden"
+  },
+  
   {
     "base": "wake",
     "bengali": "জাগ্রত হওয়া",
@@ -582,55 +599,25 @@ const StrongVerb = () => {
     "bengali": "লিখা",
     "past": "wrote",
     "participle": "written"
-  }
+  },
+  
+  
+  
+
 ];
 
   const strongVerbsData = [
     {
       pattern: "i → a → u (The 'Sing' Pattern)",
       verbs: [
-        {
-          base: "begin",
-          bengali: "শুরু করা",
-          past: "began",
-          participle: "begun",
+        {   base: "begin", bengali: "শুরু করা", past: "began",participle: "begun", },
+        { base: "drink", bengali: "পান করা", past: "drank", participle: "drunk", },
+        {  base: "ring", bengali: "ঘণ্টা বাজানো", past: "rang", participle: "rung",
         },
-        {
-          base: "drink",
-          bengali: "পান করা",
-          past: "drank",
-          participle: "drunk",
-        },
-        {
-          base: "ring",
-          bengali: "ঘণ্টা বাজানো",
-          past: "rang",
-          participle: "rung",
-        },
-        {
-          base: "shrink",
-          bengali: "সংকুচিত হওয়া",
-          past: "shrank",
-          participle: "shrunked",
-        },
-        {
-          base: "sing",
-          bengali: "গান গাওয়া",
-          past: "sang",
-          participle: "sung",
-        },
-        {
-          base: "sink",
-          bengali: "ডুবে যাওয়া",
-          past: "sank",
-          participle: "sunk",
-        },
-        {
-          base: "stink",
-          bengali: "দুর্গন্ধ ছড়ানো",
-          past: "stank",
-          participle: "stunk",
-        },
+        { base: "shrink", bengali: "সংকুচিত হওয়া", past: "shrank", participle: "shrunk", },
+        { base: "sing", bengali: "গান গাওয়া", past: "sang", participle: "sung", },
+        { base: "sink", bengali: "ডুবে যাওয়া",past: "sank", participle: "sunk", },
+        { base: "stink", bengali: "দুর্গন্ধ ছড়ানো", past: "stank", participle: "stunk", },
         {
           base: "swim",
           bengali: "সাঁতার কাটা",
@@ -835,60 +822,26 @@ const StrongVerb = () => {
       pattern: "a → oo → a-en (The 'Take' Pattern)",
       verbs: [
         { base: "take", bengali: "নেওয়া", past: "took", participle: "taken" },
-        {
-          base: "forsake",
-          bengali: "পরিত্যাগ করা",
-          past: "forsook",
-          participle: "forsaken",
-        },
-        {
-          base: "shake",
-          bengali: "ঝাঁকানো / কাঁপা",
-          past: "shook",
-          participle: "shaken",
-        },
+        { "base": "mistake", "bengali": "ভুল করা", "past": "mistook", "participle": "mistaken" },
+        { base: "forsake", bengali: "পরিত্যাগ করা", past: "forsook", participle: "forsaken", },
+        {  base: "shake", bengali: "ঝাঁকানো / কাঁপা", past: "shook",  participle: "shaken", },
       ],
     },
     {
       pattern: "Miscellaneous Vowel Shifts (Irregular Strong Verbs)",
       verbs: [
-        { base: "bite", bengali: "কামড়ানো", past: "bit", participle: "bitten" },
-        { base: "come", bengali: "আসা", past: "came", participle: "come" },
-        { base: "eat", bengali: "খাওয়া", past: "ate", participle: "eaten" },
-        {
-          base: "fall",
-          bengali: "পড়ে যাওয়া",
-          past: "fell",
-          participle: "fallen",
-        },
-        {
-          base: "forbid",
-          bengali: "নিষেধ করা",
-          past: "forbade",
-          participle: "forbidden",
-        },
+        
+        { "base": "do", "bengali": "করা", "past": "did","participle": "done" },
+        { "base": "undo", "bengali": "নষ্ট করা", "past": "undid","participle": "undone" },
+        { "base": "bid", "bengali": "নির্দেশ দেওয়া","past": "bade/\nbid", "participle": "bidden" },
+        { base: "forbid", bengali: "নিষেধ করা", past: "forbade", participle: "forbidden", },
+        { "base": "come", "bengali": "আসা", "past": "came", "participle": "come" },
+        { "base": "become", "bengali": "হওয়া", "past": "became", "participle": "become" },
         { base: "give", bengali: "দেওয়া", past: "gave", participle: "given" },
-        { base: "hide", bengali: "লুকানো", past: "hid", participle: "hidden" },
-        { base: "run", bengali: "দৌড়ানো", past: "ran", participle: "run" },
-        { base: "see", bengali: "দেখা", past: "saw", participle: "seen" },
-        {
-          base: "slay",
-          bengali: "হত্যা করা",
-          past: "slew",
-          participle: "slain",
-        },
-        {
-          base: "spit",
-          bengali: "থুতু ফেলা",
-          past: "spat",
-          participle: "spat",
-        },
-        {
-          base: "strike",
-          bengali: "আঘাত করা / ধর্মঘট করা",
-          past: "struck",
-          participle: "struck / stricken",
-        },
+        { base: "forgive", bengali: "মাফ করে দেওয়া", past: "forgave", participle: "forgiven" },
+        { base: "stand", "bengali": "দাঁড়িয়ে থাকা", "past": "stood", "participle": "stood"},
+        { base: "understand","bengali": "বুঝতে পারা", "past": "understood", "participle": "understood"},
+        { base: "misunderstand","bengali": "ভূল বুঝতে পারা", "past": "misunderstood", "participle": "misunderstood"},
       ],
     },
   ];
@@ -1115,7 +1068,7 @@ const StrongVerb = () => {
           <div className="w-full max-w-6xl mx-auto p-3 bg-slate-50 rounded-xl shadow-md my-8">
             <div className="mb-6">
               <h2 className="text-3xl font-extrabold text-slate-800 tracking-tight">
-                Shortcut Technique List
+                Shortcut Technique
               </h2>
               <p className="mt-2 text-sm text-slate-600">
                 Strong verbs form their past tense and past participle through
@@ -1129,7 +1082,7 @@ const StrongVerb = () => {
                   key={groupIndex}
                   className="overflow-hidden border border-slate-200 rounded-lg shadow-sm bg-white"
                 >
-                  <div className="bg-slate-100 px-4 py-3 border-b border-slate-200">
+                  <div className="bg-slate-100 px-2 py-2 border-b border-slate-200">
                     <p className="text-md font-bold text-slate-700 tracking-wide">
                       Pattern:{" "}
                       <span className="text-indigo-600">{group.pattern}</span>
@@ -1142,20 +1095,20 @@ const StrongVerb = () => {
                         <tr>
                           <th
                             scope="col"
-                            className="px-4 py-3 w-16 text-center"
+                            className="px-2 py-2 w-16 text-center"
                           >
                             S.N.
                           </th>
-                          <th scope="col" className="px-3 py-3">
+                          <th scope="col" className="px-2 py-2">
                             V1
                           </th>
-                          <th scope="col" className="px-3 py-3">
+                          <th scope="col" className="px-2 py-2">
                             Meaning
                           </th>
-                          <th scope="col" className="px-3 py-3">
+                          <th scope="col" className="px-2 py-2">
                               V2
                           </th>
-                          <th scope="col" className="px-3 py-3">
+                          <th scope="col" className="px-2 py-2">
                             V3
                           </th>
                         </tr>
@@ -1168,19 +1121,19 @@ const StrongVerb = () => {
                               key={vIndex}
                               className="hover:bg-slate-50 transition-colors duration-150 ease-in-out odd:bg-white even:bg-slate-50/50"
                             >
-                              <td className="px-4 py-4 text-center font-mono text-xs text-slate-400">
+                              <td className="px-2 py-2 text-center font-mono text-xs text-slate-400">
                                 {currentSerialNumber}
                               </td>
-                              <td className="px-3 py-4 font-semibold text-slate-900">
+                              <td className="px-2 py-2 font-semibold text-slate-900">
                                 {verb.base}
                               </td>
-                              <td className="px-3 py-4 font-normal text-slate-600 font-sans tracking-wide">
+                              <td className="px-2 py-2 font-normal text-slate-600 font-sans tracking-wide">
                                 {verb.bengali}
                               </td>
-                              <td className="px-3 py-4 font-medium text-indigo-600">
+                              <td className="px-2 py-2 font-medium text-indigo-600">
                                 {verb.past}
                               </td>
-                              <td className="px-3 py-4 font-medium text-emerald-600">
+                              <td className="px-2 py-2 font-medium text-emerald-600">
                                 {verb.participle}
                               </td>
                             </tr>
