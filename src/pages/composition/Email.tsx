@@ -60,8 +60,10 @@ function Email() {
             <br />
             <strong>Answer: </strong> You will be glad to know that [10th June]
             is the date of [marriage ceremony] of my [elder sister/ own]. I
-            can't even think of passing this happy occasion without you. I hope
-            that you will join us to increase our pleasure. <br />
+            can't even think of passing this happy occasion without you.
+             {/* I hope
+            that you will join us to increase our pleasure.  */}
+            <br />
             <br />
           </p>
           {/* 2 */}
@@ -76,9 +78,11 @@ function Email() {
             <br />
             <strong>Answer: </strong> The name of my [COUNTRY] is [TILAKPUR].
             The people of this [COUNTRY] are mostly Muslim, Hindu and
-            Christians. We love to live in peace and harmony. We have three
+            Christians. We love to live in peace and harmony.
+             {/* We have three
             meals a day and our staple food is rice. I love my country/ Village
-            and I am proud of [COUNTRY]. <br />
+            and I am proud of [COUNTRY].  */}
+            <br />
             <br />
           </p>
           {/* 3 */}
@@ -92,7 +96,8 @@ function Email() {
             or. A letter describing a memorable day of your life. <br />
             <strong>Answer: </strong> We went on a picnic by [boat] to [the
             zoo]. I was really overwhelmed to see various [scenery/ animals].
-            However, It gave me much pleasure. It was a memorable day in my
+            {/* However, It gave me much pleasure.  */}
+            It was a memorable day in my
             life.
             <br />
             <br />
@@ -103,8 +108,10 @@ function Email() {
             <br />
             Or, A letter to your father telling him about your progress in your
             studies. <br />
-            <strong>Answer: </strong> My exam is at hand. I have prepared well
-            for it. Please send me some money to buy books after the exam.{" "}
+            <strong>Answer: </strong> My exam is at hand. 
+            {/* I have prepared well
+            for it.  */}
+            Please send me some money to buy books after the exam.{" "}
             <br />
             <br />
           </p>
@@ -118,9 +125,7 @@ function Email() {
             Or, Informing him about the bad effects of smoking.
             <br />
             <strong>Answer: </strong> it is said that [smoking/ keeping bad
-            company] is as bad as committing suicide. [NAME] affects your brain
-            and will spoil your career. As a result, you have failed in all
-            subjects. So, it is high time you gave up [NAME].
+            company] is as bad as committing suicide. [NAME] will spoil your career. So, it is high time you gave up [NAME].
           </p>
           <br />
           {/* 6 */}
@@ -135,10 +140,8 @@ function Email() {
             Or. A letter telling about what you intend after your graduation/
             Degree exam.
             <br />
-            <strong>Answer: </strong> Everybody should have an aim. So am I and
-            my aim is to become as it is a noble profession to serve the poor
-            people. So after my graduation I want to serve my nation as a
-            teacher/ social worker/ politician/ doctor.
+            <strong>Answer: </strong> Everybody should have [an aim]. So am I and
+            my aim is to become[doctor]. So after my graduation I want to serve my nation as a [doctor].
           </p>
 
           <br />
@@ -149,28 +152,27 @@ function Email() {
             <br />
             <br />
             <strong>Answer: </strong> My joys know no bounds that you have got
-            GPA 5 in the exam. Please accept my heartiest congratulation because
+            GPA 5 in the exam. Please accept my congratulation because
             you are really worthy of it.
           </p>
           {/* 8 */}
           <p className="text-justify">
-            {" "}
+            
             Q-8. A letter to your friend asking him to return the book that
             he/she borrowed. <br />
-            <strong>Answer: </strong> Accept my heartiest congratulation for
-            getting GPA-5 because you are really worthy of it. But I am badly in
+            <strong>Answer: </strong>I am badly in
             need of the book that you borrowed from me, kindly return it as soon
             as possible.
           </p>
           <br />
           {/* 9 */}
           <p className="text-justify">
-            9. Q. A letter to your friend expressing your condolence to her/his
+           Q-9. A letter to your friend expressing your condolence to her/his
             father's death.
             <br />
-            <strong>Answer: </strong> I am very shocked to hear that your [
-            father/ mother ] is no more on earth. But none can escape death. It
-            is irrecoverable. So you should try to do better in future.
+            <strong>Answer: </strong> I am very shocked to hear that your [mother] is no more on earth. But none can escape death. It
+            is irrecoverable. 
+            {/* So you should try to do better in future. */}
           </p>
           <br />
           <p className="">

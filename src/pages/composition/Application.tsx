@@ -14,43 +14,36 @@ function Application() {
           </h3>
           <p className="py-5">
             Question: <br />
-            Write an application for increasing common room facilities/ <br />
-            Write an application for setting up a college canteen/ <br />
-            Write an application for setting up a computer club/ <br />
-            Write an application for setting up language club/ <br />
-            Write an application for setting up debating club/ <br />
-            Write an application for English news paper in the common room/{" "}
+            1. Write an application for increasing common room facilities/ <br />
+            2. Write an application for setting up a college canteen/ <br />
+            3. Write an application for setting up a computer club/ <br />
+            4. Write an application for setting up language club/ <br />
+            5. Write an application for setting up debating club/ <br />
+            6. Write an application for English news paper in the common room/
             <br />
-            Write an application for multi-media system for class room.
+            7. Write an application for multi-media system for class room.
             <br />
-            Write an application for An English debating club, <br />
-            Write an application for A library room, <br />
-            Write an application for An English language club <br />
-            Write an application for A hall room <br />
-            Write an application for setting up a tea stall.
+            8. Write an application for An English debating club, <br />
+            9. Write an application for A library room, <br />
+            10. Write an application for An English language club <br />
+            11. Write an application for A hall room <br />
+            12. Write an application for setting up a tea stall.
+            12. Write an application for study tour/ excursion/ .
           </p>
           <p className="font-bold">Answer:</p>
           <p>
-            April 2, 2022,
-            <br />
-            The Principal,
-            <br />
-            'W' College, Joypurhat.
-            <br />
+            April 2, 2022, <br />
+            The Principal, <br />
+            'W' College, Joypurhat. <br />
             Sub: prayer for ..... <br />
             Sir, <br />
-            we beg most respectfully to state that we are greatly suffering for
-            want of [TOPIC] in our college. [TOPIC] is essential. Without it we
-            may fail to cope with the modern time.
-            <br />
+            we beg most respectfully to state that that we are a student of your
+            [college]. Our college is a renowned [college] But we do not have ... [in our college/this year]. <br />
             We, therefore, pray and hope that you would be kind enough to grant
-            us [TOPIC] and oblige thereby
-            <br />
-            Yours obediently
-            <br />
-            Md/Mst Fatema
-            <br />
-            On behalf of the students.
+            us ... and oblige thereby. <br />
+            Yours obediently <br />
+            Md/Mst Fatima <br />
+            On behalf of the students
           </p>
         </div>
 
@@ -62,13 +55,13 @@ function Application() {
           </h3>
           <p className="py-5">
             Question: <br />
-            Write an application for tc/ <br />
-            Write an application for transfer certificate/ <br />
-            Write an application for stipend from the poor fund/ <br />
-            Write an application for full-free-studentship/ <br />
-            Write an application for seat in a college hostel/ <br />
-            Write an application for Financial donation,/ <br />
-            Write an application for Financial help,
+            1. Write an application for tc/ <br />
+            2. Write an application for transfer certificate/ <br />
+            3. Write an application for stipend from the poor fund/ <br />
+            4. Write an application for full-free-studentship/ <br />
+            5. Write an application for seat in a college hostel/ <br />
+            6. Write an application for Financial donation,/ <br />
+            7. Write an application for Financial help,
           </p>
           <p className="font-bold">Answer:</p>
           <p>
@@ -80,11 +73,10 @@ function Application() {
             Sub: prayer for ..... <br />
             Sir, <br />
             I beg most respectfully to state that I am a student of your
-            college. My father is too poor to bear my educational expense here.
+            college. My father is too poor to bear my educational expense.
             So, I'm in need of.... from you. <br />
             I, therefore, pray and hope that you would be kind enough to grant
-            me [প্রশ্নে উল্লেখিত বিষয়টি] and oblige thereby
-            <br />
+            me [প্রশ্নে উল্লেখিত বিষয়টি] and oblige thereby.  <br />
             Yours obediently <br />
             Md/Mst Habiba
           </p>
@@ -109,12 +101,11 @@ function Application() {
             Joypurhat District, Joypurhat. <br />
             Sub: Prayer for ...... <br />
             Sir, <br />
-            We, the inhabitants of "B" locality, beg respectfully to state that
-            we are the poverty stricken people. A flood has recently visited us.
-            So, we are struggling for food and other basic things. But people
-            are suffering most for .... in our locality <br />
+            We beg respectfully to state that we are the inhabitants of "B" locality.
+            We are the poverty stricken people. A [flood] has recently visited us.
+            So, people are suffering most for want of .... (in our locality). <br />
             We, therefore, pray and hope that you would be kind enough to grant
-            us .... and oblige thereby <br />
+            us .... and oblige thereby. <br />
             Yours obediently <br />
             Md. ...... <br />
             On behalf of the.........
@@ -129,10 +120,10 @@ function Application() {
           </h3>
           <p className="py-5">
             যেমন: Question: <br />
-            Write an application for Transfer Certificate <br />
-            Write an application for TC <br />
-            Write an application for Testimonial <br />
-            Write an application for Character Certificate/ <br />
+            1. Write an application for Transfer Certificate <br />
+            2. Write an application for TC <br />
+            3. Write an application for Testimonial <br />
+            4. Write an application for Character Certificate/ <br />
           </p>
           <p className="font-bold">Answer:</p>
           April 2, 2022, <br />
@@ -140,15 +131,12 @@ function Application() {
           BM School/ BM College <br />
           Sub: Prayer for ....... (প্রশ্নে উল্লেখিত বিষয়টি) <br />
           Sir, <br />
-          I beg most respectfully to state that my father is a Govt service
-          holder. He has been transferred to Dhaka. That’s why I have to leave
-          the town with my family. So, I need a ...... from you.
+          I beg most respectfully to state that that I am a student of your college. My father is a Govt service holder. He has been transferred to Dhaka. So, I need (a) ...... from you.
           <br />
           I, therefore, pray and hope that you would be kind enough to grant me
           and oblige thereby. <br />
           Yours obediently <br />
-          Md Toha
-          <br />
+          Md Toha <br /> 
           Class: ___ Roll: ___
         </div>
 

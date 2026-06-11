@@ -14,19 +14,19 @@ const ThemeWriting = () => {
           <h3 className="text-green-500">
             Poem এর Summary/theme লেখার short technique:
           </h3>
-          <p className="text-base">
-            Theme: The central theme of the poem given in the question is the
-            importance of
-            <span className="text-pink-700 font-bold"> [ main word ]</span> .
+          <p className="text-base my-5">
+            <span className="font-bold">Theme/ summary: </span> The central theme of the poem given in the question is [about/the importance of] <span className="text-pink-700 font-bold"> [main word]</span>. 
             The poem suggests that
             <span className="font-bold px-3">
-              [ এখানে poem থেকে দুই/তিনটি বাক্য লিখুন ]
+              [এখানে poem থেকে দুই/তিনটি বাক্য লিখুন]
             </span>
             . In this way, the poem teaches us a lot of things and we should try
             to follow this ideal in our practical life.
           </p>
         </div>
         <div className="pt-10">
+          
+          <h2 className="pt-10">Board Question Based</h2>
           <div className="">
             কবিতার থিম বা বিষয়বস্তু লিখতে হলে প্রথমে কবিতাটি ভালোভাবে পড়তে হবে।
             সেক্ষেত্রে বাংলা অনুবাদ অপরিহার্য। কিন্তু এটাও সত্য যে. অনুবাদে মূল
@@ -34,7 +34,6 @@ const ThemeWriting = () => {
             দেয়া হয়েছে।
           </div>
 
-          <h2 className="pt-10">Board Question Based</h2>
           {/* 1 */}
           <div className="pt-10">
             <h3 className="">

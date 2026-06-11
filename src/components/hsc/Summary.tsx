@@ -7,7 +7,7 @@ const Summary = () => {
           Passage এর Summary/theme লেখার short technique:
         </h3>
         <p className="text-base">
-          Summary: The passage has discussed about the importance of
+          Summary/ theme: The passage has discussed about the importance of
           <span className="text-pink-700 font-bold px-4"> [ main word ]</span> .
           <span className="font-bold px-5">
             [ এখানে passage থেকে দুই/তিনটি বাক্য লিখুন ]
