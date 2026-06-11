@@ -282,11 +282,7 @@ function Report() {
           </div>
         </div>
       </div>
-      <div className="pb-10 md:w-[85%] mx-auto">
-        <img src="img/report1.jpg" alt="" />
-        <img src="img/report2.jpg" alt="" />
-        <img src="img/report3.jpg" alt="" />
-      </div>
+      
     </div>
   );
 }
