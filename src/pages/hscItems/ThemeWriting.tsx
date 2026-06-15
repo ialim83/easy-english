@@ -10,9 +10,9 @@ const ThemeWriting = () => {
         </div>
         {/* Poem এর Summary */}
         <div className="">
-          <h1 className="">Poems</h1>
+          <h1 className="">Poems:</h1>
           <h3 className="text-green-500">
-            Poem এর Summary/theme লেখার short technique:
+            Poem এর Summary/ theme লেখার short technique:
           </h3>
           <p className="text-base my-5">
             <span className="font-bold">Theme/ summary: </span> The central theme of the poem given in the question is [about/the importance of] <span className="text-pink-700 font-bold"> [main word]</span>. 
@@ -24,6 +24,24 @@ const ThemeWriting = () => {
             to follow this ideal in our practical life.
           </p>
         </div>
+
+        <div className="">
+        <h1 className="">Passage:</h1>
+        <h3 className="text-green-500">
+          Passage এর Summary/theme লেখার short technique:
+        </h3>
+        <p className="text-base">
+          Summary/ theme: The passage has discussed about the importance of
+          <span className="text-pink-700 font-bold px-4"> [ main word ]</span> .
+          <span className="font-bold px-5">
+            [ এখানে passage থেকে দুই/তিনটি বাক্য লিখুন ]
+          </span>
+          . Here, by reading the passage we learned a lot of things and we
+          should try to apply <span className="font-bold">[this/these]</span>
+          <span className="font-bold"> [ idea(s)/ideal(s) ] </span> in our
+          practical life.
+        </p>
+      </div>
         <div className="pt-10">
           
           <h2 className="pt-10">Board Question Based</h2>

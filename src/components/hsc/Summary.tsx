@@ -1,26 +1,42 @@
 const Summary = () => {
   return (
-    <div className="lg:w-1/2 px-5 mx-auto">
+    <div className="lg:w-1/2 px-3 mx-auto">
       <div className="">
         <h1 className="">Passage</h1>
         <h3 className="text-green-500">
           Passage এর Summary/theme লেখার short technique:
         </h3>
-        <p className="text-base">
+        <p className="text-base text-justify">
           Summary/ theme: The passage has discussed about the importance of
-          <span className="text-pink-700 font-bold px-4"> [ main word ]</span> .
-          <span className="font-bold px-5">
-            [ এখানে passage থেকে দুই/তিনটি বাক্য লিখুন ]
-          </span>
-          . Here, by reading the passage we learned a lot of things and we
+          <span className="text-pink-700 font-bold"> [main word]</span>.          <span className="font-bold ">
+            [এখানে passage থেকে দুই/তিনটি বাক্য লিখুন]
+          </span>. Here, by reading the passage we learned a lot of things and we
           should try to apply <span className="font-bold">[this/these]</span>
           <span className="font-bold"> [ idea(s)/ideal(s) ] </span> in our
           practical life.
         </p>
       </div>
-      <div className="pt-10">
+      {/* Poem এর Summary */}
+      <div className="pt-5 ">
+        <h1 className="">Poems:</h1>
+        <h3 className="text-green-500">
+          Poem এর Summary/ theme লেখার short technique:
+        </h3>
+        <p className="text-base text-justify my-5">
+          <span className="font-bold">Theme/ summary: </span> The central theme
+          of the poem given in the question is [about/the importance of]{" "}
+          <span className="text-pink-700 font-bold"> [main word]</span>. The
+          poem suggests that
+          <span className="font-bold px-3">
+            [এখানে poem থেকে দুই/তিনটি বাক্য লিখুন]
+          </span>
+          . In this way, the poem teaches us a lot of things and we should try
+          to follow this ideal in our practical life.
+        </p>
+      </div>
+      <div className="pt-10 text-justify">
         <h1>
-         Seen Poems - 2<br />
+          Seen Poems - 2<br />
         </h1>
         Writing Summary of the Poem
         <br />

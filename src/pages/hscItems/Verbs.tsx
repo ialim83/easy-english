@@ -121,7 +121,7 @@ function Verbs() {
 
           {/* page2 */}
           <div className="p-3 text-black lg:p-5 bg-[#FDFAF7] book-shadow">
-                        {/* 1 */}
+            {/* 1 */}
             <div className="text-base">
               <p>
                 <span className=" font-bold">Rule: 1.</span> <br /> Always,
@@ -230,7 +230,7 @@ function Verbs() {
 
           {/* page 6 */}
           <div className="p-3 text-base text-black md:p-20 bg-[#EFE5D6]  book-shadow">
-                        <div>
+            <div>
               <p className="">
                 <span className=" font-bold">Rule: 5. </span>
                 <br />
@@ -295,7 +295,6 @@ function Verbs() {
 
           {/* page 8 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            
             <p className="dark:text-green-400">
               cannot help, could not help, confess to ইত্যাদির পরে ব্রাকেটের
               Verb এর সাথে ing যুক্ত হয় । যেমন: <br />
@@ -326,7 +325,7 @@ function Verbs() {
 
           {/* page 9 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-                        {/* 9 */}
+            {/* 9 */}
             <p className="">
               <strong>Rule: 9. </strong> <br />
               Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
@@ -355,8 +354,6 @@ function Verbs() {
 
           {/* page 10 */}
           <div className="p-2 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            
-
             {/* 10 */}
             <p className="">
               <strong>Rule: 10. </strong> <br />
@@ -506,8 +503,6 @@ function Verbs() {
 
           {/* page 15 */}
           <div className="p-3 text-black md:p-12 bg-[#EFE5D6] book-shadow">
-            
-
             <div className="">
               <p className="">
                 Q. He (be) in Dhaka for two years. <br />
@@ -872,9 +867,7 @@ function Verbs() {
           <div className="relative w-11/12 md:w-10/12 h-[400px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
             <span className="text-white">Right Form of Verbs</span>
 
-            <div className="effect">
-              
-            </div>
+            <div className="effect"></div>
           </div>
         </div>
         <div className="">
@@ -882,16 +875,15 @@ function Verbs() {
           <h2 className="mt-5">Rules:</h2>
           <div className="">
             {/* page1 */}
-            <div className="p-3 text-black lg:p-5 bg-[#FDFAF7] book-shadow">
-                            <Link to={"/tense"}>
+            <div className=" text-black lg:p-5 bg-[#FDFAF7] book-shadow">
+              <Link to={"/tense"}>
                 <p className="py-5">
-                  <span className="text-blue-600 underline">Right form of verbs</span>
-                  এ এক্সপার্ট হতে চাইলে
                   <span className="text-blue-600 underline">
-                    Tense
+                    Right form of verbs
                   </span>
-                  ভালোভাবে চিনতে হবে সেজন্য Tense অধ্যায় পড়তে
-                  হবে, সেজন্য
+                  এ এক্সপার্ট হতে চাইলে
+                  <span className="text-blue-600 underline">Tense</span>
+                  ভালোভাবে চিনতে হবে সেজন্য Tense অধ্যায় পড়তে হবে, সেজন্য
                   <span className="text-blue-600 underline">
                     এখানে ক্লিক/টাচ
                   </span>
@@ -900,124 +892,134 @@ function Verbs() {
               </Link>
               {/* 1 */}
               <div className="space-y-1">
-              <p className="font-bold">Tense:</p>
-              <p className="font-bold">1. Present Indefinite Tense</p>
-              i. Subject + V<sub>1</sub> (s/es) + extension. <br />
-              ii. Subject + do not/ does not + V<sub>1</sub> + extension.
-              <p className="font-bold">2. Present Continuous Tense</p>= Subject
-              + am/is/are + V<sub>1</sub>-ing + extension.
-              <p className="font-bold">3. Present Perfect Tense</p>= Subject +
-              have/ has + V<sub>3</sub> + extension.
-              <p className="font-bold">4. Present Perfect Continuous Tense</p>=
-              Subject + have been/ has been + V<sub>1</sub>-ing + extension.
-              <p className="font-bold">5. Past Indefinite Tense</p>= i. Sub + V
-              <sub>2</sub> + extension. <br />= ii. Sub + did not + V
-              <sub>1</sub> + extension.
-              <p className="font-bold">6. Past Continuous Tense</p>= Sub +
-              was/were + V<sub>1</sub>-ing + extension.
-              <p className="font-bold">7. Past Perfect Tense</p>= Sub + had + V
-              <sub>3</sub> + extension.
-              <p className="font-bold">8. Past Perfect Continuous Tense</p>=
-              Subject + had been/ had been + V<sub>1</sub>-ing + extension.
-              <p className="font-bold">9. Future Indefinite Tense</p>= Subject +
-              shall/ will + V<sub>1</sub> + extension.
-              <p className="font-bold">10. Future Continuous Tense</p>= Subject
-              + shall be/ will be + V<sub>1</sub>-ing + extension.
-              <p className="font-bold">11. Future Perfect Tense</p>= Subject +
-              shall have/ will have + V<sub>1</sub> + extension.
-              <p className="font-bold">12. Future Perfect Continuous Tense</p>=
-              Subject + shall have been/ will have been + V<sub>1</sub> +
-              extension.
-            </div>
-              <div className="text-base mt-7 ">
-                <h1 className="mb-3">Rules</h1>
+                <p className="font-bold">Tense:</p>
+                <p className="font-bold">1. Present Indefinite Tense</p>
+                i. Subject + V<sub>1</sub> (s/es) + extension. <br />
+                ii. Subject + do not/ does not + V<sub>1</sub> + extension.
+                <p className="font-bold">2. Present Continuous Tense</p>=
+                Subject + am/is/are + V<sub>1</sub>-ing + extension.
+                <p className="font-bold">3. Present Perfect Tense</p>= Subject +
+                have/ has + V<sub>3</sub> + extension.
+                <p className="font-bold">4. Present Perfect Continuous Tense</p>
+                = Subject + have been/ has been + V<sub>1</sub>-ing + extension.
+                <p className="font-bold">5. Past Indefinite Tense</p>= i. Sub +
+                V<sub>2</sub> + extension. <br />= ii. Sub + did not + V
+                <sub>1</sub> + extension.
+                <p className="font-bold">6. Past Continuous Tense</p>= Sub +
+                was/were + V<sub>1</sub>-ing + extension.
+                <p className="font-bold">7. Past Perfect Tense</p>= Sub + had +
+                V<sub>3</sub> + extension.
+                <p className="font-bold">8. Past Perfect Continuous Tense</p>=
+                Subject + had been/ had been + V<sub>1</sub>-ing + extension.
+                <p className="font-bold">9. Future Indefinite Tense</p>= Subject
+                + shall/ will + V<sub>1</sub> + extension.
+                <p className="font-bold">10. Future Continuous Tense</p>=
+                Subject + shall be/ will be + V<sub>1</sub>-ing + extension.
+                <p className="font-bold">11. Future Perfect Tense</p>= Subject +
+                shall have/ will have + V<sub>1</sub> + extension.
+                <p className="font-bold">12. Future Perfect Continuous Tense</p>
+                = Subject + shall have been/ will have been + V<sub>1</sub> +
+                extension.
+              </div>
+              <div className="text-base mt-7 bg-[#EFE5D6] ">
+                <h1 className="mb-3">Rules:</h1>
                 <p>
-                <span className=" font-bold">Rule: 1.</span> 
-                  <br /> Always,
-                  regularly, daily, often, sometimes, usually, normally, generally,
-                  occasionally, everyday, everyyear ইত্যাদি বাক্যে থাকলে বা বাক্যটি চির
-                  সত্য হলে- বাক্যটি Present Indefinite Tense-এ হয়।
+                  <span className="font-bold text-pink-600">Rule: 1.</span>
+                  <br /> Always, regularly, daily, often, sometimes, usually,
+                  normally, generally, occasionally, everyday, everyyear ইত্যাদি
+                  বাক্যে থাকলে বা বাক্যটি চির সত্য হলে- বাক্যটি Present
+                  Indefinite Tense-এ হয়।
                 </p>
-                <p className="dark:text-green-400">
+                <p className="dark:text-green-400 text-blue-600 font-medium">
                   Q. I often (take) tea. <br />= I often <u>take</u> tea. <br />
-                  Q. He often (take) tea. <br />= He often <u>takes</u> tea.{" "}
-                  <br />
+                  Q. He often (take) tea. <br />= He often <u>
+                    takes
+                  </u> tea. <br />
                 </p>
                 <br />
-                  Structure-1: Sub + <span className="underline text-blue-500"> V<sub>1</sub> <Link to={"/tense"}> (s/es)</Link> </span>+ others. <br />
+                Structure-1: Sub +{" "}
+                <span className="underline text-blue-500">
+                  V<sub>1</sub> <Link to={"/tense"}> (s/es)</Link>{" "}
+                </span>
+                + others. <br />
                 Structure-2: Sub + do not/does not + V1 + extention.
-
                 {/* 2 */}
-                <p className="pt-1">
-                  <strong>Rule:-2. </strong> <br />
+                <p className="pt-4">
+                  <span className="font-bold text-pink-600">Rule:-2. </span>{" "}
+                  <br />
                   Now, at this moment, day by day থাকলে বাক্যটি Present
                   Continuous Tense এ হয়। যেমন:
                   <br />
-                  <span className="dark:text-green-400">
+                  <span className="dark:text-green-400 text-blue-600 font-medium">
                     Q. She is (write) an email now.
                     <br />= She is <u>writing</u> an email now.
                   </span>{" "}
                   <br />
-                  গঠন: Sub + am/ is/ are + V<sub>1</sub> - ing + obj +
-                  others.
+                  গঠন: Sub + am/ is/ are + V<sub>1</sub> - ing + obj + others.
                 </p>
-                
               </div>
-            </div>
 
-            {/* page 2 */}
-            <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              {/* 3 */}
-              <div className="">
-                <p>
-                  <strong>Rule: 3. </strong> <br />
-                  বাক্যর মধ্যে Already, recently, just, just now, lately, yet,
-                  ever, immediately, in the mean time থাকলে - বাক্যটি Present
-                  Perfect Tense এ হয়। যেমন: <br />
-                  Q. He not (choose) her career yet. <br />
-                  = He <u>has not chosen</u> her career yet.
-                </p>
-                Structure-2: Sub + have/ has + V3 + extention.
+              {/* page 2 */}
+              <div className=" text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+                {/* 3 */}
+                <div className="">
+                  <p>
+                    <span className="text-rose-500 font-bold">Rule: 3. </span>{" "}
+                    <br />
+                    বাক্যর মধ্যে Already, recently, just, just now, lately, yet,
+                    ever, immediately, in the mean time থাকলে - বাক্যটি Present
+                    Perfect Tense এ হয়। যেমন: <br />
+                    <span className="dark:text-green-400 text-blue-600 font-medium">
+                      Q. He not (choose) her career yet. <br />= He{" "}
+                      <u>has not chosen</u> her career yet.
+                    </span>
+                  </p>
+                  Structure-2: Sub + have/ has + V3 + extention.
+                </div>
+                {/* 4 */}
+                <div className="pt-4 text-base">
+                  <p>
+                    <span className="text-pink-500 font-bold">Rule: 4. </span>{" "}
+                    <br />
+                    বাক্যর মধ্যে Once, last, yesterday, ago, one day, in the
+                    past, long since
+                    <span className="bengali">
+                      ইত্যাদি অতীত নির্দেশক শব্দ থাকলে ব্রাকেটের Verb টি V2 হবে
+                      বা বাক্যটি Past Indefinite Tense হয়। যেমন:
+                    </span>
+                  </p>
+                  <span className="dark:text-green-400 text-blue-600 font-medium">
+                    Q. He (return) last night.
+                    <br />= He <u>returned</u> last night.
+                  </span>{" "}
+                  <br />
+                  Structure-1: Sub + V2 + extention. Structure-2: Sub + did not
+                  + V1 + others.
+                </div>
               </div>
-              {/* 4 */}
-              <div className="pt-1 text-base">
-                <p>
-                  <span className=" font-bold">Rule: 4. </span> <br />
-                  বাক্যর মধ্যে Once, last, yesterday, ago, one day, in the past,
-                  long since
-                  <span className="bengali">
-                    ইত্যাদি অতীত নির্দেশক শব্দ থাকলে ব্রাকেটের Verb টি V2 হবে বা
-                    বাক্যটি Past Indefinite Tense হয়। যেমন:
-                  </span>
-                </p>
-                <p className="dark:text-green-400">
-                  Q. He (return) last night.
-                  <br />= He <u>returned</u> last night.
-                </p>
-               Structure-1: Sub + V2 + extention.
-               Structure-2: Sub + did not + V1 + extention.
-                
-              </div>
-            </div>
 
-            {/* page 3 */}
-            <div className="p-3 text-base text-black bg-[#EFE5D6]  book-shadow">
-                <p className=""> 
+              {/* page 3 */}
+              <div className=" text-base text-black bg-[#EFE5D6]  book-shadow">
+                <p className="">
                   {/* 5 */}
-                <span className=" font-bold text-pink-600">Rule: 5. </span>
-                <br />
-                <strong> (a). </strong> Am, is, are, was, were, be, being, been,
-                (passive Voice এর ক্ষেত্রে ) এবং having get, got, gotten, be,
-                become ইত্যাদির পরে ব্রাকেটে Verb থাকলে ব্রাকেটের Verb এর V
-                <sub>3</sub> হয়। যেমন: <br />
-                Q. Rice is (sell) in the market. <br />
-                =Rice is <u>sold</u> in the market. <br />
-                Q. I went out having (close) the door.
-                <br />= I went out having closed the door. <br /> 
-               <span className="font-bold"> Passive-structure: </span>Sub + be verb + V3.
-              </p>
+                  <span className=" font-bold text-pink-600">Rule: 5. </span>
+                  <br />
+                  <strong> (a). </strong> Am, is, are, was, were, be, being,
+                  been, (passive Voice এর ক্ষেত্রে ) এবং having get, got,
+                  gotten, be, become ইত্যাদির পরে ব্রাকেটে Verb থাকলে ব্রাকেটের
+                  Verb এর V<sub>3</sub> হয়। যেমন: <br />
+                  Q. Rice is (sell) in the market. <br />
+                  =Rice is <u>sold</u> in the market. <br />
+                  <span className="dark:text-green-400 text-blue-600 font-medium">
+                    Q. I went out having (close) the door.
+                    <br />= I went out having closed the door.{" "}
+                  </span>{" "}
+                  <br />
+                  <span className="font-bold"> Passive-voice: </span>Sub + be
+                  verb + V3.
+                </p>
 
-              {/* <div>
+                {/* <div>
                 <p className="text-rose-500 mt-4 font-semibold">কিন্তু</p>
                 <p>
                   <strong> (c). </strong>
@@ -1029,181 +1031,188 @@ function Verbs() {
                   </span>
                 </p>
               </div> */}
-            </div>
+              </div>
 
-            {/* page 4 */}
-            <div className="p-3 text-base text-black lg:p-5 bg-[#EFE5D6]  book-shadow">
-
-              {/* 6 */}
-              <div className="">
+              {/* page 4 */}
+              <div className=" text-base text-black lg:p-5 bg-[#EFE5D6]  book-shadow">
+                {/* 6 */}
                 <p>
-                  <span className=" font-bold text-pink-600"> Rule: 6. </span> <br />
+                  <span className="font-bold text-pink-600"> Rule: 6. </span>{" "}
+                  <br />
                   Can, could, may, might, shall, should, will, would, must,
                   need, dare, had better, would rather, would better এর পরের
                   ব্রাকেটের Verb টি V<sub>1</sub> হয় । যেমন:
                 </p>
-                <p className="dark:text-green-400">
+                <span className="dark:text-green-400 text-blue-600 font-medium">
                   Q. Imran can (play) football.
                   <br />= Imran can <u>play</u> football.
-                </p>
-              </div>
-              {/* 7 */}
-              <div className="pt-3">
-                <p>
-                  <span className=" font-bold">Rule: 7.</span> <br />
+                </span>
+                {/* 7 */}
+                <p className="pt-3">
+                  <span className="text-rose-600 font-bold">Rule: 7.</span>{" "}
+                  <br />
                   <strong> (a). </strong>সাধারণত To এর পরের ব্রাকেটের Verb টি V
                   <sub>1</sub> হয়। যেমন:
                 </p>
-                <p className="dark:text-green-400">
+                <span className="dark:text-green-400 text-blue-600 font-medium">
                   Q. He wanted to (live) in Dhaka.
-                  <br />= He wanted to <u>live</u> in Dhaka. <br />
-                  <span className="text-rose-600 font-bold">কিন্তু:-</span>
-                </p>
+                  <br />= He wanted to <u>live</u> in Dhaka.
+                </span>{" "}
+                <br />
+                <p className="text-rose-600 font-bold mt-5">কিন্তু:-</p>
                 <p>
                   <strong> (b). </strong> Be used to, with a view to, look
                   forward to, get used to, addicted to, devoted to, with an eye
-                  to, be accustomed to, be opposed to, worth,
+                  to, be accustomed to, be opposed to, worth, cannot help, could
+                  not help, confess to ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing
+                  যুক্ত হয় । যেমন: <br />
+                  <span className="dark:text-green-400 text-blue-600 font-medium">
+                    Q. She is used to (read) Quran. <br />= She is used to
+                    <u>reading</u> Quran.
+                  </span>
+                </p>
+                <p className="font-bold pt-3 text-pink-500">কিন্তু:-</p>
+                <p>
+                  <strong> Rule-(c). </strong> <br />
+                  শুধু used to এর পরে verb এর V<sub>1</sub> হয়। যেমন:
+                </p>
+                <span className="dark:text-green-400 text-blue-600 font-medium">
+                  Q. He used to (drive) a car.
+                  <br />= He used to <u>drive</u> a car. <br />
+                </span>
+                <p className="text-rose-600 font-bold pt-3">কিন্তু-</p>
+                {/* 8 */}
+                <p>
+                  <span className=" font-bold text-pink-600">Rule: 8. </span>{" "}
+                  <br />
+                  (To ছাড়া) অনান্য সকল preposition (যেমনঃ in, into, on, over,
+                  up, upon, of, by, with, without, before, after, away) এর পরের
+                  ব্রাকেটের verb এর সাথে ing হয়। যেমন:
+                </p>
+                <span className="dark:text-green-400 text-blue-600 font-medium">
+                  Q. He is tired of (drive) car.
+                  <br />= He is tired of <u>driving</u> car.
+                </span>
+              </div>
+
+              {/* page 6 */}
+              <div className=" text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+                {/* 9 */}
+                <p className="">
+                  <span className=" font-bold text-pink-600">Rule: 9. </span>
+                  <br />
+                  Stop, finish, miss, risk, answer, continue, admit, deny,
+                  avoid, enjoy, fancy, imagine, delay, suggest, postpone,
+                  matter, mind, involve, practice ইত্যাদি Verb গুলোর পরে
+                  ব্রাকেটে Verb থাকলে সেই Verb এর সাথে ing হয়। যেমনঃ
+                </p>
+                <span className="dark:text-green-400 text-blue-600 font-medium">
+                  Q. You tried to finish (write).
+                  <br />= You tried to finish <u>writing</u>.
+                </span>{" "}
+                <br />
+                <p className="pt-3 to-pink-600">কিন্তু:-</p>
+                <p>
+                  (সাধারণত এই Verb গুলো ছাড়া )অন্য কোন Verb এর পরে ব্রাকেটে Verb
+                  থাকলে সেই Verb এর পুর্বে to বসে এবং ব্রাকেটের Verb টি V1 হয়।
+                  যেমনঃ <br />
+                  <span className="dark:text-green-400 text-blue-600 font-medium">
+                    Q. He tried hard (pass) the exam. <br />= He tried har{" "}
+                    <u>pass</u> the exam
+                  </span>
                 </p>
               </div>
-            </div>
 
-            {/* page 5 */}
-            <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              
-              <p className="dark:text-green-400">
-                cannot help, could not help, confess to ইত্যাদির পরে ব্রাকেটের
-                Verb এর সাথে ing যুক্ত হয় । যেমন: <br />
-                Q. She is used to (read) Quran.
-                <br />= She is used to <u>reading</u> Quran.
-              </p>
-              <p className="font-bold">কিন্তু:-</p>
-              <p>
-                <strong> Rule-(c). </strong> <br />
-                শুধু used to এর পরে verb এর V<sub>1</sub> হয়। যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. He used to (drive) a car.
-                <br />= He used to <u>drive</u> a car. <br />
-              </p>
-              <p className="text-rose-600 font-bold ">কিন্তু-</p>
-              {/* 8 */}
-              <p>
-                <span className=" font-bold text-pink-600">Rule: 8. </span>(To ছাড়া) অনান্য সকল preposition
-                (যেমনঃ in, into, on, over, up, upon, of, by, with, without,
-                before, after, away) এর পরের ব্রাকেটের verb এর সাথে ing হয়।
-                যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. He is tired of (drive) car.
-                <br />= He is tired of <u>driving</u> car.
-              </p>
-            </div>
-
-            {/* page 6 */}
-            <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-                            {/* 9 */}
-              <p className="">
-                <span className=" font-bold text-pink-600">Rule: 9. </span> <br />
-                Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
-                enjoy, fancy, imagine, delay, suggest, postpone, matter, mind,
-                involve, practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb এর সাথে
-                ing হয়।যেমনঃ
-              </p>
-
-              <p className="dark:text-green-400">
-                Q. You tried to finish (write).
-                <br />= You tried to finish <u>writing</u>.
-              </p>
-              <strong>কিন্তু:-</strong>
-              <p>
-                সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
-                V1 হয়। যেমনঃ <br />
-                <span className="dark:text-green-400">
-                  Q. He tried hard (pass) the exam.
+              {/* page 7 */}
+              <div className="text-black bg-[#EFE5D6] book-shadow">
+                {/* 10 */}
+                <p className="">
+                  <span className="font-bold text-pink-600">Rule: 10. </span>{" "}
+                  <br />
+                  <strong> (a). </strong> প্রথম বক্যে Fancy, wish, it is time,
+                  it is high time থাকলে পরের বাক্যের ব্রাকেটের verb এর V
+                  <sub>2</sub> হয়। যেমন:
+                </p>
+                <span className="text-blue-600 font-medium">
+                  Q. He wishes he (sing) a song.
+                  <br />= He wishes he <u>sang</u> a song.
                 </span>
-                <br />
-                <span className="dark:text-green-400">
-                  = He tried har <u>pass</u> the exam
-                </span>
-              </p>
-            </div>
+                <p>
+                  <strong> (b). </strong>কিন্তু <br />
+                  প্রথম বক্যে Fancy, wish, it is time, it is high time, as if,
+                  if, as though, থাকলে পরের বাক্যের ব্রাকেটে be এর স্থলে সাধারণত
+                  were হয়। যেমনঃ <br />
+                  <span className="dark:text-green-400 text-blue-600 font-medium">
+                    Q. He wishes he (be) a king. <br />
+                    =He wishes he <u>were</u> a king.
+                  </span>
+                </p>
+                <p className="mt-4">
+                  <span className="font-bold text-pink-600">Rule: 11. </span>{" "}
+                  <br />
+                  <strong> (a). </strong> প্রথম বক্যে Fancy, wish, it is time,
+                  it is high time থাকলে পরের বাক্যের ব্রাকেটের Verb এর V
+                  <sub>2</sub>
+                  হয়। যেমন: <br />
+                  <span className="text-blue-600 font-medium">
+                    Q. He wishes he (sing) a song.
+                    <br />= He wishes he <u>sang</u> a song.
+                  </span>
+                </p>
+              </div>
 
-            {/* page 7 */}
-            <div className="p-2 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              
-              {/* 10 */}
-              <p className="">
-                <strong>Rule: 10. </strong> <br />
-                <strong> (a). </strong> প্রথম বক্যে Fancy, wish, it is time, it
-                is high time থাকলে পরের বাক্যের ব্রাকেটের verb এর V <sub>2</sub>{" "}
-                হয়। যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. He wishes he (sing) a song.
-                <br />= He wishes he <u>sang</u> a song.
-              </p>
-              <p>
-                <strong> (b). </strong>কিন্তু প্রথম বক্যে Fancy, wish, it is
-                time, it is high time, as if, if, as though, থাকলে পরের বাক্যের
-                ব্রাকেটে be এর স্থলে সাধারণত were হয়। যেমনঃ <br />
-                Q. He wishes he (be) a king. <br />
-                =He wishes he <u>were</u> a king.
-              </p>
-              <p>
-                <strong>Rule: 11. </strong> <br />
-                <strong> (a). </strong> প্রথম বক্যে Fancy, wish, it is time, it
-                is high time থাকলে পরের বাক্যের ব্রাকেটের Verb এর V<sub>2</sub>
-                হয়। যেমন: <br />
-                Q. He wishes he (sing) a song.
-                <br />= He wishes he <u>sang</u> a song.
-              </p>
-            </div>
-
-            {/* page 8 */}
-            <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              <div className="">
+              {/* page 8 */}
+              <div className="text-black bg-[#EFE5D6] book-shadow">
                 কিন্তু
                 <p className="py-">
                   <strong> (b). </strong> প্রথম বক্যে Fancy, wish, it is time,
                   it is high time, as if, as though, if থাকলে পরের বাক্যের
                   ব্রাকেটে be এর স্থলে সাধারণত were হয়। <br />
                   যেমনঃ <br />
-                  Q. He wishes he (be) a king. <br />
-                  =He wishes he <u>were</u> a king.
+                  <span className="text-blue-600 font-medium">
+                    Q. He wishes he (be) a king. <br />= He wishes he
+                    <u>were</u> a king.
+                  </span>
                 </p>
                 {/* 12 */}
-                <p>
-                  <span className=" font-bold text-pink-600">Rule: 12. </span> <br />
+                <p className="py-4">
+                  <span className=" font-bold text-pink-600">Rule: 12. </span>{" "}
+                  <br />
                   As if, as though, এবং since দ্বারা দুটি বক্য যুক্ত হলে এদের
-                  প্রথমটি Present Tense পরেরটি Past Indefinite Tense
-                  হয়, এবং প্রথমটি Past Indefinite tense হলে পরেরটি Past Perfect
-                  Tense হয়। যেমন: <br />
-                  Q. Shohel talks as though he (become) a leader. <br />
-                  =Shohel talks as though he <u>became</u> a leader. <br />
-                  Q. Rohim talks as though he (be) a leader. <br />
-                  =Rohim talks as though he <u>had been</u> a leader.
+                  প্রথমটি Present Tense পরেরটি Past Indefinite Tense হয়, এবং
+                  প্রথমটি Past Indefinite tense হলে পরেরটি Past Perfect Tense
+                  হয়। যেমন: <br />
+                  <span className="text-blue-600 font-medium">
+                    Q. Shohel talks as though he (become) a leader. <br />
+                    =Shohel talks as though he <u>became</u> a leader. <br />
+                    Q. Rohim talks as though he (be) a leader. <br />
+                    =Rohim talks as though he <u>had been</u> a leader.
+                  </span>
                 </p>
               </div>
-            </div>
 
-            {/* page 9 */}
-            <div className="p-2 text-black md:p-14 bg-[#EFE5D6] book-shadow">
-              
-              <div className="">
-                <p>{/* 13 */}
-                  <span className=" font-bold text-pink-600">Rule: 13. </span> <br />
+              {/* page 9 */}
+              <div className="text-black  bg-[#EFE5D6] book-shadow">
+                <p>
+                  {/* 13 */}
+                  <span className=" font-bold text-pink-600">Rule: 13.</span>
+                  <br />
                   <strong> (a). </strong> If দ্বারা শুরু বাক্যটি Present
                   Indefinite tense হলে if ছাড়া বাক্যে Future Indefinite Tense
                   হয়।
                   <br />
-                  Q. If He comes, I (go) to his house. <br />
-                  =If He comes, I <u>will go</u> to his house. <br />
+                  <span className="text-blue-600 font-medium">
+                    Q. If He comes, I (go) to his house. <br />
+                    =If He comes, I <u>will go</u> to his house. <br />
+                  </span>
                   <strong>(b). </strong>If দ্বারা শুরু বাক্যটি Past Indefinite
                   tense হলে if ছাড়া বাক্যটি Subject + would/could /might + V
                   <sub>1</sub> হবে। যেমন:
                   <br />
-                  Q. If he came, I (go) there.
-                  <br />= If he came, I <u>would go</u> there.
+                  <span className="text-blue-600 font-medium">
+                    Q. If he came, I (go) there.
+                    <br />= If he came, I <u>would go</u> there.
+                  </span>
                 </p>
 
                 <p>
@@ -1211,154 +1220,177 @@ function Verbs() {
                   ছাড়া বাক্যটি Subject + would have/could have/might have + V
                   <sub>3</sub> হবে। যেমন:
                   <br />
-                  Q. If you had told me this, I (buy) a car. <br />= If you had
-                  told me this, I <u>would have bought</u> a car.
+                  <span className="text-blue-600 font-medium">
+                    Q. If you had told me this, I (buy) a car. <br />= If you
+                    had told me this, I <u>would have bought</u> a car.
+                  </span>
                 </p>
               </div>
-            </div>
 
-            {/* page 10 */}
-            <div className="p-3  text-black md:p-12 bg-[#EFE5D6] book-shadow">
+              {/* page 10 */}
+              <div className=" text-black bg-[#EFE5D6] book-shadow">
+                <p className="">
+                  <strong> (d) </strong>যদি Had + Subject + V<sub>3</sub> থাকে
+                  তাহলে had ছাড়া বাক্যেটি- Subj + would have/could have/might
+                  have + V<sub>3</sub> হবে/হয়। যেমন: <br />
+                  <span className="text-blue-600 font-medium">
+                    Q. Had Muni told me this, I (buy) a car. <br />
+                    =Had Muni told me this, I<u> would have bought</u> a car.
+                  </span>
+                </p>
 
-              <p className="">
-                <strong> (d) </strong>যদি Had + Subject + V<sub>3</sub> থাকে
-                তাহলে had ছাড়া বাক্যেটি- Subj + would have/could have/might have
-                + V<sub>3</sub> হবে/হয়। যেমন: <br />
-                Q. Had Muni told me this, I (buy) a car. <br />
-                =Had Muni told me this, I<u> would have bought</u> a car.
-              </p>
-              <div className="pb-">
                 {/* 14 */}
-                <p>
-                  <span className=" font-bold text-pink-600">Rule: 14. </span> <br />
-                 Subject + V + object + (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে
-                  ing যুক্ত হয়। যেমন: <br />
-                  Q. I saw him (play) card. <br />= I saw him playing card.
+                <p className="py-5">
+                  <span className="font-bold text-pink-600">Rule: 14. </span>
+                  <br />
+                  Subject + V + object + (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb
+                  এর সাথে ing যুক্ত হয়। যেমন: <br />
+                  <span className="text-blue-600 font-medium">
+                    Q. I saw him (play) card. <br />= I saw him playing card.
+                  </span>
                 </p>
 
                 {/* 15 */}
-                <p className="">
+                <p className="py-4">
                   <span className=" font-bold text-pink-600">Rule: 15. </span>
                   সাধারণত ব্রাকেটে verb দ্বারা বাক্য শুরু হলে সেই verb এর সাথে
                   ing যুক্ত হয়। যেমন: <br />
-                  Q. (Go) home, Ruhul will sleep. <br />
-                  =Going home, Ruhul will sleep.
+                  <span className="text-blue-600 font-medium">
+                    Q. (Go) home, Ruhul will sleep. <br />
+                    =Going home, Ruhul will sleep.
+                  </span>
                 </p>
               </div>
-            </div>
 
-            {/* page 11 */}
-            <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-              {/* 16 */}
-              <div className="">
+              {/* page 11 */}
+              <div className="text-black bg-[#EFE5D6] book-shadow">
+                {/* 16 */}
                 <p>
-                  <span className=" font-bold text-pink-600">Rule: 16. </span> <br />
+                  <span className=" font-bold text-pink-600">Rule: 16. </span>{" "}
+                  <br />
                   objective এবং possessive case এর পর Verb এর সাথে ing হয়। যেমন:
                   <br />
-                  Q. Zahid insisted on my (go) his home. <br />
-                  =Zahid insisted on my going his home.
+                  <span className="text-blue-600 font-medium">
+                    Q. Zahid insisted on my (go) his home. <br />
+                    =Zahid insisted on my going his home.
+                  </span>
                 </p>
                 {/* 17 */}
-                <p>
-                  <span className=" font-bold text-pink-600">Rule: 17. </span> <br />
+                <p className="py-4">
+                  <span className=" font-bold text-pink-600">Rule: 17. </span>{" "}
+                  <br />
                   Since/for এর পর সময় বা (period of time) থাকলে Present Perfect
                   Continuous tense হয়। যেমন: <br />
-                  Q. Ruhul (read) in our college for two years. <br />
-                  =Ruhul has been reading in our college for two years. <br />
+                  <span className="text-blue-600 font-medium">
+                    Q. Ruhul (read) in our college for two years. <br />
+                    =Ruhul has been reading in our college for two years. <br />
+                  </span>
                   <span className="text-rose-600 font-bold ">কিন্তু-</span>{" "}
                   <br />
                   Since/ for এর পরে সময় বা (period of time) থাকলে এবং ব্রাকেটে
-                  be থাকলে Present Perfect tense হয়। যেমন:
+                  be থাকলে Present Perfect tense হয়। যেমন: <br />
+                  <span className="text-blue-600 font-medium">
+                    Q. He (be) in Dhaka for two years. <br />
+                    =He has been in Dhaka for two years.
+                  </span>
                 </p>
               </div>
-            </div>
 
-            {/* page 12 */}
-            <div className="p-3 text-black md:p-12 bg-[#EFE5D6] book-shadow">
-              
+              {/* page 12 */}
+              <div className="text-black bg-[#EFE5D6] book-shadow">
+                <div className="">
+                  {/* 18 */}
+                  <p>
+                    <span className=" font-bold text-pink-600">Rule: 18. </span>
+                    Next, tomorrow, ইত্যাদি বাক্যে থাকলে Future Indefinite হয়।
+                    যেমনঃ <br />
+                    <span className="text-blue-600 font-medium">
+                      Q. He (return) home next day.
+                      <br /> = He Will return home next day.
+                    </span>
+                  </p>
+                </div>
+                {/* 19 */}
+                <div className="py-4">
+                  <p>
+                    <strong>
+                      <span className=" font-bold text-pink-600">
+                        Rule: 19.
+                      </span>
+                      <br />
+                    </strong>
+                    While এর পরে Subject + V থাকলে Past Continuous Tense হয়।
+                    যেমন:
+                    <br />
+                    <span className="text-blue-600 font-medium">
+                      Q. While (Walk) I saw him. <br />
+                      =While Walking, I saw him.
+                    </span>
+                    <br />
+                    <span className="text-pink-600 font-bold">
+                      কিন্তু-{" "}
+                    </span>{" "}
+                    <br />
+                    While + (V) থাকলে ব্রাকেটের Verb এর সঙ্গে ing যুক্ত হয়।
+                    <br />
+                    <span className="text-blue-600 font-medium">
+                      Q. While he (Walk), I saw him. <br />
+                      =While I Was walking, I saw him.
+                    </span>
+                  </p>
+                </div>
+              </div>
 
-              <div className="">
-                <p className="">
-                  Q. He (be) in Dhaka for two years. <br />
-                  =He has been in Dhaka for two years.
-                </p>
+              {/* page 13 */}
+              <div className="text-black bg-[#EFE5D6] book-shadow">
+                {/* 20 */}
+                <div className="">
+                  <p className="">
+                    <strong>Rule-20: </strong> <br />
+                    Subject এর পরে Not থাকলে Subject এবং tense অনুসারে
+                    সাহায্যকারী Verb এবং principal verb হয়। যেমন: <br />
+                    Q. He not always (drink) tea.
+                    <br />= He does not always drink tea.
+                  </p>
 
-                {/* 18 */}
-                <p>
-                  <span className=" font-bold text-pink-600">Rule: 18. </span>
-                  Next, tomorrow, ইত্যাদি বাক্যে থাকলে Future Indefinite হয়।
-                  যেমনঃ
-                </p>
-                <p className="dark:text-green-400">
-                  Q. He (return) home next day.
-                  <br />= He Will return home next day.
-                </p>
-              </div>
-              {/* 19 */}
-              <div className="">
-                <p>
-                  <strong>
-                    <span className=" font-bold text-pink-600">Rule: 19. </span> <br />
-                  </strong>
-                  While এর পরে Subject + V থাকলে Past Continuous Tense হয়। যেমন:
-                  <br />
-                  Q. While (Walk) I saw him. <br />
-                  =While Walking, I saw him.
-                  <br />
-                  <span className="text-pink-600 font-bold">কিন্তু- </span>
-                  While + (V) থাকলে ব্রাকেটের Verb এর সঙ্গে ing যুক্ত হয়। <br />
-                  Q. While he (Walk), I saw him. <br />
-                  =While I Was walking, I saw him.
-                </p>
-              </div>
-            </div>
+                  {/* 21 */}
 
-            {/* page 13 */}
-            <div className="p-3 text-black md:p-11 bg-[#EFE5D6] book-shadow">
-              {/* 20 */}
-              <div className="">
-                <p className="">
-                  <strong>Rule-20: </strong> <br />
-                  Subject এর পরে Not থাকলে Subject এবং tense অনুসারে সাহায্যকারী
-                  Verb এবং principal verb হয়। যেমন: <br />
-                  Q. He not always (drink) tea.
-                  <br />= He does not always drink tea.
-                </p>
-              </div>
-              {/* 21 */}
-              <div className="">
-                <p className="bengali">
-                  <strong>Rule-21: </strong> <br />
-                  Lest এর বাক্যাংশের subject এর পরে verb আগে should/ might বসে।
-                  যেমন:
-                </p>
-                <p className="dark:text-green-400">
-                  = He walked fast lest he (miss) the train. <br />
-                  =He walked fast lest he might miss the train.
-                </p>
-              </div>
-              {/* 22 */}
-              <p className="py-2 font-bold">Subject-verb Agreement</p>
-              
+                  <p className="py-4">
+                    <strong>Rule-21: </strong> <br />
+                    Lest এর বাক্যাংশের subject এর পরে Verb এর আগে should/ might
+                    বসে। যেমন:
+                  </p>
+                  <span className="text-blue-600 font-medium">
+                    = He walked fast lest he (miss) the train. <br />
+                    =He walked fast lest he might miss the train.
+                  </span>
+                </div>
+                {/* 22 */}
               </div>
             </div>
 
             {/* page 14 */}
-            <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+            <div className="text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+              <h2 className="font-bold text-green-500">
+                Subject-Verb Agreement
+              </h2>
+              {/* 22 */}
               <p className="">
-                 <strong>Rule-22: </strong> <br />
-                  ব্রাকেটে Be/to be এর স্থলে Tense অনুসারে am,
-                am, is, are, was, were, be, being, been এর যেকোন একটি হতে পারে।
-                যেমন: <br />
-                Q. The rich (to be) not always happy. <br />
-                =The poor are not always happy.
+                <strong>Rule-22: </strong> <br />
+                ব্রাকেটে Be/to be এর স্থলে Tense অনুসারে am, am, is, are, was,
+                were, be, being, been এর যেকোন একটি হতে পারে। যেমন: <br />
+                <span className="text-blue-600 font-medium">
+                  Q. The rich (to be) not always happy. <br />
+                  =The poor are not always happy.
+                </span>
               </p>
 
               {/* 23 */}
               <div className="py-2">
                 <p className="">
                   <strong>Rule-23: </strong> <br />
-                  দৈঘ বা পরিমাণ বাচক শব্দ Subject হলে সেটি Singular হয়। যেমন: <br />
+                  দৈঘ বা পরিমাণ বাচক শব্দ Subject হলে সেটি Singular হয়। যেমন:{" "}
+                  <br />
                   Q. Ten kgs (be) heavy weight. <br />
                   =Ten kgs is heavy weight.
                 </p>
@@ -1395,7 +1427,7 @@ function Verbs() {
                   <strong>Rule: 26. </strong> <br />
                   Before/after দ্বারা দুটি বাক্য যুক্ত হলে এদের একটি Past
                   Indefinite Tense হলে অন্যটি Past Perfect Tense হয়। একটি Past
-                   Perfect Tense হলে অন্যটি Past Indefinite Tense হয়। যেমন:{" "}
+                  Perfect Tense হলে অন্যটি Past Indefinite Tense হয়। যেমন:{" "}
                   <br />
                   Q. He came home after I (eat) rice. <br />
                   =He came home after I <u> had eaten</u> rice.
@@ -1426,9 +1458,7 @@ function Verbs() {
               </p>
               <p>13. Size do not matter (chop) wood.</p>
               <p>14. The baby (cry) because it is hungry now.</p>
-            
 
-        
               <p>15. What you (go) to drink now?</p>
               <p>16. Rina (return) home just now.</p>
               <p>17. The play just (begin).</p>
@@ -1458,10 +1488,7 @@ function Verbs() {
               <p>41. It was long sine I (see) her last.</p>
               <p>42. Eight years have passed since I (come).</p>
               <p>43. They (play) football since morning.</p>
-            
 
-            
-            
               <p>44. I not (choose) my career yet.</p>
               <p>45. I (see) her long since.</p>
               <p>46. Last night I (have) a wonderful dream.</p>
@@ -1476,9 +1503,7 @@ function Verbs() {
               <p>55. She sings as if she (to be) mad.</p>
               <p>56. He proceeded as though I not (speak).</p>
               <p>57. It reflects the matter as if he (know) it.</p>
-            
 
-            
               <p>58. I fancy I (turn) a trifle pale.</p>
               <p>59. The door was (open) by a Christian.</p>
               <p>60. Munir was greatly (hug) by Della.</p>
@@ -1497,9 +1522,7 @@ function Verbs() {
               <p>70. It (be) like him.</p>
               <p>71. His eyes (be) fixed upon Della.</p>
               <p>72. Jim’s income (be) shrunk to twenty dollars.</p>
-            
 
-           
               <p>
                 73. The headmaster and the secretary (be) present in the meeting
                 yesterday.
@@ -1517,7 +1540,7 @@ function Verbs() {
           <div className="">
             More about <br />
             Subject-verb Agreement <br />
-            মনে রাখবে agreement সানে হল "সামঞ্জস্য"। <br />
+            মনে রাখবে agreement মানে হল "সামঞ্জস্য"। <br />
             অর্থাৎ subject এর number এবং person অনুসারে verb-এর রূপ বা form
             নির্ধারিত হয়। <br />
             যেমন: <br />
@@ -1666,20 +1689,20 @@ function Verbs() {
             (জুরিগণ ভিন্ন মত পোষণ করলেন।) [অর্থাৎ এখন তাদের 'ঐক্য' ভেঙ্গে
             "খণ্ডিত" "অখন্ড" হয়ে গেছে।] <br />
           </div>
+        </div>
 
-          {/* DOwnload button */}
-          <div className="text-center py-4 sticky bottom-0 left-0 right-0">
-        <a
-          href="/RightFormOfVerbs.pdf"
-          download
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        >
-          Download PDF
-        </a>
-      </div>
-          
+        {/* DOwnload button */}
+        <div className="text-center py-4 sticky bottom-0 left-0 right-0">
+          <a
+            href="/RightFormOfVerbs.pdf"
+            download
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Download PDF
+          </a>
         </div>
       </div>
+    </div>
   );
 }
 
