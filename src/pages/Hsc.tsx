@@ -7,16 +7,13 @@ function Hsc() {
         w-full 
       "
     >
-      
-        <div className="hero bannerBg h-[360px]">
+      <div className="hero bannerBg h-[360px]">
         <div className="hero-overlay bg-opacity-60"></div>
 
         <div className="flex flex-col items-center justify-normal text-center text-neutral-content gap-4">
           <div className="">
             <h1 className="text-5xl lg:text-8xl">HSC</h1>
           </div>
-
-          
         </div>
       </div>
 
@@ -183,6 +180,26 @@ function Hsc() {
               </li>
             </Link>
 
+            <Link to={"/application"}>
+              <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
+                Application
+              </li>
+            </Link>
+            <Link to={"/email"}>
+              <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
+                Email
+              </li>
+            </Link>
+            {/* <Link to={"/email"}>
+              <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
+                Letter
+              </li>
+            </Link> */}
+            <Link to={"/report"}>
+              <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
+                Report
+              </li>
+            </Link>
             <Link to={"/paragraph"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
                 Paragraph
@@ -193,22 +210,6 @@ function Hsc() {
                 Composition
               </li>
             </Link>
-            <Link to={"/email"}>
-              <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
-                Email
-              </li>
-            </Link>
-            <Link to={"/email"}>
-              <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
-                Letter
-              </li>
-            </Link>
-            <Link to={"/application"}>
-              <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
-                Application
-              </li>
-            </Link>
-
             <Link to={"/modelTest2"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
                 Model Test
@@ -223,7 +224,7 @@ function Hsc() {
         <h1 className="text-center text-green-400 pb-5">Suggestions</h1>
         <Link to={"/HSuggestion"}>
           <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4  font-bold md:text-xl text-base category hover:dark:shadow-md">
-           An Exclusive Suggestion
+            An Exclusive Suggestion
           </li>
         </Link>
       </div>

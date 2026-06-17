@@ -253,8 +253,8 @@ function Phrase() {
               </li>
 
               <li>
-                it এর ক্ষেত্রে শূন্যস্থানের seem, appear, occur, happen ইত্যাদি
-                verb বসে ।
+                শূন্যস্থানের পরে seem, appear, occur, happen ইত্যাদি
+                থাকলে শূন্যস্থানে  it বসে।
               </li>
               <li>
                 বাক্যের মধ্যে কোন সময়ের উল্লেখ থাকলে শূন্যস্থানে it বসে (তবে
@@ -263,8 +263,8 @@ function Phrase() {
               </li>
 
               <li>
-                There এর ক্ষেত্রে বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon
-                a time/ long ago/ in modern time/ today থাকতে পারে।
+                বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon
+                a time/ long ago/ in modern time/ today থাকতে পারে There বসে।
               </li>
               <li>
                 There এর ক্ষেত্রে বাক্যের শেষে in/on/at থাকবে এবং স্থানবাচক শব্দ

@@ -11,7 +11,7 @@ function Report() {
     "Cyclone/Storm",
     "Flood",
     "Food adulteration",
-    "Face book",
+    // "Face book",
     "Bad Effect of mobile phone",
     "High prices of essential commodity",
     "Sufferings of the slum dweller",
@@ -167,7 +167,7 @@ function Report() {
                   </div>
 
                   {/* 3 */}
-                  <div className="">
+                  <div className="">/*
                     {/* Header */}
                     <header className="text-center mb-10">
                       <h1 className="text-4xl font-bold border-b-4 border-double border-gray-800 inline-block pb-1">
@@ -197,17 +197,17 @@ function Report() {
                           I went to{" "}
                           <span className="underline decoration-1">
                             the annual science
-                          </span>{" "}
+                          </span>
                           fair of metro college/bangle Academy which was
-                          arranged on 21<sup>st</sup> February/8 may on the
-                          college premises/ bangle Academy premises. On the
+                          arranged [on 21<sup>st</sup> February/8 may ]on the
+                          [college/ bangle Academy] premises. On the
                           occasion, the premises took a festive look.
                         </p>
                         <p>
                           The fair was inaugurated by the local MP at 10 am. He
                           visited different stalls and expressed his
                           satisfaction. A lot of stalls were set up in the fair.
-                          All types of things/ books/trees/science projects were
+                          All types of [things/ books/trees/science projects] were
                           displayed there. There were some tea stalls too.
                           People gathered in those stalls.
                         </p>
@@ -253,10 +253,9 @@ function Report() {
                       Staff correspondent, 7th July, Dhaka;
                     </span>
                     <br />
-                    <span className="inline-block border-b border-dotted border-gray-600 w-32 mx-1"></span>
-                    is very harmful and dangerous for our living being.
-                    <span className="inline-block border-b border-dotted border-gray-600 w-32 mx-1"></span>
-                    threaten our development in all sphere of life. Man creating
+                    <span className="inline-block border-b border-dotted border-gray-600 w-12 mx-1"></span>
+                    is very harmful and dangerous for our living being. _____
+                    threatens our development in all sphere of life. Man creating
                     reasons and natural reasons are responsible for it. It has
                     already taken away many valuable lives.
                   </p>
@@ -265,7 +264,7 @@ function Report() {
                     Our local sources said that about 100 people are dead and
                     many valuable things are affected. some people are also
                     marooned inside for
-                    <span className="inline-block border-b border-dotted border-gray-600 w-32 mx-1"></span>
+                    <span className="inline-block border-b border-dotted border-gray-600 w-12 mx-1"></span>
                     . In a word, their sufferings are beggar description.
                   </p>
 
@@ -273,7 +272,7 @@ function Report() {
                     The general people have extended their helping hand. The
                     Doctors cautioned that people should take extra-care of
                     their health. The government has already investigated the
-                    real fact and taken proper action to remove it/ sufferings
+                    real fact and taken proper action to remove [it/ sufferings]
                     of the people.
                   </p>
                 </div>

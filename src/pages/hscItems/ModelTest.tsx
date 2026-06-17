@@ -4,7 +4,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 
 // Set up the real worker
 pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;
-import "@react-pdf-viewer/core/lib/styles/index.css";
+// import "@react-pdf-viewer/core/lib/styles/index.css";
 
 import pdfWorker from "pdfjs-dist/build/pdf.worker.min?url"; // ✅ worker import for Vite/CRA
 
@@ -118,11 +118,11 @@ const ModelTest = () => {
               className="shadow-2xl rounded-lg"
             >
               {/* --- Cover Page --- */}
-              <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center">
-                <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center gap-10">
+              <div className="w-full h-full bg-[#EFE5D6] flex flex-col items-center justify-center text-center">
+                <div className="w-full h-full bg-[#EFE5D6] flex flex-col items-center justify-center gap-10">
                   <h1 className="text-9xl lg:text-[200px]">📖</h1>
-                  <h1 className="text-3xl font-bold">Second Paper Model book</h1>
-                  <p className="mt-2">Welcome! Swipe or click to begin.</p>
+                  <h1 className="text-3xl font-bold text-green-500">2nd Paper Model Question</h1>
+                  <p className="text-black font-medium">Welcome! Swipe or click to begin.</p>
                 </div>
               </div>
 
