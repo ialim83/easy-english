@@ -77,9 +77,7 @@ const Transformation = () => {
             }}
           >
             <h1 className="text-9xl"> 📖 </h1>
-            <h1 className="text-2xl font-bold text-green-500 mt-5">
-              Changing
-            </h1>
+            <h1 className="text-2xl font-bold text-green-500 mt-5">Changing</h1>
             <p className="m-5 text-pink-600">Swipe to read</p>
           </article>
           <article className="p-3 bg-[#EFE5D6] text-black">
@@ -435,7 +433,9 @@ const Transformation = () => {
       {/* Scroll view */}
       <div className="h-full w-full mx-auto px-2">
         <div className="my-20">
-          <h1 className="text-center text-green-500">Changing</h1>
+          <h1 className="text-center text-green-500">
+            Changing/ Transformation
+          </h1>
           <p className="text-center">
             Changing Sentence without changing meaning
           </p>
@@ -468,522 +468,51 @@ const Transformation = () => {
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
+                  
+                  <div className="">
+                    প্রস্নঃ Sentence কত প্রকার? <br />
+                    উত্তরঃ অর্থ অনুসারে sentence পাঁচ প্রকার, আর গঠন অনুসারে sentence
+                    তিন প্রকার। <br />
+                    <br />
+                    <h2 className="text-pink-700">
+                      অর্থ অনুসারে sentence কত প্রকার? <br />
+                    </h2>
+                    অর্থ অনুযায়ী ইংরেজিতে Sentence কে সাধারণত পাঁচ ভাগে ভাগ করা যায়।
+                    <br />
+                    They are: <br />
+                    1. Assertive Sentence (বিবৃতি মূলক বাক্য) . <br />
+                    Assertive বাক্য আবার দুই প্রকারঃ <br />
+                    (a) Affirmative Sentence বা হ্যাঁবোধক বাক্য <br />
+                    (b) Negative Sentence নাবোধক বাক্য <br />
+                    Example: <br />
+                    He is an intelligent boy. (Affirmative) <br />
+                    They are not always happy. (Negative) <br />
+                    2. Interrogative Sentence (প্রশ্নবোধক বাক্য). <br />
+                    3. Imperative Sentence (আদেশ সূচক বাক্য). <br />
+                    4. Optative Sentence (প্রার্থনা সূচক বাক্য). <br />
+                    5. Exclamatory Sentence (বিস্ময় সূচক বাক্য).
+                  </div>
                   <div className="py-5">
                     <Link to={"/sentence"}>
                       <p className="">
                         <span className="text-blue-600 underline">
-                          Sentence
+                          Sentence {" "}
                         </span>
                         পরিবর্তন এ এক্সপার্ট হতে চাইলে
                         <span className="text-blue-600 underline">
-                          Sentence
+                          {" "}Sentence{" "}
                         </span>
                         ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
                         সেজন্য
                         <span className="text-blue-600 underline">
-                          এখানে ক্লিক/টাচ
+                          {" "}এখানে ক্লিক/টাচ{" "}
                         </span>
                         করুন।
                       </p>
                     </Link>
                   </div>
-                  {/* Affirmative to Negative/ Negative to Affirmative */}
-                  <div className="w-full overflow-x-auto my-10">
-                    <h3 className="text-center md:text-start text-green-500">
-                      [A] Affirmative to Negative/ Negative to Affirmative
-                    </h3>
-                    <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
-                      <tr>
-                        <th>Affirmative (Aff.)</th>
-                        <th>Negative (Neg.)</th>
-                        <th>Example</th>
-                      </tr>
-                      <tr>
-                        <td>Only / Alone (ব্যক্তির ক্ষেত্রে)</td>
-                        <td>None but</td>
-                        <td>
-                          A: Only the brave deserve the fair.
-                          <br />
-                          N: None but the br/ave deserve the fair.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Only/Alone (বস্তুর ক্ষেত্রে)</td>
-                        <td>Nothing but</td>
-                        <td>
-                          A: Only the Moon was visible.
-                          <br />
-                          N: Nothing but the moon was visible.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Only/Alone (সংখ্যার ক্ষেত্রে)</td>
-                        <td>Not more than/Not less than</td>
-                        <td>
-                          A: He is only thirteen.
-                          <br />
-                          N: He is not more than thirteen.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Must/ have to/ has to</td>
-                        <td>Cannot but + V1</td>
-                        <td>
-                          A: Man must submit to destiny.
-                          <br />
-                          N: Man cannot but submit to destiny.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Must/ have to/ has to</td>
-                        <td>Cannot + (V1+ing)</td>
-                        <td>
-                          A: He must go there.
-                          <br />
-                          N: I can not help going there.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Could/should</td>
-                        <td>Could not help + (V1+ing)</td>
-                        <td>
-                          A: I had to go there.
-                          <br />
-                          N: I could not help going there.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Both.....and/ And</td>
-                        <td>Not only.....but also</td>
-                        <td>
-                          A: Both Jony and Jihad can do the work.
-                          <br />
-                          N: Not only Jony but also Jihad can do the work.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Every</td>
-                        <td>There is no......but</td>
-                        <td>
-                          A: There is no mother but loves her child.
-                          <br />
-                          N: There is no mother but loves her child.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Every/All/A-</td>
-                        <td>No/Nobody/No one...+ Opposite Verb</td>
-                        <td>
-                          A: All love flowers.
-                          <br />
-                          N: Nobody hates flowers.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Every/ All</td>
-                        <td>No......... + Opposite Adj.</td>
-                        <td>
-                          A: All men are mortal.
-                          <br />
-                          N: No man is immortal.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Every/ All</td>
-                        <td>Opposite Adj.</td>
-                        <td>
-                          A: All Bangladeshis are hospitable.
-                          <br />
-                          N: No Bangladeshis is inhospitable.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Always</td>
-                        <td>Never + Opposite word</td>
-                        <td>
-                          A: They always remember us.
-                          <br />
-                          N: They never forget us.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>চিরসত্য</td>
-                        <td>Not + Opposite Word</td>
-                        <td>
-                          A: Man is mortal.
-                          <br />
-                          N: Man is not immortal.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>As soon as</td>
-                        <td>No sooner had.... than</td>
-                        <td>
-                          A: As soon as the thief saw the police, he ran away.
-                          <br />
-                          N: No sooner had the police than he ran away.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Superlative</td>
-                        <td>Positive</td>
-                        <td>
-                          A: He is the best boy in the class.
-                          <br />
-                          N: He is the boy who is not active.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>too....to</td>
-                        <td>So....that</td>
-                        <td>
-                          A: He is too weak to walk.
-                          <br />
-                          N: He is so weak that he cannot walk.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>as + Adj-1 + as </td>
-                        <td>Not less + Adjective-1 + than</td>
-                        <td>
-                          A: Ice is as white as snow.
-                          <br />
-                          N: Ice is not less white than snow.
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Very much </td>
-                        <td>Neg + at all</td>
 
-                        <td>
-                          A: He likes me very much. <br />
-                          N: He doesn't dislike me at all.
-                        </td>
-                      </tr>
-                    </table>
-                    {/* antonyms */}
-                    <div className="">
-                      <h3 className="">কিছু বিপরীতার্থক শব্দের নমুনা:</h3>
-
-                      <div className="flex gap-10">
-                        <p className="">
-                          good- bad <br />
-                          friend - foe <br />
-                          moral - immoral <br />
-                          mortal - Immortal <br />
-                          regular - Irregular <br />
-                          active - Inactive <br />
-                          always - never <br />
-                          honour - dishonour. <br />
-                          present - absent <br />
-                          healthy - unhealthy <br />
-                          rich - poor <br />
-                          love - hate <br />
-                          wise - unwise <br />
-                          remember - forget <br />
-                          pleasant - unpleasant <br />
-                          grateful - ungrateful <br />
-                          dishonest - dishonest <br />
-                          agreed- disagreed <br />
-                        </p>
-                        <p className="">
-                          honesty - dishonesty <br />
-                          sincere - Insincere <br />
-                          doubtful - undoubtful <br />
-                          wise - unwise/foolish <br />
-                          pleased - displeased <br />
-                          happy - unhappy <br />
-                          possible - impossible <br />
-                          litetate - Biterate <br />
-                          hard - easy <br />
-                          punctual-late <br />
-                          ordinary-extraordinary <br />
-                          responsible- Irresponsible <br />
-                          willing - unwilling <br />
-                          obey - disobey <br />
-                          obedient - disobedient <br />
-                          solvent - insolvent <br />
-                          real - unreal <br />
-                          right - wrong <br />
-                        </p>
-                      </div>
-                    </div>
-                    <div className="pt-5">
-                      <p className="">
-                        Exercise <br />
-                        Transform the following sentences into Negative
-                        sentences : <br />
-                        (i) The baby alone was alive after the disaster. (ii)
-                        Only the sail of the ship was visible. (iii) Only
-                        mango-juice is sufficient for our health. (iv) She ate
-                        only two bananas. (v) Mr. Shafiq will always obey the
-                        rules and regulation of the institution. (vi) Man must
-                        submit to destiny. (vii) As soon as I reached home, she
-                        rang me. was too busy to gossip with us. (ix) I have
-                        read a few pages of the book. (viii) Bashir (x) He is as
-                        meritorious as his brother. (xi) You must help the poor
-                        man. (xii) Every patriot loves his country. (xiii)
-                        Everybody wants a good friend. (xiv) You are as clever
-                        as fox. (xv) He goes to school everyday.
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Assertive - Interrogative */}
-                  <div className="py-5">
-                    <div className="">
-                      <h3 className="text-green-500">
-                        Assertive থেকে Interrogative-এ রূপান্তর
-                      </h3>
-                      <div className="pt-5">
-                        Rule:-1. সাধারণ নিয়মঃ <br />
-                        (a) বাক্যের Auxiliary verb বাক্যের শুরুতে বসবে। <br />
-                        (b) বাক্যটি Affirmative হলে তা Negative হবে, আর Negative
-                        এ থাকলে তা Affirmative হবে। <br />
-                        (c) বাক্যের শেষে ? বসবে। <br />
-                        উদাহরণ: <br />
-                        i. Aff: Kamal was a good boy. <br />
-                        Inter: Wasn't Kamal a good boy? <br />
-                        ii . Aff: They are not playing. <br />
-                        Inter: Are they playing? <br />
-                        <br />
-                        2. বাক্যের মধ্যে Auxiliary verb না থাকলে, বাক্যের শুরুতে
-                        Don't/Doesn't/Didn't বসিয়ে Interrogative করা হয়।
-                        Auxiliary verb বলতে সাধারণত 'to be', 'to have', modal
-                        verb গুলোকে বোঝায়। আর Assertive sentence-টি Negative হলে
-                        প্রশ্নবোধক Sentence টিতে do/does/did হয়। <br />
-                        উদাহরণ: <br />
-                        Ass: Liza sings very well. <br />
-                        Inter: Doesn't Liza sing very well? <br />
-                        Ass: Liza sang very well. <br />
-                        Inter: Didn't Liza sing well? <br />
-                        <br />
-                        3. Everybody. Everyone, All থাকলে এদের পরিবর্তে আয়
-                        অনুসারে Who does not/did not বসিয়ে Interrogative করতে
-                        হয়। <br />
-                        উদাহরণ: <br />
-                        i. Ass: Everybody knows him.
-                        <br />
-                        Inter: Who does not know him?
-                        <br />
-                        ii. Ass All loved her.
-                        <br />
-                        Inter: Who did not love her?
-                        <br />
-                        <br />
-                        4. বাক্যে Nobody, None, No one থাকলে এদের পরিবর্তে 'Who'
-                        বসবে।
-                        <br />
-                        উদাহরণ:
-                        <br />
-                        Ass: Nobody believes a liar.
-                        <br />
-                        Inter: Who believes a liar?
-                        <p className="pt-5">
-                          Exercise <br />
-                          Transform the following sentences into Interrogative
-                          sentences : <br />
-                          (i) The girl likes hot tea. (ii) I prefer coffee to
-                          tea. (iii) My father is a man of words. (iv) He goes
-                          to bed late at night everyday. (v) The boy has a good
-                          command in English. (vi) Everybody is longing for
-                          prosperity. (vii) No accurately everytime. (viii)
-                          Courtesy is nothing but a manner. (ix) There is
-                          nothing wrong with them. one hits (x) Frienship is
-                          nothing but a name. (xi) Everybody wishes to get the
-                          1st prize. (xii) They would not drink polluted water.
-                          (xiii) There is nothing in my pocket. (xiv) Nobody
-                          could ever judge it. (xv) Life is nothing but a fight.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Assertive - Exclamatory */}
-                  <div className="">
-                    <div className="">
-                      <h3 className="text-green-500">
-                        Assertive থেকে Exclamatory -তে রূপান্তর-
-                      </h3>
-                      <div className="pt-3">
-                        Rule:-1. সাধারণ নিয়মঃ <br />
-                        (i) বাক্যের শুরুতে What/ How + <br />
-                        (ii) Verb এর পরের অংশ + <br />
-                        (iii) Subject + Verb + <br />
-                        (iv) ! (Exclamatory Sign) <br />
-                        <br />
-                        Ass:The picture is very nice.
-                        <br />
-                        Exc: How nice the picture is!
-                        <br />
-                        Note: <br />
-                        (i) যদি বাক্যের মধ্যে 'a'/an থাকে তবেই What a/an হবে। আর
-                        বাক্যের মধ্যে 'a/ an' না থাকলে 'How' হবে।
-                        <br />
-                        (ii) বাক্যের মধ্যে very/ great থাকলে উঠে যায়, <br />
-                        2. বাক্যে 'I wish' থাকলে 'I wish'-এর পরিবর্তে 'If' বসিয়ে
-                        Exclamatory করা যায়।
-                        <br />
-                        উদাহরণ:
-                        <br />
-                        Ass: I wish I were a bird.
-                        <br />
-                        Exc: If I were a bird!
-                        <br />
-                        Ass:I wish I could do it.
-                        <br />
-                        Exc: If I could do it!
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        3. <br />
-                        i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা
-                        খুশি প্রকাশ করে সেক্ষেত্রে Hurrah-এর পরিবর্তে it is a
-                        matter of joy + that + sentence-এর বাকি অংশ।
-                        <br />
-                        উদাহরণ:
-                        <br />
-                        Exc: Hurrah! We have done well.
-                        <br />
-                        Ass: It is a matter of joy that we have done well.
-                        <br />
-                        <br />
-                        ii. Alas বা দুঃখবোধক Exclamatory sentence-এর ক্ষেত্রে
-                        also-এর পরিবর্তে it is a matter of sorrow + that বসে +
-                        বাক্যের বাকি অংশ বসে।
-                        <br />
-                        উদাহরণ:
-                        <br />
-                        Exc: Alas! I am finished.
-                        <br />
-                        Ass: It is a matter of sorrow that I am finished.
-                        <p className="pt-5">
-                          Exercise <br />
-                          Transform the following sentences into Exclamatory
-                          sentences: <br />
-                          (i) She is very talkative. (ii) It was a very
-                          competitive race. (iii) The accident was very
-                          terrible. (iv) He leads a very unhappy life. (v) A
-                          little learning is a very dangerous thing. (vi) My
-                          hair grows very fast. (vii) I got a very rare
-                          opportunity to talk to her yesterday. (viii) Swapan is
-                          a very well-known figure of this area. (ix) It was a
-                          very lucky day for me. (x) It is a very attractive
-                          dress. (xi) it is a very long tree. (xii) We rejoice
-                          that our team has won the match. (xiii) I wish I were
-                          the king of England. (xiv) It is a matter of Shame
-                          that he does not take care of his parents. (xv) I wish
-                          I could be a child again.
-                        </p>
-                        <p className="">
-                          Exercise <br />
-                          Transform the following sentences into Assertive
-                          sentence : <br />
-                          (i) What a big river the Padma is! (ii) What a nice
-                          gift she has given on your birthday! (iii) What a fool
-                          your brother was! (iv) How amazing the incident is!
-                          (v) How fortunate the porter was! (vi) What a nice
-                          flower it is! (vii) How charming the surroundings of
-                          your house is! (viii) What a nice design it is! (ix)
-                          Alas! He has lost his father. (x) How nice the bird
-                          is! (xi) Would that I could be a bird! (xii) If I were
-                          a child again! (xiii) Had I been a millionaire!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Assertive থেকে Imperative */}
-                  <div className="py-5">
-                    <h3 className="text-green-500">
-                      Assertive থেকে Imperative (command/request/order/advice)
-                      -এ রূপান্তর
-                    </h3>
-                    <div className="pt-5">
-                      1. Assertive sentence-এর subject যদি second person (you)
-                      হয় তবে মূল verb দ্বারা বাক্যটি শুরু হবে। এক্ষেত্রে মূল
-                      verb-এর পূর্বের অংশ বাদ যাবে। তবে Assertive sentence টি
-                      'না-বোধক' হলে 'Do not + verb' দ্বারা বাক্যটি শুরু হবে।
-                      <br />
-                      উদাহরণ:
-                      <br />
-                      i. Ass: You should not run in the sun.
-                      <br />
-                      Imp: Do not run in the sun.
-                      <br />
-                      ii. Aff: Obey your parents.
-                      <br />
-                      2. Assertive sentence টিতে যদি 'request' কথাটি থাকে তবে
-                      Imperative করার সময় 'please/kindly + verb' দ্বারা বাক্যটি
-                      শুরু হবে।
-                      <br />
-                      উদাহরণ:
-                      <br />
-                      1. Ass: I request you to do it.
-                      <br />
-                      Imp: Please do it.
-                      <br />
-                      ii. Ass: You are requested to help him.
-                      <br />
-                      Imp: Please help him.
-                      <br />
-                      <br />
-                      3. Assertive sentence-এর subject যদি 1st person কিংবা 3rd
-                      person হয়, তবে Imperative বাক্যটি Let দ্বারা শুরু হবে।{" "}
-                      <br />
-                      Rule: Let + objective pronoun (me/ us/ him/her/ them) +
-                      Verb + Others. উদাহরণ:
-                      <br />
-                      Ass: I must go now.
-                      <br />
-                      Imp: Let me go now.
-                      <br />
-                      Ass: He should do the sum.
-                      <br />
-                      Imp: Let him do the sum.
-                      <br />
-                      <br />
-                      4. Never যুক্ত assertive sentence-কে imperative করার
-                      <br />
-                      নিয়মে: প্রদত্ত never + প্রদত্ত মূল verb-এর base form +
-                      verb-এর পরের অংশ।
-                      <br />
-                      উদাহরণ:
-                      <br />
-                      Ass: Never do this.
-                      <br />
-                      Imp: You should never do this.
-                      <br />
-                      <br />
-                      5. First person বা third person যুক্ত Assertive sentence-
-                      এ not থাকলে Imperative করার <br />
-                      নিয়ম: Let + প্রদত্ত subject এর objective from + প্রদত্ত
-                      verb থেকে শেষ পর্যন্ত।
-                      <br />
-                      উদাহরণ:
-                      <br />
-                      Ass: We do not hate the poor.
-                      <br />
-                      Imp: Let us not hate the poor.
-                      <br />
-                      Ass: Nilu does not run in the sun.
-                      <br />
-                      Imp: Let not Nilu run in the sun.
-                      <p className="pt-5">
-                        Exercise <br />
-                        Transform the following sentences into imperative
-                        sentences : <br />
-                        (i) You should obey the rules of the company. (ii) You
-                        do not waste your time. (iii) She sings a beautiful
-                        song. (iv) We should go out for a walk. (v) You should
-                        maintain good health. (vi) You should strike the iron
-                        while it is hot. (vii) You should not run in the sun.
-                        (viii) We should not hate the poor. (ix) He plays
-                        football. (x) You should not spit on the floor.
-                      </p>
-                    </div>
-                  </div>
+                  
                 </div>
               </AccordionContent>
             </AccordionPanel>
@@ -993,18 +522,27 @@ const Transformation = () => {
               <AccordionTitle>Affirmative - Negative</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="w-full overflow-x-auto my-10">
-                  <Link to={"/sentence"}>
-                    <p className="">
-                      <span className="text-blue-600 underline">Sentence</span>
-                      পরিবর্তন এ এক্সপার্ট হতে চাইলে
-                      <span className="text-blue-600 underline">Sentence</span>
-                      ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে, সেজন্য
-                      <span className="text-blue-600 underline">
-                        এখানে ক্লিক/টাচ
-                      </span>
-                      করুন।
-                    </p>
-                  </Link>
+                  
+                  <div className="py-5">
+                    <Link to={"/sentence"}>
+                      <p className="">
+                        <span className="text-blue-600 underline">
+                          Sentence {" "}
+                        </span>
+                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                        <span className="text-blue-600 underline">
+                          {" "}Sentence{" "}
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
+                        সেজন্য
+                        <span className="text-blue-600 underline">
+                          {" "}এখানে ক্লিক/টাচ{" "}
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
+                  </div>
+                  <br />
                   <h3 className="text-center md:text-start text-green-500">
                     [A] Affirmative to Negative/ Negative to Affirmative
                   </h3>
@@ -1052,14 +590,14 @@ const Transformation = () => {
                     </tr>
                     <tr>
                       <td>Must/ have to/ has to</td>
-                      <td>Cannot + (V1+ing)</td>
+                      <td>Cannot help + V1+<sub>ing</sub></td>
                       <td>
                         A: He must go there.
                         <br />
-                        N: I can not help going there.
+                        N: He can not help going there.
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td>Could/should</td>
                       <td>Could not help + (V1+ing)</td>
                       <td>
@@ -1067,7 +605,7 @@ const Transformation = () => {
                         <br />
                         N: I could not help going there.
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td>Both.....and/ And</td>
                       <td>Not only.....but also</td>
@@ -1177,12 +715,13 @@ const Transformation = () => {
                       </td>
                     </tr>
                   </table>
+                  <br />
                   {/* antonyms */}
                   <div className="">
                     <h3 className="">কিছু বিপরীতার্থক শব্দের নমুনা:</h3>
 
-                    <div className="flex gap-10">
-                      <p className="">
+                    <div className="flex gap-10 ">
+                      <p className="border-r-2 border-spacing-y-96">
                         good- bad <br />
                         friend - foe <br />
                         moral - immoral <br />
@@ -1225,8 +764,8 @@ const Transformation = () => {
                     </div>
                   </div>
                   <div className="pt-5">
+                       <h3>Exercise</h3> 
                     <p className="">
-                      Exercise <br />
                       Transform the following sentences into Negative sentences
                       : <br />
                       (i) The baby alone was alive after the disaster. (ii) Only
@@ -1234,9 +773,9 @@ const Transformation = () => {
                       is sufficient for our health. (iv) She ate only two
                       bananas. (v) Mr. Shafiq will always obey the rules and
                       regulation of the institution. (vi) Man must submit to
-                      destiny. (vii) As soon as I reached home, she rang me. was
+                      destiny. (vii) As soon as I reached home, she rang me. (viii) Bashir was
                       too busy to gossip with us. (ix) I have read a few pages
-                      of the book. (viii) Bashir (x) He is as meritorious as his
+                      of the book. (x) He is as meritorious as his
                       brother. (xi) You must help the poor man. (xii) Every
                       patriot loves his country. (xiii) Everybody wants a good
                       friend. (xiv) You are as clever as fox. (xv) He goes to
@@ -1318,12 +857,13 @@ const Transformation = () => {
                       (iii) My father is a man of words. (iv) He goes to bed
                       late at night everyday. (v) The boy has a good command in
                       English. (vi) Everybody is longing for prosperity. (vii)
-                      No one hits accurately everytime. (viii) Courtesy is nothing but a
-                      manner. (ix) There is nothing wrong with them. 
-                      (x) Frienship is nothing but a name. (xi) Everybody wishes
-                      to get the 1st prize. (xii) They would not drink polluted
-                      water. (xiii) There is nothing in my pocket. (xiv) Nobody
-                      could ever judge it. (xv) Life is nothing but a fight.
+                      No one hits accurately everytime. (viii) Courtesy is
+                      nothing but a manner. (ix) There is nothing wrong with
+                      them. (x) Frienship is nothing but a name. (xi) Everybody
+                      wishes to get the 1st prize. (xii) They would not drink
+                      polluted water. (xiii) There is nothing in my pocket.
+                      (xiv) Nobody could ever judge it. (xv) Life is nothing but
+                      a fight.
                     </p>
                   </div>
                 </div>
@@ -1520,13 +1060,10 @@ const Transformation = () => {
                     Ass: Never do this.
                     <br />
                     Imp: You should never do this.
-                    
-                    
                     <br />
                     <br />
                     <h3>Exercise </h3>
                     <p className="pt-5">
-                     
                       Transform the following sentences into imperative
                       sentences : <br />
                       (i) You should obey the rules of the company. (ii) You do
@@ -2025,10 +1562,12 @@ const Transformation = () => {
                     Complex to Compound & Compound to complex:
                   </h3>
                   <p className="">
-                    <strong>Rule:(1) <br /> </strong>
-                    Since/as/ when / as soon as/
-                    because দ্বারা শুরু / যুক্ত বাক্যের মাঝখানে And বসিয়ে Since
-                    /as/ when উঠিয়ে দিলে Compound হবে। <br />
+                    <strong>
+                      Rule:(1) <br />{" "}
+                    </strong>
+                    Since/as/ when / as soon as/ because দ্বারা শুরু / যুক্ত
+                    বাক্যের মাঝখানে And বসিয়ে Since /as/ when উঠিয়ে দিলে
+                    Compound হবে। <br />
                     যেমনঃ <br />
                     Q. When I was eight, I was there. <br />
                     = I was eight and I was there. <br />
@@ -2040,9 +1579,9 @@ const Transformation = () => {
                   </p>
                   <br />
                   <p className="">
-                    <strong>Rule:(2) </strong> <br /> 
-                    Though/ Although উঠিয়ে মাঝখানে
-                    but বসালে Compound হবে। <br />
+                    <strong>Rule:(2) </strong> <br />
+                    Though/ Although উঠিয়ে মাঝখানে but বসালে Compound হবে।{" "}
+                    <br />
                     যেমনঃ <br />
                     Q. Although he was sick, he was walking. <br />
                     = He was sick but he was walking. <br />
@@ -2056,9 +1595,11 @@ const Transformation = () => {
                   </p>
                   <br />
                   <p className="">
-                    <strong>Rule:(3) <br /> </strong> 
-                    If দ্বারা শুরু বাক্য হ্যাঁ-বোধক  হলে
-                    if + Subject উঠিয়ে মাঝখানে and বসাতে হবে। <br />
+                    <strong>
+                      Rule:(3) <br />{" "}
+                    </strong>
+                    If দ্বারা শুরু বাক্য হ্যাঁ-বোধক হলে if + Subject উঠিয়ে
+                    মাঝখানে and বসাতে হবে। <br />
                     যেমনঃ <br />
                     Q. If you work hard, you will pass. <br />
                     = Work hard and you will pass. <br />
@@ -2067,7 +1608,7 @@ const Transformation = () => {
                     উঠিয়ে মাঝখানে and বসালে Compound হবে। <br />
                     যেমনঃ <br />
                     Q. If you do not do, you will die. <br />
-                    = Do or you will die. 
+                    = Do or you will die.
                     <br />
                     <br />
                     <strong>অনুরুপভাবেঃ</strong> <br />
@@ -2117,20 +1658,21 @@ const Transformation = () => {
                     Exercise <br />
                     Transform the following sentences from complex to compound :
                     <br />
-                    (i) We went to the market so
-                    that we could buy the necessities. (ii) Though he was poor,
-                    he was honest. (iii) He admitted that he was responsible for
-                    breaking the handle. (iv) If we read books, we can enrich
-                    our mind. (v) When an earthquake occurs, people become
-                    panic-stricken. (vi) Since he was poor, he could not be able
-                    to buy a new shirt. (vii) Since the weather was very cold,
-                    we could not go out. (viii) When the thief ran away. (ix)
-                    Though there is a law to punish the terrorists, it is not
-                    properly applied. (x) If you do balanced diet you will lose
-                    your health. (xi) As there was a traffic jam on the road, I
-                    was late for school. (xii) Unless you read, you will not
-                    pass. (xiii) He was so weak that he could not speak. (xiv)
-                    Although they tried hard, they could not win the match. (xv) When he saw the police, he did not eat 
+                    (i) We went to the market so that we could buy the
+                    necessities. (ii) Though he was poor, he was honest. (iii)
+                    He admitted that he was responsible for breaking the handle.
+                    (iv) If we read books, we can enrich our mind. (v) When an
+                    earthquake occurs, people become panic-stricken. (vi) Since
+                    he was poor, he could not be able to buy a new shirt. (vii)
+                    Since the weather was very cold, we could not go out. (viii)
+                    When the thief ran away. (ix) Though there is a law to
+                    punish the terrorists, it is not properly applied. (x) If
+                    you do balanced diet you will lose your health. (xi) As
+                    there was a traffic jam on the road, I was late for school.
+                    (xii) Unless you read, you will not pass. (xiii) He was so
+                    weak that he could not speak. (xiv) Although they tried
+                    hard, they could not win the match. (xv) When he saw the
+                    police, he did not eat
                   </p>
                 </div>
               </AccordionContent>
@@ -2526,63 +2068,70 @@ const Transformation = () => {
                     </span>
                     করুন।
                   </p>
-                  </Link>
+                </Link>
 
-                  <p className="my-10">
-                    Degree <br />
-                    Shortcut technique: <br /> <br />
-                    Positive Degree: <br />
-                    Structure: <br /> 
-                    1. Subject + verb + so/as + Adjective-1 + as + others. <br />
-                    1. No other/ very few + Subject + verb + so/as + Adjective-1 + as + others. <br />
-                    <br /><br />
-                    Explanation: <br />
-                    i. Verb এর পরে as...as / so...as থাকবে।<br />
-                    ii. so...as/ as...as এর পরে Ajective-1 থাকবে। যেমনঃ  as good as <br />
-                    
-                    iii. No ohter/ Very few দ্বারা বাক্যটি শুরু হতে পারে।  <br />
-                    <br />
-                    যেমনঃ 
-                    <br />
-                    
-                    i. He is so clever as Rohim in the class. <br />
-                    i. No other boy is so clever as Rohim in the class. <br />
-                    <br /> 
-                    <br />
+                <p className="my-10">
+                  Degree <br />
+                  Shortcut technique: <br /> <br />
+                  Positive Degree: <br />
+                  Structure: <br />
+                  1. Subject + verb + so/as + Adjective-1 + as + others. <br />
+                  1. No other/ very few + Subject + verb + so/as + Adjective-1 +
+                  as + others. <br />
+                  <br />
+                  <br />
+                  Explanation: <br />
+                  i. Verb এর পরে as...as / so...as থাকবে।
+                  <br />
+                  ii. so...as/ as...as এর পরে Ajective-1 থাকবে। যেমনঃ as good as{" "}
+                  <br />
+                  iii. No ohter/ Very few দ্বারা বাক্যটি শুরু হতে পারে। <br />
+                  <br />
+                  যেমনঃ
+                  <br />
+                  i. He is so clever as Rohim in the class. <br />
+                  i. No other boy is so clever as Rohim in the class. <br />
+                  <br />
+                  <br />
+                  Comparative Degree: <br />
+                  Structure: <br />
+                  1. Subject + verb + Adj-2 + others. <br />
+                  2. Subject + verb + more + Adj-1 + others. <br />
+                  <br />
+                  Explanation: <br />
+                  i. Verb এর পরে Adjective-2 বা er যুক্ত শব্দ থাকবে <br />
+                  অথবা Adj-1 এর পূর্বে more থাকবে। <br />
+                  ii. Adjective এর পরে than/ than any other/ than most other/
+                  than all other থাকবে। <br />
+                  iii. of all থাকতে পারে।
+                  <br />
+                  <br />
+                  যেমনঃ <br />
+                  i. He is cleverer than any other boy in the class. <br />
+                  i. He is clever than most oher boys in the class. <br />
+                  iii. He is more intelligent than all other boys in the class.
+                  <br />
+                  <br />
+                  Superlative Degree: <br />
+                  Structure: <br />
+                  1. Subject + verb + the/one of the + Adjective-3+ others.{" "}
+                  <br />
+                  2. Subject + verb + the/one of the + most + Adj-1+ others.{" "}
+                  <br />
+                  <br />
+                  Explanation: <br />
+                  i. Verb এর পরে the/ one of the থাকবে। <br />
+                  ii. the এর পরে est যুক্ত শব্দ থাকবে বা Adjective-3 থাকবে{" "}
+                  <br />
+                  অথবা adjective-1 এর পূর্বে most থাকবে।
+                  <br />
+                  <br />
+                  যেমনঃ <br />
+                  i. He is one of the cleverest boys in the class. <br />
+                  i. He is the cleverest boy in the class. <br />
+                  iii. He is the most intelligent boy in the class. <br />
+                </p>
 
-                    Comparative Degree: <br />
-                    Structure: <br />  
-                    1. Subject + verb + Adj-2 + others. <br />
-                    2. Subject + verb + more + Adj-1 + others.  <br /><br /> 
-                    Explanation: <br />
-                    i. Verb এর পরে Adjective-2 বা er যুক্ত শব্দ থাকবে <br /> 
-                    অথবা Adj-1 এর পূর্বে more থাকবে। <br />
-                    ii. Adjective এর পরে  than/ than any other/ than most other/ than all other থাকবে। <br />
-                    iii. of all থাকতে পারে।
-                    <br />
-                    <br />
-                    যেমনঃ <br />
-                    i. He is cleverer than any other boy in the class. <br />
-                    i. He is clever than most oher boys in the class. <br />
-                    iii. He is more intelligent than all other boys in the class. 
-                    <br /> 
-                    <br /> 
-                    Superlative Degree: <br />
-                    Structure: <br /> 
-                    1. Subject + verb + the/one of the + Adjective-3+ others. <br />
-                    2. Subject + verb + the/one of the + most + Adj-1+ others.  <br /><br />
-                    Explanation: <br />
-                    i. Verb এর পরে the/ one of the থাকবে।  <br />
-                    ii. the এর পরে est যুক্ত শব্দ থাকবে বা Adjective-3 থাকবে <br /> 
-                    অথবা adjective-1 এর পূর্বে most থাকবে। 
-                    <br />
-                    <br />
-                    যেমনঃ <br />
-                    i. He is one of the cleverest boys in the class. <br />
-                    i. He is the cleverest boy in the class. <br />
-                    iii. He is the most intelligent boy in the class. <br />
-                  </p>
-                
                 <div className="text-black bg-gray-100 my-5">
                   {/* Superlative to Positive Comparative to positive */}
                   <div className="p-1">
@@ -3805,15 +3354,290 @@ const Transformation = () => {
                 </div>
               </AccordionContent>
             </AccordionPanel>
-                      
+
             <AccordionPanel>
-              <AccordionTitle><span className="text-rose-800">Voice: </span> Active-Passive </AccordionTitle>
+              <AccordionTitle>
+                <span className="text-rose-800">Voice: </span>{" "}
+                Active-Passive{" "}
+              </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
-                  <Voice/>
+                  <Voice />
                 </div>
               </AccordionContent>
-            </AccordionPanel>          
+            </AccordionPanel>
+            <AccordionPanel>
+              <AccordionTitle>Steps</AccordionTitle>
+              <AccordionContent className="p-2 md:p-5">
+                {/* Excersise */}
+                <div className="h-full md:w-[55%] mx-auto px-3 text-black">
+                  <div className="my-10 bg-gray-100 p-4 md:p-6">
+                    <h1 className="text-green-500">Exercise</h1>
+                    <h3 className="">
+                      Transform the Sentences into Simple or Compound:
+                    </h3>
+                    <div className="text-black">
+                      1.Samira is sitting under a mango tree which is big. 2.
+                      She has a cousin whose name is Karim. 3. She is reading a
+                      book which is blue. 4. He is looking at some flowers which
+                      are beautiful. 5. Samira has a pen friend who is an
+                      Australian. 6. Lucy has sent Samira a picture which is
+                      full of tall buildings. 7. The cuckoo sings when it is the
+                      spring season. 8. It rains when it is the rainy season. 9.
+                      We went to the fair when it was evening. 10. He went to
+                      the library so that he could read. 11. She works hard so
+                      that she can prosper in life, 12. He waited till our
+                      arrival. 13. I helped a man who was blind. 14 They are
+                      fighters who are very brave. 15. I bought a pen which was
+                      costly. good health. 17. People build houses so that they
+                      may remain safe. 18. He sells milk which is pure 19. He
+                      found a bag which was dropped by a passer-by. 21. a man
+                      who is needy suffers from many wants. 22. He is a man who
+                      possesses good health. 23. I know where he was born New
+                      what his father's name was. 25. The girl shone in life
+                      because her indust. 26. All love honesty. 27. The man
+                      suffered in life because he had idleness. 28. since he
+                      worked tha 3. he became rich. 29. He bought a pen which
+                      was costly. 30. I want a pen which is white. 31. I saw a
+                      man who was lame. 32. We saw a man who was sleeping on the
+                      street. 33. The man who is pious leads a peaceful life.
+                      34. The man who is patriotic loves his country. 35. The
+                      man who is honest is free from greed. 36. Though he is
+                      brilliant, he cannot make good results. 37. Although he
+                      started late, he finished earlier. 38. The cock crows when
+                      it is. morning. 39. When he was four, he left home. 40.
+                      you do not speak English if we speak English well. 41. If
+                      we do not drink clean water, we can not keep fit. 42. If
+                      we eat a balanced diet, we can be healthy.
+                    </div>
+                    <br />
+                    <h3 className="">
+                      Transform the following Compound Sentences into Simple/
+                      Complex.
+                    </h3>
+                    <p className="">
+                      1. She has a cousin and his name is Karim. 3. She is
+                      reading a book and it is blue. 3. He is looking at some
+                      flowers and they are beautiful. 4 Santira has a pen friend
+                      and she is an Australian. 5. He took the purse and ran
+                      away. 6. The sea water was very salty and they could not
+                      drink it. 7. Work hard and you will prosper. 8. The
+                      culprit ran away and escaped himself. 9. He is healthy but
+                      he doesn't work at all. 10. He had all the qualifications
+                      but he did not get a job. 11. He behaved rough but he was
+                      not punished. 12. The farmers worked day and night but
+                      they could not grow a good harvest. 13. Walk fast or you
+                      can not get the train. 14. I called him but he did not
+                      respond. 15. I forgot him and went outside the room. 16.
+                      It is Nie spring season and then the cuckoo sings. 17. We
+                      went to the fair and then it was evening 18 He went to
+                      read in the library and so he went there. 19. She wants to
+                      prosper in fe and so the works hard. 20. He worked hard
+                      and so he became rich. 21. The girl studied more and so
+                      she stood first. 22. A man was sleeping on the street and
+                      we saw that. 23 He is brilliant but he cannot make good
+                      results. 24. He started late but he finished earlier. /25
+                      4/19 morning and then cock crows. 26. He was four and then
+                      he left home. 27. Speak English or you can not speak
+                      English well. 28. We should drink clean water or we can
+                      not keep fit.
+                    </p>
+                    <br />
+                    <h3 className="">
+                      Turn the sentences into Superlative/Positive:
+                    </h3>
+                    <p className="">
+                      1. Beef was cheaper than any other dish on the menu. 2.
+                      Iron is more useful than any other metal. 3. He is nobler
+                      than any other person. 4. She was better than any other
+                      housewife. 5. "Hamlet" is more popular than most other
+                      dramas. 6. Akbar was greater than all other kings of
+                      India. 7. Mr. Zaman is wiser than any other man in the
+                      village. 8. Chittagong is bigger than any other sea part
+                      in Bangladesh. 9. It burns prettier than any other wood.
+                      10. He is better than any other boy I have ever found. 11.
+                      "Arabian Nights" is better than most other story books.
+                      12. He was cleverer than any other person in the company.
+                      13. Rubel ! younger than all other boys in the class. 14.
+                      She is worse than any other girl.
+                    </p>
+                    <br />
+                    <h3 className="">Turn the sentences into positive:</h3>
+                    <p className="">
+                      1. A lion is not braver than he. 2. He was not less wise
+                      than they. 3. You are older than I. 4 Prevention is better
+                      than cure. 5. A train runs faster than a bus. 6. Her teeth
+                      were brighter than a string of pearls. 7. She is less ugly
+                      than you said. 8. Imran Khan is greater than mos other
+                      cricketers. 9. He is not less intelligent than any other
+                      boy. 10. Her face was not les radiant than the full moon.
+                      11. He was cleverer than any other person in the company.
+                      Iron is more useful than any other metal. 13. Tomatoes are
+                      cheaper than oranges. I Bhutan is smaller than most other
+                      countries in the world.
+                    </p>
+                    <br />
+                    <h3 className="">
+                      Turn the Sentences into comparative/Superlative:
+                    </h3>
+                    <p className="">
+                      1. No other food on the menu was so cheap as beef. 2. Very
+                      few metals are so precious as gold. 3. A bird can not fly
+                      as fast as a train. 4. Very few hotels are as fashionable
+                      as Sheraton. 5. Cure is not so good as prevention. 6. Very
+                      few boys are as good as Hasan. 7. No other story book is
+                      so popular as the Arabian Nights. 8. No other wood burns
+                      so pretty as the apple log. 9. No other city in Bangladesh
+                      is so big as phaka. 10. No other man in the village was so
+                      old as he. 11. You are not as tall as he. 12. No other
+                      girl in the class is so beautiful as she. 13. They were
+                      not as strong as we. 14. Very few bays in the class are so
+                      clever as you.
+                    </p>
+                    <br />
+                    <h3 className="">
+                      {" "}
+                      Turn the sentences into Comparative/Positive:
+                    </h3>
+                    <p className="">
+                      {" "}
+                      1. She was the best house wife. 2. He is the best boy 3
+                      tron is the most useful of all metals. 4. It burns the
+                      prettiest of any wood. 5. He is the noblest person. 6.
+                      Dhaka is the largest city in Bangladesh. 7. This is one of
+                      the greatest pictures of the world.8. Chittagong is the
+                      biggest port in Bangladesh. 9. He is one of the wisest men
+                      in the village. 10. Milk is the most nutritious of all
+                      foods. 11. Bangladesh is one of the smallest countries in
+                      the world. 12. Swimming is the best exercise. 13. Everest
+                      is the highest of all peaks in the world. 14. This is one
+                      of the most beautiful pictures in the exhibition, 15. He
+                      was the most humorous of all men in the company. 16. Akbar
+                      was one of the greatest kings of this sub- continent. 17.
+                      Australia is the largest of all islands in the world.
+                    </p>
+                    <br />
+                    <h3 className="">
+                      Transform the sentences into superlative/ Comperative
+                    </h3>
+                    <p className="">
+                      1. No other boy in the orphanage is so good as Jamal. 2.
+                      No other girl in the class is so fair as Ruma. 3. Very few
+                      restaurants are as expensive as Sonargaon. 4. No other
+                      city in Bangladesh is so big as Dhaka. 5. Very few
+                      pictures in the world are as great as this. 6. Very few
+                      metals are so precious as gold 7. Very low animals are as
+                      ferocious as a lion. 8. No other mosque is so large as
+                      this. 9. No other dramatists so great as Shakespeare. 10.
+                      No other woman was as clever as the lady guest. N. No
+                      other animal is so useful as the cow. 12. No other food is
+                      so nutritious as milk. 13. Very few players in the team
+                      are as good as he.
+                    </p>
+                    <br />
+                    <h3 className="">
+                      Transform the following sentences into Interrogative
+                    </h3>
+                    <p className="">
+                      1. Sonargaon is a restaurant. 2. He liked the late spring.
+                      6. She likes white gloves. 4. Prevention is better than
+                      cure. 5. Addiction to drinking is dangerous. 6. I have had
+                      my revenge at last. 7. They could not drink salty sea
+                      water. 8. They took a mighty pride in their possessions.
+                      9. The smell of the melted butter tickled my Hasirlis 10.
+                      The flavour of the food becomes monotonous. 11. I shall
+                      never forget your advice. 12. I never went there. 13.
+                      Their glory can never fade. 14. He is not a 16. He was not
+                      a fool. 17. He is a great fool. 15 Hes not present in the
+                      meeting. great scholar. 18. He went there of the own
+                      accord. 19. 1 have nothing to say. 20. There was nothing
+                      to do bat flop down 21 There is nothing wrong with me. 22.
+                      Everybody hankers after happiness. 23. Everybody loves a
+                      patriot. 24. Everybody fears death. 25. Everyone hates a
+                      criminal. 26. Nobody trusts a llar. 27. No one can depend
+                      on an unreliable man. 28. No one hits accurately everyone.
+                      29. Nobody could ever count my love for you. 30. None has
+                      ever seen suchra ne sight
+                    </p>
+                    <br />
+                    <h3 className="">
+                      TRANSFORM THE FOLLOWING SENTENCES INTO AFFIRMATIVE:
+                    </h3>
+                    <p className="">
+                      1. None but Allah can help us. 2. None but the fool will
+                      say so 3. Never tell a lie. 4. He was never late. 5. You
+                      can not help going there. 6. He was not a dishonest boy.
+                      7. I did not find many people there. 8. No sooner had I
+                      reached the college than the bell rang. 9. There is no
+                      mother but loves her child. 10. No one will any his
+                      courage. 11. The boy was not unlike his father 12 All can
+                      not but submit to destiny. foreign tour. 14. 1 shall never
+                      be ungrateful to you There is nobody but likes to go on a
+                      He 19 not dishonoured by anybody: 16. No sooner had he
+                      come than the meeting started. 17. We did not find the
+                      road bad. 18. A good boy never neglects his lesson. 19.
+                      There rase without disagreed with him. 21. 1 can not but
+                      shed tears at the sight. a thorn. 20. I never 22. This did
+                      not please me. 23. The old man was not kind. 24. He was
+                      not solvent 25. There is no cloud without a silver lining.
+                    </p>
+                    <br />
+                    <h3 className="">
+                      Transform the following sentences into assertive:
+                    </h3>
+
+                    <p className="">
+                      1. How sweetly the cuckoo sings! 2. What a nice flower the
+                      rose is! 3. What a big river the Padma is! 4. What a fool
+                      you are l 5. How talkative she was! 6. How pretty the girl
+                      is! 7. What a fine flower it is! 8. How exciting the first
+                      day in Cox's Bazar ts! 9. What a lovely place it is! 10.
+                      How beautiful the youngest sister wast 11. What a
+                      beautiful bird it is! 12. How fortunate the porter was !
+                      13. How time does fly! 14. How deep her love for her
+                      husband was! 15. What wonderful scenery it ist I could be
+                      a child again! 17. Had I been a merchant! 18. If I were a
+                      millionaire 1 If I were a philosopher like Socrates. 20.
+                      "Had I possessed a lot of wealth! 21. flow charining is
+                      the first meal in a strange town! 22. How charming still
+                      is Italy! 23, Nurrall we have won the match. 24. Hurrah,
+                      we are victorious. 25. Alas! I am undone. 26. Would that
+                      we could enter the house?
+                    </p>
+
+                    <br />
+                    <h3 className="">
+                      Transform the following sentences into negative:
+                    </h3>
+
+                    <p className="">
+                      {" "}
+                      1. The old man was alone alive. 2. Only the graduates
+                      should apply. 3. Only the brave deserve the fair. Only the
+                      moon was visible. 5. He lives alone in the house. Man must
+                      submit to destiny. 7. You must obey your teachers. 8. All
+                      men must dic. 9. As soon as the teacher entered the
+                      classroom, the students stood up. 10. As soon as he saw
+                      me, he ran away.. Every rose has thorns, 12. Every map
+                      hates a liar. 13. Everybody believes in his honesty. 14.
+                      Every mother loves her child. 4. Everyone loves a truthful
+                      boy. 16. I shall always remember youThe man was old. 18
+                      The man is poor. 19 Man is mortal. 20. missed the tram. 2.
+                      I was doubtful of his honesty. 23. I forgot his name. 24.
+                      He is present in the meeting. 25. Travelling is always
+                      pleasant. 26. The men were pleased to see. 27. They were
+                      right to think so. 28. The boy speaks English. 29. He is
+                      my friend. 30. Dhaka is an old city. 31. We should always
+                      tell the truth. 32. He is the best boy in the class. 33.
+                      The man is as ferocious as a lion. 34. He was too honest
+                      to take the money. 35. He is as dull as an ass. 36. She
+                      was too poor to buy a gift for her husband.
+                    </p>
+                    <br />
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionPanel>
             {/* <AccordionPanel>
             <AccordionTitle>Steps</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">

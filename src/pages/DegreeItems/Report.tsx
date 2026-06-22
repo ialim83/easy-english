@@ -11,7 +11,7 @@ function Report() {
     "Cyclone/Storm",
     "Flood",
     "Food adulteration",
-    // "Face book",
+    "Face book",
     "Bad Effect of mobile phone",
     "High prices of essential commodity",
     "Sufferings of the slum dweller",
