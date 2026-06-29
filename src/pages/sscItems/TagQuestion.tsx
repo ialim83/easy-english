@@ -9,47 +9,48 @@ const TagQuestion = () => {
           <h3 className="">Tag Question কি?</h3>
           <p className="">
             কথোপকথনের সময় বাক্যের শেষে যে একটি সমর্থন সূচক প্রশ্ন সংযোগ করা হয়
-            তাকে Tag Question বলে।
-            <br /> যেমনঃ
-            <br /> Rahim plays cricket, doesn’t he? <br />
-            She went there, didn’t she?
-            <br /> Birds can play, can’t they?
-            <br /> It is a nice storybook, isn’t it? <br />
+            তাকে Tag Question বলে। যেমনঃ <br />
+            Rahim plays cricket, doesn’t he? <br />
+            She went there, didn’t she? <br />
+            Birds can play, can’t they? <br />
+            It is a nice storybook, isn’t it? <br />
             He has done the work, hasn’t he?
           </p>
           <br />
           <h3 className="">কিভাবে Question Tag গঠন করতে হয়:</h3>
           <p className="">
-            Tag Question এর মধ্যে মূলত ৩ টি উপাদান থাকে, <br />
-            এগুলো হল:
-            <br /> ১) Auxiliary Verb (সাহায্যকারী ক্রিয়া), <br />
-            ২) not/n’t (না বোধক) এবং <br />
-            ৩) Subject Word এর Pronoun{" "}
+            Tag Question এর মধ্যে মূলত ৩ টি উপাদান থাকে, এগুলো হল: <br />
+            (১) Auxiliary Verb (সাহায্যকারী ক্রিয়া), <br />
+            (২) not/n’t (না বোধক) এবং <br />
+            (৩) Subject Word এর Pronoun{" "}
           </p>
           <br />
           <h3 className="">Auxiliary verb গুলোর সংক্ষিপ্ত রূপ:</h3>
           <p className="">
             Auxiliary Verb ও Not এর ব্যবহার Tag question গঠণে Auxiliary verb
             ব্যবহৃত হয়। Negative Tag question-এ Auxiliary verb গুলোর সংক্ষিপ্ত
-            রূপ ব্যবহৃত হয়। যেমনঃ
-            <br />
-            am + not = aren’t/ain’t <br /> is + not = isn’t <br />
-            are + not = aren’t <br /> do + not = don’t <br /> does + not =
-            doesn’t <br />
-            did + not = didn’t
-            <br /> was + not = wasn’t
-            <br /> were + not = weren’t
-            <br /> shall + not = shan’t
-            <br /> would + not = wouldn’t
-            <br /> should + not = shouldn’t
-            <br /> could + not = couldn’t
-            <br /> may + not = mayn’t
-            <br /> might + not = mightn’t
-            <br /> had + not = hadn’t
-            <br /> must + not = mustn’t
-            <br /> need + not = needn’t
-            <br /> ought + not = oughtn’t
-            <br /> Example: He must do this, mustn’t he?
+            রূপ ব্যবহৃত হয়। যেমনঃ  <br /> 
+            am + not = aren’t/ain’t <br />
+            is + not = isn’t/ ain’t <br />
+            are + not = aren’t/ ain’t <br />
+            do + not = don’t <br />
+            does + not = doesn’t <br />
+            did + not = didn’t <br />
+            have + not = haven’t/ ain’t <br />
+            has + not = hasn't/ ain’t <br /> 
+            was + not = wasn’t <br />
+            were + not = weren’t <br />
+            will + not = won't <br /> 
+            shall + not = shan’t <br />
+            would + not = wouldn’t <br />
+            should + not = shouldn’t <br />
+            could + not = couldn’t <br />
+            may + not = mayn’t <br />
+            might + not = mightn’t <br />
+            must + not = mustn’t <br />
+            need + not = needn’t <br />
+            ought + not = oughtn’t <br />
+            Example: He must do this, mustn’t he?
           </p>
           <br />
           <h3 className="">Rule:</h3>
@@ -59,8 +60,9 @@ const TagQuestion = () => {
             statement এর শেষে comma (,) এবং tag question এর শেষে প্রশ্ন বোধক (?)
             চিহ্ন বসে। <br />
             Positive Statement: <br />
-            She knows you, Negative Tag: doesn’t he? <br /> Negative Statement:{" "}
-            <br /> She does not know you, Positive Tag: does she?
+            She knows you, doesn’t he? <br />  
+            Negative Statement:  <br />  
+            She does not know you, does she?
           </p>
           <br />
           <h3 className="">Tag Question এর সকল সহজ নিয়ম</h3>

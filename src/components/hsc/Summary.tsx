@@ -1,16 +1,19 @@
 const Summary = () => {
   return (
     <div className="lg:w-1/2 px-3 mx-auto">
+      {/* Passage */}
       <div className="">
         <h1 className="">Passage</h1>
         <h3 className="text-green-500">
           Passage এর Summary/theme লেখার short technique:
         </h3>
         <p className="text-base text-justify">
-          Summary/ theme: The passage has discussed about the importance of
-          <span className="text-pink-700 font-bold"> [main word]</span>.          <span className="font-bold ">
+          Summary/ theme: The passage has discussed [about/ the importance] of
+          <span className="text-pink-700 font-bold"> [main word]</span>.{" "}
+          <span className="font-bold ">
             [এখানে passage থেকে দুই/তিনটি বাক্য লিখুন]
-          </span>. Here, by reading the passage we learned a lot of things and we
+          </span>
+          . Here, by reading the passage we learned a lot of things and we
           should try to apply <span className="font-bold">[this/these]</span>
           <span className="font-bold"> [ idea(s)/ideal(s) ] </span> in our
           practical life.
@@ -38,17 +41,11 @@ const Summary = () => {
         <h1>
           Seen Poems - 2<br />
         </h1>
-        Writing Summary of the Poem
-        <br />
-        Board Exam Based exercises
-        <br />
-        <br />
+        Writing Summary of the Poem <br />
+        Board Exam Based exercises <br /> <br />
         <div className="">
-          1. Write a summary of the following poem. <br />
-          <br />
-          Dreams- Langston Huges (1902-1967)
-          <br />
-          <br />
+          1. Write a summary of the following poem. <br /> <br />
+          Dreams- Langston Huges (1902-1967) <br /> <br />
           Hold fast to dreams <br />
           For if dreams die <br />
           Life is a broken-winged bird <br />
@@ -74,525 +71,421 @@ const Summary = () => {
           <br />
           Paraphrase of the Poem:
           <br />
-          The poet says we must hold on tightly to our dreams. If we lose them,
-          life becomes sad and empty-like a bird with broken wings that can't
-          fly or a cold, empty field covered in snow. Dreams give our lives
-          meaning, hope, and direction. <br />
+          Paraphrase: The poet says we must hold on tightly to our dreams. If we
+          lose them, life becomes sad and empty-like a bird with broken wings
+          that can't fly or a cold, empty field covered in snow. Dreams give our
+          lives meaning, hope, and direction. <br /> <br />
+          Summary/theme: "Dream" is the central of the poem. Here Dream means
+          hope/ambition for future. So, dream is essential in our life. Without
+          dream our life is meaningless and useless. <br />
           (কবি বলেন আমাদের স্বপ্নকে দৃঢ়ভাবে আঁকড়ে ধরে রাখতে হবে। যদি আমরা সেগুলো
           হারিয়ে ফেলি, তবে জীবন হয়ে যায় দুঃখময় ও শূণ্য- যেমন উড়তে না পারা
           ডানা-ভাঙা একটি পাখি অথবা বরফে ঢাকা এক শীতল ও জনশূন্য প্রান্তর। স্বপ্ন
           আমাদের জীবনকে অর্থ, আশা এবং দিকনির্দেশনা দেয়।)
+          <br />
+        </div>{" "}
+        <br />
+        {/* 1 */}
+        <div className="">
+          2. Write a summary of the following poem. <br />
+          (Jashore Board-2022: Cumilla Board-2023) Ptrojpur Gout. Women's
+          College, Pirojpur-2024; Bhola Govt. College, Bhola-2018 <br /> <br />
+          Dreams- <br />
+          D.H. Lawrence (1885-1930) <br /> <br />
+          All people dream, but not equally. <br />
+          Those who dream by night in the dusty recesses of their mind, <br />
+          Wake in the morning to find that it was vanity. <br />
+          But the dreamers of the day are dangerous people, <br /> For they
+          dream their dreams with open eyes. <br />
+          And make them come true. <br />
+          Paraphrase of the Poem: <br />
+          ▸ Unit-6; Lesson-2(B) <br /> <br />
+          Paraphrase of the Poem: <br />
+          The poet says that everyone dreams, but not in the same way.
+          Night-time dreams often fade and don't become real. But people who
+          dream during the day, with open eyes, are powerful-they try to make
+          their dreams real and change the world. <br />
+          (কবি বলেছেন যে সবাই স্বপ্ন দেখে তবে একইভাবে নয়। রাতের স্বপ্ন প্রায়শই
+          ম্লান হয়ে যায় এবং বাস্তবে পরিণত হয় না। কিন্তু যারা দিনের বেলায় খোলা
+          চোখে স্বপ্নন্ন দেখে, তারা শক্তিশালী- তারা তাদের স্বপ্নকে বাস্তবে পরিণত
+          করার চেষ্টা করে এবং পৃথিবীকে বদলে দেয়।) <br />
+          Summary/theme: "Dream" is the central of the poem. dream in sleep has
+          no meaning at all but day-dream is powerful because they try to make
+          it real. <br /> <br />
+          বঙ্গানুবাদ: <br />
+          সব মানুষই স্বপ্ন দেখে, কম বা বেশি দেখা <br />
+          কেউ নিশিথরাতে স্বপ্ন দেখে মনের কোনে একা আর সাতসকালে জেগে দেখে সবই অসার
+          ধোকা। <br />
+          তবে দিনদুপুরের স্বপ্নদর্শী ভীষণ নাছোড় হয়, কারণ স্বপ্নদেখার কালেও তাদের
+          দৃষ্টি সজাগ রয়, আর <br />
+          সত্যি করে তোলে তাদের স্বপ্ন জীবনময়।
+        </div>{" "}
+        <br />
+        {/* 2 */}
+        <div className="">
+          3. Write a summary of the following poem. <br /> <br />
+          I have seen Bengal's Face <br />
+          Abanunanda Das (1899-1954) <br />
+          Because I have seen Bengal's face I will seek no more: <br />
+          The world has nothing more beautiful to show me. <br />
+          Waking up in darkness, gazing at the fig-tree, I behold Dawn's
+          swallows roosting under huge <br /> umbrella-like leaves. <br />
+          I look around me <br />
+          And discover a leafy dome-Jam, Kanthal, Bat, Hijol and Aswatha trees -{" "}
+          <br />
+          All in a hush, shadowing clumps of cactus and zedoary bushes. <br />
+          When long, long ago. Chand came in his honeycombed boat <br />
+          To a blue Hijal. Bat and Tamal shade near the Champa, he too sighted{" "}
+          <br />
+          Bengal's Incomparable beauty. One day, alas. In the <br />
+          Ganguri <br />
+          On a raft, as the waning moon sank on the river's <br />
+          sandbanks, <br />
+          Behula too saw countless aswaths bats besides golden rice <br />
+          fields <br />
+          And heard the thrush's soft song. One day, arriving in Amara. <br />
+          Where gods held court, when she danced like a desolate <br />
+          wagtail. <br />
+          Bengal's rivers, fields, flowers, wailed like strings of bells on her
+          feet. <br /> <br />
+          Unit-3; Lesson-1(B) <br />
+          Translated by Fakrul Alam <br />
+          (Chattogram Board-2017) Ishwardi Mohila Degree College. Ishwardi,
+          Pabna-2019 <br /> <br />
+          বঙ্গানুবাদ: <br />
+          বাংলার মুখ আমি দেখিয়াছি, তাই আমি পৃথিবীর রূপ খুঁজিতে যাই না আর;
+          অন্ধকারে জেগে উঠে ডুমুরের <br />
+          গাছে <br />
+          চেয়ে দেখি ছাতার মতন বড় পাতাটির নিচে ব'সে <br />
+          আছে <br />
+          ভোরের দয়েলপাখি- চারিদিকে চেয়ে দেখি পল্লবের ভূপ <br />
+          জাম-বট-কাঁঠালের-হিজলের-অশ্বত্থের ক'রে আছে চুপ; <br />
+          ফণীমনসার ঝোপে শটিবনে তাহাদের ছায়া পড়িয়াছে। <br />
+          মধুকর ডিঙা থেকে না জানি সে কবে চাঁদ চম্পার কাছে <br />
+          এমনই হিজল-বট-তমালের নীল ছায়া বাংলার <br />
+          অপরূপ রূপ <br />
+          দেখেছিল: বেহুলাও একদিন পাণ্ডুড়ের জলে ভেলা <br />
+          নিয়ে- <br />
+          কৃষ্ণা দ্বাদশীর জ্যোৎস্না যখন মরিয়া গেছে নদীর <br />
+          চরায়- <br />
+          সোনালি ধানের পাশে অসংখ্য অশ্বত্থ বট দেখেছিল, হায়, <br />
+          শ্যামার নরম গান শুনেছিল- একদিন অমরায় গিয়ে ছিন্ন খঞ্জনার মতো যখন সে
+          নেচেছিল ইন্দ্রের সভায় <br /> বাংলার নদী মাঠ ভাঁটফুট ঘুঙুরের মতো তার
+          কেঁদেছিল পায়।
+          <br />
+          <br />
+          Paraphrase of the Poem:
+          <br />
+          The poet feels he needs to see nothing more in life-Bengal's natural
+          beauty has fulfilled him completely. He describes early morning sights
+          like birds resting in fig trees and leafy domes made by Bengal's
+          native trees. He recalls historic and mythical journeys of figures
+          like Chand and Behula. who also witnessed Bengal's unmatched charm.
+          Even in divine places, the spirit of Bengal remains. echoing through
+          rivers, fields, and flowers. The poet sees Bengal not just as a place,
+          but as deep emotional beauty woven into history and nature,
+          <br />
+          <br />
+          Summary/theme: "Love for motherland" is the central theme of the poem.
+          <br />
+          <br />
+          (কবি মনে করেন জীবনে তাঁর আর কিছুই দেখার প্রয়োজন নেই-বাংলার প্রাকৃতিক
+          সৌন্দর্য তাঁকে সম্পূর্ণভাবে পরিতৃপ্ত করেছে। তিনি ভোরের দৃশ্য বর্ণনা
+          করেছেন যেমন ডুমুর গাছে এবং বাংলার দেশজ গাছের পত্রপল্লবের নীড়ে পাখিরা
+          বিশ্রাম নিচ্ছে। তিনি স্মরণ করেছেন ঐতিহাসিক ও পৌরাণিক যাত্রার কথা যেমন
+          চাঁদ ও বেহুলা, যারা বাংলার অতুলনীয় সৌন্দর্যের সাক্ষী ছিলেন। এমনকি
+          আধ্যাত্মিক স্থানেও বাংলার চেতনা বিরাজ করে যা, প্রতিধ্বনিত হয় নদী, মাঠ
+          এবং ফুলের মধ্য দিয়ে। কবি বাংলাকে কেবল একটি স্থান হিসেবে দেখেন না, বরং
+          ইতিহাস ও প্রকৃতির সঙ্গে মিশে থাকা গভীর আবেগময় সৌন্দর্য হিসেবে দেখেন।)
+        </div>
+        <br />
+        {/* 3 */}
+        <div className="">
+          Test Exam Based Exercises
+          <br />
+          <br />
+          4. Write a summary of the following poem.
+          <br />
+          <br />
+          She Walks in Beauty- Lord Byron (1788-1834)
+          <br />
+          She walks in beauty, like the night
+          <br />
+          Of cloudless climes and starry skies;
+          <br />
+          And all that's best of dark and bright
+          <br />
+          Meet in her aspect and her eyes:
+          <br />
+          Thus mellowed to that tender light
+          <br />
+          Which heaven to gaudy day denies.
+          <br />
+          <br />
+          Unit-2: Lesson-1(A)
+          <br />
+          Muminunnisa Gout. Women's College. Mymensingh-2016, Dr. Abdur Razzak
+          Municipal College, Jashore-2016 Jalalabad College, Sylhet-2016
+          <br />
+          <br />
+          বঙ্গানুবাদ:
+          <br />
+          সে যখন হেঁটে বেড়ায় তার ছন্দে চারপাশ সৌন্দর্যময় হয়ে ওঠে
+          <br />
+          যেন সে মেঘহীন আর তারকাশোভিত আকাশ
+          <br />
+          আর আঁধার-আলোর সর্বোত্তম সবকিছু
+          <br />
+          তার মুখাবয়বে আর চোখে এসে মিশে:
+          <br />
+          এইভাবে স্নিগ্ধ হয়ে ওঠে সেই কোমল আলো
+          <br />
+          স্বর্গ ও নিষ্প্রাণ দিবস তা অস্বীকার করে।
+          <br />
+          <br />
+          Paraphrase of the Poem:
+          <br />
+          The poet says that the ladylove is as beautiful as a clear night in a
+          place full of stars. Her beauty is a perfect mix of darkness and
+          light, seen in her appearance and eyes. Her gentle light is even
+          better than what is seen during the day.
+          <br />
+          <br />
+          (কবি বলেন যে ঐ প্রেয়সী তারা ভরা রাতের মতই সুন্দর। তার সৌন্দর্যের মধ্যে
+          অন্ধকার ও উজ্জ্বলতার এক চমৎকার মিশ্রণ রয়েছে, যা তার চেহারা ও চোখে ফুটে
+          ওঠে। তার কোমল সৌন্দর্য দিনের আলোর দৃশ্যের চেয়েও বেশি মাধুর্যপূর্ণ।)
         </div>
         <br />
         <br />
-        2. Write a summary of the following poem.
-        <br />
-        Jashore Board-2022: Cumilla Board-2023) Ptrojpur Gout. Women's College,
-        Pirojpur-2024; <br /> Bhola Govt. College, Bhola-2018
-        <br />
-        <br />
-        Dreams- <br />
-        D.H. Lawrence (1885-1930)
-        <br />
-        <br />
-        All people dream, but not equally.
-        <br />
-        Those who dream by night in the dusty recesses of their mind, <br />
-        Wake in the morning to find that it was vanity.
-        <br />
-        But the dreamers of the day are dangerous people,
-        <br /> For they dream their dreams with open eyes.
-        <br />
-        And make them come true.
-        <br />
-        Paraphrase of the Poem:
-        <br />
-        ▸ Unit-6; Lesson-2(B)
-        <br />
-        <br />
-        Paraphrase of the Poem:
-        <br />
-        The poet says that everyone dreams, but not in the same way. Night-time
-        dreams often fade and don't become real. But people who dream during the
-        day, with open eyes, are powerful-they try to make their dreams real and
-        change the world. <br />
-        (কবি বলেছেন যে সবাই স্বপ্ন দেখে তবে একইভাবে নয়। রাতের স্বপ্ন প্রায়শই
-        ম্লান হয়ে যায় এবং বাস্তবে পরিণত হয় না। কিন্তু যারা দিনের বেলায় খোলা চোখে
-        স্বপ্নন্ন দেখে, তারা শক্তিশালী- তারা তাদের স্বপ্নকে বাস্তবে পরিণত করার
-        চেষ্টা করে এবং পৃথিবীকে বদলে দেয়।)
-        <br />
-        <br />
-        বঙ্গানুবাদ:
-        <br />
-        সব মানুষই স্বপ্ন দেখে, কম বা বেশি দেখা
-        <br />
-        কেউ নিশিথরাতে স্বপ্ন দেখে মনের কোনে একা আর সাতসকালে জেগে দেখে সবই অসার
-        ধোকা।
-        <br />
-        তবে দিনদুপুরের স্বপ্নদর্শী ভীষণ নাছোড় হয়, কারণ স্বপ্নদেখার কালেও তাদের
-        দৃষ্টি সজাগ রয়, আর <br /> সত্যি করে তোলে তাদের স্বপ্ন জীবনময়।
-        <br />
-        <br />
-        3. Write a summary of the following poem.
-        <br />
-        <br />
-        I have seen Bengal's Face
-        <br />
-        Abanunanda Das (1899-1954)
-        <br />
-        Because I have seen Bengal's face I will seek no more:
-        <br />
-        The world has nothing more beautiful to show me.
-        <br />
-        Waking up in darkness, gazing at the fig-tree, I behold Dawn's swallows
-        roosting under huge
-        <br /> umbrella-like leaves.
-        <br />
-        I look around me
-        <br />
-        And discover a leafy dome-Jam, Kanthal, Bat, Hijol and Aswatha trees -
-        <br />
-        All in a hush, shadowing clumps of cactus and zedoary bushes.
-        <br />
-        When long, long ago. Chand came in his honeycombed boat
-        <br />
-        To a blue Hijal. Bat and Tamal shade near the Champa, he too sighted
-        <br />
-        Bengal's Incomparable beauty. One day, alas. In the
-        <br />
-        Ganguri
-        <br />
-        On a raft, as the waning moon sank on the river's
-        <br />
-        sandbanks,
-        <br />
-        Behula too saw countless aswaths bats besides golden rice
-        <br />
-        fields
-        <br />
-        And heard the thrush's soft song. One day, arriving in Amara.
-        <br />
-        Where gods held court, when she danced like a desolate
-        <br />
-        wagtail.
-        <br />
-        Bengal's rivers, fields, flowers, wailed like strings of bells on her
-        feet.
-        <br />
-        <br />
-        Unit-3; Lesson-1(B)
-        <br />
-        Translated by Fakrul Alam
-        <br />
-        Chattogram Board-2017) Ishwardi Mohila Degree College. Ishwardi,
-        Pabna-2019
-        <br />
-        <br />
-        বঙ্গানুবাদ:
-        <br />
-        বাংলার মুখ আমি দেখিয়াছি, তাই আমি পৃথিবীর রূপ খুঁজিতে যাই না আর; অন্ধকারে
-        জেগে উঠে ডুমুরের
-        <br />
-        গাছে
-        <br />
-        চেয়ে দেখি ছাতার মতন বড় পাতাটির নিচে ব'সে
-        <br />
-        আছে
-        <br />
-        ভোরের দয়েলপাখি- চারিদিকে চেয়ে দেখি পল্লবের ভূপ
-        <br />
-        জাম-বট-কাঁঠালের-হিজলের-অশ্বত্থের ক'রে আছে চুপ;
-        <br />
-        ফণীমনসার ঝোপে শটিবনে তাহাদের ছায়া পড়িয়াছে।
-        <br />
-        মধুকর ডিঙা থেকে না জানি সে কবে চাঁদ চম্পার কাছে
-        <br />
-        এমনই হিজল-বট-তমালের নীল ছায়া বাংলার
-        <br />
-        অপরূপ রূপ
-        <br />
-        দেখেছিল: বেহুলাও একদিন পাণ্ডুড়ের জলে ভেলা
-        <br />
-        নিয়ে-
-        <br />
-        কৃষ্ণা দ্বাদশীর জ্যোৎস্না যখন মরিয়া গেছে নদীর
-        <br />
-        চরায়-
-        <br />
-        সোনালি ধানের পাশে অসংখ্য অশ্বত্থ বট দেখেছিল, হায়,
-        <br />
-        শ্যামার নরম গান শুনেছিল- একদিন অমরায় গিয়ে ছিন্ন খঞ্জনার মতো যখন সে
-        নেচেছিল ইন্দ্রের সভায় <br /> বাংলার নদী মাঠ ভাঁটফুট ঘুঙুরের মতো তার
-        কেঁদেছিল পায়।
-        <br />
-        <br />
-        Paraphrase of the Poem:
-        <br />
-        The poet feels he needs to see nothing more in life-Bengal's natural
-        beauty has fulfilled him completely. He describes early morning sights
-        like birds resting in fig trees and leafy domes made by Bengal's native
-        trees. He recalls historic and mythical journeys of figures like Chand
-        and Behula.
-        <br />
-        who also witnessed Bengal's unmatched charm. Even in divine places, the
-        spirit of Bengal remains. echoing through rivers, fields, and flowers.
-        The poet sees Bengal not just as a place, but as deep emotional beauty
-        woven into history and nature,
-        <br />
-        <br />
-        (কবি মনে করেন জীবনে তাঁর আর কিছুই দেখার প্রয়োজন নেই-বাংলার প্রাকৃতিক
-        সৌন্দর্য তাঁকে সম্পূর্ণভাবে পরিতৃপ্ত করেছে। তিনি ভোরের দৃশ্য বর্ণনা
-        করেছেন যেমন ডুমুর গাছে এবং বাংলার দেশজ গাছের পত্রপল্লবের নীড়ে পাখিরা
-        বিশ্রাম নিচ্ছে। তিনি স্মরণ করেছেন ঐতিহাসিক ও পৌরাণিক যাত্রার কথা যেমন
-        চাঁদ ও বেহুলা, যারা বাংলার অতুলনীয় সৌন্দর্যের সাক্ষী ছিলেন। এমনকি
-        আধ্যাত্মিক স্থানেও বাংলার চেতনা বিরাজ করে যা, প্রতিধ্বনিত হয় নদী, মাঠ
-        এবং ফুলের মধ্য দিয়ে। কবি বাংলাকে কেবল একটি স্থান হিসেবে দেখেন না, বরং
-        ইতিহাস ও প্রকৃতির সঙ্গে মিশে থাকা গভীর আবেগময় সৌন্দর্য হিসেবে দেখেন।)
-        <br />
-        Test Exam Based Exercises
-        <br />
-        <br />
-        4. Write a summary of the following poem.
-        <br />
-        <br />
-        She Walks in Beauty- Lord Byron (1788-1834)
-        <br />
-        She walks in beauty, like the night
-        <br />
-        Of cloudless climes and starry skies;
-        <br />
-        And all that's best of dark and bright
-        <br />
-        Meet in her aspect and her eyes:
-        <br />
-        Thus mellowed to that tender light
-        <br />
-        Which heaven to gaudy day denies.
-        <br />
-        <br />
-        Unit-2: Lesson-1(A)
-        <br />
-        Muminunnisa Gout. Women's College. Mymensingh-2016, Dr. Abdur Razzak
-        Municipal College, Jashore-2016 Jalalabad College, Sylhet-2016
-        <br />
-        <br />
-        বঙ্গানুবাদ:
-        <br />
-        সে যখন হেঁটে বেড়ায় তার ছন্দে চারপাশ সৌন্দর্যময় হয়ে ওঠে
-        <br />
-        যেন সে মেঘহীন আর তারকাশোভিত আকাশ
-        <br />
-        আর আঁধার-আলোর সর্বোত্তম সবকিছু
-        <br />
-        তার মুখাবয়বে আর চোখে এসে মিশে:
-        <br />
-        এইভাবে স্নিগ্ধ হয়ে ওঠে সেই কোমল আলো
-        <br />
-        স্বর্গ ও নিষ্প্রাণ দিবস তা অস্বীকার করে।
-        <br />
-        <br />
-        Paraphrase of the Poem:
-        <br />
-        The poet says that the ladylove is as beautiful as a clear night in a
-        place full of stars. Her beauty is a perfect mix of darkness and light,
-        seen in her appearance and eyes. Her gentle light is even better than
-        what is seen during the day.
-        <br />
-        <br />
-        (কবি বলেন যে ঐ প্রেয়সী তারা ভরা রাতের মতই সুন্দর। তার সৌন্দর্যের মধ্যে
-        অন্ধকার ও উজ্জ্বলতার এক চমৎকার মিশ্রণ রয়েছে, যা তার চেহারা ও চোখে ফুটে
-        ওঠে। তার কোমল সৌন্দর্য দিনের আলোর দৃশ্যের চেয়েও বেশি মাধুর্যপূর্ণ।)
-        <br />
-        <br />
-        5. Write a summary of the following poem.
-        <br />
-        <br />
-        She Walks in Beauty-
-        <br />
-        Lond Byron (1780-18241
-        <br />
-        One shade the more, one ray the less.
-        <br />
-        Which waves in every raven tree,
-        <br />
-        Had half impaired the nameless grace <br />
-        Where thoughts serenely sweet express,
-        <br />
-        How pure, how dear their dwelling-place.
-        <br />
-        Or softly lightens o'er her face;
-        <br />
-        <br />
-        Unit-2: Lesson-1(A)
-        <br />
-        <br />
-        বঙ্গানুবাদ:
-        <br />
-        যত রোদ কম তত বেশি ছায়া,
-        <br />
-        নামহীন সৌষ্ঠবকে করেছে ধ্বংস
-        <br />
-        যা দোলায়িত হয় প্রতিটি চকচকে কালো বৃক্ষে,
-        <br />
-        অথবা মৃদুভাবে তাঁর মুখাবয়বকে করে আলোকিত; <br />
-        যেথায় ভাবনাগুলো প্রশস্তভাবে মিন্ট অভিব্যক্তি প্রকাশ
-        <br /> করে, <br />
-        কতই না পবিত্র কতই না প্রিয় তাদের বসতবাড়ি।
-        <br />
-        <br />
-        Paraphrase of the Poem:
-        <br />
-        The poet says in this part that the lady-love's beauty is perfect- not
-        too much light or shade. Her gentle face shows her pure and sweet heart.
-        Her calm and sweet thoughts show how pure and dear her heart is. <br />
-        <br />
-        (কবি এ অংশে বলেন যে প্রেয়সীর সৌন্দর্য সম্পূর্ণ নিখুঁত অতিরিক্ত আলো বা
-        ছায়া নেই। তার কোমল মুখমন্ডলে ফুটে ওঠে তার নিষ্কলুস ও অমায়িক হৃদয়। তার
-        শান্ত ও কোমল ভাবনাগুলো তার হৃদয় কতটা পবিত্র ও প্রিয়, তা প্রকাশ করে।)
-        <br />
-        <br />
-        <br />
-        6. Write a summary of the following poem.
-        <br />
-        <br />
-        She Walks in Beauty-
-        <br />
-        Lord Byron (1788-1824)
-        <br />
-        <br />
-        And on that cheek, and o'er that brow.
-        <br />
-        So soft, so calm, yet eloquent.
-        <br />
-        The smiles that win, the tints that glow
-        <br /> , But tell of days in goodness spent,
-        <br />
-        A mind at peace with all below,
-        <br />
-        A heart whose love is innocent!
-        <br />
-        <br />
-        Unit-2; Lesson-1(A)
-        <br />
-        <br />
-        বঙ্গানুবাদ:
-        <br />
-        আর সেই গন্ডদ্বয়ে আর সেই ভু-যুগলে,
-        <br />
-        এত কোমল এত শান্ত তবু বলে যায় কত কথা, যে হাসি জয় করে নেয় যে আভা দীপ্তি
-        ছড়ায়
-        <br />
-        কিন্তু বলে যায় সুখে কাটানো দিনগুলোর কথা
-        <br />
-        শান্তিতে খুব গভীরে একটা মন এমন এক হৃদয় যার ভালোবাসা নিষ্পাপ।
-        <br />
-        <br />
-        Paraphrase of the Poem:
-        <br />
-        In this part of the poem, the poet says that the lady-love's cheeks and
-        forehead are soft and peaceful. but show her feelings clearly. Her smile
-        shows that she has a peaceful mind and an innocent, loving heart. <br />
-        <br />
-        (কবিতার এই অংশে কবি বলেন যে প্রেয়সীরগাল এবং কপাল কোমল এবং শান্ত হলেও তার
-        অনুভূতি পরিষ্কারভাবে প্রকাশ করে। তার হাসি বলে যে তার একটি শান্তিপূর্ণ মন
-        এবং নিষ্পাপ হৃদয় আছে, যা ভালোবাসায় পরিপূর্ণ।)
-        <br />
-        <br />
-        7. Write a summary of the following poem.
-        <br />
-        <br />
-        I Died for Beauty- <br />
-        Emily Dickinson (1830-1886)
-        <br />
-        <br />
-        I died for beauty, but was scarce
-        <br />
-        Adjusted in the tomb,
-        <br />
-        When one who died for truth w<br /> as lain <br />
-        In an adjoining room.
-        <br />
-        He questioned softly why I failed?
-        <br />
-        For beauty, I replied.
-        <br />
-        And I for truth- the two are one:
-        <br />
-        We brethren are,' he said.
-        <br />
-        And so, as kinsmen met a-night.
-        <br />
-        We talked between the rooms,
-        <br />
-        Until the moss had reached our lips.
-        <br />
-        And covered up our names.
-        <br />
-        <br />
-        Unit-2: Lesson-1(A)
-        <br />
-        ▸ Dhaka Residential Model College, Dhaka-2018: Mymensingh Girls' Cadet
-        College, <br /> Mymensingh-2017; M.C. College, Sylhet-2017
-        <br />
-        <br />
-        বঙ্গানুবাদ:
-        <br />
-        আমি মৃত্যুকে বরণ করলাম সৌন্দর্যের জন্য কিন্তু কোনোমতে সমাধিতে থাকছিলাম
-        <br />
-        তখন যিনি সত্যের জন্য মৃত্যুবরণ করলেন তাঁকে শায়িত করা হলো সংলগ্ন কোনো
-        একটি কক্ষে।
-        <br />
-        নম্রকণ্ঠে তিনি জিজ্ঞাসিলেন কেন আমি ব্যর্থ হলাম?
-        <br />
-        'সৌন্দর্যের জন্য', আমি উত্তরে বলেছিলাম।
-        <br />
-        আর আমি সত্যের জন্যে- আমরা দু'জনে একজন;
-        <br />
-        আমরা ভাই-ভাই, তিনি বললেন।
-        <br />
-        আর তাই, যেমন দুজন আত্মীয় বহুদিন পর মিলিত হলাম, আমরা দু'জন দুই কক্ষ থেকে
-        কথা বললাম।
-        <br />
-        যে পর্যন্ত না আমাদের ওষ্ঠদ্বয় পর্যন্ত শেওলা এসে পৌছে,
-        <br />
-        আর আমাদের নামগুলো ঢেকে ফেলে।
-        <br />
-        <br />
-        Paraphrase of the Poem:
-        <br />
-        The speaker says she died for beauty and was just buried when someone
-        who died for truth was placed in the next tomb. He asked why she died;
-        she said "for beauty." He said he died "for truth" and that they are the
-        same. They talked like family until moss grew over their names.
-        <br />
-        (বস্তা বলেন তিনি সৌন্দর্যের জন্য প্রাণ হারিয়ে ছিলেন এবং তখনই সমাধিস্থ
-        হয়েছিলেন যখন সত্যের জন্য প্রাণ হারানো আরেকজনকে পাশের কবরটিতে সমাহিত করা
-        হয়। তিনি জিজ্ঞেস করলেন, কেন তিনি প্রাণ দিয়েছেন; তিনি বললেন- "সৌন্দর্যের
-        জন্য"। তিনি বললেন, তিনি "সত্যের জন্য" প্রাণ দিয়েছেন এবং তারা একই রকম।
-        তারা পরিবাবের মতো কথা বলতে লাগল যতক্ষণ না তাদের নামের উপর শেওলা গজায়।)
-        <br />
-        <br />
-        <br />
-        8. Write a summary of the following song.
-        <br />
-        <br />
-        Auld Lang Syne - <br />
-        Robert Burns
-        <br />
-        Folk Song (Scotland) (লোকগীতি (স্কটল্যান্ড)।
-        <br />
-        Should old acquaintance, be forgot, <br />
-        And never brought to mind?
-        <br />
-        Should old acquaintances be forgotten.
-        <br />
-        And old lang syne?
-        <br />
-        (Chorus)
-        <br />
-        For auld lang syne, my dear,
-        <br />
-        For auld lang syne.
-        <br />
-        We'll take a cup of kindness yet,
-        <br />
-        For auld lang syne.
-        <br />
-        And surely you'll buy your pint cup
-        <br />
-        And surely I'll buy mine!
-        <br />
-        And we'll take a cup o' kindness yet.
-        <br />
-        For auld lang syne.
-        <br />
-        We two have run about the slopes,
-        <br />
-        And picked the daisies fine;
-        <br />
-        But we've wandered many a weary foot.
-        <br />
-        Wo Since auld lang syne.
-        <br />
-        We two have paddled in the stream,
-        <br />
-        From morning sun till dine:
-        <br />
-        But seas between us broad have roared
-        <br />
-        Since auld lang syne.
-        <br />
-        And there's a hand my trusty friend!
-        <br />
-        And give me a hand o' thine!
-        <br />
-        And we'll take a right good-will draught.
-        <br />
-        For auld lang syne.
-        <br />
-        <br />
-        ▸ Unit-2; Lesson-2(1)
-        <br />
-        <br />
-        বঙ্গানুবাদ:
-        <br />
-        পুরনো সেই পরিচয় যায় কি ভোলা,
-        <br />
-        আর মনের মাঝে না আনা?
-        <br />
-        যায় কি ভোলা পুরনো সেই পরিচয়,
-        <br />
-        আর পুরনো সেই দিন? (সমবেত কন্ঠে)
-        <br />
-        পুরনো দিনের জন্য, প্রিয়,
-        <br />
-        পুরনো দিনের জন্য,
-        <br />
-        তবুও আমরা করুণার এক পেয়ালা নেব,
-        <br />
-        পুরনো সেই দিনের জন্য।
-        <br />
-        আর নিশ্চয় তুমি তোমারটা কিনবে।
-        <br />
-        আর আমারটা আমি।
-        <br />
-        তবু আমরা করুণার এক পেয়ালা নেব, পুরনো সেই দিনের জন্য।
-        <br />
-        দুটিতে পাহাড়ের ঢালে দৌড়েছি, <br />
-        আর সুন্দর ডেইজি তুলেছি, কিন্তু অনেক ক্লান্ত পথ হেঁটেছি,
-        <br />
-        পুরনো সেই দিন থেকে।
-        <br />
-        দু'জনে নদীতে নৌকা বেয়েছি, সকাল থেকে রাত অবধি, <br />
-        কিন্তু মধ্যেকার দূরত্ব বেড়েই গিয়েছে
-        <br />
-        পুরনো সেই দিন থেকে।
-        <br />
-        আর বন্ধু আমার হাত ধরো!
-        <br />
-        আর তোমার হাত দাও!
-        <br />
-        আমরা বন্ধুত্বের জন্য করবো পান,
-        <br />
-        পুরনো সেই দিনের জন্য
-        <br />
-        <br />
-        Paraphrase of the Poem:
-        <br />
-        The poet asks whether old friendships should be forgotten. He recalls
-        joyful memories-running through hills, picking daisies, and paddling in
-        streams with a dear friend. Though time and distance have separated
-        them, the bond remains strong. He proposes a toast to honor those
-        cherished moments and the lasting friendship they share.
-        <br />
-        (কবি জিজ্ঞাসা করেন পুরনো বন্ধুত্ব ভুলে যাওয়া উচিত কিনা। তিনি আনন্দময়
-        স্মৃতি মনে করেন- পাহাড়ের মধ্য দিয়ে দৌড়ানো, ডেইজি ফুল তোলা এবং প্রিয়
-        বন্ধুর সঙ্গে ঝর্ণায় পা ডুবিয়ে খেলা। সময় ও দুরুত্ব তাদের আলাদা করে দিলেও
-        বন্ধন দৃঢ় রয়ে গেছে। তিনি সেইসব সোনালি স্মৃতিগুলো ও দীর্ঘস্থায়ী
-        বন্ধুত্বকে সম্মান জানিয়ে সবান্ধবে পান পেয়ালায় চুমুক দেয়ার প্রস্তাব
-        করেন।)
-        <br />
-        <br />
+        {/* 4 */}
+        <div className="">
+          5. Write a summary of the following poem.
+          <br />
+          <br />
+          She Walks in Beauty-
+          <br />
+          Lond Byron (1780-18241)
+          <br />
+          One shade the more, one ray the less.
+          <br />
+          Which waves in every raven tree,
+          <br />
+          Had half impaired the nameless grace <br />
+          Where thoughts serenely sweet express,
+          <br />
+          How pure, how dear their dwelling-place.
+          <br />
+          Or softly lightens o'er her face;
+          <br />
+          <br />
+          Unit-2: Lesson-1(A)
+          <br />
+          <br />
+          বঙ্গানুবাদ:
+          <br />
+          যত রোদ কম তত বেশি ছায়া,
+          <br />
+          নামহীন সৌষ্ঠবকে করেছে ধ্বংস
+          <br />
+          যা দোলায়িত হয় প্রতিটি চকচকে কালো বৃক্ষে,
+          <br />
+          অথবা মৃদুভাবে তাঁর মুখাবয়বকে করে আলোকিত; <br />
+          যেথায় ভাবনাগুলো প্রশস্তভাবে মিন্ট অভিব্যক্তি প্রকাশ
+          <br /> করে, <br />
+          কতই না পবিত্র কতই না প্রিয় তাদের বসতবাড়ি।
+          <br />
+          <br />
+          Paraphrase of the Poem:
+          <br />
+          The poet says in this part that the lady-love's beauty is perfect- not
+          too much light or shade. Her gentle face shows her pure and sweet
+          heart. Her calm and sweet thoughts show how pure and dear her heart
+          is. <br />
+          <br />
+          (কবি এ অংশে বলেন যে প্রেয়সীর সৌন্দর্য সম্পূর্ণ নিখুঁত অতিরিক্ত আলো বা
+          ছায়া নেই। তার কোমল মুখমন্ডলে ফুটে ওঠে তার নিষ্কলুস ও অমায়িক হৃদয়। তার
+          শান্ত ও কোমল ভাবনাগুলো তার হৃদয় কতটা পবিত্র ও প্রিয়, তা প্রকাশ করে।)
+        </div>
+        <br />
+        <br />
+        {/*  6*/}
+        <div className="">
+          6. Write a summary of the following poem. <br /> <br />
+          She Walks in Beauty- <br />
+          Lord Byron (1788-1824) <br /> <br />
+          And on that cheek, and o'er that brow. <br />
+          So soft, so calm, yet eloquent. <br />
+          The smiles that win, the tints that glow <br /> , But tell of days in
+          goodness spent, <br />
+          A mind at peace with all below, <br />
+          A heart whose love is innocent! <br /> <br />
+          Unit-2; Lesson-1(A) <br /> <br />
+          বঙ্গানুবাদ: <br />
+          আর সেই গন্ডদ্বয়ে আর সেই ভু-যুগলে, <br />
+          এত কোমল এত শান্ত তবু বলে যায় কত কথা, যে হাসি জয় করে নেয় যে আভা দীপ্তি
+          ছড়ায় <br />
+          কিন্তু বলে যায় সুখে কাটানো দিনগুলোর কথা <br />
+          শান্তিতে খুব গভীরে একটা মন এমন এক হৃদয় যার ভালোবাসা নিষ্পাপ। <br />{" "}
+          <br />
+          Paraphrase of the Poem: <br />
+          In this part of the poem, the poet says that the lady-love's cheeks
+          and forehead are soft and peaceful. but show her feelings clearly. Her
+          smile shows that she has a peaceful mind and an innocent, loving
+          heart. <br /> <br />
+          (কবিতার এই অংশে কবি বলেন যে প্রেয়সীরগাল এবং কপাল কোমল এবং শান্ত হলেও
+          তার অনুভূতি পরিষ্কারভাবে প্রকাশ করে। তার হাসি বলে যে তার একটি
+          শান্তিপূর্ণ মন এবং নিষ্পাপ হৃদয় আছে, যা ভালোবাসায় পরিপূর্ণ।)
+        </div>
+        <br />
+        <br />
+        <div className="">
+          7. Write a summary of the following poem.
+          <br />
+          <br />
+          I Died for Beauty-
+          <br />
+          Emily Dickinson (1830-1886)
+          <br />
+          <br />
+          I died for beauty, but was scarce
+          <br />
+          Adjusted in the tomb,
+          <br />
+          When one who died for truth was lain
+          <br />
+          In an adjoining room.
+          <br />
+          He questioned softly why I failed?
+          <br />
+          For beauty, I replied.
+          <br />
+          And I for truth- the two are one:
+          <br />
+          We brethren are,' he said.
+          <br />
+          And so, as kinsmen met a-night.
+          <br />
+          We talked between the rooms,
+          <br />
+          Until the moss had reached our lips.
+          <br />
+          And covered up our names.
+          <br />
+          <br />
+          Unit-2: Lesson-1(A)
+          <br />
+          ▸ Dhaka Residential Model College, Dhaka-2018: Mymensingh Girls' Cadet
+          College, Mymensingh-2017; M.C. College, Sylhet-2017
+          <br />
+          <br />
+          বঙ্গানুবাদ:
+          <br />
+          আমি মৃত্যুকে বরণ করলাম সৌন্দর্যের জন্য কিন্তু কোনোমতে সমাধিতে থাকছিলাম
+          <br />
+          তখন যিনি সত্যের জন্য মৃত্যুবরণ করলেন তাঁকে শায়িত করা হলো সংলগ্ন কোনো
+          একটি কক্ষে।
+          <br />
+          নম্রকণ্ঠে তিনি জিজ্ঞাসিলেন কেন আমি ব্যর্থ হলাম?
+          <br />
+          'সৌন্দর্যের জন্য', আমি উত্তরে বলেছিলাম।
+          <br />
+          আর আমি সত্যের জন্যে- আমরা দু'জনে একজন;
+          <br />
+          আমরা ভাই-ভাই, তিনি বললেন।
+          <br />
+          আর তাই, যেমন দুজন আত্মীয় বহুদিন পর মিলিত হলাম, আমরা দু'জন দুই কক্ষ
+          থেকে কথা বললাম।
+          <br />
+          যে পর্যন্ত না আমাদের ওষ্ঠদ্বয় পর্যন্ত শেওলা এসে পৌছে,
+          <br />
+          আর আমাদের নামগুলো ঢেকে ফেলে।
+          <br />
+          <br />
+          Paraphrase of the Poem:
+          <br />
+          The speaker says she died for beauty and was just buried when someone
+          who died for truth was placed in the next tomb. He asked why she died;
+          she said "for beauty." He said he died "for truth" and that they are
+          the same. They talked like family until moss grew over their names.
+          <br />
+          Summary/theme: "beauty and truth" is the central of the poem.
+          <br />
+          (বস্তা বলেন তিনি সৌন্দর্যের জন্য প্রাণ হারিয়ে ছিলেন এবং তখনই সমাধিস্থ
+          হয়েছিলেন যখন সত্যের জন্য প্রাণ হারানো আরেকজনকে পাশের কবরটিতে সমাহিত
+          করা হয়। তিনি জিজ্ঞেস করলেন, কেন তিনি প্রাণ দিয়েছেন; তিনি বললেন-
+          "সৌন্দর্যের জন্য"। তিনি বললেন, তিনি "সত্যের জন্য" প্রাণ দিয়েছেন এবং
+          তারা একই রকম। তারা পরিবাবের মতো কথা বলতে লাগল যতক্ষণ না তাদের নামের
+          উপর শেওলা গজায়।)
+        </div>
+        <br />
+        <div className="">
+          <br />
+          <br />
+          8. Write a summary of the following song. <br />   <br />  
+          Auld Lang Syne - <br />  
+          Robert Burns <br />  
+          Folk Song (Scotland) (লোকগীতি,স্কটল্যান্ড) <br />  
+          Should old acquaintance, be forgot, <br />
+          And never brought to mind? <br />
+          Should old acquaintances be forgotten. <br />
+          And old lang syne? <br />
+          (Chorus) <br />
+          For auld lang syne, my dear, <br />
+          For auld lang syne. <br />
+          We'll take a cup of kindness yet, <br />
+          For auld lang syne. <br />
+          And surely you'll buy your pint <br />
+          And surely I'll buy mine! <br />
+          And we'll take a cup o' kindness yet. <br />
+          For auld lang syne. <br />
+          We two have run about the slopes, <br />
+          And picked the daisies fine; <br />
+          But we've wandered many a weary foot. <br />
+          Wo Since auld lang syne. <br />
+          We two have paddled in the stream, <br />
+          From morning sun till dine: <br />
+          But seas between us broad have roared <br />
+          Since auld lang syne. <br />
+          And there's a hand my trusty friend! <br />
+          And give me a hand o' thine! <br />
+          And we'll take a right good-will draught. <br />
+          For auld lang syne. <br /> <br />
+          ▸ Unit-2; Lesson-2(1) <br /> <br />
+          বঙ্গানুবাদ: <br />
+          পুরনো সেই পরিচয় যায় কি ভোলা, <br />
+          আর মনের মাঝে না আনা? <br />
+          যায় কি ভোলা পুরনো সেই পরিচয়, <br />
+          আর পুরনো সেই দিন? (সমবেত কন্ঠে) <br />
+          পুরনো দিনের জন্য, প্রিয়, <br />
+          পুরনো দিনের জন্য, <br />
+          তবুও আমরা করুণার এক পেয়ালা নেব, <br />
+          পুরনো সেই দিনের জন্য। <br />
+          আর নিশ্চয় তুমি তোমারটা কিনবে। <br />
+          আর আমারটা আমি। <br />
+          তবু আমরা করুণার এক পেয়ালা নেব, পুরনো সেই দিনের জন্য। <br />
+          দুটিতে পাহাড়ের ঢালে দৌড়েছি, <br />
+          আর সুন্দর ডেইজি তুলেছি, কিন্তু অনেক ক্লান্ত পথ হেঁটেছি, <br />
+          পুরনো সেই দিন থেকে। <br />
+          দু'জনে নদীতে নৌকা বেয়েছি, সকাল থেকে রাত অবধি, <br />
+          কিন্তু মধ্যেকার দূরত্ব বেড়েই গিয়েছে <br />
+          পুরনো সেই দিন থেকে। <br />
+          আর বন্ধু আমার হাত ধরো! <br />
+          আর তোমার হাত দাও! <br />
+          আমরা বন্ধুত্বের জন্য করবো পান, <br />
+          পুরনো সেই দিনের জন্য <br /> <br />
+          Paraphrase of the Poem: <br />
+          The poet asks whether old friendships should be forgotten. He recalls
+          joyful memories-running through hills, picking daisies, and paddling
+          in streams with a dear friend. Though time and distance have separated
+          them, the bond remains strong. He proposes a toast to honor those
+          cherished moments and the lasting friendship they share. <br />
+          (কবি জিজ্ঞাসা করেন পুরনো বন্ধুত্ব ভুলে যাওয়া উচিত কিনা। তিনি আনন্দময়
+          স্মৃতি মনে করেন- পাহাড়ের মধ্য দিয়ে দৌড়ানো, ডেইজি ফুল তোলা এবং প্রিয়
+          বন্ধুর সঙ্গে ঝর্ণায় পা ডুবিয়ে খেলা। সময় ও দুরুত্ব তাদের আলাদা করে
+          দিলেও বন্ধন দৃঢ় রয়ে গেছে। তিনি সেইসব সোনালি স্মৃতিগুলো ও দীর্ঘস্থায়ী
+          বন্ধুত্বকে সম্মান জানিয়ে সবান্ধবে পান পেয়ালায় চুমুক দেয়ার প্রস্তাব
+          করেন।)
+        </div>
         <br />
         <br />
         9. Write a summary of the following poem.

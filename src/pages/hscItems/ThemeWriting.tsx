@@ -1,4 +1,4 @@
-import Summary from "../../components/hsc/Summary";
+// import Summary from "../../components/hsc/Summary";
 
 const ThemeWriting = () => {
   return (
@@ -15,8 +15,10 @@ const ThemeWriting = () => {
             Poem এর Summary/ theme লেখার short technique:
           </h3>
           <p className="text-base my-5">
-            <span className="font-bold">Theme/ summary: </span> The central theme of the poem given in the question is [about/the importance of] <span className="text-pink-700 font-bold"> [main word]</span>. 
-            The poem suggests that
+            <span className="font-bold">Theme/ summary: </span> The central
+            theme of the poem given in the question is [about/the importance of]{" "}
+            <span className="text-pink-700 font-bold"> [main word]</span>. The
+            poem suggests that
             <span className="font-bold px-3">
               [এখানে poem থেকে দুই/তিনটি বাক্য লিখুন]
             </span>
@@ -24,26 +26,29 @@ const ThemeWriting = () => {
             to follow this ideal in our practical life.
           </p>
         </div>
-
+        {/* Passage */}
         <div className="">
-        <h1 className="">Passage:</h1>
-        <h3 className="text-green-500">
-          Passage এর Summary/theme লেখার short technique:
-        </h3>
-        <p className="text-base">
-          Summary/ theme: The passage has discussed about the importance of
-          <span className="text-pink-700 font-bold px-4"> [ main word ]</span> .
-          <span className="font-bold px-5">
-            [ এখানে passage থেকে দুই/তিনটি বাক্য লিখুন ]
-          </span>
-          . Here, by reading the passage we learned a lot of things and we
-          should try to apply <span className="font-bold">[this/these]</span>
-          <span className="font-bold"> [ idea(s)/ideal(s) ] </span> in our
-          practical life.
-        </p>
-      </div>
+          <h1 className="">Passage:</h1>
+          <h3 className="text-green-500">
+            Passage এর Summary/theme লেখার short technique:
+          </h3>
+          <p className="text-base">
+            Summary/ theme: The passage has discussed [about/ the importance] of
+            <span className="text-pink-700 font-bold px-4">
+              {" "}
+              [ main word ]
+            </span>{" "}
+            .
+            <span className="font-bold px-5">
+              [ এখানে passage থেকে দুই/তিনটি বাক্য লিখুন ]
+            </span>
+            . Here, by reading the passage we learned a lot of things and we
+            should try to apply <span className="font-bold">[this/these]</span>
+            <span className="font-bold"> [ idea(s)/ideal(s) ] </span> in our
+            practical life.
+          </p>
+        </div>
         <div className="pt-10">
-          
           <h2 className="pt-10">Board Question Based</h2>
           <div className="">
             কবিতার থিম বা বিষয়বস্তু লিখতে হলে প্রথমে কবিতাটি ভালোভাবে পড়তে হবে।
@@ -61,8 +66,7 @@ const ThemeWriting = () => {
             <div className="flex flex-wrap items-center justify-center gap-10 mb-10 lg:mb-24">
               <div className="">
                 <br />
-                September 1, 1939 <br />
-                <br />
+                <h3 className="underline"> September 1, 1939 </h3>
                 I sit on one of the dives <br />
                 On Fifty-second Street <br />
                 Uncertain and afraid <br />
@@ -98,11 +102,12 @@ const ThemeWriting = () => {
             Strajganj-2010: Noakhall Gout. Womer's College, Noakhali-2010:
             Mymensingh Girls' Cadet College-2018 <br />
             <br />
-            Ans. The poet is a worshipper of love and peace as he hates war. He
-            hopes for harmony everywhere in the world. At the news of imminent
-            war his soul is tormented. He dreams a bad dream of uncertainty,
-            fear, anger, private lives obsessed all over the world before the
-            very outset of unexpected war of 1 September 1939, <br />
+            Ans. Peace and war are the central theme of the poem. The poet love
+            peace and he hates war. He hopes for harmony everywhere in the
+            world. At the news of imminent war his soul is tormented. He dreams
+            a bad dream of uncertainty, fear, anger, private lives obsessed all
+            over the world before the very outset of unexpected war of 1
+            September 1939, <br />
             <br />
             (কবি প্রেম ও শান্তির পূজারী কারণ তিনি যুদ্ধকে ঘৃণা করেন। তিনি
             বিশ্বের সর্বত্র সৌহার্দ্য/ সম্প্রীতির প্রত্যাশা করেন। অত্যাসন্ন
@@ -219,11 +224,10 @@ const ThemeWriting = () => {
               University Girls School & College, Dhaka-2019, Narail Gout.
               Victoria College, Narail-2019 <br />
               <br />
-              Answer. The central theme of the above poem is 'peace and
-              tranquility'. The poem suggests that nature is the source of peace
-              and tranquility. The speaker of the poem yearns to go to Innisfree
-              to get peace and tranquility in the lap of nature. He thinks
-              Innisfree will offer him peaceful isolation from the busyness and
+              Answer. peace and tranquility' is the central theme of the poem'.
+              Here nature is the source of peace and tranquility. The poet
+              desires to go to Innisfree to get peace and tranquility. He thinks
+              Innisfree will offer him peaceful isolation from the business and
               turmoil of the city. The soothing sounds of the poem convey the
               peaceful solitude of nature. <br />
               <br />
@@ -286,9 +290,10 @@ const ThemeWriting = () => {
               College. Bhairab-2019: Jhalokati Gout Women's College.
               Jhalokati-2019: Manipur High School & College, Dhaka-2018 <br />
               <br />
-              Answer. Here, beauty and truth are identical. Beauty and truth are
-              parallel in different ways. in the passage of time like all other
-              things truth and beauty are also bound to decay. <br />
+              Answer. 'beauty and truth' is the central theme of the poem' Here,
+              beauty and truth are identical. Beauty and truth are parallel in
+              different ways. in the passage of time like all other things truth
+              and beauty are also bound to decay. <br />
               <br />
               (উপরের কবিতার মূল বিষয়বস্তু হচ্ছে "সৌন্দর্য ও সত্য"। কবিতায় তুলে
               ধরা হয়েছে যে সৌন্দর্য ও সত্য অভিন্ন। কবি সৌন্দর্য ও সত্যকে
@@ -457,10 +462,10 @@ const ThemeWriting = () => {
               Pabro-2018: Cantt. Public School & College: BUSMS Parbatipur,
               Dinajpur-2015 <br />
               <br />
-              Answer. The poem deals with 'dreams'. Dreams are a part of our
-              life. Dreams are our driving force. Dreams keep us moving like
-              wings of birds. To hold dreams means to make life interesting and
-              meaningful.
+              Answer. 'Dream' is the central theme of the poem'. Dreams are a
+              part of our life. Dreams are our driving force. Dreams keep us
+              moving like wings of birds. To hold dreams means to make life
+              interesting and meaningful.
               <br />
               <br />
               (কবিতাটি 'স্বপ্ন' বিষয়ে আলোকপাত করে। কবিতাটি বলে যে স্বপ্নগুলো
@@ -484,7 +489,7 @@ const ThemeWriting = () => {
                 -Ralph Hodgson (1871-1962)
                 <br />
                 <br />
-                TIME. you old gipsyman. <br />
+                TIME, you old gipsyman. <br />
                 Will you not stay? <br />
                 Put up your caravan <br />
                 Just for one day? <br />
@@ -527,8 +532,8 @@ const ThemeWriting = () => {
               College, Jashore-2019; Barguna Govt. Mohila College, Barguna-2019:
               Galbandha Gout. College. Galbandha-2019 <br />
               <br />
-              Answer. The poem deals with 'hastiness of time'. time does not
-              wait for anybody and never comes back. Time does not heed to
+              Answer. 'hastiness of time' is the central theme of the poem'.
+              time waits for none and never comes back. Time does not heed to
               offers. Thus, human life ends with its death and never comes back.{" "}
               <br />
               <br />
@@ -602,11 +607,10 @@ const ThemeWriting = () => {
               College-2019, Cantt. Public School & College, BUSMS, Parbatipur.
               Dinajpur-2019: Khulna Govt. Model School & Colleg-2018 <br />
               <br />
-              Answer. The poem deals with the theme of 'love and friendship. The
-              winter wind is not so harsh and cruel as the ingratitude of
-              mankind. Likewise, the forces of nature are much less cruel and
-              harsh than the breach of trust and betrayal of friends and
-              relatives. <br />
+              Answer. 'love and friendship' is the central theme of the poem'.
+              The winter wind is less cruel than mankind. Likewise, the forces
+              of nature are much less cruel and harsh than betrayal of friends
+              and relatives. <br />
               <br />
               (কবিতাটি 'ভালবাসা ও বন্ধুত্ব' নিয়ে আলোকপাত করেছে। শীতের বাতাস
               বৃক্ষ ও প্রতিকূল হলেও মানুষের অকৃতজ্ঞতার মতো এত রূঢ় এবং নিষ্ঠুর
@@ -658,11 +662,12 @@ const ThemeWriting = () => {
               [DB 17 Jhenidah Cadet College, Jhenidah-2019: Lalmatia Mohlla
               College, Dhaka-2019: Mlestone College. Uttara, Dhakn-2016] <br />
               <br />
-              Ans. A child is like a bud from which a flower blooms fully.
-              Similarly a child wants to be in full bloom during its spring
-              season to gain strength and courage to face odds to come in
-              future. So it entreats its parents not to nip its dream in the bud
-              in the very spring season. <br />
+              Ans. 'childhood' is the central theme of the poem'. A child is
+              like a bud from which a flower blooms fully. Similarly a child
+              wants to be in full bloom during its spring season to gain
+              strength and courage to face odds to come in future. So it
+              entreats its parents not to nip its dream in the bud in the very
+              spring season. <br />
               <br />
               (শিশু হচ্ছে একটি কুঁড়ির মতো যা থেকে একটি ফুল পরিপূর্ণভাবে বিকশিত
               হয়। অনুরূপভাবে একটি শিশু তার বসন্ত ঋতুতে পূর্ণভাবে বিকশিত হতে চায়
@@ -734,7 +739,7 @@ const ThemeWriting = () => {
               Rongpur-2019: Govt. HSS. College Moguru-2018 Muradnagar Kaal Noman
               Ahmet Degree College, Cunilla-2018) <br />
               <br />
-              Answer.. The poem deals with the theme of innocence. Innocent
+              Answer: The poem deals with the theme of innocence. Innocent
               childhood is the period of displaying inherent childish pranks. In
               this period no child wants to go to school without enjoying bird's
               song. huntsman's winding horn and the skylark's company during the
@@ -808,13 +813,13 @@ const ThemeWriting = () => {
               (58'17) National Ideal College, Khilgaon, Dhaka-2010. Mirpur
               Cantt. Public School & College, Dhaka-2019: Govt. Haraganga
               College. Munshiganj-2019: Brahmanbaria United College-2019: Fini
-              Girts Cadet College, Fent-2018) <br />
+              Girts Cadet College, Fent-2018 <br />
               <br />
-              Ans. The poem deals with the 'supremacy of forest life over city
-              life. The poet invites pleasure seekers and ambitionless people to
-              leave the city life and come to the forest to live in the lap of
-              nature. The poet suggests that forest life is carefree and free
-              from all sorts of enemy except winter and rough weather. <br />
+              Ans. 'supremacy of forest life' is the central theme of the poem'.
+              The poet invites pleasure seekers and ambitionless people to leave
+              the city life and come to the forest to live in the lap of nature.
+              The poet suggests that forest life is carefree and free from all
+              sorts of enemy except winter and rough weather. <br />
               <br />
               (কবিতাটি নগর জীবনের চেয়ে বন বা প্রাকৃতিক জীবনের শ্রেষ্ঠত্ব বিষয়ে
               আলোকপাত করে। কবি আনন্দ অন্বেষণকারী এবং উচ্চাকাঙ্ক্ষাবিহীন লোকদেরকে
@@ -1113,7 +1118,7 @@ const ThemeWriting = () => {
                 And I sunned it with smiles, <br />
                 And with soft deceitful wiles <br />
                 And it grew both day and night. <br />
-                Till it bore an apple bright. <br /> 
+                Till it bore an apple bright. <br />
                 And my foe beheld it shine.
               </div>
               <div className="md:border-l-2 pl-10">
@@ -1127,7 +1132,7 @@ const ThemeWriting = () => {
                 কোমল প্রতারণাপূর্ণ ছলনা দিয়ে। <br />
                 এটি জন্মাতো দিন ও রাতে জুড়ে, <br />
                 বস্তক্ষণ না এটি সোনালি আপেল ধারণ করত। <br />
-                আর আমার শত্রু এর স্নাতি দেখলো, 
+                আর আমার শত্রু এর স্নাতি দেখলো,
               </div>
             </div>
             <div className="pt-5"></div>
@@ -1143,9 +1148,7 @@ const ThemeWriting = () => {
           </div>
         </div>
       </div>
-      <div className="pt-5">
-        <Summary />
-      </div>
+      
     </div>
   );
 };

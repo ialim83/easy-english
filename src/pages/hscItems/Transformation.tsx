@@ -46,7 +46,7 @@ const Transformation = () => {
   }, []);
 
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full ">
       {/* flip book */}
       <div className="flex flex-col items-center py-10 px-4 md:px-10 lg:px-20 overflow-hidden">
         {/* FlipBook */}
@@ -431,11 +431,11 @@ const Transformation = () => {
       </div>
 
       {/* Scroll view */}
-      <div className="h-full w-full mx-auto px-2">
-        <div className="my-20">
-          <h1 className="text-center text-green-500">
+      <div className="h-full w-full px-2 lg:w-1/2 mx-auto">
+        <div className="mt-20">
+          <p className="text-2xl lg:text-4xl text-center text-green-500">
             Changing/ Transformation
-          </h1>
+          </p>
           <p className="text-center">
             Changing Sentence without changing meaning
           </p>
@@ -468,16 +468,16 @@ const Transformation = () => {
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
-                  
                   <div className="">
                     প্রস্নঃ Sentence কত প্রকার? <br />
-                    উত্তরঃ অর্থ অনুসারে sentence পাঁচ প্রকার, আর গঠন অনুসারে sentence
-                    তিন প্রকার। <br />
+                    উত্তরঃ অর্থ অনুসারে sentence পাঁচ প্রকার, আর গঠন অনুসারে
+                    sentence তিন প্রকার। <br />
                     <br />
                     <h2 className="text-pink-700">
                       অর্থ অনুসারে sentence কত প্রকার? <br />
                     </h2>
-                    অর্থ অনুযায়ী ইংরেজিতে Sentence কে সাধারণত পাঁচ ভাগে ভাগ করা যায়।
+                    অর্থ অনুযায়ী ইংরেজিতে Sentence কে সাধারণত পাঁচ ভাগে ভাগ করা
+                    যায়।
                     <br />
                     They are: <br />
                     1. Assertive Sentence (বিবৃতি মূলক বাক্য) . <br />
@@ -496,23 +496,23 @@ const Transformation = () => {
                     <Link to={"/sentence"}>
                       <p className="">
                         <span className="text-blue-600 underline">
-                          Sentence {" "}
+                          Sentence{" "}
                         </span>
                         পরিবর্তন এ এক্সপার্ট হতে চাইলে
                         <span className="text-blue-600 underline">
-                          {" "}Sentence{" "}
+                          {" "}
+                          Sentence{" "}
                         </span>
                         ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
                         সেজন্য
                         <span className="text-blue-600 underline">
-                          {" "}এখানে ক্লিক/টাচ{" "}
+                          {" "}
+                          এখানে ক্লিক/টাচ{" "}
                         </span>
                         করুন।
                       </p>
                     </Link>
                   </div>
-
-                  
                 </div>
               </AccordionContent>
             </AccordionPanel>
@@ -522,21 +522,22 @@ const Transformation = () => {
               <AccordionTitle>Affirmative - Negative</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="w-full overflow-x-auto my-10">
-                  
                   <div className="py-5">
                     <Link to={"/sentence"}>
                       <p className="">
                         <span className="text-blue-600 underline">
-                          Sentence {" "}
+                          Sentence{" "}
                         </span>
                         পরিবর্তন এ এক্সপার্ট হতে চাইলে
                         <span className="text-blue-600 underline">
-                          {" "}Sentence{" "}
+                          {" "}
+                          Sentence{" "}
                         </span>
                         ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
                         সেজন্য
                         <span className="text-blue-600 underline">
-                          {" "}এখানে ক্লিক/টাচ{" "}
+                          {" "}
+                          এখানে ক্লিক/টাচ{" "}
                         </span>
                         করুন।
                       </p>
@@ -544,7 +545,7 @@ const Transformation = () => {
                   </div>
                   <br />
                   <h3 className="text-center md:text-start text-green-500">
-                    [A] Affirmative to Negative/ Negative to Affirmative
+                    From Affirmative to Negative/ Negative to Affirmative
                   </h3>
                   <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
                     <tr>
@@ -590,7 +591,9 @@ const Transformation = () => {
                     </tr>
                     <tr>
                       <td>Must/ have to/ has to</td>
-                      <td>Cannot help + V1+<sub>ing</sub></td>
+                      <td>
+                        Cannot help + V1+<sub>ing</sub>
+                      </td>
                       <td>
                         A: He must go there.
                         <br />
@@ -675,7 +678,7 @@ const Transformation = () => {
                       <td>
                         A: As soon as the thief saw the police, he ran away.
                         <br />
-                        N: No sooner had the police than he ran away.
+                        N: No sooner had the police seen than he ran away.
                       </td>
                     </tr>
                     <tr>
@@ -684,7 +687,7 @@ const Transformation = () => {
                       <td>
                         A: He is the best boy in the class.
                         <br />
-                        N: He is the boy who is not active.
+                        N: No other boy is as good as he.
                       </td>
                     </tr>
                     <tr>
@@ -717,54 +720,58 @@ const Transformation = () => {
                   </table>
                   <br />
                   {/* antonyms */}
-                  <div className="">
+                  <div className="h-full">
                     <h3 className="">কিছু বিপরীতার্থক শব্দের নমুনা:</h3>
 
                     <div className="flex gap-10 ">
-                      <p className="border-r-2 border-spacing-y-96">
-                        good- bad <br />
-                        friend - foe <br />
-                        moral - immoral <br />
-                        mortal - Immortal <br />
-                        regular - Irregular <br />
-                        active - Inactive <br />
-                        always - never <br />
-                        honour - dishonour. <br />
-                        present - absent <br />
-                        healthy - unhealthy <br />
-                        rich - poor <br />
-                        love - hate <br />
-                        wise - unwise <br />
-                        remember - forget <br />
-                        pleasant - unpleasant <br />
-                        grateful - ungrateful <br />
-                        dishonest - dishonest <br />
-                        agreed- disagreed <br />
-                      </p>
-                      <p className="">
-                        honesty - dishonesty <br />
-                        sincere - Insincere <br />
-                        doubtful - undoubtful <br />
-                        wise - unwise/foolish <br />
-                        pleased - displeased <br />
-                        happy - unhappy <br />
-                        possible - impossible <br />
-                        litetate - Biterate <br />
-                        hard - easy <br />
-                        punctual-late <br />
-                        ordinary-extraordinary <br />
-                        responsible- Irresponsible <br />
-                        willing - unwilling <br />
-                        obey - disobey <br />
-                        obedient - disobedient <br />
-                        solvent - insolvent <br />
-                        real - unreal <br />
-                        right - wrong <br />
-                      </p>
+                      <div className="">
+                        <p className="">
+                          good- bad <br />
+                          friend - foe <br />
+                          moral - immoral <br />
+                          mortal - Immortal <br />
+                          regular - Irregular <br />
+                          active - Inactive <br />
+                          always - never <br />
+                          honour - dishonour. <br />
+                          present - absent <br />
+                          healthy - unhealthy <br />
+                          rich - poor <br />
+                          love - hate <br />
+                          wise - unwise <br />
+                          remember - forget <br />
+                          pleasant - unpleasant <br />
+                          grateful - ungrateful <br />
+                          dishonest - dishonest <br />
+                          agreed- disagreed <br />
+                        </p>
+                      </div>
+                      <div className="border-l-2 h-1/2">
+                        <p className="pl-5">
+                          honesty - dishonesty <br />
+                          sincere - Insincere <br />
+                          doubtful - undoubtful <br />
+                          wise - unwise/foolish <br />
+                          pleased - displeased <br />
+                          happy - unhappy <br />
+                          possible - impossible <br />
+                          litetate - Biterate <br />
+                          hard - easy <br />
+                          punctual-late <br />
+                          ordinary-extraordinary <br />
+                          responsible- Irresponsible <br />
+                          willing - unwilling <br />
+                          obey - disobey <br />
+                          obedient - disobedient <br />
+                          solvent - insolvent <br />
+                          real - unreal <br />
+                          right - wrong <br />
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <div className="pt-5">
-                       <h3>Exercise</h3> 
+                    <h3>Exercise</h3>
                     <p className="">
                       Transform the following sentences into Negative sentences
                       : <br />
@@ -773,10 +780,10 @@ const Transformation = () => {
                       is sufficient for our health. (iv) She ate only two
                       bananas. (v) Mr. Shafiq will always obey the rules and
                       regulation of the institution. (vi) Man must submit to
-                      destiny. (vii) As soon as I reached home, she rang me. (viii) Bashir was
-                      too busy to gossip with us. (ix) I have read a few pages
-                      of the book. (x) He is as meritorious as his
-                      brother. (xi) You must help the poor man. (xii) Every
+                      destiny. (vii) As soon as I reached home, she rang me.
+                      (viii) Bashir was too busy to gossip with us. (ix) I have
+                      read a few pages of the book. (x) He is as meritorious as
+                      his brother. (xi) You must help the poor man. (xii) Every
                       patriot loves his country. (xiii) Everybody wants a good
                       friend. (xiv) You are as clever as fox. (xv) He goes to
                       school everyday.
@@ -790,7 +797,7 @@ const Transformation = () => {
             <AccordionPanel>
               <AccordionTitle>Assertive - Interrogative</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
-                <div className="">
+                <div className="py-5">
                   <Link to={"/sentence"}>
                     <p className="py-5">
                       <span className="text-blue-600 underline">Sentence</span>
@@ -804,25 +811,26 @@ const Transformation = () => {
                     </p>
                   </Link>
                   <h3 className="text-green-500">
-                    Assertive থেকে Interrogative-এ রূপান্তর
+                    From Assertive to Interrogative
                   </h3>
                   <div className="pt-5">
+                    <p className="">
                     Rule:-1. সাধারণ নিয়মঃ <br />
                     (a) বাক্যের Auxiliary verb বাক্যের শুরুতে বসবে। <br />
                     (b) বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ
                     থাকলে তা Affirmative হবে। <br />
                     (c) বাক্যের শেষে ? বসবে। <br />
                     উদাহরণ: <br />
-                    i. Aff: Kamal was a good boy. <br />
+                    Aff: Kamal was a good boy. <br />
                     Inter: Wasn't Kamal a good boy? <br />
-                    ii . Aff: They are not playing. <br />
+                    Aff: They are not playing. <br />
                     Inter: Are they playing? <br />
                     <br />
                     2. বাক্যের মধ্যে Auxiliary verb না থাকলে, বাক্যের শুরুতে
                     Don't/Doesn't/Didn't বসিয়ে Interrogative করা হয়। Auxiliary
                     verb বলতে সাধারণত 'to be', 'to have', modal verb গুলোকে
                     বোঝায়। আর Assertive sentence-টি Negative হলে প্রশ্নবোধক
-                    Sentence টিতে do/does/did হয়। <br />
+                    Sentence টিতে do/does/did হয়। 
                     উদাহরণ: <br />
                     Ass: Liza sings very well. <br />
                     Inter: Doesn't Liza sing very well? <br />
@@ -830,27 +838,45 @@ const Transformation = () => {
                     Inter: Didn't Liza sing well? <br />
                     <br />
                     3. Everybody. Everyone, All থাকলে এদের পরিবর্তে আয় অনুসারে
-                    Who does not/did not বসিয়ে Interrogative করতে হয়। <br />
+                    Who does not/did not বসিয়ে Interrogative করতে হয়। 
                     উদাহরণ: <br />
-                    i. Ass: Everybody knows him.
-                    <br />
-                    Inter: Who does not know him?
-                    <br />
-                    ii. Ass All loved her.
-                    <br />
-                    Inter: Who did not love her?
-                    <br />
-                    <br />
+                    Ass: Everybody knows him.  <br />  
+                    Inter: Who does not know him?  <br />  
+                    Ass: All loved her.  <br />  
+                    Inter: Who did not love her?  <br />    
+                    <br />  
                     4. বাক্যে Nobody, None, No one থাকলে এদের পরিবর্তে 'Who'
-                    বসবে।
-                    <br />
-                    উদাহরণ:
-                    <br />
-                    Ass: Nobody believes a liar.
-                    <br />
+                    বসবে।    
+                    উদাহরণ:  <br />  
+                    Ass: Nobody believes a liar.  <br />  
                     Inter: Who believes a liar?
-                    <p className="pt-5">
-                      Exercise <br />
+                    </p>
+                    <p className="pt-10">
+                      Auxiliary verb গুলোর সংক্ষিপ্ত রূপ:  <br />  
+                      am + not = aren’t/ain’t <br />
+                      is + not = isn’t/ ain’t <br />
+                      are + not = aren’t/ ain’t <br />
+                      do + not = don’t <br />
+                      does + not = doesn’t <br />
+                      did + not = didn’t <br />
+                      have + not = haven’t/ ain’t <br />
+                      has + not = hasn't/ ain’t <br />
+                      was + not = wasn’t <br />
+                      were + not = weren’t <br />
+                      will + not = won't <br />
+                      shall + not = shan’t <br />
+                      would + not = wouldn’t <br />
+                      should + not = shouldn’t <br />
+                      could + not = couldn’t <br />
+                      may + not = mayn’t <br />
+                      might + not = mightn’t <br />
+                      must + not = mustn’t <br />
+                      need + not = needn’t <br />
+                      ought + not = oughtn’t <br />
+                      Example: He must do this, mustn’t he?
+                    </p>
+                    <p className="font-bold pt-5"> Exercise</p>
+                    <p className="">
                       Transform the following sentences into Interrogative
                       sentences : <br />
                       (i) The girl likes hot tea. (ii) I prefer coffee to tea.
@@ -877,12 +903,17 @@ const Transformation = () => {
                 <div className="">
                   <Link to={"/sentence"}>
                     <p className="py-5">
-                      <span className="text-blue-600 underline">Sentence</span>
+                      <span className="text-blue-600 underline">
+                        Sentence{""}{" "}
+                      </span>
                       পরিবর্তন এ এক্সপার্ট হতে চাইলে
-                      <span className="text-blue-600 underline">Sentence</span>
+                      <span className="text-blue-600 underline">
+                        {" "}
+                        {""} Sentence {""}{" "}
+                      </span>
                       ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে, সেজন্য
                       <span className="text-blue-600 underline">
-                        এখানে ক্লিক/টাচ
+                        {""} এখানে ক্লিক/টাচ {""}
                       </span>
                       করুন।
                     </p>
@@ -920,6 +951,7 @@ const Transformation = () => {
                     Exc: If I could do it!
                     <br />
                     <br />
+
                     <h3>Exclamatory to Assertive:</h3>
                     3. <br />
                     i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা খুশি
@@ -1082,471 +1114,42 @@ const Transformation = () => {
             {/* Sentence */}
             <AccordionPanel>
               <AccordionTitle>
-                <span className="text-rose-800">Sentence</span> (গঠন অনুসারে)
+                <span className="text-rose-800 font-bold">Sentence</span> (গঠন
+                অনুসারে)
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
-                {/* Complex to Compound & Compound to complex: */}
                 <div className="">
-                  <p className=""></p>
-                </div>
-                <div className="">
-                  <h3 className="text-green-500">
-                    Complex to Compound & Compound to complex:
-                  </h3>
-                  <p className="">
-                    <strong>Rule:(1) </strong>Since/as/ when / as soon as/
-                    because দ্বারা শুরু / যুক্ত বাক্যের মাঝখানে And বসিয়ে Since
-                    /as/ when উঠিয়ে দিলে Compound হবে। <br />
-                    যেমনঃ <br />
-                    Q. When I was eight, I was there. <br />
-                    = I was eight and I was there. <br />
-                    <strong>অনুরুপভাবেঃ</strong> <br />
-                    And উঠিয়ে শুরুতে As বসালে Complex হবে। <br />
-                    যেমনঃ <br />
-                    Q. I was sick and I could not attend the meeting. <br />= As
-                    I was sick, I could not attend the meeting.
-                  </p>
+                  <h2 className="text-pink-800">
+                    গঠন অনুসারে Sentence কত প্রকার?
+                  </h2>
                   <br />
-                  <p className="">
-                    <strong>Rule:(2) </strong> Though/ Although উঠিয়ে মাঝখানে
-                    but বসালে Compound হবে। <br />
-                    যেমনঃ <br />
-                    Q. Although he was sick, he was walking. <br />
-                    = He was sick but he was walking. <br />
-                    <strong>অনুরুপভাবেঃ</strong> <br />
-                    মাঝখানে থেকে but / yet উঠিয়ে শুরুতে Though / Although বসালে
-                    Complex হবে।
-                    <br />
-                    যেমনঃ <br />
-                    Q. He was honest but was punished. <br />
-                    = Though He was honest, he was punished. <br />
-                  </p>
+                  Structure/গঠন অনুসারে Sentence তিন প্রকার। <br />
+                  They are: <br />
+                  1. Simple Sentence <br />
+                  3. Compound Sentence & <br />
+                  2. Complex Sentence
                   <br />
-                  <p className="">
-                    <strong>Rule:(3) </strong> If দ্বারা শুরু বাক্য না বোধক হলে
-                    মূল if + Subject উঠিয়ে মাঝখানে or বসাতে হবে। <br />
-                    যেমনঃ <br />
-                    Q. If you work hard, you will pass. <br />
-                    = Work hard and you will pass. <br />
-                    কিন্তু- <br />
-                    if দ্বারা শুরু বাক্য হ্যাঁবোধক হলে if - থেকে - not পর্যন্ত
-                    উঠিয়ে মাঝখানে and বসালে Compound হবে। <br />
-                    যেমনঃ <br />
-                    Q. If you do not do, you will die. <br />
-                    = Do or you will die. <br />
-                    <strong>অনুরুপভাবেঃ</strong> <br />
-                    And দ্বারা যুক্ত বাক্যের শুরুতে subject না থাকলে If + Sub
-                    (you) বসিয়ে And উঠালে Complex হবে। আবার or উঠিয়ে বাক্যের
-                    শুরুতে If + sub (you) + do not বসালে Complex হবে। <br />
-                    যেমনঃ <br />
-                    Q. Work hard and you will pass. <br />
-                    = If you work hard, you will pass. <br />
-                    Q. Do or you will die.
-                    <br />= If you do not do it, you will die.
-                  </p>
-
-                  <br />
-                  <p className="pt-5">
-                    Exercise <br />
-                    Transform the following Compound sentences into Complex:{" "}
-                    <br />
-                    (i) Follow my example and you will feel better. (ii) Speak
-                    the truth and I will let you go. (iii) He paid the bill and
-                    he had no money in his pocket. (iv) Walk fast or you can not
-                    get the train. (v) Drive carefully or there may be accident.
-                    (vi) He worked hard but failed. (vii) There was water
-                    everywhere around them but they had not a drop to drink.
-                    (viii) I knew I could not afford caviare but I could not
-                    very well tell her that. (ix) For seven days he tried to
-                    pray but could not break the sailors' curse. (x) It
-                    disturbed me but I did not know the reason. (xi) Their
-                    throats were very dry and they could not speak. (xii) The
-                    sailors gave the albatross food and water and it became
-                    tame. (xiii) Badsha saw the tiger and went away. (xiv) The
-                    dog lay close to him and found comfort there. (xv) Della
-                    finished her cry and attended to her cheeks. (xvi) Do and
-                    die. (xvii) Della saw it and she knew that it must be Jim's.
-                    (xviii) He had finished the work and took rest. (xix) The
-                    ship came nearer and they saw, it had no crew. (xx) Jerry
-                    sat by the fire with me and told me of their two days
-                    together. (xxi) I took a cabin and asked for a man to chop
-                    wood. (xxii) He has much money and he can buy a car. (xxiii)
-                    She finished her work and started writing. (xxiv) Read
-                    attentively or you fail. (xxv) Do or die. (xxvi) He worked
-                    hard but he could not succeed.
-                  </p>
-                  <p className="">
-                    Exercise <br />
-                    Transform the following sentences from complex to compound :{" "}
-                    <br />
-                    saw the police, he did not eat (i) We went to the market so
-                    that we could buy the necessities. (ii) Though he was poor,
-                    he was honest. (iii) He admitted that he was responsible for
-                    breaking the handle. (iv) If we read books, we can enrich
-                    our mind. (v) When an earthquake occurs, people become
-                    panic-stricken. (vi) Since he was poor, he could not be able
-                    to buy a new shirt. (vii) Since the weather was very cold,
-                    we could not go out. (viii) When the thief ran away. (ix)
-                    Though there is a law to punish the terrorists, it is not
-                    properly applied. (x) If you do balanced diet you will lose
-                    your health. (xi) As there was a traffic jam on the road, I
-                    was late for school. (xii) Unless you read, you will not
-                    pass. (xiii) He was so weak that he could not speak. (xiv)
-                    Although they tried hard, they could not win the match.
-                  </p>
-                </div>
-
-                {/* Compound to simple & Simple to Compound: */}
-                <div className="py-10">
-                  <h3 className="text-green-500">
-                    Compound to simple & Simple to Compound:
-                  </h3>
-                  <p className="">
-                    <strong>Rule:(1) </strong>And দ্বারা যুক্ত বাক্যের And উঠিয়ে
-                    প্রথম বাক্যাংশের Subject উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত
-                    করতে হবে। যদি প্রথম বাক্যে be verb থাকে তবে এর পরিবর্তে
-                    being এবং have verb থাকলে having বসালে Simple হবে। <br />
-                    যেমনঃ <br />
-                    Q. He closed the window and went out, <br />
-                    = Closing the window, he went out. <br />
-                    <strong>NOTE: </strong> <br />
-                    দুটি বাক্যের Subject যদি ভিন্ন হয় তবে Subject উঠবেনা। <br />
-                    যেমনঃ <br />
-                    Q. The tea was hot and we could not drink. <br />
-                    = The tea being hot, we could not drink. <br />
-                    <strong>অনুরুপভাবেঃ</strong> <br />
-                    ing/ being/ having দ্বারা শুরু বাক্যের মাঝখানে and বসিয়ে
-                    Subject + V কে পরের বাক্যের Tense অনুসারে সাজাতে হবে। <br />
-                    যেমনঃ <br />
-                    Q. The sun having set, they left home. <br />
-                    = The sun had set and they left home. <br />
-                    <br />
-                    <span className="text-rose-600 font-bold">
-                      কিন্তু:-
-                    </span>{" "}
-                    <br />
-                    And দ্বারা যুক্ত বাক্যের শুরুতে sub না থাকলে And উঠিয়ে
-                    বাক্যের শুরুতে by বসাতে হবে এবং by এর পরের V₁ এর সঙ্গে ing
-                    যুক্ত করাতে হবে। <br />
-                    যেমনঃ <br />
-                    Q. Work hard and you will succeed. <br />
-                    =By working hard, you will succeed. <br />
-                    <strong>অনুরুপভাবে:</strong> <br />
-                    উল্টোটা করলে - by এবং ing ঊঠিয়ে কোমা এর স্থলে and বসালে
-                    Compound হবে। <br />
-                    যেমনঃ <br />
-                    Q. By working hard, you will succeed.
-                    <br />= Work hard and you will succeed.
-                  </p>
-
-                  <br />
-                  <p className="">
-                    <strong>Rule: (2) </strong>
-                    But/yet দ্বারা যুক্ত বাক্যের শুরুতে In spite of/ Despite of
-                    বসিয়ে পরের মূল V1 এর সঙ্গে ing যুক্ত করলে Simple হবে। কিন্তু
-                    প্রথম বাক্যে verb to be থাকলে এর পরিবর্তে being এবং have
-                    verb এর পরিবর্তে having বসাতে হবে।
-                    <br />
-                    যেমনঃ <br />
-                    Q. He is rich but he is simple minded. <br />
-                    = In spite of being rich, he is simple minded. <br />
-                    <strong> অনুরুপভাবেঃ</strong> <br />
-                    In spite of/ Despite of উঠিয়ে পরের Possessive থাকলে
-                    Subjective বসাতে হবে এবং ing যুক্ত Verb কে পরের বাক্যাংশ
-                    অনুসারে verb টিকে বসাতে হবে। কিন্তু being থাকলে be verb এবং
-                    having থাকলে have verb বসালে Compound হবে। <br />
-                    যেমনঃ <br />
-                    Q. In spite of being rich, he is simple minded.
-                    <br />= He is rich but he is simple minded.
-                  </p>
-                  <br />
-                  <p className="">
-                    <strong>Rule:(3) </strong>Or দ্বারা যুক্ত বাক্যের Or পরের
-                    বাক্যাংশটি Negative হলে or উঠিয়ে বাক্যের শুরুতে without
-                    বসিয়ে এর পরের মূল V₁ এর সঙ্গে ing যুক্ত করলে Compound হবে।{" "}
-                    <br />
-                    যেমনঃ <br />
-                    Q. Work hard or you will not shine. <br />
-                    = Without working hard, you will not shine. <br />
-                    <strong>কিন্তু:- </strong> <br />
-                    Or দ্বারা যুক্ত বাক্যের পরের বাক্যাংশটি হ্যাঁবোধক হলে by
-                    বসাতে হবে।
-                    <br />
-                    যেমনঃ <br />
-                    Q. Do it or you will die.
-                    <br />= By doing you will die.
-                    <br />
-                    <strong> অনুরুপভাবে: </strong> <br />
-                    by / without এবং V₁ এর ing উঠিয়ে V₁ করতে হবে এবং মাঝখানে
-                    comma উঠিয়ে or বসালে Compound হবে। <br />
-                    যেমনঃ <br />
-                    Q. Without working hard, it will not shine.
-                    <br />= Work hard or you will not shine.
-                  </p>
-                  <p className="pt-5">
-                    Exercise <br />
-                    Transform the following simple sentences into compound :{" "}
-                    <br />
-                    (i) Taking up his basket, the porter followed the girl. (ii)
-                    Finishing the work, we went to the playground. (iii) Closing
-                    the door, I went back to sleep. (iv) Sitting by the fire, he
-                    told me of their two days together. (v) Sitting on a log of
-                    a tree, the old woman watched the people walking past her.
-                    (vi) Writing novels, he wanted to earn (vii) The day being
-                    sunny, the sun shone brightly. (viii) Having taken the
-                    money, he went outside. (ix) In spite of his weakness, the
-                    man has vast knowledge. (x) The weather being very cold,
-                    there were no birds outside.
-                  </p>
-                  <p className="">
-                    Exercise <br />
-                    Transform the following Compound sentences into Simple :{" "}
-                    <br />
-                    (i) He took the purse and ran away. (ii) They are very nice
-                    and can not be used just at present. (iii) Jim drew a
-                    package from his overcoat and threw it upon the table. (iv)
-                    Jerry was honest and could not take the money. (v) The
-                    marriage ceremony was over and the guests were going to the
-                    feast. (vi) I was ill and I could not attend the meeting.
-                    (vii) The sea water was very salty and they could not drink
-                    it. (viii) Work hard and you will prosper in life. (ix) The
-                    docoit ran away and escaped himself. (x) She jumped into a
-                    cab and cried gaily. (xi) He had ali the qualifications but
-                    he did not get a job. (xii) Raj behaved rough but he was not
-                    punished. (xiii) The fishermen worked day and night but they
-                    could not lead a happy life. (xiv) The weather was very cold
-                    and there were no birds or animals in that snow covered
-                    country. (xv) Della finished her cry and attended to her
-                    cheeks. (xvi) Write much or you can not write well. (xvii)
-                    Walk fast or you can not get the train. (xviii) He sat by
-                    the fire with me and told me of their two days together.
-                    (xix) He is healthy but he does not work at ali. (xx) My
-                    mother closed the door and went back to sleep. (xxi) The sun
-                    set and I came back home. (xxii) Work hard or you will not
-                    prosper. (xxiii) Work hard and you will prosper. (xiv) It
-                    was 1990 and I passed the SSC exam. (xv) He went to the zoo
-                    and saw a big tiger.
-                  </p>
-                </div>
-
-                {/* Complex to Simple & Simple to complex: */}
-                <div className="">
-                  <h3 className="text-green-500">
-                    Complex to Simple & Simple to complex:
-                  </h3>
-                  <div className="">
-                    <strong>Rule- (i): </strong> Since/ as/ when / as soon as
-                    দ্বারা শুরু বা যুক্ত বাক্যের Since/ as/ when + subject উঠিয়ে
-                    মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে।
-                    <br />
-                    যেমনঃ
-                    <br />
-                    Q. Since I forgot, I went out. <br />
-                    = Forgetting him, I went out.
-                    <br />
-                    <strong>অনুরুপভাবে:</strong> <br />
-                    ing যুক্ত Verb দ্বারা শুরু বাক্যের শুরুতে As/Since/When +
-                    Subject বসিয়ে + এবং V টিকে পরের বাক্যের tense অনুসারে বসালে
-                    Complex হবে। <br />
-                    যেমনঃ <br />
-                    Q. Closing the door, I called her. <br />= As I closed the
-                    door, I called her.
+                  <div className="py-5">
+                    <Link to={"/sentence"}>
+                      <p className="">
+                        <span className="text-blue-600 underline">
+                          Sentence{" "}
+                        </span>
+                        পরিবর্তন এ এক্সপার্ট হতে চাইলে
+                        <span className="text-blue-600 underline">
+                          {" "}
+                          Sentence{" "}
+                        </span>
+                        ভালোভাবে চিনতে হবে সেজন্য Sentence অধ্যায় পড়তে হবে,
+                        সেজন্য
+                        <span className="text-blue-600 underline">
+                          {" "}
+                          এখানে ক্লিক/টাচ{" "}
+                        </span>
+                        করুন।
+                      </p>
+                    </Link>
                   </div>
-                  <br />
-                  <div className="">
-                    <strong>কিন্তু-</strong> <br />
-                    <strong>Rule - (2): </strong> As/Since/when বাক্যের
-                    am/is/are/was/were এর পরিবর্তে being এবং have/has/had এর
-                    পরিবর্তে having বসালে Simple হবে। <br />
-                    যেমনঃ
-                    <br />
-                    Q. As the water was salty, We could not drink. <br />
-                    = The water being salty, We could not drink.
-                    <br />
-                    <strong>অনুরুপভাবে:</strong> <br />
-                    উল্লোটা করলেই Complex হবে অর্থাৎ শুরুতে As/Since এবং Being
-                    স্থলে am/ is/ are বা having এর স্থলে have/has/had বসে।{" "}
-                    <br />
-                    যেমনঃ <br />
-                    Q. The water being salty, We could not drink. <br />= As the
-                    water was salty, We could not drink.{" "}
-                  </div>
-                  <br />
-                  <div className="">
-                    <strong>কিন্তু-</strong>
-                    <br />
-                    <strong>Rule - (3): </strong> When দ্বারা বাক্যে দিনের কোন
-                    বেলাকে বুঝালে When + Sub + V উঠিয়ে At বসে , বয়স বুঝালে At
-                    the age of এবং ঋতু বুঝালে In বসে । <br />
-                    যেমনঃ <br />
-                    Q. When it is spring, the cuckoo sings. <br />
-                    = In spring the cuckoo sings.
-                    <br />
-                    <strong>অনুরুপভাবে:</strong> <br />
-                    at / In / at the age of উঠিয়ে When + it/ sub (আগের বাক্য
-                    অনুসারে) + V বসালে Complex হবে। <br />
-                    যেমনঃ <br />
-                    Q. At the age of four, he left home. <br />= When he was
-                    four, he left home.
-                  </div>
-                  <br />
-                  <div className="">
-                    <strong> Rule - (4): </strong>Who/ Which/ That/ what দ্বারা
-                    দুটি বাক্য যুক্ত হলে who/ which/ that/ what + helping Verb
-                    (যদি থাকে) উঠিয়ে পরের মুল V₁ এর সঙ্গে ing যুক্ত করতে হবে।{" "}
-                    <br />
-                    যেমনঃ <br />
-                    Q. I saw a man who was walking. <br />
-                    = I saw a man walking. <br />
-                    <strong>অনুরুপভাবে:</strong> <br />
-                    উল্টাটে করলে Complex হবে। <br />
-                    যেমনঃ <br />
-                    Q. I lived in a house belonging to me. <br />
-                    =I lived in a house which belonged to me. <br />
-                    অর্থাৎ- <br />
-                    ing যুক্ত verb এর পূর্বে বস্তুবাচক শব্দ থাকলে
-                    That/Which/What এবং ব্যক্তি থাকলে Who বসিয়ে ing যুক্ত verb
-                    টিকে Tense অনুসারে সাজাতে হবে।
-                  </div>
-                  <br />
-                  <div className="">
-                    <strong>Rule: (5) </strong> So ......... that দ্বারা যুক্ত
-                    বাক্যে So এর স্থলে too এবং That থেকা not পর্যন্ত উঠিয়ে To
-                    বসালে simple হবে। <br />
-                    যেমনঃ <br />
-                    Q. He is so weak that he cannot talk. <br />
-                    = He is too weak to talk. <br />
-                    <strong>অনুরুপভাবে:</strong> <br />
-                    উল্টাটা করলে Complex হবে। <br />
-                    যেমনঃ <br />
-                    Q. He walks too slowly to reach in time. <br />= He walks so
-                    slowly that he cannot reach there on time. <br />
-                    <strong>অর্থাৎ-</strong> <br />
-                    too এর স্থলে so এবং to উঠিয়ে to এর স্থলে That + Subject
-                    (আগের বাক্য অনুসারে) + cannot/ couldnot/ may not/ might not
-                    + Verb থেকে বাকি অংশ হবে।
-                  </div>
-                  <br />
-                  <div className="">
-                    <strong>Rule:(6) </strong>so that দ্বারা যুক্ত বাক্যের so
-                    থেকে Can/Could/may/might পর্যন্ত উঠিয়ে উক্ত স্থানে to বসালে
-                    Simple হবে। <br />
-                    যেমনঃ <br />
-                    Q. We eat so that we may live. <br />
-                    = We eat to live. <br />
-                    <strong>অনুরুপভাবেঃ </strong> <br />
-                    উল্টা করলে Complex হবে। অর্থাৎ to স্থলে so that + sub +
-                    may/might/can/could বসালে Complex হবে। <br />
-                    যেমনঃ <br />
-                    Q. We eat to live. <br />= We eat so that we may live.
-                  </div>
-                  <br />
-                  <div className="">
-                    Rule:(7) If দ্বারা শুরু বাক্যে Negative হলে if থেকে not
-                    পর্যন্ত উঠিয়ে without বসাতে হবে এবং without এর পরের V1 এর
-                    সাথে ing যুক্ত করলে Simple হবে। <br />
-                    যেমনঃ <br />
-                    Q. If you do not study, you will not pass. <br />
-                    = Without studying well, you will not pass. <br />
-                    <span className="text-rose-600 font-bold">এবং</span> <br />
-                    If দ্বারা বাক্য হ্যাঁ বোধক হলে if থেকে Subject পর্যন্ত উঠিয়ে
-                    by বসিয়ে পরের V-1 এর সাথে ing যুক্ত করলে Simple হবে। <br />
-                    যেমনঃ <br />
-                    Q. If you study well, you will pass. <br />
-                    = By studying well, you will pass. <br />
-                    <strong>অনুরুপভাবেঃ </strong> <br />
-                    উল্টা করলে Complex হবে। <br />
-                    যেমনঃ <br />
-                    Q. By studying well, you will pass. <br />
-                    = If you study well, you will pass. <br />
-                    Q. Without studying well, you will not pass.
-                    <br />= If you do not study, you will not pass.
-                  </div>
-                  <br />
-                  <div className="">
-                    <strong> Rule - (8): </strong> Though/although এর পরিবর্তে
-                    In spite of/ Despite of বসিয়ে পরের মূল V₁ এর সঙ্গে ing যুক্ত
-                    করলে Simple হবে। <br />
-                    যেমনঃ <br />
-                    Q. Though he is poor, he is honest. <br />
-                    = In spite of being poor, he is honest.
-                    <br />
-                    Q. Though he read well, he could not pass.
-                    <br />
-                    = In spite of reading well, he could not pass.
-                    <br />
-                    <span className="text-rose-600 font-bold">
-                      অনুরুপভাবে:-
-                    </span>{" "}
-                    <br />
-                    উল্টা করলে Complex হবে।
-                    <br />
-                    যেমনঃ
-                    <br />
-                    Q. In spite of being poor, he is honest.
-                    <br />
-                    = Though he is poor, he is honest.
-                    <br />
-                    Q. In spite of reading well, he could not pass.
-                    <br />= Though he read well, he could not pass.
-                  </div>
-                  <p className="">
-                    Exercise <br />
-                    Transform the following Complex sentences into Simple :{" "}
-                    <br />
-                    (i) When Asha stood by the window, she looked out. (ii) They
-                    saw the drunken porter who was lying on the floor. (iii)
-                    When lunch was over, the lady went away. (iv) The authoress
-                    went to the Carolina mountains when it was autumn. (v) They
-                    are so nice that any can not be used just at present. (vi)
-                    The old sailor woke up when it was raining. (vii) He is so
-                    weak that he can not speak a single word. (viii) The boy was
-                    so foolish that he could not understand a simple matter.
-                    (ix) You came here when you were only four. (x) We eat so
-                    that we may live. (xi) The sailors saw a ship that was
-                    coming to them. (xii) Since the boy worked hard, he shone in
-                    life: (xiii) As Ratan saw a tiger, he ran away in fear.
-                    (xiv) When it was daylight, I was half awakened by the sound
-                    of chopping. (xv) Since the water was salty, the sailors
-                    could not drink it. (xvi) As the set of combs is costly, I
-                    can not buy it. (xvii) As the writer was poor, he could not
-                    visit Foyot's earlier. (xviii) Since he was meritorious, he
-                    made a good result. (xix) I was saved since I had shown a
-                    true love for all living things. (xx) The writer lived in a
-                    cabin which belonged to the orphanage. (xxi) The man who is
-                    industrious can shine in life. (xxii) When I was reading,
-                    Rahat came to me. (xxiii) The writer lived in a cabin that
-                    belonged to the orphanage. (xxiv) Though he was brilliant,
-                    he could not make a good result. (xxv) My father went there
-                    so that he could attend the meeting.
-                  </p>
-                  <p className="">
-                    Exercise <br />
-                    Transform the following sentences from simple to complex:{" "}
-                    <br />
-                    (i) The load being very heavy, he cannot carry it. (ii) The
-                    farmers sow good seeds to get good crops. (iii) We read to
-                    learn. (iv) Shahana went to the market to buy a freezer. (v)
-                    The authoress wanted quiet isolation to do some troublesome
-                    writing. (vi) Helal walked too slowly to catch the bus.
-                    (vii) They saw the drunken porter lying on the floor. (viii)
-                    I saw a bird flying in the sky. (ix) Taking exercise
-                    regularly, he built good health. (x) Knowledge is power.
-                    (xi) Standing by the window, Della looked out (xii) Jumping
-                    into a cab, she cried gaily. (xiii) Entering the classroom,
-                    my father found me gossipping. (xiv) Running fast, he got
-                    the first prize. (xv) One day, the old man watched some
-                    water snakes swimming round the ship. (xvi) The marriage
-                    ceremony being over, the guests were going to the feast.
-                    (xvii) He is too weak to move. (xviii) Having forgotten him,
-                    I went outside the cabin. (xix) The sun having set, we
-                    reached home. (xx) The sun having risen, the fog dispersed.
-                    (xxi) Coming to me, he borrowed a book. (xxii) At the age of
-                    sixteen, I passed the SSC exam. (xxiii) In spite of his
-                    poverty, he is honest. (xxiv) Because of his having much
-                    wealth, he helped the poor. (xxv) By studying hard, you will
-                    make a good result.
-                  </p>
                 </div>
               </AccordionContent>
             </AccordionPanel>
@@ -1554,7 +1157,7 @@ const Transformation = () => {
             {/* Complex to Compound & Compound to complex: */}
             <AccordionPanel>
               <AccordionTitle>
-                Complex to Compound & Compound to complex:
+                Complex - Compound :
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
@@ -1562,45 +1165,41 @@ const Transformation = () => {
                     Complex to Compound & Compound to complex:
                   </h3>
                   <p className="">
-                    <strong>
-                      Rule:(1) <br />{" "}
-                    </strong>
+                    <span className="text-pink-600 font-bold">
+                      Rule:(1) <br />
+                    </span>
                     Since/as/ when / as soon as/ because দ্বারা শুরু / যুক্ত
                     বাক্যের মাঝখানে And বসিয়ে Since /as/ when উঠিয়ে দিলে
                     Compound হবে। <br />
                     যেমনঃ <br />
                     Q. When I was eight, I was there. <br />
-                    = I was eight and I was there. <br />
+                    = I was eight and I was there. <br /> <br />
                     <strong>অনুরুপভাবেঃ</strong> <br />
-                    And উঠিয়ে শুরুতে As বসালে Complex হবে। <br />
-                    যেমনঃ <br />
+                    And উঠিয়ে শুরুতে As বসালে Complex হবে। যেমনঃ <br />
                     Q. I was sick and I could not attend the meeting. <br />= As
                     I was sick, I could not attend the meeting.
                   </p>
                   <br />
                   <p className="">
-                    <strong>Rule:(2) </strong> <br />
-                    Though/ Although উঠিয়ে মাঝখানে but বসালে Compound হবে।{" "}
+                    <span className="text-pink-600 font-bold">Rule:(2)</span>
+                    <br />
+                    Though/ Although উঠিয়ে মাঝখানে but বসালে Compound হবে।
                     <br />
                     যেমনঃ <br />
                     Q. Although he was sick, he was walking. <br />
-                    = He was sick but he was walking. <br />
+                    = He was sick but he was walking. <br /> <br />
                     <strong>অনুরুপভাবেঃ</strong> <br />
                     মাঝখানে থেকে but / yet উঠিয়ে শুরুতে Though / Although বসালে
-                    Complex হবে।
-                    <br />
-                    যেমনঃ <br />
+                    Complex হবে। যেমনঃ <br />
                     Q. He was honest but was punished. <br />
                     = Though He was honest, he was punished. <br />
                   </p>
                   <br />
                   <p className="">
-                    <strong>
-                      Rule:(3) <br />{" "}
-                    </strong>
+                    <span className="text-pink-600 font-bold">Rule:(3) </span>
+                    <br />
                     If দ্বারা শুরু বাক্য হ্যাঁ-বোধক হলে if + Subject উঠিয়ে
-                    মাঝখানে and বসাতে হবে। <br />
-                    যেমনঃ <br />
+                    মাঝখানে and বসাতে হবে। যেমনঃ <br />
                     Q. If you work hard, you will pass. <br />
                     = Work hard and you will pass. <br />
                     কিন্তু- <br />
@@ -1681,12 +1280,12 @@ const Transformation = () => {
             {/* Compound to simple & Simple to Compound: */}
             <AccordionPanel>
               <AccordionTitle>
-                Compound to simple & Simple to Compound:
+                Compound - simple:
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <h3 className="text-green-500">
-                    Compound to simple & Simple to Compound:
+                   From Compound to simple & Simple to Compound:
                   </h3>
                   <p className="">
                     <strong>Rule:(1) </strong>And দ্বারা যুক্ত বাক্যের And উঠিয়ে
@@ -1821,7 +1420,7 @@ const Transformation = () => {
             {/* Complex to Simple & Simple to Complex: */}
             <AccordionPanel>
               <AccordionTitle>
-                Complex to Simple & Simple to complex:
+                Complex - Simple:
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
@@ -2083,14 +1682,14 @@ const Transformation = () => {
                   Explanation: <br />
                   i. Verb এর পরে as...as / so...as থাকবে।
                   <br />
-                  ii. so...as/ as...as এর পরে Ajective-1 থাকবে। যেমনঃ as good as{" "}
+                  ii. so...as/ as...as এর মাঝখানে Ajective-1 থাকবে। যেমনঃ as good as
                   <br />
                   iii. No ohter/ Very few দ্বারা বাক্যটি শুরু হতে পারে। <br />
                   <br />
                   যেমনঃ
                   <br />
                   i. He is so clever as Rohim in the class. <br />
-                  i. No other boy is so clever as Rohim in the class. <br />
+                  i. No other boy in the class is so clever as Rohim . <br />
                   <br />
                   <br />
                   Comparative Degree: <br />
@@ -2099,7 +1698,7 @@ const Transformation = () => {
                   2. Subject + verb + more + Adj-1 + others. <br />
                   <br />
                   Explanation: <br />
-                  i. Verb এর পরে Adjective-2 বা er যুক্ত শব্দ থাকবে <br />
+                  i. Verb এর পরে er যুক্ত শব্দ বা Adjective-2 থাকবে <br />
                   অথবা Adj-1 এর পূর্বে more থাকবে। <br />
                   ii. Adjective এর পরে than/ than any other/ than most other/
                   than all other থাকবে। <br />
@@ -2114,14 +1713,14 @@ const Transformation = () => {
                   <br />
                   Superlative Degree: <br />
                   Structure: <br />
-                  1. Subject + verb + the/one of the + Adjective-3+ others.{" "}
+                  1. Subject + verb + the/one of the + Adjective-3 + others. 
                   <br />
-                  2. Subject + verb + the/one of the + most + Adj-1+ others.{" "}
+                  2. Subject + verb + the/one of the + most + Adj-1 + others. 
                   <br />
                   <br />
                   Explanation: <br />
                   i. Verb এর পরে the/ one of the থাকবে। <br />
-                  ii. the এর পরে est যুক্ত শব্দ থাকবে বা Adjective-3 থাকবে{" "}
+                  ii. the এর পরে est যুক্ত শব্দ থাকবে বা Adjective-3 থাকবে 
                   <br />
                   অথবা adjective-1 এর পূর্বে most থাকবে।
                   <br />
@@ -2136,7 +1735,7 @@ const Transformation = () => {
                   {/* Superlative to Positive Comparative to positive */}
                   <div className="p-1">
                     <h1 className="text-xl font-bold mb-4 text-green-500">
-                      Superlative to Positive Comparative to positive
+                     From Superlative to Positive Comparative to positive
                     </h1>
                     <table className="table-auto w-full border-collapse border  border-gray-400">
                       <thead>
