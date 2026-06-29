@@ -815,44 +815,42 @@ const Transformation = () => {
                   </h3>
                   <div className="pt-5">
                     <p className="">
-                    Rule:-1. সাধারণ নিয়মঃ <br />
-                    (a) বাক্যের Auxiliary verb বাক্যের শুরুতে বসবে। <br />
-                    (b) বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ
-                    থাকলে তা Affirmative হবে। <br />
-                    (c) বাক্যের শেষে ? বসবে। <br />
-                    উদাহরণ: <br />
-                    Aff: Kamal was a good boy. <br />
-                    Inter: Wasn't Kamal a good boy? <br />
-                    Aff: They are not playing. <br />
-                    Inter: Are they playing? <br />
-                    <br />
-                    2. বাক্যের মধ্যে Auxiliary verb না থাকলে, বাক্যের শুরুতে
-                    Don't/Doesn't/Didn't বসিয়ে Interrogative করা হয়। Auxiliary
-                    verb বলতে সাধারণত 'to be', 'to have', modal verb গুলোকে
-                    বোঝায়। আর Assertive sentence-টি Negative হলে প্রশ্নবোধক
-                    Sentence টিতে do/does/did হয়। 
-                    উদাহরণ: <br />
-                    Ass: Liza sings very well. <br />
-                    Inter: Doesn't Liza sing very well? <br />
-                    Ass: Liza sang very well. <br />
-                    Inter: Didn't Liza sing well? <br />
-                    <br />
-                    3. Everybody. Everyone, All থাকলে এদের পরিবর্তে আয় অনুসারে
-                    Who does not/did not বসিয়ে Interrogative করতে হয়। 
-                    উদাহরণ: <br />
-                    Ass: Everybody knows him.  <br />  
-                    Inter: Who does not know him?  <br />  
-                    Ass: All loved her.  <br />  
-                    Inter: Who did not love her?  <br />    
-                    <br />  
-                    4. বাক্যে Nobody, None, No one থাকলে এদের পরিবর্তে 'Who'
-                    বসবে।    
-                    উদাহরণ:  <br />  
-                    Ass: Nobody believes a liar.  <br />  
-                    Inter: Who believes a liar?
+                      Rule:-1. সাধারণ নিয়মঃ <br />
+                      (a) বাক্যের Auxiliary verb বাক্যের শুরুতে বসবে। <br />
+                      (b) বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ
+                      থাকলে তা Affirmative হবে। <br />
+                      (c) বাক্যের শেষে ? বসবে। <br />
+                      উদাহরণ: <br />
+                      Aff: Kamal was a good boy. <br />
+                      Inter: Wasn't Kamal a good boy? <br />
+                      Aff: They are not playing. <br />
+                      Inter: Are they playing? <br />
+                      <br />
+                      2. বাক্যের মধ্যে Auxiliary verb না থাকলে, বাক্যের শুরুতে
+                      Don't/Doesn't/Didn't বসিয়ে Interrogative করা হয়। Auxiliary
+                      verb বলতে সাধারণত 'to be', 'to have', modal verb গুলোকে
+                      বোঝায়। আর Assertive sentence-টি Negative হলে প্রশ্নবোধক
+                      Sentence টিতে do/does/did হয়। উদাহরণ: <br />
+                      Ass: Liza sings very well. <br />
+                      Inter: Doesn't Liza sing very well? <br />
+                      Ass: Liza sang very well. <br />
+                      Inter: Didn't Liza sing well? <br />
+                      <br />
+                      3. Everybody. Everyone, All থাকলে এদের পরিবর্তে আয় অনুসারে
+                      Who does not/did not বসিয়ে Interrogative করতে হয়। উদাহরণ:{" "}
+                      <br />
+                      Ass: Everybody knows him. <br />
+                      Inter: Who does not know him? <br />
+                      Ass: All loved her. <br />
+                      Inter: Who did not love her? <br />
+                      <br />
+                      4. বাক্যে Nobody, None, No one থাকলে এদের পরিবর্তে 'Who'
+                      বসবে। উদাহরণ: <br />
+                      Ass: Nobody believes a liar. <br />
+                      Inter: Who believes a liar?
                     </p>
                     <p className="pt-10">
-                      Auxiliary verb গুলোর সংক্ষিপ্ত রূপ:  <br />  
+                      Auxiliary verb গুলোর সংক্ষিপ্ত রূপ: <br />
                       am + not = aren’t/ain’t <br />
                       is + not = isn’t/ ain’t <br />
                       are + not = aren’t/ ain’t <br />
@@ -951,7 +949,6 @@ const Transformation = () => {
                     Exc: If I could do it!
                     <br />
                     <br />
-
                     <h3>Exclamatory to Assertive:</h3>
                     3. <br />
                     i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা খুশি
@@ -1156,9 +1153,7 @@ const Transformation = () => {
 
             {/* Complex to Compound & Compound to complex: */}
             <AccordionPanel>
-              <AccordionTitle>
-                Complex - Compound :
-              </AccordionTitle>
+              <AccordionTitle>Complex - Compound :</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <h3 className="text-green-500">
@@ -1191,7 +1186,7 @@ const Transformation = () => {
                     <strong>অনুরুপভাবেঃ</strong> <br />
                     মাঝখানে থেকে but / yet উঠিয়ে শুরুতে Though / Although বসালে
                     Complex হবে। যেমনঃ <br />
-                    Q. He was honest but was punished. <br />
+                    Q. He was honest but he was punished. <br />
                     = Though He was honest, he was punished. <br />
                   </p>
                   <br />
@@ -1212,11 +1207,13 @@ const Transformation = () => {
                     <br />
                     <strong>অনুরুপভাবেঃ</strong> <br />
                     And দ্বারা যুক্ত বাক্যের শুরুতে subject না থাকলে If + Sub
-                    (you) বসিয়ে And উঠালে Complex হবে। আবার or উঠিয়ে বাক্যের
+                    (you) বসিয়ে And উঠালে Complex হবে। <br />
+                     Q. Work hard and you will pass. <br />
+                    = If you work hard, you will pass. <br />
+                    আবার Or উঠিয়ে বাক্যের
                     শুরুতে If + sub (you) + do not বসালে Complex হবে। <br />
                     যেমনঃ <br />
-                    Q. Work hard and you will pass. <br />
-                    = If you work hard, you will pass. <br />
+                    
                     Q. Do or you will die.
                     <br />= If you do not do it, you will die.
                   </p>
@@ -1279,13 +1276,11 @@ const Transformation = () => {
 
             {/* Compound to simple & Simple to Compound: */}
             <AccordionPanel>
-              <AccordionTitle>
-                Compound - simple:
-              </AccordionTitle>
+              <AccordionTitle>Compound - simple:</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <h3 className="text-green-500">
-                   From Compound to simple & Simple to Compound:
+                    From Compound to simple & Simple to Compound:
                   </h3>
                   <p className="">
                     <strong>Rule:(1) </strong>And দ্বারা যুক্ত বাক্যের And উঠিয়ে
@@ -1419,9 +1414,7 @@ const Transformation = () => {
 
             {/* Complex to Simple & Simple to Complex: */}
             <AccordionPanel>
-              <AccordionTitle>
-                Complex - Simple:
-              </AccordionTitle>
+              <AccordionTitle>Complex - Simple:</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <h3 className="text-green-500">
@@ -1648,94 +1641,119 @@ const Transformation = () => {
             <AccordionPanel>
               <AccordionTitle>
                 <p className="font-bold">
-                  <span className="text-rose-800">Degree:</span> Positive,
-                  Comparative, Superlative
+                  <span className="text-rose-800">Degree of Adjective</span>
                 </p>
               </AccordionTitle>
               <AccordionContent className="p-1">
                 <Link to={"/degreeOfAdj"}>
                   <p className="py-5">
-                    <span className="text-blue-600 underline">Degree</span>
+                    <span className="text-blue-600 underline">Degree </span>
                     পরিবর্তন এ এক্সপার্ট হতে চাইলে
                     <span className="text-blue-600 underline">
-                      Degree of Adjectives
+                      {" "}
+                      Degree of Adjectives{" "}
                     </span>
                     ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে
                     হবে, সেজন্য
                     <span className="text-blue-600 underline">
-                      এখানে ক্লিক/টাচ
+                      {" "}
+                      এখানে ক্লিক/টাচ{" "}
                     </span>
                     করুন।
                   </p>
                 </Link>
 
-                <p className="my-10">
-                  Degree <br />
-                  Shortcut technique: <br /> <br />
-                  Positive Degree: <br />
-                  Structure: <br />
-                  1. Subject + verb + so/as + Adjective-1 + as + others. <br />
-                  1. No other/ very few + Subject + verb + so/as + Adjective-1 +
-                  as + others. <br />
-                  <br />
-                  <br />
-                  Explanation: <br />
-                  i. Verb এর পরে as...as / so...as থাকবে।
-                  <br />
-                  ii. so...as/ as...as এর মাঝখানে Ajective-1 থাকবে। যেমনঃ as good as
-                  <br />
-                  iii. No ohter/ Very few দ্বারা বাক্যটি শুরু হতে পারে। <br />
-                  <br />
-                  যেমনঃ
-                  <br />
-                  i. He is so clever as Rohim in the class. <br />
-                  i. No other boy in the class is so clever as Rohim . <br />
-                  <br />
-                  <br />
-                  Comparative Degree: <br />
-                  Structure: <br />
-                  1. Subject + verb + Adj-2 + others. <br />
-                  2. Subject + verb + more + Adj-1 + others. <br />
-                  <br />
-                  Explanation: <br />
-                  i. Verb এর পরে er যুক্ত শব্দ বা Adjective-2 থাকবে <br />
-                  অথবা Adj-1 এর পূর্বে more থাকবে। <br />
-                  ii. Adjective এর পরে than/ than any other/ than most other/
-                  than all other থাকবে। <br />
-                  iii. of all থাকতে পারে।
-                  <br />
-                  <br />
-                  যেমনঃ <br />
-                  i. He is cleverer than any other boy in the class. <br />
-                  i. He is clever than most oher boys in the class. <br />
-                  iii. He is more intelligent than all other boys in the class.
-                  <br />
-                  <br />
-                  Superlative Degree: <br />
-                  Structure: <br />
-                  1. Subject + verb + the/one of the + Adjective-3 + others. 
-                  <br />
-                  2. Subject + verb + the/one of the + most + Adj-1 + others. 
-                  <br />
-                  <br />
-                  Explanation: <br />
-                  i. Verb এর পরে the/ one of the থাকবে। <br />
-                  ii. the এর পরে est যুক্ত শব্দ থাকবে বা Adjective-3 থাকবে 
-                  <br />
-                  অথবা adjective-1 এর পূর্বে most থাকবে।
-                  <br />
-                  <br />
-                  যেমনঃ <br />
-                  i. He is one of the cleverest boys in the class. <br />
-                  i. He is the cleverest boy in the class. <br />
-                  iii. He is the most intelligent boy in the class. <br />
-                </p>
+                <div className="my-5 p-3">
+                  <h3 className="text-green-500">Degree of Adjective</h3>
+                  <p className="py-5">
+                  দুটি বা ততোধিক ব্যক্তির মধ্যে তুলনা করতে হলে একই Adjective
+                  বিভিন্ন sentence-এ ভিন্ন ভিন্ন রূপে ব্যবহৃত হয়। adjective-এর
+                  যে রূপ নির্ধারণ করে তুলনার মাত্রা বা অবস্থান প্রকাশ করে তাকে
+                  degree of Adjective বলে। উপরের Table থেকে আমরা জানতে পারি যে
+                  degree of Adjective তিন প্রকার, যথাঃ <br /> 
+                  (a) Positive <br /> 
+                  (b)Comparative <br /> 
+                  (c) Superlative 
+                  </p> 
+                  Degree চিনিবার Shortcut technique:
+                  <div className="space-y-5 ">
+                    <p className="">
+                      (1) Positive Degree: <br />
+                      <span className="font-bold">Structure: </span> <br />
+                      1. Subject + verb + so/as + Adjective-1 + as + others.{" "}
+                      <br />
+                      1. No other/ very few + Subject + verb + so/as +
+                      Adjective-1 + as + others. <br />
+                      <span className="font-bold">Explanation: </span> <br />
+                      i. Verb এর পরে as...as / so...as থাকবে।
+                      <br />
+                      ii. so...as/ as...as এর মাঝখানে Ajective-1 থাকবে।
+                      <br />
+                      iii. No ohter/ Very few দ্বারা বাক্যটি শুরু হতে পারে।{" "}
+                      <br />
+                      যেমনঃ
+                      <br />
+                      i. He is so clever as Rohim in the class. <br />
+                      i. No other boy in the class is so clever as Rohim.
+                    </p>
+                    {/* Comparative */}
+                    <p className="">
+                      (2) Comparative Degree: <br />
+                      <span className="font-bold">Structure: </span> <br />
+                      1. Subject + verb + Adj-2 + others. <br />
+                      2. Subject + verb + more + Adj-1 + others. <br />
+                      <span className="font-bold">Explanation: </span> <br />
+                      i. Verb এর পরে er যুক্ত শব্দ বা Adjective-2 থাকবে <br />
+                      অথবা Adj-1 এর পূর্বে more থাকবে। <br />
+                      ii. Adjective এর পরে than/ than any other/ than most
+                      other/ than all other থাকবে। <br />
+                      iii. of all থাকতে পারে।
+                      <br />
+                      যেমনঃ <br />
+                      i. He is cleverer than any other boy in the class. <br />
+                      i. He is clever than most oher boys in the class. <br />
+                      iii. He is more intelligent than all other boys in the
+                      class.
+                    </p>
+                    {/* Superlative */}
+                    <p className="">
+                      (3) Superlative Degree: <br />
+                      <span className="font-bold">Structure:</span> <br />
+                      1. Subject + verb + the/one of the + Adjective-3 + others.
+                      <br />
+                      2. Subject + verb + the/one of the + most + Adj-1 +
+                      others.
+                      <br />
+                      <span className="font-bold">Explanation: </span> <br />
+                      i. Verb এর পরে the/ one of the থাকবে। <br />
+                      ii. the এর পরে est যুক্ত শব্দ থাকবে বা Adjective-3 থাকবে,
+                      অথবা
+                      <br />
+                      iii. adjective-1 এর পূর্বে most থাকবে।
+                      <br />
+                      যেমনঃ <br />
+                      i. He is one of the cleverest boys in the class. <br />
+                      i. He is the cleverest boy in the class. <br />
+                      iii. He is the most intelligent boy in the class. <br />
+                    </p>
+                  </div>
+                </div>
 
-                <div className="text-black bg-gray-100 my-5">
+              </AccordionContent>
+            </AccordionPanel>
+
+            {/* Superlative to Positive  Comparative to positive */}
+            <AccordionPanel>
+              <AccordionTitle>
+                Superlative to Positive & Comparative to Positive
+              </AccordionTitle>
+              <AccordionContent className="p-2 md:p-5">
+                
+                <div className="p-2 bg-gray-100 my-5">
                   {/* Superlative to Positive Comparative to positive */}
-                  <div className="p-1">
+                  <div className="p-1 text-black">
                     <h1 className="text-xl font-bold mb-4 text-green-500">
-                     From Superlative to Positive Comparative to positive
+                      From Superlative to Positive & Comparative to positive
                     </h1>
                     <table className="table-auto w-full border-collapse border  border-gray-400">
                       <thead>
@@ -1955,607 +1973,6 @@ const Transformation = () => {
                       (m) Jeba is the most obedient student in the class. (n) Mr
                       Rahaman is the greatest doctor in the city.(o) Iron is one
                       of the heaviest metals.
-                    </p>
-                    <p className="pt-5">
-                      Exercise <br />
-                      Transform the following sentences into positive : <br />
-                      (a) Summer is warmer than all other seasons. (b) A lion is
-                      not braver than he. (c) Jim and Della were not less wise
-                      than the Magi. (d) You are older than I. (e) I guess her
-                      hands are bigger than yours. (f) A train runs faster than
-                      a bus. (g) Her teeth were brighter than a string of
-                      pearls. (h) The Padma is larger than any other river in
-                      Bangladesh. (i) Della's hair was better than the jewels of
-                      the Queen of Sheba. (j) Her face was not less radiant than
-                      the full moon. (k) You are not less beautiful than your
-                      sister. (1) No sooner had he seen the police ran away. (m)
-                      He is faster than all other boys. (n) Suman is more
-                      brilliant than most other boys. (0) Iron is more useful
-                      than most other metals. (p) The Padma is larger than any
-                      other rivers in Bangladesh. (q) You are older than I. (r)
-                      Jim's watch was more valuable than the treasures of king
-                      Solomon. (s) No sooner had he seen the police than he ran
-                      away.
-                    </p>
-                  </div>
-
-                  {/* Superlative to Comparative & Positive to Comparative */}
-                  <div className="p-1 lg:p-6 bg-gray-100 mb-5 text-black">
-                    <h1 className="text-xl font-bold mb-4 text-green-500">
-                      Superlative to Comparative & Positive to Comparative
-                    </h1>
-                    <table className="table-auto w-full border-collapse border border-gray-400">
-                      <thead>
-                        <tr className="bg-gray-200">
-                          <th className="border border-gray-400 p-1 md:p-3">
-                            Rules
-                          </th>
-                          <th className="border border-gray-400 p-1 md:p-3">
-                            Examples
-                          </th>
-                        </tr>
-                      </thead>
-
-                      <tbody>
-                        {/* Superlative into Comparative */}
-                        <tr>
-                          <td
-                            colSpan={2}
-                            className="border border-gray-400 p-1 md:p-3 text-center font-bold bg-gray-300"
-                          >
-                            Superlative into Comparative
-                          </td>
-                        </tr>
-
-                        {/* Row 1 */}
-                        <tr>
-                          <td className="border border-gray-400 p-1 md:p-3">
-                            সাধারণ নিয়মঃ <br />
-                            <strong>Struct: </strong> Subject + Verb + adj-2 +
-                            than any other + বাক্যের বাকি অংশ।
-                          </td>
-                          <td className="border border-gray-400 p-1 md:p-3">
-                            <strong>Super:</strong> He is the wisest man in the
-                            village.
-                            <br />
-                            <strong>Comp:</strong> He is wiser than any other
-                            man in the village.
-                          </td>
-                        </tr>
-
-                        {/* Row 2 */}
-                        <tr>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>One of the - এর নিয়মঃ </strong> <br />
-                            <strong>Struct: </strong> Subject + Verb + adj-2 +
-                            than most other + বাক্যের বাকি অংশ।
-                          </td>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Super:</strong> Hadiduzzaman is one of the
-                            best poets.
-                            <br />
-                            <strong>Comp:</strong> Hadiduzzaman is better than
-                            most other poets.
-                          </td>
-                        </tr>
-
-                        {/* Positive into Comparative */}
-                        <tr>
-                          <td
-                            colSpan={2}
-                            className="border border-gray-400 p-1 md:p-3 text-center font-bold bg-gray-300"
-                          >
-                            Positive into Comparative
-                          </td>
-                        </tr>
-
-                        {/* Row 3 */}
-                        <tr>
-                          <td className="border border-gray-400 p-1 md:p-3">
-                            <strong>No other এর নিয়মঃ</strong> <br />
-                            <ol className="list-decimal ml-4">
-                              <li>
-                                <strong>Rule: </strong> as/so...as এর পরের অংশ +
-                                verb + adjective-2 + than any other + প্রদত্ত
-                                sentence এর Subject.
-                              </li>
-                            </ol>
-                          </td>
-                          <td className="border border-gray-400 p-1 md:p-3">
-                            <strong>Positive:</strong> No other tree on the
-                            mountain was so high as it.
-                            <br />
-                            <strong>Comp:</strong> It was higher than any other
-                            tree on the mountain.
-                          </td>
-                        </tr>
-
-                        {/* Row 4 */}
-                        <tr>
-                          <td className="border border-gray-400 p-1 md:p-3">
-                            <strong>Very few এর নিয়মঃ</strong> <br />
-                            <strong>Rule: </strong> as/so...as এর পরের অংশ +
-                            verb (plural) + adjective-2 + than most other +
-                            প্রদত্ত sentence এর Subject.
-                          </td>
-                          <td className="border border-gray-400 p-1 md:p-3">
-                            <strong>Positive:</strong> Very few subjects are so
-                            easy as this.
-                            <br />
-                            <strong>Comp:</strong> This is easier than most
-                            other subjects.
-                          </td>
-                        </tr>
-
-                        {/* Row 5 */}
-                        <tr>
-                          <td className="border border-gray-400 p-1 md:p-3">
-                            <strong>শুধু As ...... as এর নিয়মঃ</strong> <br />
-                            <strong>Rule: </strong> as/so...as এর পরের অংশ +
-                            verb (plural) + adjective-2 + than + প্রদত্ত
-                            sentence এর Subject. <br />
-                            <strong>Note: </strong>প্রদত্ত বাক্যে not না থাকলে
-                            not নিতে হবে আর not থাকলে বাদ দিতে হবে।
-                          </td>
-                          <td className="border border-gray-400 p-1 md:p-3">
-                            <strong>Positive:</strong> He is as wise as his
-                            brother.
-                            <br />
-                            <strong>Comp:</strong> His brother is not wiser than
-                            he.
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div className="pt-5">
-                      <p className="">
-                        Exercise <br />
-                        Transform the following sentences into comparative :{" "}
-                        <br />
-                        (a) Dhaka is the largest city in Bangladesh. (b)
-                        Shakespeare is the greatest of all dramatists. (c) The
-                        cow is the most useful of all animals. (d) The Magi were
-                        the wisest of all men who give present. (e) Sohel is the
-                        noblest person I have ever found. (f) English is the
-                        richest of all languages in the world. (g) Milk is the
-                        most nutritious of all kinds of the food. (h) Foyot's is
-                        one of the most expensive restaurants. (i) Della was the
-                        best housewife. (j) Iron is the most useful of all
-                        metals. (k) He is the noblest person I have ever found.
-                        (1) The rose is the best of all flowers. (m) Meherpur is
-                        the smallest town in Bangladesh. (n) Gold is the most
-                        valuable of all metals. (0) Nazrul is the most favourite
-                        of all poets to me. (p) Chattogram is the busiest port
-                        in Bangladesh.
-                      </p>
-
-                      <p className="pt-5">
-                        Exercise <br />
-                        Transform the following sentences into comparative:{" "}
-                        <br />
-                        (a) As soon as she saw it, she knew that it must be
-                        Jim's. (b) A bird cannot fly as fast as a plane. (c)
-                        Honesty is not as much as it is. (d) Eagle's eyes were
-                        not so bright as hers. (e) Orange is not as cheap as you
-                        said. (f) The lady was not so young as I expected. (g)
-                        She is not as ugly as you said. (h) No other boy in the
-                        orphanage is as good as jerry. (i) You have done as much
-                        as a man. (j) Very few metals are as precious as gold.
-                        (k) No other virtue is as great as truthfulness (1) Very
-                        few kings of India were as great as Akbar. (m) Very few
-                        books are as updated as Puthiniloy's book. (n) He is as
-                        tall as Palm tree. (o) As soon as the teacher entered
-                        the classroom, the students stood up
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Comparative to Superlative & Positive to Superlative */}
-                  <div className="p-1 lg:p-6 bg-gray-100 text-black">
-                    <h1 className="text-xl font-bold mb-4 text-green-500">
-                      Comparative to Superlative & Positive to Superlative
-                    </h1>
-                    <table className="table-auto w-full border-collapse border border-gray-400">
-                      <thead>
-                        <tr className="bg-gray-200">
-                          <th className="border border-gray-400 p-1 md:p-3">
-                            Rules
-                          </th>
-                          <th className="border border-gray-400 p-1 md:p-3">
-                            Examples
-                          </th>
-                        </tr>
-                      </thead>
-                      {/* Comparative into Superlative */}
-                      <tbody>
-                        <tr>
-                          <td
-                            colSpan={2}
-                            className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
-                          >
-                            Comparative into Superlative
-                          </td>
-                        </tr>
-
-                        {/* Row 1 */}
-                        <tr>
-                          <td className="border border-gray-400 p-2">
-                            Than any other/ than all other এর নিয়মঃ <br />
-                            <strong>Rule: </strong> Subject + Verb + one of the
-                            + adjective-এর-3/ most + than any other ঊঠিয়ে
-                            বাক্যের বাকি অংশ।
-                          </td>
-                          <td className="border border-gray-400 p-2">
-                            <strong>Positive:</strong> He is better than any
-                            other boy in the class.
-                            <br />
-                            <strong>Comp:</strong> He is the best boy in the
-                            class.
-                          </td>
-                        </tr>
-
-                        {/* Row 2 */}
-                        <tr>
-                          <td className="border border-gray-400 p-2">
-                            Than most other/than few other নিয়ম: <br />
-                            <strong>Rule: </strong> Subject + Verb + one of the
-                            + adjective-এর-3/ most + than most other ঊঠিয়ে
-                            বাক্যের বাকি অংশ।
-                          </td>
-                          <td className="border border-gray-400 p-2">
-                            <strong>Comp:</strong> Dhaka is bigger than most
-                            other cities in South Asia.
-                            <br />
-                            <strong>Super:</strong> Dhaka is one of the biggest
-                            cities in South Asia.
-                          </td>
-                        </tr>
-
-                        {/* Positive into Superlative */}
-                        <tr>
-                          <td
-                            colSpan={2}
-                            className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
-                          >
-                            Positive into Superlative
-                          </td>
-                        </tr>
-
-                        {/* Row 3 */}
-                        <tr>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-2"
-                          >
-                            <strong> No other এর নিয়মঃ</strong> <br />
-                            <strong>Rule: </strong>as/so... as এর পরের অংশ +
-                            verb + one of the + adj-3 + প্রদত্ত বাক্যের subject।
-                          </td>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-2"
-                          >
-                            <strong>Positive:</strong> No other girl in the
-                            class is as tall as Sumi.
-                            <br />
-                            <strong>Super:</strong> Sumi is the tallest girl in
-                            the class.
-                          </td>
-                        </tr>
-
-                        {/* Row 4 */}
-                        <tr>
-                          <td className="border border-gray-400 p-2">
-                            <strong>Very few এর নিয়মঃ </strong> <br />
-                            <strong>Rule: </strong>as/so... as এর পরের অংশ +
-                            Verb (Singular) + one of the + adj-3 + প্রদত্ত
-                            বাক্যের subject।
-                          </td>
-                          <td className="border border-gray-400 p-2">
-                            <strong>Positive:</strong> Very few boys in the
-                            locality are as wise as Habib.
-                            <br />
-                            <strong>Super:</strong> Habib is one of the wisest
-                            boys in the locality.
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    {/* Exercise */}
-                    <div className="pt-5">
-                      <div className="">
-                        <p className="">
-                          Exercise <br />
-                          Transform the following sentences into superlative:{" "}
-                          <br />
-                          (a) The lady guest was cleverer than any other woman.
-                          (b) He is not less intelligent than any other boy. (c)
-                          Mutton was cheaper than any other food on the menu.
-                          (d) Ruma is fairer than any other girl. (e) It burns
-                          prettier than any other wood. (f) Imran Khan is faster
-                          than most other cricketers. (g) He is wiser than any
-                          other villagers. (h) Rokeya is better than most other
-                          girls in the class. (i) Nazrul is more favourite than
-                          any other poet. (j) Shima is one of the most active
-                          workers in the factory. (k) Asia is larger than any
-                          other continent in the world. other man in all other
-                        </p>
-                      </div>
-                      <div className="">
-                        <p className="">
-                          Exercise <br />
-                          Transform the following sentences into superlative:{" "}
-                          <br />
-                          (a) Very few problems are as serious as Illiteracy.
-                          (b) No other boy is as good as he. (c) Very few
-                          dramatists are as successful as Shakespeare. (d) No
-                          other boy is as intelligent as Rahman. (e) No other
-                          emperor was as great as Akbar. (f) No other animal is
-                          as useful as the cow. (g) Very few boys are as good as
-                          Jerry the author has ever found. (h) Very few animals
-                          are as ferocious as a lion. (i) No other city in
-                          Bangladesh is as big as Dhaka. (j) No other woman was
-                          as clever as the lady guest. (k) No other continent in
-                          the world is so large as Asia. (1) No other dramatist
-                          is as great as Shakespeare. (m) Very few poets in
-                          Bangla are so good as Nazrul. (n) Very few people in
-                          the village are as friendly as Mr. Kashem. (0) No
-                          other girl is as beautiful as Labiba.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </AccordionContent>
-            </AccordionPanel>
-
-            {/* Superlative to Positive  Comparative to positive */}
-            <AccordionPanel>
-              <AccordionTitle>
-                Superlative to Positive & Comparative to positive
-              </AccordionTitle>
-              <AccordionContent className="p-2 md:p-5">
-                <h1 className="font-bold mb-4 text-green-500">Degree </h1>
-                <Link to={"/degreeOfAdj"}>
-                  <p className="py-5">
-                    <span className="text-blue-500 underline">Degree</span>
-                    পরিবর্তন এ এক্সপার্ট হতে চাইলে
-                    <span className="text-blue-500 underline">
-                      Degree of Adjectives
-                    </span>
-                    ভালোভাবে চিনতে হবে সেজন্য Degree of Adjectives অধ্যায় পড়তে
-                    হবে, সেজন্য
-                    <span className="text-blue-500 underline">
-                      এখানে ক্লিক/টাচ
-                    </span>
-                    করুন।
-                  </p>
-                </Link>
-                <div className="p-2 bg-gray-100 my-5">
-                  <div className="">
-                    <table className="table-auto w-full border-collapse border  border-gray-400">
-                      <thead>
-                        <tr className="bg-gray-200">
-                          <th className="border border-gray-400 p-2">Rules</th>
-                          <th className="border border-gray-400 p-2">
-                            Examples
-                          </th>
-                        </tr>
-                      </thead>
-
-                      <tbody>
-                        {/* Row 1 */}
-                        <tr>
-                          <td
-                            colSpan={2}
-                            className="text-center border border-gray-400 p-2 md:text-center font-bold bg-gray-300"
-                          >
-                            Superlative to Positive
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3 dark:text-gray-300"
-                          >
-                            সাধারণ নিয়মঃ <br />
-                            <strong>(1). </strong> No other + Adj-এর পরের অংশ +
-                            Verb + so/as + Adj-1 + as + প্রদত্ত sentence এর
-                            Subject.
-                          </td>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Super:</strong> Hira is the best girl in our
-                            locality.
-                            <br />
-                            <strong>Postive:</strong> No other girl in our
-                            locality is as good as Hira.
-                          </td>
-                        </tr>
-
-                        {/* Row 2 */}
-                        <tr>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>One of the এর নিয়মঃ- </strong>
-                            <br />
-                            <strong>(2). </strong> Very few + Adjective-এর পরের
-                            অংশ + Verb + so/as + Adj-1 + as + প্রদত্ত sentence
-                            এর Subject.
-                          </td>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Super:</strong> Habib is one of the
-                            cleverest boys.
-                            <br />
-                            <strong>Positive:</strong> Very few boys are so/as
-                            clever as Habib.
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Note: </strong> উপরের: all other, most
-                            other, many other, few other, very few... এর পর
-                            Noun/Pronoun-এর Plural form বসে। Superlative
-                            Degree-এর পর of all/any বসলে তা উঠে যায়।
-                          </td>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Super:</strong> Romeo is the best of all
-                            boys.
-                            <br />
-                            <strong>Positive:</strong> No other boy is as good
-                            as Romeo.
-                          </td>
-                        </tr>
-
-                        {/* Comparative to Positive */}
-                        <tr>
-                          <td
-                            colSpan={2}
-                            className="border border-gray-400 p-1 md:p-3 text-center font-bold bg-gray-300"
-                          >
-                            Comparative to Positive
-                          </td>
-                        </tr>
-
-                        {/* Row 3 */}
-                        <tr>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Than any other/all other এর নিয়মঃ</strong>
-                            <br />
-                            <strong>Rule: </strong> No other + any other/all
-                            other এর পরের অংশ + Verb + so/as + Adj-1 + as +
-                            প্রথম Sentence-এর Subject।
-                          </td>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Comp:</strong> Boby is taller than any other
-                            girl in the class.
-                            <br />
-                            <strong>Positive:</strong> No other girl in the
-                            class is as tall as Boby.
-                          </td>
-                        </tr>
-                        <tr>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>
-                              Than most other/than few other এর নিয়মঃ
-                            </strong>
-                            <br />
-                            <strong>Rule: </strong> Very few + than most other
-                            এর পরের অংশ + Verb + so/as + Adj-1 + as + প্রথম
-                            Sentence-এর Subject।
-                            <br />
-                            <strong>Note: </strong> এখানে Helping Verb টি বহুবচন
-                            হয়।
-                          </td>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Comp:</strong> Boby is taller than most
-                            other girls in the class.
-                            <br />
-                            <strong>Positive:</strong> Very few girls in the
-                            class are as tall as Boby.
-                          </td>
-                        </tr>
-
-                        {/* Row 4 */}
-                        <tr>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Than এর নিয়মঃ </strong>
-                            <br />
-                            <strong>Rule: </strong> Than-এর পরের অংশ + Verb +
-                            so/as + Adj-1 + as + প্রথম Sentence-এর Subject।{" "}
-                            <br />
-                            <strong>Note: </strong> <strong>Note: </strong>
-                            প্রদত্ত বাক্যে Not না থাকলে Not নিতে হবে আর Not
-                            থাকলে বাদ দিতে হবে।
-                          </td>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Comp:</strong> Panna is taller than Hira.
-                            <br />
-                            <strong>Positive:</strong> Hira is not so/as tall as
-                            Panna.
-                          </td>
-                        </tr>
-
-                        {/* Row 6 */}
-                        <tr>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>No less/Not less... than এর নিয়মঃ</strong>
-                            <br />
-                            <strong>Rule: </strong> less than-এর পরের অংশ + Verb
-                            + as/so + Adj-1 + as + than-যুক্ত Sentence এর
-                            subject.
-                          </td>
-                          <td
-                            colSpan={1}
-                            className="border border-gray-400 p-1 md:p-3"
-                          >
-                            <strong>Comp:</strong> Sabrina is no less wise than
-                            Saguppta.
-                            <br />
-                            <strong>Positive:</strong> Sabrina is as wise as
-                            Saguppta.
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <p className="">
-                      Exercise <br />
-                      Transform the following sentences into positive : <br />
-                      (a) The lady admirer was the cleverest woman the writer
-                      had ever seen. (b) Chattogram is the biggest port in
-                      Bangladesh. (c) He is the noblest person I have ever
-                      found. (d) Shakespeare is the greatest of all dramatists.
-                      January is the coldest month in Bangladesh. (f) It burns
-                      the prettiest of any wood. (g) The Magi were the wisest of
-                      all men who give presents. (h) Foyot's is one of the most
-                      expensive restaurants. (i) Rumi is the class. (j) The rose
-                      is the finest of all flowers. (k) Dhaka is the biggest
-                      city in Bangladesh. (1) Kamal is one of tallest boys in
-                      the class. (m) Jeba is the most obedient student in the
-                      class. (n) Mr Rahaman is the greatest doctor in the
-                      city.(o) Iron is one of the heaviest metals.
                     </p>
                     <p className="pt-5">
                       Exercise <br />
