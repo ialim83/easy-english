@@ -1035,60 +1035,43 @@ const Transformation = () => {
                     1. Assertive sentence-এর subject যদি second person (you) হয়
                     তবে মূল verb দ্বারা বাক্যটি শুরু হবে। এক্ষেত্রে মূল verb-এর
                     পূর্বের অংশ বাদ যাবে। তবে Assertive sentence টি 'না-বোধক'
-                    হলে 'Do not + verb' দ্বারা বাক্যটি শুরু হবে।
-                    <br />
-                    উদাহরণ:
-                    <br />
-                    i. Ass: You should not run in the sun.
-                    <br />
-                    Imp: Do not run in the sun.
-                    <br />
-                    ii. Aff: Obey your parents.
+                    হলে 'Do not + verb' দ্বারা বাক্যটি শুরু হবে। <br />  
+                    উদাহরণ: <br />  
+                    Ass: You should not run in the sun. <br />  
+                    Imp: Do not run in the sun. <br />  
+                    Ass: You should obey your parents. <br />
+                    Imp: Obey your parents.
                     <br />
                     <br />
                     2. Assertive sentence টিতে যদি 'request' কথাটি থাকে তবে
                     Imperative করার সময় 'please/kindly + verb' দ্বারা বাক্যটি
-                    শুরু হবে।
-                    <br />
-                    উদাহরণ:
-                    <br />
-                    1. Ass: I request you to do it.
-                    <br />
-                    Imp: Please do it.
-                    <br />
-                    ii. Ass: You are requested to help him.
-                    <br />
+                    শুরু হবে।  <br />  
+                    উদাহরণ:  <br />  
+                    Ass: I request you to do it.  <br />  
+                    Imp: Please do it.  <br />  
+                    Ass: You are requested to help him.  <br />  
                     Imp: Please help him.
                     <br />
                     <br />
-                    3. First person বা third person যুক্ত Assertive sentence- এ
-                    not থাকলে Imperative করার <br />
+                    3. First person (I, We) বা third person (he, she, they) যুক্ত Assertive sentence- কে  Imperative করার <br />
                     নিয়ম: Let + প্রদত্ত subject এর objective from + প্রদত্ত verb
                     থেকে শেষ পর্যন্ত।
                     <br />
                     Rule: Let + objective pronoun (me/ us/ him/her/ them) + Verb
                     + Others. <br />
-                    উদাহরণ:
-                    <br />
-                    Ass: I must go now.
-                    <br />
-                    Imp: Let me go now.
-                    <br />
-                    Ass: He should do the sum.
-                    <br />
-                    Imp: Let him do the sum.
-                    <br />
-                    <br />
+                    উদাহরণ:  <br />  
+                    Ass: I must go now.  <br />  
+                    Imp: Let me go now.  <br />  
+                    Ass: He should do the sum.  <br />  
+                    Imp: Let him do the sum.  <br />    
+                    <br />  
                     4. Never যুক্ত assertive sentence-কে imperative করার
                     <br />
                     নিয়মে: প্রদত্ত never + প্রদত্ত মূল verb-এর base form/V1 +
-                    verb-এর পরের অংশ।
-                    <br />
-                    উদাহরণ:
-                    <br />
+                    verb-এর পরের অংশ। <br /> 
+                    উদাহরণ: <br /> 
+                    Imp: You should never do this. <br /> 
                     Ass: Never do this.
-                    <br />
-                    Imp: You should never do this.
                     <br />
                     <br />
                     <h3>Exercise </h3>
@@ -1161,67 +1144,74 @@ const Transformation = () => {
                   </h3>
                   <p className="">
                     <span className="text-pink-600 font-bold">
-                      Rule:(1) <br />
+                      Rule:(1): Since/as/when = and <br />  
                     </span>
                     Since/as/ when / as soon as/ because দ্বারা শুরু / যুক্ত
-                    বাক্যের মাঝখানে And বসিয়ে Since /as/ when উঠিয়ে দিলে
-                    Compound হবে। <br />
-                    যেমনঃ <br />
-                    Q. When I was eight, I was there. <br />
-                    = I was eight and I was there. <br /> <br />
-                    <strong>অনুরুপভাবেঃ</strong> <br />
-                    And উঠিয়ে শুরুতে As বসালে Complex হবে। যেমনঃ <br />
-                    Q. I was sick and I could not attend the meeting. <br />= As
-                    I was sick, I could not attend the meeting.
+                    Complex বাক্যের মাঝখানে And বসিয়ে Since /as/ when উঠিয়ে দিলে
+                    Compound হবে। <br />  
+                    যেমনঃ <br />  
+                    Q. When I was eight, I was there. <br />  
+                    = I was eight and I was there. <br /> <br />  
+                    <strong>অনুরুপভাবেঃ and = Since/as/when </strong> <br />  
+                    And উঠিয়ে শুরুতে As বসালে Complex হবে। যেমনঃ <br />  
+                    Q. I was sick and I could not attend the meeting. <br />   
+                    = As I was sick, I could not attend the meeting.
                   </p>
                   <br />
                   <p className="">
-                    <span className="text-pink-600 font-bold">Rule:(2)</span>
-                    <br />
-                    Though/ Although উঠিয়ে মাঝখানে but বসালে Compound হবে।
-                    <br />
+                    <span className="text-pink-600 font-bold">Rule:(2) Though/ Although = but</span> <br />  
+                    Complex বাক্যে Though/ Although থাকলে উঠিয়ে মাঝখানে but বসালে Compound হবে।  <br />  
                     যেমনঃ <br />
                     Q. Although he was sick, he was walking. <br />
                     = He was sick but he was walking. <br /> <br />
-                    <strong>অনুরুপভাবেঃ</strong> <br />
-                    মাঝখানে থেকে but / yet উঠিয়ে শুরুতে Though / Although বসালে
-                    Complex হবে। যেমনঃ <br />
+                    <strong>অনুরুপভাবেঃ but = Though/ although</strong> <br />
+                    Compound বাক্যের মাঝখানে থেকে but / yet উঠিয়ে শুরুতে Though / Although বসালে Complex হবে। যেমনঃ <br />
                     Q. He was honest but he was punished. <br />
                     = Though He was honest, he was punished. <br />
                   </p>
                   <br />
                   <p className="">
-                    <span className="text-pink-600 font-bold">Rule:(3) </span>
+                    <span className="text-pink-600 font-bold">Rule:(3): If/ Unless = and </span>
                     <br />
-                    If দ্বারা শুরু বাক্য হ্যাঁ-বোধক হলে if + Subject উঠিয়ে
-                    মাঝখানে and বসাতে হবে। যেমনঃ <br />
+                    If দ্বারা শুরু Complex বাক্য হ্যাঁ-বোধক হলে if + Subject উঠিয়ে
+                    মাঝখানে and বসালে Compound হবে। যেমনঃ <br />
                     Q. If you work hard, you will pass. <br />
                     = Work hard and you will pass. <br />
                     কিন্তু- <br />
-                    if দ্বারা শুরু বাক্য না-বোধক হলে if - থেকে - not পর্যন্ত
-                    উঠিয়ে মাঝখানে and বসালে Compound হবে। <br />
+                    if/unless দ্বারা শুরু Complex বাক্য না-বোধক হলে if থেকে not পর্যন্ত উঠিয়ে মাঝখানে and বসালে Compound হবে। <br />
                     যেমনঃ <br />
                     Q. If you do not do, you will die. <br />
+                    = Do or you will die. <br />
+                    Q. Unless you do, you will die. <br />
                     = Do or you will die.
                     <br />
                     <br />
                     <strong>অনুরুপভাবেঃ</strong> <br />
                     And দ্বারা যুক্ত বাক্যের শুরুতে subject না থাকলে If + Sub
                     (you) বসিয়ে And উঠালে Complex হবে। <br />
-                     Q. Work hard and you will pass. <br />
+                    Q. Work hard and you will pass. <br />
                     = If you work hard, you will pass. <br />
-                    আবার Or উঠিয়ে বাক্যের
-                    শুরুতে If + sub (you) + do not বসালে Complex হবে। <br />
+                    আবার Or উঠিয়ে বাক্যের শুরুতে If + sub (you) + do not বসালে
+                    Complex হবে। <br />
                     যেমনঃ <br />
-                    
-                    Q. Do or you will die.
-                    <br />= If you do not do it, you will die.
+                    Q. Do or you will die. <br />   
+                    = If you do not do it, you will die.
+                  </p>
+                  <br />
+                  <p className="">
+                   <span className="font-bold">Rule(4): so that/in order that = and</span> <br />
+                  Complex বাক্যে So that থাকলে so that ঊঠিয়ে মাঝখানে/উক্ত স্থানে and বসালে Compound হবে। যেমনঃ  <br /> 
+
+                  </p>
+                  <br />
+                  <p className="">
+                    <span className="font-bold">Rule(5): so...that = very...and</span> 
+                 Complex বাক্যের so এর স্থানে very এবং that এর স্থলে and বসালে Compound হবে। যেমনঃ <br /> 
                   </p>
 
                   <br />
-
+                  <h3 className="">Exercise</h3>
                   <p className="pt-5">
-                    Exercise <br />
                     Transform the following Compound sentences into Complex:{" "}
                     <br />
                     (i) Follow my example and you will feel better. (ii) Speak
@@ -1247,7 +1237,7 @@ const Transformation = () => {
                     wood. (xxii) He has much money and he can buy a car. (xxiii)
                     She finished her work and started writing. (xxiv) Read
                     attentively or you fail. (xxv) Do or die. (xxvi) He worked
-                    hard but he could not succeed.
+                    hard but (he) could not succeed.
                   </p>
                   <br />
                   <p className="">
@@ -1666,15 +1656,16 @@ const Transformation = () => {
                 <div className="my-5 p-3">
                   <h3 className="text-green-500">Degree of Adjective</h3>
                   <p className="py-5">
-                  দুটি বা ততোধিক ব্যক্তির মধ্যে তুলনা করতে হলে একই Adjective
-                  বিভিন্ন sentence-এ ভিন্ন ভিন্ন রূপে ব্যবহৃত হয়। adjective-এর
-                  যে রূপ নির্ধারণ করে তুলনার মাত্রা বা অবস্থান প্রকাশ করে তাকে
-                  degree of Adjective বলে। উপরের Table থেকে আমরা জানতে পারি যে
-                  degree of Adjective তিন প্রকার, যথাঃ <br /> 
-                  (a) Positive <br /> 
-                  (b)Comparative <br /> 
-                  (c) Superlative 
-                  </p> 
+                    দুটি বা ততোধিক ব্যক্তির মধ্যে তুলনা করতে হলে একই Adjective
+                    বিভিন্ন sentence-এ ভিন্ন ভিন্ন রূপে ব্যবহৃত হয়।
+                    adjective-এর যে রূপ নির্ধারণ করে তুলনার মাত্রা বা অবস্থান
+                    প্রকাশ করে তাকে degree of Adjective বলে। উপরের Table থেকে
+                    আমরা জানতে পারি যে degree of Adjective তিন প্রকার, যথাঃ{" "}
+                    <br />
+                    (a) Positive <br />
+                    (b)Comparative <br />
+                    (c) Superlative
+                  </p>
                   Degree চিনিবার Shortcut technique:
                   <div className="space-y-5 ">
                     <p className="">
@@ -1738,7 +1729,6 @@ const Transformation = () => {
                     </p>
                   </div>
                 </div>
-
               </AccordionContent>
             </AccordionPanel>
 
@@ -1748,7 +1738,6 @@ const Transformation = () => {
                 Superlative to Positive & Comparative to Positive
               </AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
-                
                 <div className="p-2 bg-gray-100 my-5">
                   {/* Superlative to Positive Comparative to positive */}
                   <div className="p-1 text-black">
