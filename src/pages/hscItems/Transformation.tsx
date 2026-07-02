@@ -1136,77 +1136,90 @@ const Transformation = () => {
 
             {/* Complex to Compound & Compound to complex: */}
             <AccordionPanel>
-              <AccordionTitle>Complex - Compound :</AccordionTitle>
+              <AccordionTitle>Complex - Compound</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <h3 className="text-green-500">
                     Complex to Compound & Compound to complex:
                   </h3>
                   <p className="">
-                    <span className="text-pink-600 font-bold">
-                      Rule:(1): Since/as/when = and <br />  
+                    <strong>Rule:(1):</strong>  <br /> 
+                    <span className="bg-pink-600 font-bold px-2">
+                      Since/as/when = and <br />  
                     </span>
                     Since/as/ when / as soon as/ because দ্বারা শুরু / যুক্ত
-                    Complex বাক্যের মাঝখানে And বসিয়ে Since /as/ when উঠিয়ে দিলে
-                    Compound হবে। <br />  
+                    Complex বাক্যের since /as/ when উঠিয়ে, মাঝখানে and বসিয়ে দিলে
+                    Compound হবে। 
                     যেমনঃ <br />  
                     Q. When I was eight, I was there. <br />  
-                    = I was eight and I was there. <br /> <br />  
+                    = I was eight and I was there. <br />   
                     <strong>অনুরুপভাবেঃ and = Since/as/when </strong> <br />  
-                    And উঠিয়ে শুরুতে As বসালে Complex হবে। যেমনঃ <br />  
+                   Compound বাক্যের and উঠিয়ে শুরুতে As বসালে Complex হবে। যেমনঃ <br />  
                     Q. I was sick and I could not attend the meeting. <br />   
                     = As I was sick, I could not attend the meeting.
                   </p>
                   <br />
                   <p className="">
-                    <span className="text-pink-600 font-bold">Rule:(2) Though/ Although = but</span> <br />  
-                    Complex বাক্যে Though/ Although থাকলে উঠিয়ে মাঝখানে but বসালে Compound হবে।  <br />  
+                    <strong>Rule:(2) </strong>   <br /> 
+                    <span className="bg-pink-600 font-bold px-2">Though/ Although = but</span> <br />  
+                    Complex বাক্যে Though/ Although থাকলে উঠিয়ে, মাঝখানে but বসালে Compound হবে।  <br />  
                     যেমনঃ <br />
                     Q. Although he was sick, he was walking. <br />
                     = He was sick but he was walking. <br /> <br />
                     <strong>অনুরুপভাবেঃ but = Though/ although</strong> <br />
-                    Compound বাক্যের মাঝখানে থেকে but / yet উঠিয়ে শুরুতে Though / Although বসালে Complex হবে। যেমনঃ <br />
+                    Compound বাক্যের মাঝখানে থেকে but / yet উঠিয়ে, শুরুতে Though / Although বসালে Complex হবে। যেমনঃ <br />
                     Q. He was honest but he was punished. <br />
                     = Though He was honest, he was punished. <br />
                   </p>
                   <br />
                   <p className="">
-                    <span className="text-pink-600 font-bold">Rule:(3): If/ Unless = and </span>
+                    <strong>Rule:(3):</strong>  <br />
+                    <span className="bg-pink-600 font-bold px-2">If/ Unless = and </span>
                     <br />
-                    If দ্বারা শুরু Complex বাক্য হ্যাঁ-বোধক হলে if + Subject উঠিয়ে
-                    মাঝখানে and বসালে Compound হবে। যেমনঃ <br />
+                    If দ্বারা শুরু Complex বাক্য হ্যাঁ-বোধক হলে if + Subject উঠিয়ে,
+                    মাঝখানে and বসালে Compound হবে। যেমনঃ <br /> 
                     Q. If you work hard, you will pass. <br />
                     = Work hard and you will pass. <br />
                     কিন্তু- <br />
-                    if/unless দ্বারা শুরু Complex বাক্য না-বোধক হলে if থেকে not পর্যন্ত উঠিয়ে মাঝখানে and বসালে Compound হবে। <br />
+                    if/unless দ্বারা শুরু Complex বাক্য না-বোধক হলে if থেকে not পর্যন্ত উঠিয়ে, মাঝখানে and বসালে Compound হবে। 
                     যেমনঃ <br />
                     Q. If you do not do, you will die. <br />
                     = Do or you will die. <br />
                     Q. Unless you do, you will die. <br />
                     = Do or you will die.
                     <br />
-                    <br />
-                    <strong>অনুরুপভাবেঃ</strong> <br />
-                    And দ্বারা যুক্ত বাক্যের শুরুতে subject না থাকলে If + Sub
-                    (you) বসিয়ে And উঠালে Complex হবে। <br />
+                    <span className="font-bold">অনুরুপভাবেঃ</span> <br />
+                    And দ্বারা যুক্ত Compound বাক্যের শুরুতে subject না থাকলে If + Sub
+                    (you) বসিয়ে, and উঠালে Complex হবে। <br />
                     Q. Work hard and you will pass. <br />
                     = If you work hard, you will pass. <br />
                     আবার Or উঠিয়ে বাক্যের শুরুতে If + sub (you) + do not বসালে
-                    Complex হবে। <br />
+                    Complex হবে।
                     যেমনঃ <br />
                     Q. Do or you will die. <br />   
                     = If you do not do it, you will die.
                   </p>
                   <br />
                   <p className="">
-                   <span className="font-bold">Rule(4): so that/in order that = and</span> <br />
+                  <strong>Rule(4):</strong>  <br />  
+                  <span className="bg-pink-600 font-bold px-2">so that/in order that = and</span> <br />
                   Complex বাক্যে So that থাকলে so that ঊঠিয়ে মাঝখানে/উক্ত স্থানে and বসালে Compound হবে। যেমনঃ  <br /> 
-
+                  Q. He studied hard so that he could pass. <br />
+                  = He studied hard and he could pass. <br />
+                  <span className="font-bold">অনুরুপভাবেঃ</span> <br />
+                  Q He studied hard and he could pass. <br />
+                  = He studied hard so that he could pass. <br />
                   </p>
                   <br />
                   <p className="">
-                    <span className="font-bold">Rule(5): so...that = very...and</span> 
-                 Complex বাক্যের so এর স্থানে very এবং that এর স্থলে and বসালে Compound হবে। যেমনঃ <br /> 
+                  <strong>Rule(5): </strong> <br /> 
+                  <span className="bg-pink-600 font-bold px-2">so...that = very...and</span> <br />
+                 Complex বাক্যের so এর স্থানে very এবং that এর স্থলে and বসালে Compound হবে। যেমনঃ <br />
+                 Q. He is so weak that he cannot walk. <br /> 
+                 = He is very weak and he cannot walk. <br /> 
+                 <span className="font-bold">অনুরুপভাবেঃ</span> <br />
+                 Q. He is very weak and he cannot walk. <br /> 
+                 = He is so weak that he cannot walk. <br /> 
                   </p>
 
                   <br />
@@ -1266,45 +1279,49 @@ const Transformation = () => {
 
             {/* Compound to simple & Simple to Compound: */}
             <AccordionPanel>
-              <AccordionTitle>Compound - simple:</AccordionTitle>
+              <AccordionTitle>Compound - simple</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <h3 className="text-green-500">
-                    From Compound to simple & Simple to Compound:
+                  Compound to simple & Simple to Compound:
                   </h3>
                   <p className="">
-                    <strong>Rule:(1) </strong>And দ্বারা যুক্ত বাক্যের And উঠিয়ে
-                    প্রথম বাক্যাংশের Subject উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত
-                    করতে হবে। যদি প্রথম বাক্যে be verb থাকে তবে এর পরিবর্তে
-                    being এবং have verb থাকলে having বসালে Simple হবে। <br />
+                    <strong>Rule:(1) </strong> <br />
+                    <span className="bg-pink-600 font-bold px-2 py-1">and = V<sub>1 + ing</sub> </span> <br /> 
+                    Compound বাক্যের And উঠিয়ে
+                    প্রথম বাক্যাংশের Subject উঠিয়ে, মূল V₁ এর সঙ্গে ing যুক্ত
+                    করতে হবে। 
                     যেমনঃ <br />
                     Q. He closed the window and went out, <br />
                     = Closing the window, he went out. <br />
+                    যদি প্রথম বাক্যে be verb থাকে তবে এর পরিবর্তে
+                    being এবং have verb থাকলে having বসালে Simple হবে। <br /> 
+                    Q. The water was hot and they could not drink it. <br /> 
+                    = The water being hot, they could not drink it. <br /> 
                     <strong>NOTE: </strong> <br />
-                    দুটি বাক্যের Subject যদি ভিন্ন হয় তবে Subject উঠবেনা। <br />
+                    দুটি বাক্যের Subject যদি ভিন্ন হয় তবে Subject উঠবেনা। 
                     যেমনঃ <br />
                     Q. The tea was hot and we could not drink. <br />
                     = The tea being hot, we could not drink. <br />
                     <strong>অনুরুপভাবেঃ</strong> <br />
                     ing/ being/ having দ্বারা শুরু বাক্যের মাঝখানে and বসিয়ে
-                    Subject + V কে পরের বাক্যের Tense অনুসারে সাজাতে হবে। <br />
+                    Subject + V কে পরের বাক্যের Tense অনুসারে সাজাতে হবে।  
                     যেমনঃ <br />
                     Q. The sun having set, they left home. <br />
                     = The sun had set and they left home. <br />
-                    <br />
                     <span className="text-rose-600 font-bold">
                       কিন্তু:-
                     </span>{" "}
                     <br />
                     And দ্বারা যুক্ত বাক্যের শুরুতে sub না থাকলে And উঠিয়ে
                     বাক্যের শুরুতে by বসাতে হবে এবং by এর পরের V₁ এর সঙ্গে ing
-                    যুক্ত করাতে হবে। <br />
+                    যুক্ত করাতে হবে।
                     যেমনঃ <br />
                     Q. Work hard and you will succeed. <br />
                     =By working hard, you will succeed. <br />
                     <strong>অনুরুপভাবে:</strong> <br />
-                    উল্টোটা করলে - by এবং ing ঊঠিয়ে কোমা এর স্থলে and বসালে
-                    Compound হবে। <br />
+                    by এবং ing ঊঠিয়ে কোমা এর স্থলে and বসালে
+                    Compound হবে। 
                     যেমনঃ <br />
                     Q. By working hard, you will succeed.
                     <br />= Work hard and you will succeed.
@@ -1312,30 +1329,32 @@ const Transformation = () => {
 
                   <br />
                   <p className="">
-                    <strong>Rule: (2) </strong>
-                    But/yet দ্বারা যুক্ত বাক্যের শুরুতে In spite of/ Despite of
-                    বসিয়ে পরের মূল V1 এর সঙ্গে ing যুক্ত করলে Simple হবে। কিন্তু
-                    প্রথম বাক্যে verb to be থাকলে এর পরিবর্তে being এবং have
-                    verb এর পরিবর্তে having বসাতে হবে।
-                    <br />
+                    <strong>Rule: (2) </strong> <br /> 
+                    <span className="bg-pink-600 font-bold px-2">but/ yet = In spite of </span>  <br /> 
+                    But/yet দ্বারা যুক্ত Compound বাক্যের শুরুতে In spite of/ Despite of
+                    বসিয়ে, Subject এর possessive করতে হবে এবং পরের মূল V1 এর সঙ্গে ing যুক্ত করলে Simple হবে। 
                     যেমনঃ <br />
                     Q. He is rich but he is simple minded. <br />
                     = In spite of being rich, he is simple minded. <br />
+                    কিন্তু:- <br /> 
+                    প্রথম বাক্যে verb to be থাকলে এর পরিবর্তে being এবং have
+                    verb এর পরিবর্তে having বসাতে হবে। <br />
                     <strong> অনুরুপভাবেঃ</strong> <br />
                     In spite of/ Despite of উঠিয়ে পরের Possessive থাকলে
                     Subjective বসাতে হবে এবং ing যুক্ত Verb কে পরের বাক্যাংশ
                     অনুসারে verb টিকে বসাতে হবে। কিন্তু being থাকলে be verb এবং
-                    having থাকলে have verb বসালে Compound হবে। <br />
+                    having থাকলে have verb বসালে Compound হবে। 
                     যেমনঃ <br />
                     Q. In spite of being rich, he is simple minded.
                     <br />= He is rich but he is simple minded.
                   </p>
                   <br />
                   <p className="">
-                    <strong>Rule:(3) </strong>Or দ্বারা যুক্ত বাক্যের Or পরের
+                    <strong>Rule:(3) </strong> <br /> 
+                    <span className="bg-pink-600 font-bold px-2">Or = Without + V<sub>1+ing</sub> </span>  <br /> 
+                    Or দ্বারা যুক্ত বাক্যের Or পরের
                     বাক্যাংশটি Negative হলে or উঠিয়ে বাক্যের শুরুতে without
-                    বসিয়ে এর পরের মূল V₁ এর সঙ্গে ing যুক্ত করলে Compound হবে।{" "}
-                    <br />
+                    বসিয়ে এর পরের মূল V₁ এর সঙ্গে ing যুক্ত করলে Compound হবে।
                     যেমনঃ <br />
                     Q. Work hard or you will not shine. <br />
                     = Without working hard, you will not shine. <br />
@@ -1369,6 +1388,7 @@ const Transformation = () => {
                     man has vast knowledge. (x) The weather being very cold,
                     there were no birds outside.
                   </p>
+                  <br /> 
                   <p className="">
                     Exercise <br />
                     Transform the following Compound sentences into Simple :{" "}
@@ -1404,7 +1424,7 @@ const Transformation = () => {
 
             {/* Complex to Simple & Simple to Complex: */}
             <AccordionPanel>
-              <AccordionTitle>Complex - Simple:</AccordionTitle>
+              <AccordionTitle>Complex - Simple</AccordionTitle>
               <AccordionContent className="p-2 md:p-5">
                 <div className="">
                   <h3 className="text-green-500">
