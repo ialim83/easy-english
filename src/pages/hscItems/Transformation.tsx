@@ -1287,7 +1287,7 @@ const Transformation = () => {
                   </h3>
                   <p className="">
                     <strong>Rule:(1) </strong> <br />
-                    <span className="bg-pink-600 font-bold px-2 py-1">and = V<sub>1 + ing</sub> </span> <br /> 
+                    <span className="bg-pink-600 font-bold px-2">and = V<sub>1 + ing</sub> </span> <br /> 
                     Compound বাক্যের And উঠিয়ে
                     প্রথম বাক্যাংশের Subject উঠিয়ে, মূল V₁ এর সঙ্গে ing যুক্ত
                     করতে হবে। 
@@ -1351,8 +1351,8 @@ const Transformation = () => {
                   <br />
                   <p className="">
                     <strong>Rule:(3) </strong> <br /> 
-                    <span className="bg-pink-600 font-bold px-2">Or = Without + V<sub>1+ing</sub> </span>  <br /> 
-                    Or দ্বারা যুক্ত বাক্যের Or পরের
+                    <span className="bg-pink-600 font-bold px-2">Or = Without/By + V<sub>1+ing</sub> </span>  <br /> 
+                    Or দ্বারা যুক্ত Compound বাক্যের Or এর পরের
                     বাক্যাংশটি Negative হলে or উঠিয়ে বাক্যের শুরুতে without
                     বসিয়ে এর পরের মূল V₁ এর সঙ্গে ing যুক্ত করলে Compound হবে।
                     যেমনঃ <br />
@@ -1361,21 +1361,21 @@ const Transformation = () => {
                     <strong>কিন্তু:- </strong> <br />
                     Or দ্বারা যুক্ত বাক্যের পরের বাক্যাংশটি হ্যাঁবোধক হলে by
                     বসাতে হবে।
-                    <br />
                     যেমনঃ <br />
-                    Q. Do it or you will die.
-                    <br />= By doing you will die.
+                    Q. Do it or you will die.  <br /> 
+                    = By doing you will die.
                     <br />
                     <strong> অনুরুপভাবে: </strong> <br />
                     by / without এবং V₁ এর ing উঠিয়ে V₁ করতে হবে এবং মাঝখানে
-                    comma উঠিয়ে or বসালে Compound হবে। <br />
+                    comma উঠিয়ে or বসালে Compound হবে। 
                     যেমনঃ <br />
                     Q. Without working hard, it will not shine.
                     <br />= Work hard or you will not shine.
                   </p>
+                  <br />
+                  <h3>Exercise</h3>
                   <p className="pt-5">
-                    Exercise <br />
-                    Transform the following simple sentences into compound :{" "}
+                    Transform the following simple sentences into compound: 
                     <br />
                     (i) Taking up his basket, the porter followed the girl. (ii)
                     Finishing the work, we went to the playground. (iii) Closing
@@ -1389,8 +1389,8 @@ const Transformation = () => {
                     there were no birds outside.
                   </p>
                   <br /> 
+                  <h3>Exercise</h3>
                   <p className="">
-                    Exercise <br />
                     Transform the following Compound sentences into Simple :{" "}
                     <br />
                     (i) He took the purse and ran away. (ii) They are very nice
@@ -1431,90 +1431,90 @@ const Transformation = () => {
                     Complex to Simple & Simple to complex:
                   </h3>
                   <div className="">
-                    <strong>Rule- (i): </strong> Since/ as/ when / as soon as
-                    দ্বারা শুরু বা যুক্ত বাক্যের Since/ as/ when + subject উঠিয়ে
-                    মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে।
-                    <br />
-                    যেমনঃ
+                    <strong>Rule- (i): </strong> <br />
+                    <span className="bg-pink-600 font-bold px-2">Since/ as/When + Sub + V<sub>1</sub> = V<sub>1 + ing</sub> </span>  <br />   
+                    Since/ as/ when / as soon as/ because
+                    দ্বারা শুরু বা যুক্ত Complex বাক্যের Since/ as/ when এবং subject উঠিয়ে,
+                    মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে। যেমনঃ
                     <br />
                     Q. Since I forgot, I went out. <br />
                     = Forgetting him, I went out.
                     <br />
                     <strong>অনুরুপভাবে:</strong> <br />
-                    ing যুক্ত Verb দ্বারা শুরু বাক্যের শুরুতে As/Since/When +
-                    Subject বসিয়ে + এবং V টিকে পরের বাক্যের tense অনুসারে বসালে
-                    Complex হবে। <br />
-                    যেমনঃ <br />
+                    ing যুক্ত Verb দ্বারা শুরু Simple বাক্যের শুরুতে As/Since/When +
+                    Subject বসিয়ে + V টিকে পরের বাক্যের tense অনুসারে বসালে
+                    Complex হবে।  যেমনঃ <br />
                     Q. Closing the door, I called her. <br />= As I closed the
                     door, I called her.
-                  </div>
+                  </div> 
                   <br />
                   <div className="">
-                    <strong>কিন্তু-</strong> <br />
-                    <strong>Rule - (2): </strong> As/Since/when বাক্যের
-                    am/is/are/was/were এর পরিবর্তে being এবং have/has/had এর
-                    পরিবর্তে having বসালে Simple হবে। <br />
-                    যেমনঃ
-                    <br />
+                    <strong>কিন্তু- to be হলে-</strong>   
+                    <p className="">
+                    <strong>Rule - (2): </strong> <br /> 
+                    <span className="bg-pink-600 font-bold px-2">Since/ as/when + Sub + to be = to be<sub>+ing </sub> </span>  <br /> 
+                    Since/As/when যুক্ত বা শুরু Complex বাক্যের am/is/are/was/were এর পরিবর্তে being এবং have/has/had এর পরিবর্তে having বসালে Simple হবে।  যেমনঃ <br />
                     Q. As the water was salty, We could not drink. <br />
                     = The water being salty, We could not drink.
                     <br />
-                    <strong>অনুরুপভাবে:</strong> <br />
-                    উল্লোটা করলেই Complex হবে অর্থাৎ শুরুতে As/Since এবং Being
-                    স্থলে am/ is/ are বা having এর স্থলে have/has/had বসে।{" "}
-                    <br />
+                    <strong>অনুরুপভাবে:</strong>  <br />
+                    শুরুতে As/Since + Being
+                    স্থলে am/ is/ are বা having এর স্থলে have/has/had বসালে Simple হবে। 
                     যেমনঃ <br />
-                    Q. The water being salty, We could not drink. <br />= As the
-                    water was salty, We could not drink.{" "}
+                    Q. The water being salty, We could not drink. <br />  
+                    = As the water was salty, We could not drink.
+                    </p>
                   </div>
                   <br />
                   <div className="">
                     <strong>কিন্তু-</strong>
                     <br />
-                    <strong>Rule - (3): </strong> When দ্বারা বাক্যে দিনের কোন
-                    বেলাকে বুঝালে When + Sub + V উঠিয়ে At বসে , বয়স বুঝালে At
-                    the age of এবং ঋতু বুঝালে In বসে । <br />
-                    যেমনঃ <br />
+                    <strong>Rule - (3): </strong> <br /> 
+                    <span className="bg-pink-600 font-bold px-2">
+                    When + time = at/ at the age of/ In</span>  <br /> 
+                    When দ্বারা Complex বাক্যে দিনের কোনবেলাকে বুঝালে When + Sub + V উঠিয়ে At বসে , বয়স বুঝালে At the age of এবং ঋতু বুঝালে In বসে। যেমনঃ <br />
                     Q. When it is spring, the cuckoo sings. <br />
-                    = In spring the cuckoo sings.
-                    <br />
+                    = In spring the cuckoo sings.<br />
                     <strong>অনুরুপভাবে:</strong> <br />
-                    at / In / at the age of উঠিয়ে When + it/ sub (আগের বাক্য
-                    অনুসারে) + V বসালে Complex হবে। <br />
+                    at / In / at the age of উঠিয়ে, When + it/ sub (আগের বাক্য
+                    অনুসারে) + to be Verb বসালে Complex হবে।
                     যেমনঃ <br />
-                    Q. At the age of four, he left home. <br />= When he was
-                    four, he left home.
+                    Q. At the age of four, he left home. <br />   
+                    = When he was four, he left home.
                   </div>
                   <br />
                   <div className="">
-                    <strong> Rule - (4): </strong>Who/ Which/ That/ what দ্বারা
+                    <p className="">
+                    <strong> Rule - (4): </strong> <br /> 
+                    <span className="bg-pink-600 font-bold px-2">who/that + to be = V<sub>1 + ing</sub> </span>  <br /> 
+                    Who/ Which/ That/ what দ্বারা
                     দুটি বাক্য যুক্ত হলে who/ which/ that/ what + helping Verb
-                    (যদি থাকে) উঠিয়ে পরের মুল V₁ এর সঙ্গে ing যুক্ত করতে হবে।{" "}
-                    <br />
+                    (যদি থাকে) উঠিয়ে পরের মুল V₁ এর সঙ্গে ing যুক্ত করতে হবে। 
                     যেমনঃ <br />
                     Q. I saw a man who was walking. <br />
                     = I saw a man walking. <br />
                     <strong>অনুরুপভাবে:</strong> <br />
-                    উল্টাটে করলে Complex হবে। <br />
+                    উল্টাটে করলে Complex হবে। 
                     যেমনঃ <br />
                     Q. I lived in a house belonging to me. <br />
                     =I lived in a house which belonged to me. <br />
                     অর্থাৎ- <br />
                     ing যুক্ত verb এর পূর্বে বস্তুবাচক শব্দ থাকলে
                     That/Which/What এবং ব্যক্তি থাকলে Who বসিয়ে ing যুক্ত verb
-                    টিকে Tense অনুসারে সাজাতে হবে।
+                    টিকে Tense অনুসারে বসাতে হবে।
+                    </p>
                   </div>
                   <br />
                   <div className="">
-                    <strong>Rule: (5) </strong> So ......... that দ্বারা যুক্ত
+                    <strong>Rule: (5) </strong> <br />
+                    <span className="bg-pink-600 font-bold px-2">so...that = too...to </span>  <br />  
+                    So ......... that দ্বারা যুক্ত Complex
                     বাক্যে So এর স্থলে too এবং That থেকা not পর্যন্ত উঠিয়ে To
-                    বসালে simple হবে। <br />
-                    যেমনঃ <br />
+                    বসালে simple হবে। যেমনঃ <br /> 
                     Q. He is so weak that he cannot talk. <br />
                     = He is too weak to talk. <br />
                     <strong>অনুরুপভাবে:</strong> <br />
-                    উল্টাটা করলে Complex হবে। <br />
-                    যেমনঃ <br />
+                    উল্টোটা করলে Simple-Complex হবে। যেমনঃ <br />
                     Q. He walks too slowly to reach in time. <br />= He walks so
                     slowly that he cannot reach there on time. <br />
                     <strong>অর্থাৎ-</strong> <br />
@@ -1524,15 +1524,17 @@ const Transformation = () => {
                   </div>
                   <br />
                   <div className="">
-                    <strong>Rule:(6) </strong>so that দ্বারা যুক্ত বাক্যের so
+                    <strong>Rule:(6) </strong> <br /> 
+                    <span className="bg-pink-600 font-bold px-2"> so that = to/in order to </span>  <br /> 
+                    so that দ্বারা যুক্ত Complex বাক্যের so
                     থেকে Can/Could/may/might পর্যন্ত উঠিয়ে উক্ত স্থানে to বসালে
-                    Simple হবে। <br />
+                    Complex-Simple হবে।
                     যেমনঃ <br />
                     Q. We eat so that we may live. <br />
                     = We eat to live. <br />
                     <strong>অনুরুপভাবেঃ </strong> <br />
-                    উল্টা করলে Complex হবে। অর্থাৎ to স্থলে so that + sub +
-                    may/might/can/could বসালে Complex হবে। <br />
+                    উল্টা করলে Simple-Complex হবে। অর্থাৎ to স্থলে so that + sub +
+                    may/might/can/could বসালে Complex হবে। 
                     যেমনঃ <br />
                     Q. We eat to live. <br />= We eat so that we may live.
                   </div>
@@ -1586,8 +1588,10 @@ const Transformation = () => {
                     Q. In spite of reading well, he could not pass.
                     <br />= Though he read well, he could not pass.
                   </div>
+                  <br />
+                  <h3>Exercise</h3>
                   <p className="">
-                    Exercise <br />
+                     
                     Transform the following Complex sentences into Simple :{" "}
                     <br />
                     (i) When Asha stood by the window, she looked out. (ii) They
@@ -1616,8 +1620,10 @@ const Transformation = () => {
                     he could not make a good result. (xxv) My father went there
                     so that he could attend the meeting.
                   </p>
+                  <br />
+                  <h3>Exercise</h3>
                   <p className="">
-                    Exercise <br />
+                     
                     Transform the following sentences from simple to complex:{" "}
                     <br />
                     (i) The load being very heavy, he cannot carry it. (ii) The
