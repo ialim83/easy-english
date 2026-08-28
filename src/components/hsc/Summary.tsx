@@ -7,8 +7,8 @@ const Summary = () => {
         <h3 className="text-green-500">
           Passage এর Summary/theme লেখার short technique:
         </h3>
-        <p className="text-base text-justify">
-          Summary/ theme: The passage has discussed [about/ the importance] of
+        <p className="text-base text-justify pt-5">
+          Summary/ theme: <br /> The passage has discussed [about/ the importance of] 
           <span className="text-pink-700 font-bold"> [main word]</span>.{" "}
           <span className="font-bold ">
             [এখানে passage থেকে দুই/তিনটি বাক্য লিখুন]
@@ -20,7 +20,7 @@ const Summary = () => {
         </p>
       </div>
       {/* Poem এর Summary */}
-      <div className="pt-5 ">
+      <div className="py-5 ">
         <h1 className="">Poems:</h1>
         <h3 className="text-green-500">
           Poem এর Summary/ theme লেখার short technique:
