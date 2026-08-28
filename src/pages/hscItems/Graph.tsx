@@ -60,7 +60,7 @@ function Graph() {
           <h3 className="">Answer:</h3>
           <p className="">
             [DESCRIPTION]: [30%] of the total income of the family is spent on
-            [DATA NAME = food]. 
+            [food]. 
           </p>
         </div>
 
