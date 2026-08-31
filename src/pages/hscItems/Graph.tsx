@@ -16,7 +16,7 @@ function Graph() {
             Answer: The [graph/ pie] chart shows [shows er por theke full stop
             porjontu]. In the [ graph/pie] chart the data shown are of [farming,
             business, govt. job and intellectual work]. The [graph/ pie] chart
-            shows that ....[DESCRIPTION]...... . Analyzing the [graph/pie] we find
+            shows that ____[DESCRIPTION]___ . Analyzing the [graph/pie] we find
             that the highest percentage is [name] which is [%] and the lowest
             percentage is [name] which is [%]. Finally we can say that the
             information given in the [graph/pie] chart are highly significant
@@ -78,7 +78,7 @@ function Graph() {
           <h3 className="">Answer:</h3>
           <p className="">
           
-            [DESCRIPTION]: as a profession [Govt. job] is liked by [30%] while
+            [DESCRIPTION]: As a profession [Govt. job] is liked by [30%] while
             [private job] is liked by [%].
           </p>
         </div>
@@ -94,7 +94,7 @@ function Graph() {
             Answer: The graph/ pie chart shows [shows er por theke full stop porjontu].
             The most striking feature of the graph/ pie chart is the increase/
             decrease of [NAME] during this period. The graph chart/ pie
-            chart shows that....[DESCRIPTION].... . Analyzing the
+            chart shows that___[DESCRIPTION]___ . Analyzing the
             graph/pie we find that the highest percentage is [%] in [DATE] and
             the least percentage is [%] in [DATE]. Finally we can say that the
             information given in the [graph/pie chart] are highly significant
