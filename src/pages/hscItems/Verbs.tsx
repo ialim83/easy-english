@@ -1,8 +1,15 @@
 // import { Link } from "react-router-dom";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionPanel,
+  AccordionTitle,
+} from "flowbite-react";
 import "pdfjs-dist/build/pdf.worker.entry";
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 import { Link } from "react-router-dom";
+import StrongVerb from "../GrammarPages/StrongVerb";
 // import frontCover from "../../../public/bookCover.jpg";
 
 function Verbs() {
@@ -59,6 +66,610 @@ function Verbs() {
         .catch((err) => console.warn("Playback prevented:", err));
     }
   };
+
+  // Global counter track across all pattern categories
+  let absoluteSerialNumber = 1;
+   const verb1 = [
+  {
+    "base": "arise",
+    "bengali": "উঠা",
+    "past": "arose",
+    "participle": "arisen"
+  },
+  {
+    "base": "awake",
+    "bengali": "জাগানো",
+    "past": "awoke",
+    "participle": "awoken"
+  },
+  {
+    "base": "(be)am/\nis/are",
+    "bengali": "হওয়া/থাকা",
+    "past": "was/\nwere",
+    "participle": "been"
+  },
+  {
+    "base": "beat",
+    "bengali": "পেটানো",
+    "past": "beat",
+    "participle": "beaten"
+  },
+  {
+    "base": "become",
+    "bengali": "হওয়া",
+    "past": "became",
+    "participle": "become"
+  },
+  {
+    "base": "bear",
+    "bengali": "জন্ম দেওয়া",
+    "past": "bore",
+    "participle": "born/\nborne"
+  },
+  {
+    "base": "begin",
+    "bengali": "শুরু করা",
+    "past": "began",
+    "participle": "begun"
+  },
+  {
+    "base": "bid",
+    "bengali": "নির্দেশ দেওয়া",
+    "past": "bade/\nbid",
+    "participle": "bidden"
+  },
+  {
+    "base": "bite",
+    "bengali": "কামড়ানো",
+    "past": "bit",
+    "participle": "bitten"
+  },
+  {
+    "base": "bleed",
+    "bengali": "রক্ত প্রবাহিত হওয়া",
+    "past": "bled",
+    "participle": "bled"
+  },
+  {
+    "base": "blow",
+    "bengali": "প্রবাহিত হওয়া",
+    "past": "blew",
+    "participle": "blown"
+  },
+  {
+    "base": "break",
+    "bengali": "ভাঙা",
+    "past": "broke",
+    "participle": "broken"
+  },
+  {
+    "base": "bring",
+    "bengali": "নিয়ে আসা",
+    "past": "brought",
+    "participle": "brought"
+  },
+  
+  {
+    "base": "buy",
+    "bengali": "ক্রয় করা",
+    "past": "bought",
+    "participle": "bought"
+  },
+  {
+    "base": "catch",
+    "bengali": "ধরা",
+    "past": "caught",
+    "participle": "caught"
+  },
+  {
+    "base": "choose",
+    "bengali": "বাছাই করা",
+    "past": "chose",
+    "participle": "chosen"
+  },
+  {
+    "base": "come",
+    "bengali": "আসা",
+    "past": "came",
+    "participle": "come"
+  },
+  {
+    "base": "dig",
+    "bengali": "খোঁড়া",
+    "past": "dug",
+    "participle": "dug"
+  },
+  {
+    "base": "do",
+    "bengali": "করা",
+    "past": "did",
+    "participle": "done"
+  },
+  {
+    "base": "draw",
+    "bengali": "আঁকা",
+    "past": "drew",
+    "participle": "drawn"
+  },
+  {
+    "base": "drink",
+    "bengali": "পান করা",
+    "past": "drank",
+    "participle": "drunk"
+  },
+  {
+    "base": "drive",
+    "bengali": "চালানো",
+    "past": "drove",
+    "participle": "driven"
+  },
+  {
+    "base": "eat",
+    "bengali": "খাওয়া",
+    "past": "ate",
+    "participle": "eaten"
+  },
+  {
+    "base": "fall",
+    "bengali": "পতন হওয়া",
+    "past": "fell",
+    "participle": "fallen"
+  },
+  {
+    "base": "feed",
+    "bengali": "খাওয়ানো",
+    "past": "fed",
+    "participle": "fed"
+  },
+  {
+    "base": "feel",
+    "bengali": "অনুভব করা",
+    "past": "felt",
+    "participle": "felt"
+  },
+  {
+    "base": "fight",
+    "bengali": "যুদ্ধ করা",
+    "past": "fought",
+    "participle": "fought"
+  },
+  {
+    "base": "find",
+    "bengali": "পাওয়া",
+    "past": "found",
+    "participle": "found"
+  },
+  {
+    "base": "flee",
+    "bengali": "পালানো",
+    "past": "fled",
+    "participle": "fled"
+  },
+  {
+    "base": "fly",
+    "bengali": "উড়া",
+    "past": "flew",
+    "participle": "flown"
+  },
+  
+  {
+    "base": "forget",
+    "bengali": "ভুলে যাওয়া",
+    "past": "forgot",
+    "participle": "forgotten"
+  },
+  {
+    "base": "forgive",
+    "bengali": "মাফ করা",
+    "past": "forgave",
+    "participle": "forgiven"
+  },
+  {
+    "base": "forsake",
+    "bengali": "ত্যাগ করা",
+    "past": "forsook",
+    "participle": "forsaken"
+  },
+  
+  {
+    "base": "freeze",
+    "bengali": "জমা",
+    "past": "froze",
+    "participle": "frozen"
+  },
+  {
+    "base": "give",
+    "bengali": "দেওয়া",
+    "past": "gave",
+    "participle": "given"
+  },
+  {
+    "base": "get",
+    "bengali": "পাওয়া/ হওয়া",
+    "past": "got",
+    "participle": "got/\ngotten"
+  },
+  {
+    "base": "go",
+    "bengali": "যাওয়া",
+    "past": "went",
+    "participle": "gone"
+  },
+  {
+    "base": "grow",
+    "bengali": "বড় হওয়া",
+    "past": "grew",
+    "participle": "grown"
+  },
+  {
+    "base": "have/has",
+    "bengali": "থাকা/খাওয়া",
+    "past": "had",
+    "participle": "had"
+  },
+  {
+    "base": "hang",
+    "bengali": "ফাসি দেওয়া",
+    "past": "hanged",
+    "participle": "hanged"
+  },
+  {
+    "base": "hang",
+    "bengali": "ঝুলানো",
+    "past": "hung",
+    "participle": "hung"
+  },
+  {
+    "base": "hide",
+    "bengali": "লুকানো",
+    "past": "hid",
+    "participle": "hidden"
+  },
+  {
+    "base": "hold",
+    "bengali": "ধরা",
+    "past": "held",
+    "participle": "held"
+  },
+  {
+    "base": "keep",
+    "bengali": "রাখা",
+    "past": "kept",
+    "participle": "kept"
+  },
+  {
+    "base": "kneel",
+    "bengali": "হামাগুড়ি দেওয়া",
+    "past": "knelt",
+    "participle": "knelt"
+  },
+  {
+    "base": "know",
+    "bengali": "জানা",
+    "past": "knew",
+    "participle": "known"
+  },
+  {
+    "base": "lay",
+    "bengali": "রাখা",
+    "past": "laid",
+    "participle": "laid"
+  },
+  {
+    "base": "lead",
+    "bengali": "নেতৃত্ব দেওয়া",
+    "past": "led",
+    "participle": "led"
+  },
+  {
+    "base": "leave",
+    "bengali": "ত্যাগ করা",
+    "past": "left",
+    "participle": "left"
+  },
+  {
+    "base": "lie",
+    "bengali": "শুয়ে থাকা",
+    "past": "lay",
+    "participle": "lain"
+  },
+  {
+    "base": "lose",
+    "bengali": "হারানো",
+    "past": "lost",
+    "participle": "lost"
+  },
+  {
+    "base": "meet",
+    "bengali": "মিলিত হওয়া",
+    "past": "met",
+    "participle": "met"
+  },
+  
+  {
+    "base": "pay",
+    "bengali": "দেওয়া",
+    "past": "paid",
+    "participle": "paid"
+  },
+  {
+    "base": "ride",
+    "bengali": "চালানো",
+    "past": "rode",
+    "participle": "ridden"
+  },
+  {
+    "base": "rise",
+    "bengali": "উঠা",
+    "past": "rose",
+    "participle": "risen"
+  },
+  {
+    "base": "run",
+    "bengali": "দৌড়ানো",
+    "past": "ran",
+    "participle": "run"
+  },
+  {
+    "base": "say",
+    "bengali": "বলা",
+    "past": "said",
+    "participle": "said"
+  },
+  {
+    "base": "see",
+    "bengali": "দেখা",
+    "past": "saw",
+    "participle": "seen"
+  },
+  {
+    "base": "seek",
+    "bengali": "খোঁজা",
+    "past": "sought",
+    "participle": "sought"
+  },
+  {
+    "base": "sell",
+    "bengali": "বিক্রি করা",
+    "past": "sold",
+    "participle": "sold"
+  },
+  {
+    "base": "sew",
+    "bengali": "সেলাই করা",
+    "past": "sewed",
+    "participle": "sewn/\nsewed"
+  },
+  {
+    "base": "shake",
+    "bengali": "ঝাকানো",
+    "past": "shook",
+    "participle": "shaken"
+  },
+  {
+    "base": "shine",
+    "bengali": "কিরন দেওয়া",
+    "past": "shone",
+    "participle": "shone"
+  },
+  {
+    "base": "shoot",
+    "bengali": "গুলি করা",
+    "past": "shot",
+    "participle": "shot"
+  },
+  {
+    "base": "show",
+    "bengali": "দেখানো",
+    "past": "showed",
+    "participle": "shown/\nshowed"
+  },
+  {
+    "base": "shrink",
+    "bengali": "সঙ্কুচিত হওয়া",
+    "past": "shrank",
+    "participle": "shrunk"
+  },
+  {
+    "base": "stride",
+    "bengali": "হাটা",
+    "past": "strode",
+    "participle": "stridden"
+  },
+  {
+    "base": "smite",
+    "bengali": "আঘাত করা",
+    "past": "smote",
+    "participle": "smitten"
+  },
+  {
+    "base": "strive",
+    "bengali": "চেষ্টা করা",
+    "past": "strove",
+    "participle": "striven"
+  },
+  {
+    "base": "strike",
+    "bengali": "প্রহার করা",
+    "past": "struck",
+    "participle": "struck /\n stricken"
+  },
+  {
+    "base": "swear",
+    "bengali": "শপথ করা",
+    "past": "swore",
+    "participle": "sworn"
+  },
+  {
+    "base": "swim",
+    "bengali": "সাঁতার কাটা",
+    "past": "swam",
+    "participle": "swum"
+  },
+  {
+    "base": "sing",
+    "bengali": "গাওয়া",
+    "past": "sang",
+    "participle": "sung"
+  },
+  {
+    "base": "sink",
+    "bengali": "ডুবে যাওয়া",
+    "past": "sank",
+    "participle": "sunk"
+  },
+  {
+    "base": "sit",
+    "bengali": "বসা",
+    "past": "sat",
+    "participle": "sat"
+  },
+  {
+    "base": "sleep",
+    "bengali": "ঘুমানো",
+    "past": "slept",
+    "participle": "slept"
+  },
+  {
+    "base": "slay",
+    "bengali": "হত্যা করা",
+    "past": "slew",
+    "participle": "slain"
+  },
+  {
+    "base": "speak",
+    "bengali": "কথা বলা",
+    "past": "spoke",
+    "participle": "spoken"
+  },
+  {
+    "base": "spit",
+    "bengali": "থুথু ফেলা",
+    "past": "spat",
+    "participle": "spat"
+  },
+  {
+    "base": "spring",
+    "bengali": "লাফানো",
+    "past": "sprang",
+    "participle": "sprung"
+  },
+  {
+    "base": "stand",
+    "bengali": "দাঁড়ানো",
+    "past": "stood",
+    "participle": "stood"
+  },
+  {
+    "base": "steal",
+    "bengali": "চুরি করা",
+    "past": "stole",
+    "participle": "stolen"
+  },
+  {
+    "base": "stick",
+    "bengali": "লেগে থাকা",
+    "past": "stuck",
+    "participle": "stuck"
+  },
+  {
+    "base": "sting",
+    "bengali": "হুল ফোটানো",
+    "past": "stung",
+    "participle": "stung"
+  },
+  {
+    "base": "stink",
+    "bengali": "পঁচা গন্ধ হওয়া",
+    "past": "stank",
+    "participle": "stunk"
+  },
+  {
+    "base": "swing",
+    "bengali": "দোলানো",
+    "past": "swung",
+    "participle": "swung"
+  },
+  {
+    "base": "take",
+    "bengali": "নেওয়া",
+    "past": "took",
+    "participle": "taken"
+  },
+  {
+    "base": "teach",
+    "bengali": "শেখানো",
+    "past": "taught",
+    "participle": "taught"
+  },
+  {
+    "base": "tear",
+    "bengali": "ছিঁড়া",
+    "past": "tore",
+    "participle": "torn"
+  },
+  {
+    "base": "tell",
+    "bengali": "বলা",
+    "past": "told",
+    "participle": "told"
+  },
+  {
+    "base": "think",
+    "bengali": "ভাবা",
+    "past": "thought",
+    "participle": "thought"
+  },
+  {
+    "base": "throw",
+    "bengali": "নিক্ষেপ করা",
+    "past": "threw",
+    "participle": "thrown"
+  },
+  {
+    "base": "tread",
+    "bengali": "পদদলিত করা",
+    "past": "trode",
+    "participle": "trodden"
+  },
+  
+  {
+    "base": "wake",
+    "bengali": "জাগ্রত হওয়া",
+    "past": "woke",
+    "participle": "woken"
+  },
+  {
+    "base": "wear",
+    "bengali": "পরিধান করা",
+    "past": "wore",
+    "participle": "worn"
+  },
+  {
+    "base": "weave",
+    "bengali": "বোনা",
+    "past": "wove",
+    "participle": "woven"
+  },
+  {
+    "base": "weep",
+    "bengali": "ক্রন্দন করা",
+    "past": "wept",
+    "participle": "wept"
+  },
+  {
+    "base": "win",
+    "bengali": "জয় করা",
+    "past": "won",
+    "participle": "won"
+  },
+  {
+    "base": "write",
+    "bengali": "লিখা",
+    "past": "wrote",
+    "participle": "written"
+  },
+];
 
   return (
     <div className="h-full text-base text-justify">
@@ -863,6 +1474,7 @@ function Verbs() {
 
       {/* scrolling page */}
       <div className="h-full px-4 md:w-[60%] mx-auto ">
+        {/* animation */}
         <div className="px-5 w-full flex items-center justify-center py-20">
           <div className="relative w-11/12 md:w-10/12 h-[400px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
             <span className="text-white">Right Form of Verbs</span>
@@ -870,51 +1482,181 @@ function Verbs() {
             <div className="effect"></div>
           </div>
         </div>
+        <div className="py-10 ">
+          <Accordion>
+            <AccordionPanel>
+              <AccordionTitle>Tense</AccordionTitle>
+              <AccordionContent className="p-2 md:p-5">
+                <Link to={"/tense"}>
+                  <p className="py-5">
+                    {" "}
+                    <span className="text-blue-600 underline">
+                      Right form of verbs{" "}
+                    </span>
+                    এ এক্সপার্ট হতে চাইলে
+                    <span className="text-blue-600 underline"> Tense </span>
+                    ভালোভাবে চিনতে হবে সেজন্য Tense অধ্যায় পড়তে হবে, সেজন্য
+                    <span className="text-blue-600 underline">
+                      {" "}
+                      এখানে ক্লিক/টাচ{" "}
+                    </span>
+                    করুন।
+                  </p>
+                </Link>
+              </AccordionContent>
+            </AccordionPanel>
+
+            {/* Structure of Tense: */}
+            <AccordionPanel>
+              <AccordionTitle>Structure of Tense:</AccordionTitle>
+              <AccordionContent className="p-2 md:p-5">
+                <div className="space-y-1">
+                  <p className="font-bold">Tense:</p>
+                  <p className="font-bold">1. Present Indefinite Tense</p>
+                  i. Subject + V<sub>1</sub> (s/es) + obj + ext. <br />
+                  ii. Subject + do not/ does not + V<sub>1</sub> + obj + ext.{" "}
+                  <br />
+                  iii. Do/ does + Subject + V<sub>1</sub> + obj + ext? <br />
+                  iv. Do (not)/ does (not) + Subject + V<sub>1</sub> + obj +
+                  ext?
+                  <p className="font-bold">2. Present Continuous Tense</p>=
+                  Subject + am/is/are + V<sub>1</sub>-ing + obj + ext.
+                  <p className="font-bold">3. Present Perfect Tense</p>= Subject
+                  + have/ has + V<sub>3</sub> + obj + ext.
+                  <p className="font-bold">
+                    4. Present Perfect Continuous Tense
+                  </p>
+                  = Subject + have been/ has been + V<sub>1</sub>-ing + obj +
+                  ext.
+                  <p className="font-bold">5. Past Indefinite Tense</p>= i. Sub
+                  + V<sub>2</sub> + obj + ext. <br />= ii. Sub + did not + V
+                  <sub>1</sub> + obj + ext.
+                  <p className="font-bold">6. Past Continuous Tense</p>= Sub +
+                  was/were + V<sub>1</sub>-ing + obj + ext.
+                  <p className="font-bold">7. Past Perfect Tense</p>= Sub + had
+                  + V<sub>3</sub> + obj + ext.
+                  <p className="font-bold">8. Past Perfect Continuous Tense</p>=
+                  Subject + had been + V<sub>1</sub>-ing + obj + ext.
+                  <p className="font-bold">9. Future Indefinite Tense</p>=
+                  Subject + shall/ will + V<sub>1</sub> + obj + ext.
+                  <p className="font-bold">10. Future Continuous Tense</p>=
+                  Subject + shall be/ will be + V<sub>1</sub>-ing + obj + ext.
+                  <p className="font-bold">11. Future Perfect Tense</p>= Subject
+                  + shall have/ will have + V<sub>1</sub> + obj + ext.
+                  <p className="font-bold">
+                    12. Future Perfect Continuous Tense
+                  </p>
+                  = Subject + shall have been/ will have been + V<sub>1</sub> +
+                  obj + ext.
+                </div>
+              </AccordionContent>
+            </AccordionPanel>
+
+            {/* Uses of Helping Verbs */}
+            <AccordionPanel>
+              <AccordionTitle>Uses of Helping Verbs</AccordionTitle>
+              <AccordionContent className="py-5 md:p-5">
+                <p className="">
+                  I, We, You ছাড়া জগতের সবকিছুই 3rd Person.
+                  <br />
+                  <br />
+                  Pronoun গুলোর মধ্যেঃ <br />
+                  I, We হল First Person, <br />
+                  You হল 2nd Person, <br />
+                  He/She/It হল 3rd Person
+                  <br />
+                  <br />
+                  Noun গুলোর মধ্যেঃ <br />
+                  সকল Noun (ব্যক্তি, বস্তু,স্থান) ই 3rd Person <br />
+                  <br />
+                  কিন্তু এই 3rd person দুই প্রকার- <br />
+                  (i) Singular বা এক বচন- Pen <br />
+                  (ii) Plural বা বহুবচন - pens <br />
+                </p>
+                <br />
+
+                <p className="border p-2">
+                  <strong> NOTE: </strong>বাক্যের Subject অনুসারে সাহায্যকারি
+                  verb হবে। যেমনঃ <br />
+                  i. শুধুমাত্র i এর সাথে = am হয়, <br />
+                  ii. 3rd person + singular এর সাথে = is হয়, <br />
+                  ii1. অন্যান্যদের সাথে/ We, you, Plural Noun এর সাথে = are হয়।
+                </p>
+              </AccordionContent>
+            </AccordionPanel>
+
+            {/* Strong Verbs */}
+            <AccordionPanel>
+              <AccordionTitle>Strong Verbs</AccordionTitle>
+              <AccordionContent>
+                <div className="">
+                  <div className="max-h-[450px] overflow-y-auto overflow-x-auto">
+                    <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
+                      <thead className="bg-slate-50 uppercase text-xs font-semibold text-slate-500 tracking-wider">
+                        <tr>
+                          <th
+                            scope="col"
+                            className="px-2 py-3 w-16 text-center"
+                          >
+                            S.N.
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            V1
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            Meaning
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                              V2
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            V3
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate- bg-">
+                        {verb1.map((verb, vIndex) => {
+                          const currentSerialNumber = absoluteSerialNumber++;
+                          return (
+                            <tr
+                              key={vIndex}
+                              className="hover:bg-slate-50 transition-colors duration-150 ease-in-out "
+                            >
+                              <td className="px-2 py-3 text-center font-mono text-xs text-slate-400">
+                                {currentSerialNumber}
+                              </td>
+                              <td className="px-2 py-3 font-semibold text-slate-400">
+                                {verb.base}
+                              </td>
+                              <td className="px-2 py-3 text-pink-500 font-sans font-bold tracking-wide">
+                                {verb.bengali}
+                              </td>
+                              <td className="px-2 py-3 font-medium text-indigo-500">
+                                {verb.past}
+                              </td>
+                              <td className="px-2 py-3 font-medium text-emerald-600">
+                                {verb.participle}
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionPanel>
+
+            {/* Steps */}
+            {/* <AccordionPanel>
+                <AccordionTitle>Steps</AccordionTitle>
+                <AccordionContent className="p-2 md:p-5">
+                  steps
+                </AccordionContent>
+              </AccordionPanel> */}
+          </Accordion>
+        </div>
         <div className="p-4 text-black lg:p-10 bg-[#EFE5D6] book-shadow">
-          <Link to={"/tense"}>
-            <p className="py-5">
-              {" "}
-              <span className="text-blue-600 underline">
-                Right form of verbs{" "}
-              </span>
-              এ এক্সপার্ট হতে চাইলে
-              <span className="text-blue-600 underline"> Tense </span>
-              ভালোভাবে চিনতে হবে সেজন্য Tense অধ্যায় পড়তে হবে, সেজন্য
-              <span className="text-blue-600 underline"> এখানে ক্লিক/টাচ </span>
-              করুন।
-            </p>
-          </Link>
-          {/* tenses */}
-          <div className="space-y-1">
-            <p className="font-bold">Tense:</p>
-            <p className="font-bold">1. Present Indefinite Tense</p>
-            i. Subject + V<sub>1</sub> (s/es) + extension. <br />
-            ii. Subject + do not/ does not + V<sub>1</sub> + extension.
-            <p className="font-bold">2. Present Continuous Tense</p>= Subject +
-            am/is/are + V<sub>1</sub>-ing + extension.
-            <p className="font-bold">3. Present Perfect Tense</p>= Subject +
-            have/ has + V<sub>3</sub> + extension.
-            <p className="font-bold">4. Present Perfect Continuous Tense</p>=
-            Subject + have been/ has been + V<sub>1</sub>-ing + extension.
-            <p className="font-bold">5. Past Indefinite Tense</p>= i. Sub + V
-            <sub>2</sub> + extension. <br />= ii. Sub + did not + V<sub>1</sub>{" "}
-            + extension.
-            <p className="font-bold">6. Past Continuous Tense</p>= Sub +
-            was/were + V<sub>1</sub>-ing + extension.
-            <p className="font-bold">7. Past Perfect Tense</p>= Sub + had + V
-            <sub>3</sub> + extension.
-            <p className="font-bold">8. Past Perfect Continuous Tense</p>=
-            Subject + had been/ had been + V<sub>1</sub>-ing + extension.
-            <p className="font-bold">9. Future Indefinite Tense</p>= Subject +
-            shall/ will + V<sub>1</sub> + extension.
-            <p className="font-bold">10. Future Continuous Tense</p>= Subject +
-            shall be/ will be + V<sub>1</sub>-ing + extension.
-            <p className="font-bold">11. Future Perfect Tense</p>= Subject +
-            shall have/ will have + V<sub>1</sub> + extension.
-            <p className="font-bold">12. Future Perfect Continuous Tense</p>=
-            Subject + shall have been/ will have been + V<sub>1</sub> +
-            extension.
-          </div>
           {/* Rules */}
           <h1 className="py-4">Rules:</h1>
           {/* rule:1 */}
@@ -1502,8 +2244,8 @@ function Verbs() {
               plural বা singular যে কোন verb-ই ব্যবহার করা যায়। <br />
               যেমন: <br />
               <span className="text-blue-600 font-medium">
-                = Two and two are four. (plu.) <br />
-                = Two and two is four. (sing.)
+                = Two and two are four. (plu.) <br />= Two and two is four.
+                (sing.)
               </span>
             </p>
             {/* 2 */}
@@ -1512,13 +2254,25 @@ function Verbs() {
               subject যদি or, nor, but - দ্বারা যুক্ত হয় তাহলে তাদের পরে
               singular verb ব্যবহৃত হয় ।<br />
               👉 মনে রাখবে- প্রতিটি subject-ই হবে singular, <br />
-             👉 তারা or, nor, but দ্বারা যুক্ত থাকবে। <br />
+              👉 তারা or, nor, but দ্বারা যুক্ত থাকবে। <br />
               যেমন: <br />
-             <span className="text-blue-600 font-medium">= He or his brother has done this.</span>  (have নয়) <br />
-             <span className="text-blue-600 font-medium">= Either he or his brother is intelligent.</span>   (are নয়)<br />
-             <span className="text-blue-600 font-medium">= Neither he nor his brother is honest.</span>  (সে বা তার ভাই কেউই সৎ নয়।){" "}
+              <span className="text-blue-600 font-medium">
+                = He or his brother has done this.
+              </span>{" "}
+              (have নয়) <br />
+              <span className="text-blue-600 font-medium">
+                = Either he or his brother is intelligent.
+              </span>{" "}
+              (are নয়)
               <br />
-             <span className="text-blue-600 font-medium">= Not Kashem but Karim is  happy.</span> (areনয়)
+              <span className="text-blue-600 font-medium">
+                = Neither he nor his brother is honest.
+              </span>{" "}
+              (সে বা তার ভাই কেউই সৎ নয়।) <br />
+              <span className="text-blue-600 font-medium">
+                = Not Kashem but Karim is happy.
+              </span>{" "}
+              (areনয়)
             </p>
             <p className="">
               <span className="font-bold">3. </span>
@@ -1527,13 +2281,14 @@ function Verbs() {
               অনুরূপ। <br />
               যেমন: <br />
               <span className="text-blue-600 font-medium">
-              = He or his brother has done it. <br />
-              = He or his brothers have done it. <br />
-              = Not only Biva but also her friends have come. <br />
-              = Neither Karim nor his friends are guilty. <br />
-              = Neither Karim nor his friend is guilty. <br />
-              = Either Karim or his sisters have said so. <br />
-              = Not only Biva but also Shuva has come.</span> 
+                = He or his brother has done it. <br />
+                = He or his brothers have done it. <br />
+                = Not only Biva but also her friends have come. <br />
+                = Neither Karim nor his friends are guilty. <br />
+                = Neither Karim nor his friend is guilty. <br />
+                = Either Karim or his sisters have said so. <br />= Not only
+                Biva but also Shuva has come.
+              </span>
             </p>
             <p className="">
               <span className="font-bold">4. </span> যখন or বা nor দ্বারা যুক্ত
@@ -1542,18 +2297,26 @@ function Verbs() {
               নিকটবর্তী subject অনুসারে verb ব্যবহৃত হবে। <br />
               যেমন: <br />
               <span className="text-blue-600 font-medium">
-              Rahim or you are guilty. <br />
-              Rahim or Karim is guilty. </span><br />
-              ❇️ যখন এইরূপ ব্যবহারে সমস্যার সৃষ্টি হতে পারে ব'লে মনে হয় তখন বাক্য
-              অন্য কৌশলে গঠন করা যায়। যেমনঃ <br />
-             <span className="text-blue-600 font-medium"> Neither Shuman nor I am guilty.</span>{" "}
+                Rahim or you are guilty. <br />
+                Rahim or Karim is guilty.{" "}
+              </span>
+              <br />
+              ❇️ যখন এইরূপ ব্যবহারে সমস্যার সৃষ্টি হতে পারে ব'লে মনে হয় তখন
+              বাক্য অন্য কৌশলে গঠন করা যায়। যেমনঃ <br />
+              <span className="text-blue-600 font-medium">
+                {" "}
+                Neither Shuman nor I am guilty.
+              </span>{" "}
             </p>{" "}
             <p className="">
               <span className="font-bold">5. </span> as well as, in addition to,
               including, no less than, with, together with, accompanied by
               ইত্যাদি দ্বারা দুটী subject যুক্ত হ'লে, প্রথম/ আগের Subject
               অনুসারে Verb হবে। যেমন: <br />
-             <span className="text-blue-600 font-medium">= He as well as his brother has done this.</span>  <br />
+              <span className="text-blue-600 font-medium">
+                = He as well as his brother has done this.
+              </span>{" "}
+              <br />
               NOTE: তবে মনে রাখবে; প্রথম subject-টিকে অবশ্যই singular হতে হবে।
             </p>
             <p className="">
@@ -1561,9 +2324,10 @@ function Verbs() {
               plural modifier (phrase) modify করে তাহলে verb-টি হবে singular.
               যেমন: <br />
               <span className="text-blue-600 font-medium">
-              The tallest boy of the seventy students is a talent. <br />
-              One of the girls has said so. <br />
-              The leader of the people is present here.</span> 
+                The tallest boy of the seventy students is a talent. <br />
+                One of the girls has said so. <br />
+                The leader of the people is present here.
+              </span>
             </p>{" "}
             <p className="">
               <span className="font-bold">7. </span> Any body (যে-কেউ), anyone
@@ -1576,8 +2340,8 @@ function Verbs() {
               = Anybody who has money is rich. <br />
               = Nobody has so much money that he/she can buy a country. <br />
               = Everybody is liable to error. (are-নয়) <br />
-              = Someone has done this. (have - নয়) <br />
-              = Does anyone like this? (Do-নয়){" "}
+              = Someone has done this. (have - নয়) <br />= Does anyone like
+              this? (Do-নয়){" "}
             </p>
             <p className="">
               <span className="font-bold">8. </span> Any এবং none এই pronoun

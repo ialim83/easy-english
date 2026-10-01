@@ -1,6 +1,9 @@
-const StrongVerb = () => {
+import { useState } from "react";
 
-  const verb1 = [
+const StrongVerb = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+ const verb1 = [
   {
     "base": "arise",
     "bengali": "উঠা",
@@ -869,6 +872,14 @@ const StrongVerb = () => {
                 an internal vowel change.
               </p>
             </div>
+            <div className="">
+            <input 
+              type="text" 
+              placeholder="Search verbs..." 
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+            </div>
 
             <div className="space-y-8">
               {/* {strongVerbsData.map((group, groupIndex) => ( */}
@@ -879,7 +890,7 @@ const StrongVerb = () => {
                   <div className="bg-slate-100 px-2 py-3 border-b border-slate-200">
                     <p className="text-md font-bold text-slate-700 tracking-wide">
                       Pattern:{" "}
-                      <span className="text-indigo-600">Alphabetic pattern</span>
+                      {/* <span className="text-indigo-600">Alphabetic pattern</span> */}
                     </p>
                   </div>
 
