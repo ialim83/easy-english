@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 import { Document, Page, pdfjs } from "react-pdf";
-import "@react-pdf-viewer/core/lib/styles/index.css";
+// import "@react-pdf-viewer/core/lib/styles/index.css";
 
 // Set up the real worker
 pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;

@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { sameVerbs, verb1 } from "../../components/data/StrongWeakVerb";
 import {
   Accordion,
   AccordionContent,
@@ -9,15 +9,15 @@ import "pdfjs-dist/build/pdf.worker.entry";
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 import { Link } from "react-router-dom";
-import StrongVerb from "../GrammarPages/StrongVerb";
-// import frontCover from "../../../public/bookCover.jpg";
+import { Search } from "lucide-react";
 
 function Verbs() {
   const flipBook = useRef<any>(null);
   const [currentPage, setCurrentPage] = useState(0);
   const [jumpPage, setJumpPage] = useState<number | "">("");
   const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
-
+  const [searchTerm, setSearchTerm] = useState("");
+  const [isFocused, setIsFocused] = useState(false);
   const totalPages = 24; // Update when you add more pages
 
   // 🔊 Add audio ref for page flip sound
@@ -69,607 +69,28 @@ function Verbs() {
 
   // Global counter track across all pattern categories
   let absoluteSerialNumber = 1;
-   const verb1 = [
-  {
-    "base": "arise",
-    "bengali": "উঠা",
-    "past": "arose",
-    "participle": "arisen"
-  },
-  {
-    "base": "awake",
-    "bengali": "জাগানো",
-    "past": "awoke",
-    "participle": "awoken"
-  },
-  {
-    "base": "(be)am/\nis/are",
-    "bengali": "হওয়া/থাকা",
-    "past": "was/\nwere",
-    "participle": "been"
-  },
-  {
-    "base": "beat",
-    "bengali": "পেটানো",
-    "past": "beat",
-    "participle": "beaten"
-  },
-  {
-    "base": "become",
-    "bengali": "হওয়া",
-    "past": "became",
-    "participle": "become"
-  },
-  {
-    "base": "bear",
-    "bengali": "জন্ম দেওয়া",
-    "past": "bore",
-    "participle": "born/\nborne"
-  },
-  {
-    "base": "begin",
-    "bengali": "শুরু করা",
-    "past": "began",
-    "participle": "begun"
-  },
-  {
-    "base": "bid",
-    "bengali": "নির্দেশ দেওয়া",
-    "past": "bade/\nbid",
-    "participle": "bidden"
-  },
-  {
-    "base": "bite",
-    "bengali": "কামড়ানো",
-    "past": "bit",
-    "participle": "bitten"
-  },
-  {
-    "base": "bleed",
-    "bengali": "রক্ত প্রবাহিত হওয়া",
-    "past": "bled",
-    "participle": "bled"
-  },
-  {
-    "base": "blow",
-    "bengali": "প্রবাহিত হওয়া",
-    "past": "blew",
-    "participle": "blown"
-  },
-  {
-    "base": "break",
-    "bengali": "ভাঙা",
-    "past": "broke",
-    "participle": "broken"
-  },
-  {
-    "base": "bring",
-    "bengali": "নিয়ে আসা",
-    "past": "brought",
-    "participle": "brought"
-  },
-  
-  {
-    "base": "buy",
-    "bengali": "ক্রয় করা",
-    "past": "bought",
-    "participle": "bought"
-  },
-  {
-    "base": "catch",
-    "bengali": "ধরা",
-    "past": "caught",
-    "participle": "caught"
-  },
-  {
-    "base": "choose",
-    "bengali": "বাছাই করা",
-    "past": "chose",
-    "participle": "chosen"
-  },
-  {
-    "base": "come",
-    "bengali": "আসা",
-    "past": "came",
-    "participle": "come"
-  },
-  {
-    "base": "dig",
-    "bengali": "খোঁড়া",
-    "past": "dug",
-    "participle": "dug"
-  },
-  {
-    "base": "do",
-    "bengali": "করা",
-    "past": "did",
-    "participle": "done"
-  },
-  {
-    "base": "draw",
-    "bengali": "আঁকা",
-    "past": "drew",
-    "participle": "drawn"
-  },
-  {
-    "base": "drink",
-    "bengali": "পান করা",
-    "past": "drank",
-    "participle": "drunk"
-  },
-  {
-    "base": "drive",
-    "bengali": "চালানো",
-    "past": "drove",
-    "participle": "driven"
-  },
-  {
-    "base": "eat",
-    "bengali": "খাওয়া",
-    "past": "ate",
-    "participle": "eaten"
-  },
-  {
-    "base": "fall",
-    "bengali": "পতন হওয়া",
-    "past": "fell",
-    "participle": "fallen"
-  },
-  {
-    "base": "feed",
-    "bengali": "খাওয়ানো",
-    "past": "fed",
-    "participle": "fed"
-  },
-  {
-    "base": "feel",
-    "bengali": "অনুভব করা",
-    "past": "felt",
-    "participle": "felt"
-  },
-  {
-    "base": "fight",
-    "bengali": "যুদ্ধ করা",
-    "past": "fought",
-    "participle": "fought"
-  },
-  {
-    "base": "find",
-    "bengali": "পাওয়া",
-    "past": "found",
-    "participle": "found"
-  },
-  {
-    "base": "flee",
-    "bengali": "পালানো",
-    "past": "fled",
-    "participle": "fled"
-  },
-  {
-    "base": "fly",
-    "bengali": "উড়া",
-    "past": "flew",
-    "participle": "flown"
-  },
-  
-  {
-    "base": "forget",
-    "bengali": "ভুলে যাওয়া",
-    "past": "forgot",
-    "participle": "forgotten"
-  },
-  {
-    "base": "forgive",
-    "bengali": "মাফ করা",
-    "past": "forgave",
-    "participle": "forgiven"
-  },
-  {
-    "base": "forsake",
-    "bengali": "ত্যাগ করা",
-    "past": "forsook",
-    "participle": "forsaken"
-  },
-  
-  {
-    "base": "freeze",
-    "bengali": "জমা",
-    "past": "froze",
-    "participle": "frozen"
-  },
-  {
-    "base": "give",
-    "bengali": "দেওয়া",
-    "past": "gave",
-    "participle": "given"
-  },
-  {
-    "base": "get",
-    "bengali": "পাওয়া/ হওয়া",
-    "past": "got",
-    "participle": "got/\ngotten"
-  },
-  {
-    "base": "go",
-    "bengali": "যাওয়া",
-    "past": "went",
-    "participle": "gone"
-  },
-  {
-    "base": "grow",
-    "bengali": "বড় হওয়া",
-    "past": "grew",
-    "participle": "grown"
-  },
-  {
-    "base": "have/has",
-    "bengali": "থাকা/খাওয়া",
-    "past": "had",
-    "participle": "had"
-  },
-  {
-    "base": "hang",
-    "bengali": "ফাসি দেওয়া",
-    "past": "hanged",
-    "participle": "hanged"
-  },
-  {
-    "base": "hang",
-    "bengali": "ঝুলানো",
-    "past": "hung",
-    "participle": "hung"
-  },
-  {
-    "base": "hide",
-    "bengali": "লুকানো",
-    "past": "hid",
-    "participle": "hidden"
-  },
-  {
-    "base": "hold",
-    "bengali": "ধরা",
-    "past": "held",
-    "participle": "held"
-  },
-  {
-    "base": "keep",
-    "bengali": "রাখা",
-    "past": "kept",
-    "participle": "kept"
-  },
-  {
-    "base": "kneel",
-    "bengali": "হামাগুড়ি দেওয়া",
-    "past": "knelt",
-    "participle": "knelt"
-  },
-  {
-    "base": "know",
-    "bengali": "জানা",
-    "past": "knew",
-    "participle": "known"
-  },
-  {
-    "base": "lay",
-    "bengali": "রাখা",
-    "past": "laid",
-    "participle": "laid"
-  },
-  {
-    "base": "lead",
-    "bengali": "নেতৃত্ব দেওয়া",
-    "past": "led",
-    "participle": "led"
-  },
-  {
-    "base": "leave",
-    "bengali": "ত্যাগ করা",
-    "past": "left",
-    "participle": "left"
-  },
-  {
-    "base": "lie",
-    "bengali": "শুয়ে থাকা",
-    "past": "lay",
-    "participle": "lain"
-  },
-  {
-    "base": "lose",
-    "bengali": "হারানো",
-    "past": "lost",
-    "participle": "lost"
-  },
-  {
-    "base": "meet",
-    "bengali": "মিলিত হওয়া",
-    "past": "met",
-    "participle": "met"
-  },
-  
-  {
-    "base": "pay",
-    "bengali": "দেওয়া",
-    "past": "paid",
-    "participle": "paid"
-  },
-  {
-    "base": "ride",
-    "bengali": "চালানো",
-    "past": "rode",
-    "participle": "ridden"
-  },
-  {
-    "base": "rise",
-    "bengali": "উঠা",
-    "past": "rose",
-    "participle": "risen"
-  },
-  {
-    "base": "run",
-    "bengali": "দৌড়ানো",
-    "past": "ran",
-    "participle": "run"
-  },
-  {
-    "base": "say",
-    "bengali": "বলা",
-    "past": "said",
-    "participle": "said"
-  },
-  {
-    "base": "see",
-    "bengali": "দেখা",
-    "past": "saw",
-    "participle": "seen"
-  },
-  {
-    "base": "seek",
-    "bengali": "খোঁজা",
-    "past": "sought",
-    "participle": "sought"
-  },
-  {
-    "base": "sell",
-    "bengali": "বিক্রি করা",
-    "past": "sold",
-    "participle": "sold"
-  },
-  {
-    "base": "sew",
-    "bengali": "সেলাই করা",
-    "past": "sewed",
-    "participle": "sewn/\nsewed"
-  },
-  {
-    "base": "shake",
-    "bengali": "ঝাকানো",
-    "past": "shook",
-    "participle": "shaken"
-  },
-  {
-    "base": "shine",
-    "bengali": "কিরন দেওয়া",
-    "past": "shone",
-    "participle": "shone"
-  },
-  {
-    "base": "shoot",
-    "bengali": "গুলি করা",
-    "past": "shot",
-    "participle": "shot"
-  },
-  {
-    "base": "show",
-    "bengali": "দেখানো",
-    "past": "showed",
-    "participle": "shown/\nshowed"
-  },
-  {
-    "base": "shrink",
-    "bengali": "সঙ্কুচিত হওয়া",
-    "past": "shrank",
-    "participle": "shrunk"
-  },
-  {
-    "base": "stride",
-    "bengali": "হাটা",
-    "past": "strode",
-    "participle": "stridden"
-  },
-  {
-    "base": "smite",
-    "bengali": "আঘাত করা",
-    "past": "smote",
-    "participle": "smitten"
-  },
-  {
-    "base": "strive",
-    "bengali": "চেষ্টা করা",
-    "past": "strove",
-    "participle": "striven"
-  },
-  {
-    "base": "strike",
-    "bengali": "প্রহার করা",
-    "past": "struck",
-    "participle": "struck /\n stricken"
-  },
-  {
-    "base": "swear",
-    "bengali": "শপথ করা",
-    "past": "swore",
-    "participle": "sworn"
-  },
-  {
-    "base": "swim",
-    "bengali": "সাঁতার কাটা",
-    "past": "swam",
-    "participle": "swum"
-  },
-  {
-    "base": "sing",
-    "bengali": "গাওয়া",
-    "past": "sang",
-    "participle": "sung"
-  },
-  {
-    "base": "sink",
-    "bengali": "ডুবে যাওয়া",
-    "past": "sank",
-    "participle": "sunk"
-  },
-  {
-    "base": "sit",
-    "bengali": "বসা",
-    "past": "sat",
-    "participle": "sat"
-  },
-  {
-    "base": "sleep",
-    "bengali": "ঘুমানো",
-    "past": "slept",
-    "participle": "slept"
-  },
-  {
-    "base": "slay",
-    "bengali": "হত্যা করা",
-    "past": "slew",
-    "participle": "slain"
-  },
-  {
-    "base": "speak",
-    "bengali": "কথা বলা",
-    "past": "spoke",
-    "participle": "spoken"
-  },
-  {
-    "base": "spit",
-    "bengali": "থুথু ফেলা",
-    "past": "spat",
-    "participle": "spat"
-  },
-  {
-    "base": "spring",
-    "bengali": "লাফানো",
-    "past": "sprang",
-    "participle": "sprung"
-  },
-  {
-    "base": "stand",
-    "bengali": "দাঁড়ানো",
-    "past": "stood",
-    "participle": "stood"
-  },
-  {
-    "base": "steal",
-    "bengali": "চুরি করা",
-    "past": "stole",
-    "participle": "stolen"
-  },
-  {
-    "base": "stick",
-    "bengali": "লেগে থাকা",
-    "past": "stuck",
-    "participle": "stuck"
-  },
-  {
-    "base": "sting",
-    "bengali": "হুল ফোটানো",
-    "past": "stung",
-    "participle": "stung"
-  },
-  {
-    "base": "stink",
-    "bengali": "পঁচা গন্ধ হওয়া",
-    "past": "stank",
-    "participle": "stunk"
-  },
-  {
-    "base": "swing",
-    "bengali": "দোলানো",
-    "past": "swung",
-    "participle": "swung"
-  },
-  {
-    "base": "take",
-    "bengali": "নেওয়া",
-    "past": "took",
-    "participle": "taken"
-  },
-  {
-    "base": "teach",
-    "bengali": "শেখানো",
-    "past": "taught",
-    "participle": "taught"
-  },
-  {
-    "base": "tear",
-    "bengali": "ছিঁড়া",
-    "past": "tore",
-    "participle": "torn"
-  },
-  {
-    "base": "tell",
-    "bengali": "বলা",
-    "past": "told",
-    "participle": "told"
-  },
-  {
-    "base": "think",
-    "bengali": "ভাবা",
-    "past": "thought",
-    "participle": "thought"
-  },
-  {
-    "base": "throw",
-    "bengali": "নিক্ষেপ করা",
-    "past": "threw",
-    "participle": "thrown"
-  },
-  {
-    "base": "tread",
-    "bengali": "পদদলিত করা",
-    "past": "trode",
-    "participle": "trodden"
-  },
-  
-  {
-    "base": "wake",
-    "bengali": "জাগ্রত হওয়া",
-    "past": "woke",
-    "participle": "woken"
-  },
-  {
-    "base": "wear",
-    "bengali": "পরিধান করা",
-    "past": "wore",
-    "participle": "worn"
-  },
-  {
-    "base": "weave",
-    "bengali": "বোনা",
-    "past": "wove",
-    "participle": "woven"
-  },
-  {
-    "base": "weep",
-    "bengali": "ক্রন্দন করা",
-    "past": "wept",
-    "participle": "wept"
-  },
-  {
-    "base": "win",
-    "bengali": "জয় করা",
-    "past": "won",
-    "participle": "won"
-  },
-  {
-    "base": "write",
-    "bengali": "লিখা",
-    "past": "wrote",
-    "participle": "written"
-  },
-];
+
+  const matchesSearch = (data: unknown) => {
+    if (!searchTerm.trim()) return true;
+
+    return JSON.stringify(data)
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase());
+  };
+
+  // search filter for verb1 and sameVerb
+  const filteredVerb1 = verb1.filter((verb) =>
+    JSON.stringify(verb).toLowerCase().includes(searchTerm.toLowerCase()),
+  );
+
+  const filteredSameVerb = sameVerbs.filter((verb) =>
+    JSON.stringify(verb).toLowerCase().includes(searchTerm.toLowerCase()),
+  );
+
+  const noResults =
+    searchTerm.trim() !== "" &&
+    filteredVerb1.length === 0 &&
+    filteredSameVerb.length === 0;
 
   return (
     <div className="h-full text-base text-justify">
@@ -1482,7 +903,7 @@ function Verbs() {
             <div className="effect"></div>
           </div>
         </div>
-        <div className="py-10 ">
+        <div className="py-10 border-2 border-sky-500 rounded-lg my-5 p-2">
           <Accordion>
             <AccordionPanel>
               <AccordionTitle>Tense</AccordionTitle>
@@ -1552,9 +973,9 @@ function Verbs() {
               </AccordionContent>
             </AccordionPanel>
 
-            {/* Uses of Helping Verbs */}
+            {/* Persons */}
             <AccordionPanel>
-              <AccordionTitle>Uses of Helping Verbs</AccordionTitle>
+              <AccordionTitle>3rd Person</AccordionTitle>
               <AccordionContent className="py-5 md:p-5">
                 <p className="">
                   I, We, You ছাড়া জগতের সবকিছুই 3rd Person.
@@ -1575,13 +996,77 @@ function Verbs() {
                 </p>
                 <br />
 
-                <p className="border p-2">
+                {/* <p className="border p-2">
                   <strong> NOTE: </strong>বাক্যের Subject অনুসারে সাহায্যকারি
                   verb হবে। যেমনঃ <br />
                   i. শুধুমাত্র i এর সাথে = am হয়, <br />
                   ii. 3rd person + singular এর সাথে = is হয়, <br />
                   ii1. অন্যান্যদের সাথে/ We, you, Plural Noun এর সাথে = are হয়।
+                </p> */}
+              </AccordionContent>
+            </AccordionPanel>
+
+            {/* Uses of Helping Verbs */}
+            <AccordionPanel>
+              <AccordionTitle>Uses of Helping Verbs</AccordionTitle>
+              <AccordionContent className="py-5 md:p-5">
+                <div className="space-y-5">
+                <p className="">
+                  Helping Verb গুলো মূলতঃ 4 প্রকারঃ <br />
+                  (i){" "}
+                  <span className="font-semibold text-green-400">
+                    to do Verbs:
+                  </span>{" "}
+                  do, does, did <br />
+                  (ii){" "}
+                  <span className="font-semibold text-green-400">
+                    to be Verbs:
+                  </span>{" "}
+                  am, is, are, was, were, be, being, been <br />
+                  (ii){" "}
+                  <span className="font-semibold text-green-400">
+                    to have Verbs:
+                  </span>{" "}
+                  have, has, had <br />
+                  
+                  (iv){" "}
+                  <span className="font-semibold text-green-400">
+                    Modal Verbs:
+                  </span>{" "}
+                  shall, will, should, would, can, could, may, might,
+                  must, need, dare, ought to, <br />
                 </p>
+                <p className="text-green-600 font-bold">
+                 NOTE: বাক্যের Subject অনুসারে সাহায্যকারি
+                  Verb হবে। যেমনঃ
+                </p>
+                <p className="">
+                  Do Verbs গুলো Subject এর সাথে মিলিয়ে ব্যবহার করতে হয়। যেমনঃ{" "}
+                  <br />
+                  i. 3rd person + singular = does হয়, <br />
+                  ii. I, We, you, Plural Noun = do হয়।
+                </p>
+                <p className="">
+                  Be Verbs গুলো Subject এর সাথে মিলিয়ে ব্যবহার করতে হয়। যেমনঃ{" "}
+                  <br />
+                  i. I /i এর সাথে = am হয়, <br />
+                  ii. 3rd person + singular = is হয়, <br />
+                  iii. We, you, Plural Noun = are হয়।
+                </p>
+                <p className="">
+                  Have Verbs গুলো Subject এর সাথে মিলিয়ে ব্যবহার করতে হয়। যেমনঃ{" "}
+                  <br />
+                  i. 3rd person + singular = has হয়, <br />
+                  ii. I, We, you, Plural Noun = have হয়। <br />
+                  iii. সকল প্রকার Subject এর সাথে = Had হয়
+                </p>
+                <p className="">
+                  Have Verbs গুলো Subject এর সাথে মিলিয়ে ব্যবহার করতে হয়। যেমনঃ{" "}
+                  <br />
+                  i. 3rd person + singular + I, = was হয়, <br />
+                  ii. We, you, Plural Noun = were হয়। <br />
+                </p>
+                </div>
               </AccordionContent>
             </AccordionPanel>
 
@@ -1590,7 +1075,94 @@ function Verbs() {
               <AccordionTitle>Strong Verbs</AccordionTitle>
               <AccordionContent>
                 <div className="">
+                  <div className="py-3">
+                    {/* Search input */}
+                    <div className="relative">
+                      {!isFocused && (
+                        <Search
+                          className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"
+                          size={20}
+                        />
+                      )}
+
+                      <input
+                        type="text"
+                        placeholder="Search verbs..."
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        onFocus={() => setIsFocused(true)}
+                        onBlur={() => setIsFocused(false)}
+                        className="rounded-lg border border-gray-300 py-2.5 pl-10 pr-4
+                 outline-none focus:border-blue-500
+                 focus:ring-2 focus:ring-blue-200"
+                      />
+                    </div>
+
+                    {/* No result message */}
+                    {noResults && (
+                      <div className="py-5 text-center text-lg font-semibold text-gray-500">
+                        No word found
+                        <br />
+                        <span className="font-bold text-pink-500">
+                          কোন শব্দ পাওয়া যায়নি
+                        </span>
+                      </div>
+                    )}
+                  </div>
                   <div className="max-h-[450px] overflow-y-auto overflow-x-auto">
+                    <table className="min-w-full divide-y divide-slate-200 text-left text-sm mb-4">
+                      <thead className="bg-slate-50 uppercase text-xs font-semibold text-slate-500 tracking-wider">
+                        <tr>
+                          <th
+                            scope="col"
+                            className="px-2 py-3 w-16 text-center"
+                          >
+                            S.N.
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            V1
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            Meaning
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            V2
+                          </th>
+                          <th scope="col" className="px-2 py-3">
+                            V3
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate- bg-">
+                        {verb1
+                          .filter((verb) => matchesSearch(verb))
+                          .map((verb, vIndex) => {
+                            const currentSerialNumber = absoluteSerialNumber++;
+                            return (
+                              <tr
+                                key={vIndex}
+                                className="hover:bg-slate-50 transition-colors duration-150 ease-in-out "
+                              >
+                                <td className="px-2 py-3 text-center font-mono text-xs text-slate-400">
+                                  {currentSerialNumber}
+                                </td>
+                                <td className="px-2 py-3 font-semibold text-slate-400">
+                                  {verb.base}
+                                </td>
+                                <td className="px-2 py-3 text-pink-500 font-sans font-bold tracking-wide">
+                                  {verb.bengali}
+                                </td>
+                                <td className="px-2 py-3 font-medium text-indigo-500">
+                                  {verb.past}
+                                </td>
+                                <td className="px-2 py-3 font-medium text-emerald-600">
+                                  {verb.participle}
+                                </td>
+                              </tr>
+                            );
+                          })}
+                      </tbody>
+                    </table>
                     <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
                       <thead className="bg-slate-50 uppercase text-xs font-semibold text-slate-500 tracking-wider">
                         <tr>
@@ -1607,7 +1179,7 @@ function Verbs() {
                             Meaning
                           </th>
                           <th scope="col" className="px-2 py-3">
-                              V2
+                            V2
                           </th>
                           <th scope="col" className="px-2 py-3">
                             V3
@@ -1615,31 +1187,33 @@ function Verbs() {
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-slate- bg-">
-                        {verb1.map((verb, vIndex) => {
-                          const currentSerialNumber = absoluteSerialNumber++;
-                          return (
-                            <tr
-                              key={vIndex}
-                              className="hover:bg-slate-50 transition-colors duration-150 ease-in-out "
-                            >
-                              <td className="px-2 py-3 text-center font-mono text-xs text-slate-400">
-                                {currentSerialNumber}
-                              </td>
-                              <td className="px-2 py-3 font-semibold text-slate-400">
-                                {verb.base}
-                              </td>
-                              <td className="px-2 py-3 text-pink-500 font-sans font-bold tracking-wide">
-                                {verb.bengali}
-                              </td>
-                              <td className="px-2 py-3 font-medium text-indigo-500">
-                                {verb.past}
-                              </td>
-                              <td className="px-2 py-3 font-medium text-emerald-600">
-                                {verb.participle}
-                              </td>
-                            </tr>
-                          );
-                        })}
+                        {sameVerbs
+                          .filter((verb) => matchesSearch(verb))
+                          .map((verb, vIndex) => {
+                            const currentSerialNumber = absoluteSerialNumber++;
+                            return (
+                              <tr
+                                key={vIndex}
+                                className="hover:bg-slate-50 transition-colors duration-150 ease-in-out "
+                              >
+                                <td className="px-2 py-3 text-center font-mono text-xs text-slate-400">
+                                  {currentSerialNumber}
+                                </td>
+                                <td className="px-2 py-3 font-bold text-sky-500">
+                                  {verb.present}
+                                </td>
+                                <td className="px-2 py-3 text-pink-500 font-sans font-bold tracking-wide">
+                                  {verb.meaning}
+                                </td>
+                                <td className="px-2 py-3 font-medium text-indigo-500">
+                                  {verb.past}
+                                </td>
+                                <td className="px-2 py-3 font-medium text-emerald-600">
+                                  {verb.participle}
+                                </td>
+                              </tr>
+                            );
+                          })}
                       </tbody>
                     </table>
                   </div>
@@ -1681,12 +1255,13 @@ function Verbs() {
           {/* 2 */}
           <p className="pt-4">
             <span className="font-bold text-pink-600">Rule:-2. </span> <br />
-            Now, at this moment, day by day থাকলে বাক্যটি Present Continuous
-            Tense এ হয়। যেমন:
+            Now, at this moment, day by day, at present থাকলে বাক্যটি Present Continuous
+            Tense এ হয়। যেমন:
             <br />
             <span className="dark:text-green-400 text-blue-600 font-medium">
               Q. She is (write) an email now.
-              <br />= She is <u>writing</u> an email now.
+              <br />
+              = She is <u>writing</u> an email now.
             </span>{" "}
             <br />
             গঠন: Sub + am/ is/ are + V<sub>1</sub> - ing + obj + others.
@@ -1789,36 +1364,22 @@ function Verbs() {
             <br />
             <span className="dark:text-green-400 text-blue-600 font-medium">
               Q. He used to (drive) a car.
-              <br />= He used to <u>drive</u> a car. <br />
+              <br />
+              = He used to <u>drive</u> a car. <br />
             </span>
             <span className="font-bold pt-3">কিন্তু:-</span> <br />
-            <span className=" font-bold text-pink-600">(d). </span> <br />
+            <span className=" font-bold text-pink-600">(d). </span>  <br />
             (To ছাড়া) অনান্য সকল preposition (যেমনঃ in, into, on, over, up,
             upon, of, by, with, without, before, after, away) এর পরের ব্রাকেটের
-            verb এর সাথে ing হয়। যেমন:
+            verb এর সাথে ing হয়। যেমন: <br />
             <span className="dark:text-green-400 text-blue-600 font-medium">
-              Q. He is tired of (drive) car.
-              <br />= He is tired of <u>driving</u> car.
+              Q. He is tired of (drive) car.  <br />
+              = He is tired of <u>driving</u> car.
             </span>
           </p>
           {/* 8 */}
           <p className="py-4">
-            <span className="text-pink-600 font-bold">Rule: 8. </span>
-            <br />
-            Before/after দ্বারা দুটি বাক্য যুক্ত হলে এদের একটি Past Indefinite
-            Tense হলে অন্যটি Past Perfect Tense হয়। একটি Past Perfect Tense হলে
-            অন্যটি Past Indefinite Tense হয়। যেমন: <br />
-            <span className="text-blue-600 font-medium">
-              Q. He came home after I (eat) rice. <br />
-              =He came home after I <u> had eaten</u> rice.
-            </span>
-            <br />
-            <span className="text-pink-600 font-bold">Note: </span> <br />
-            Before-এ-Before এবং after-এ-after হয়।
-          </p>
-          {/* 9 */}
-          <p className="py-4">
-            <span className=" font-bold text-pink-600">Rule: 9. </span>
+            <span className=" font-bold text-pink-600">Rule: 8. </span>
             <br />
             Stop, finish, miss, risk, answer, continue, admit, deny, avoid,
             enjoy, fancy, imagine, delay, suggest, postpone, matter, mind,
@@ -1833,10 +1394,28 @@ function Verbs() {
             (সাধারণত এই Verb গুলো ছাড়া )অন্য কোন Verb এর পরে ব্রাকেটে Verb থাকলে
             সেই Verb এর পুর্বে to বসে এবং ব্রাকেটের Verb টি V1 হয়। যেমনঃ <br />
             <span className="dark:text-green-400 text-blue-600 font-medium">
-              Q. He tried hard (pass) the exam. <br />= He tried har <u>pass</u>{" "}
+              Q. He tried hard (pass) the exam. <br /> 
+              = He tried hard <u>pass</u>
               the exam
             </span>
           </p>
+          {/* 9 */}
+          <p className="py-4">
+            <span className="text-pink-600 font-bold">Rule: 9. </span>
+            <br />
+            Before/after দ্বারা দুটি বাক্য যুক্ত হলে এদের একটি Past Indefinite
+            Tense হলে অন্যটি Past Perfect Tense হয়। একটি Past Perfect Tense হলে
+            অন্যটি Past Indefinite Tense হয়। যেমন: <br />
+            <span className="text-blue-600 font-medium">
+              Q. He came home after I (eat) rice. <br />
+              =He came home after I <u> had eaten</u> rice.
+            </span>
+            <br />
+            <span className="text-pink-600 font-bold">Note: </span> <br />
+            Before-এ-Before এবং after-এ-after হয়।
+          </p>
+          
+          
           {/* 10 */}
           <p className="">
             <span className="font-bold text-pink-600">Rule: 10. </span> <br />
@@ -1876,21 +1455,20 @@ function Verbs() {
             স্থলে সাধারণত were হয়। <br />
             যেমনঃ <br />
             <span className="text-blue-600 font-medium">
-              Q. He wishes he (be) a king. <br />= He wishes he
-              <u>were</u> a king.
+              Q. He wishes he (be) a king. <br />  
+              = He wishes he <u>were</u> a king.
             </span>
           </p>
           {/* 12 */}
           <p className="py-4">
             <span className=" font-bold text-pink-600">Rule: 12. </span> <br />
             As if, as though, এবং since দ্বারা দুটি বক্য যুক্ত হলে এদের প্রথমটি
-            Present Tense পরেরটি Past Indefinite Tense হয়, এবং প্রথমটি Past
-            Indefinite tense হলে পরেরটি Past Perfect Tense হয়। যেমন: <br />
+            Present Tense হলে পরেরটি Past Indefinite Tense হয়, এবং প্রথমটি Past tense হলে পরেরটি Past Perfect Tense হয়। যেমন: <br />
             <span className="text-blue-600 font-medium">
-              Q. Shohel talks as though he (become) a leader. <br />
-              =Shohel talks as though he <u>became</u> a leader. <br />
-              Q. Rohim talks as though he (be) a leader. <br />
-              =Rohim talks as though he <u>had been</u> a leader.
+              Q. He talks as though he (become) a leader. <br />
+              =He talks as though he <u>became</u> a leader. <br />
+              Q. He talked as though he (be) a leader. <br />
+              =He talked as though he <u>had been</u> a leader.
             </span>
           </p>
           {/* 13 */}
@@ -1898,7 +1476,7 @@ function Verbs() {
             <span className=" font-bold text-pink-600">Rule: 13.</span>
             <br />
             <strong> (a). </strong> If দ্বারা শুরু বাক্যটি Present Indefinite
-            tense হলে if ছাড়া বাক্যে Future Indefinite Tense হয়।
+            tense হলে if ছাড়া বাক্যটি Future Indefinite Tense/Present Indefinite Tense হয়।
             <br />
             <span className="text-blue-600 font-medium">
               Q. If He comes, I (go) to his house. <br />
@@ -2010,11 +1588,10 @@ function Verbs() {
           {/* 20 */}
           <p className="">
             <span className="text-pink-600 font-bold">Rule-20: </span> <br />
-            Subject এর পরে Not থাকলে, Subject এবং tense অনুসারে helping Verb এবং
-            principal verb হয়। যেমন: <br />
-            Q. He not always (drink) tea.
-            <br />= He does not always drink tea.
-          </p>
+            Subject এর পরে Not থাকলে/ ব্রাকেটে মুল Verb সঙ্গে not থাকলে, Subject এবং tense অনুসারে helping Verb এবং principal verb হয়। যেমন: <br />
+            Q. He  always (not drink) tea. <br />    
+            = He does not always drink tea.          
+            </p>
           {/* 21 */}
           <p className="py-4">
             <span className="text-pink-600 font-bold">Rule-21: </span> <br />
@@ -2395,6 +1972,7 @@ function Verbs() {
               blame. (আমরাই দোষী।){" "}
             </p>
             <br />
+            <p className="">
             <span className="font-extrabold"> 11. </span>Collective noun দ্বারা
             কোন class বা সমষ্টিকে বুঝায়। এই সমষ্টিকে যদি একটি unit বা
             "অখন্ড"-হিসেবে ধরা হয় তাহলে ঐ collective noun এর পর singular verb
@@ -2407,7 +1985,8 @@ function Verbs() {
             <br />
             The jury are divided in their opinions. <br />
             (জুরিগণ ভিন্ন মত পোষণ করলেন।) [অর্থাৎ এখন তাদের 'ঐক্য' ভেঙ্গে
-            "খণ্ডিত" "অখন্ড" হয়ে গেছে।] <br />
+            "খণ্ডিত" "অখন্ড" হয়ে গেছে।] 
+            </p><br />
           </div>
         </div>
 
