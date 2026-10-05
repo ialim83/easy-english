@@ -1264,7 +1264,7 @@ function Verbs() {
               = She is <u>writing</u> an email now.
             </span>{" "}
             <br />
-            গঠন: Sub + am/ is/ are + V<sub>1</sub> - ing + obj + others.
+            
           </p>
           {/* rule-3 */}
           <p className="pt-4">
@@ -1289,9 +1289,7 @@ function Verbs() {
               Q. He (return) last night.
               <br />= He <u>returned</u> last night.
             </span>
-            <br />
-            Structure-1: Sub + V2 + extention. Structure-2: Sub + did not + V1 +
-            others.
+            
           </p>
           {/* 5 */}
           <p className="">
